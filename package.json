@@ -1,0 +1,36 @@
+{
+    "name": "yii2basiccore",
+    "version": "1.0.0",
+    "description": "MY Yii2 Basic Core",
+    "main": "gulp.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://110.44.126.55:2010/diffusion/RNDYIITWOBASIC/Yii2BasicCore.git"
+    },
+    "keywords": [
+        "gulp",
+        "sass"
+    ],
+    "author": "Miracle Interface",
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "^9.7.0",
+        "browser-sync": "^2.26.14",
+        "cssnano": "^4.1.10",
+        "gulp": "^4.0.2",
+        "gulp-cli": "^2.3.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-connect-php": "^1.0.3",
+        "gulp-postcss": "^8.0.0",
+        "gulp-rename": "^2.0.0",
+        "gulp-replace": "^1.0.0",
+        "gulp-sass": "^4.1.0",
+        "gulp-uglify": "^3.0.2"
+    }
+}
