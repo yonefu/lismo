@@ -19,7 +19,6 @@
 						</select>
 					</div>
 				</div>
-				<div class="col-lg-6 d-flex px-0">&nbsp;</div>
 			</div>
 			<div class="form-group row">
 				<div class="col-lg-6 d-flex px-0">

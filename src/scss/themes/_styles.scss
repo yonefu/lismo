@@ -44,6 +44,10 @@ textarea {
 	resize: none;
 }
 
+p, span{
+	word-break: break-word;
+}
+
 .f-28 {
 	font-size: 28px !important;
 }
@@ -218,6 +222,10 @@ textarea {
 		color: $red !important;
 		border: 1px solid $red !important;
 	}
+}
+
+.btn-red.btn-red-outline{
+	color: $red !important;
 }
 
 .btn-navy {

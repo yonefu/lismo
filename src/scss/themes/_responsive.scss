@@ -153,7 +153,41 @@
 @media (max-width: 1024.98px) {}
 
 /* Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) {}
+@media (max-width: 991.98px) {
+	.modal{
+		.col-form-label{
+			text-align: left !important;
+			br{
+				display: none;
+			}
+		}
+		.product-details--modal-page{
+			.col-lg-6.d-flex{
+				margin-bottom: 1em;
+				&:last-child{
+					margin-bottom: 0;
+				}
+			}
+			.no-data{
+				display: none;
+			}
+			.col-lg-6.pl-5.border-right, .col-lg-4.pl-5,
+			.product-top-information .col-lg-3.px-5.border-right ,
+			.product-top-information .col-lg-9.px-5,
+			.col-lg-2.border-right{
+				padding-left: 1em !important;
+				border-right: 0;
+			}
+			.border-box .p-info-box{
+				height: 90%;
+				margin-bottom: 1em;
+			}
+			.table-wrapper.product-table-wrapper.w-75{
+				width: 100% !important;
+			}
+		}
+	}
+}
 
 /* Small devices (landscape phones, less than 768px)*/
 @media (max-width: 768px) {}
@@ -273,12 +307,15 @@
 	    margin-right: 0;
 	    width: 100%;
 	}
+
 	.btn-sidebar {
 	    top: 10px;
 	}
+
 	.offcanvas-active .offcanvas-header {
 	    top: 10px;
 	}
+
 	.side-menu{
 		.logo {
 		    margin-bottom: 20px;
@@ -288,11 +325,82 @@
 			padding: 8px 0;
 		}
 	}
+
 	.top-nav li a{
 		margin-right: 10px;
 	}
+
+	ul.status-box li {
+		width: 50%;
+	}
+
 	.search-result{
 		margin-bottom: 10px;
+	}
+
+	.right-dropdown.ml-auto{
+		margin-left: inherit !important;
+		width: 100%;
+		div.mb-2{
+			width: 50%;
+			a {
+				margin-right: 5px !important;
+			}
+		}
+	}
+
+	.left-data-col{
+		justify-content: space-around;
+		width: 100%;
+		div {
+			margin-right: 14px;
+		}
+	}
+	.graph-wrapper{
+		.col-lg-6 {
+			margin-bottom: 1em;
+			padding: 0 15px !important;
+		}
+	}
+
+	.modal{
+		.order-details-modal-page{
+			.page-title{
+				span.f-15{
+					display: block;
+					margin-top: 0.5em;
+					margin-bottom: 0.5em;
+				}
+			}
+			.btn-group.flex-column{
+				flex-direction: row !important;
+				width: 100%;
+				p.mb-1{
+					width: 50%;
+					a{
+						display: block;
+					}
+				}
+				.dropdown-toggle{
+					width: 50%;
+				}
+			}
+			.d-flex.flex-wrap{
+				.col-lg-6 {
+					padding: 0;
+					.col-lg-9{
+						padding-left: 0;
+						padding-right: 0;
+					}
+				}
+			}
+			.form-box{
+				.col-md-12{
+					padding-left: 0;
+					padding-right: 0;
+				}
+			}
+		}
 	}
 }
 
@@ -312,6 +420,9 @@
 	}
 	.table-wrapper .tt-rt-col .btn-200 {
 	    font-size: 10px;
+	}
+	.page-title {
+		font-size: 25px;
 	}
 }
 

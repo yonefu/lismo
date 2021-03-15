@@ -69,7 +69,7 @@
 					</div>
 				</div>
 				<!--div-->
-				<div>
+				<div class="mb-2">
 					<a class="nav-link btn btn-sm dropdown-toggle bg-white br-25" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						タグ選択：なし
 					</a>

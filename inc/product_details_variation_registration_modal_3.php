@@ -52,7 +52,7 @@
 
 			<div class="product-information mb-5">
 				<div class="row">
-					<div class="col-lg-3 mb-2">
+					<div class="col-md-6 col-lg-3 mb-2">
 						<div class="border-box">
 							<h6 class="mb-2 pl-3">
 								<span class="mr-2 font-weight-normal f-15">基本情報</span><small class="text-muted f-12">握集する</small>
@@ -81,7 +81,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-3 mb-2">
+					<div class="col-md-6 col-lg-3 mb-2">
 						<div class="border-box">
 							<h6 class="mb-2 pl-3">
 								<span class="mr-2 font-weight-normal f-15">出荷情報</span><small class="text-muted f-12">握集する</small>
@@ -115,7 +115,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-3 mb-2">
+					<div class="col-md-6 col-lg-3 mb-2">
 						<div class="border-box">
 							<h6 class="mb-2 pl-3">
 								<span class="mr-2 font-weight-normal f-15">発注情報</span><small class="text-muted f-12">握集する</small>
@@ -139,7 +139,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-3 mb-2">
+					<div class="col-md-6 col-lg-3 mb-2">
 						<div class="border-box">
 							<h6 class="mb-2 pl-3">
 								<span class="mr-2 font-weight-normal f-15">商品タグ</span><small class="text-muted f-12">握集する</small>
