@@ -1,4 +1,11 @@
-.report-page {}
+.report-page {
+    .status-box li a{
+        font-size: 15px;
+    }
+    .progressbar-data.w-75{
+        width: 90% !important;
+    }
+}
 
 .sales-ranking-slider {
     .slick-slide {
@@ -85,8 +92,8 @@
     }
 
     .icon-circle {
-        width: 20px;
-        height: 20px;
+        width: 18px;
+        height: 18px;
         background: $gray;
         border-radius: 100%;
         display: inline-block;
@@ -123,7 +130,7 @@
 
 .progress {
     background-color: transparent;
-    height: 1.75rem;
+    height: 1.50rem;
     border-radius: 25px;
     .progress-data{
     	position: absolute;
@@ -164,11 +171,9 @@
 }
 
 .report-product {
-    .sales-ranking {
-        .status-box {
-            .btn-outline {
-                border-color: #f8f9fa;
-            }
+    .status-box {
+        .btn-outline {
+            border-color: #f8f9fa;
         }
     }
 

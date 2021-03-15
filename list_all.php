@@ -31,7 +31,7 @@
 							<div class="search-result mr-3">
 								<span>全てを表示中:<span class="fontEN">30</span>件</span>
 							</div>
-							<div class="right-dropdown d-flex">
+							<div class="right-dropdown d-flex ml-auto">
 								<div>
 									<a class="nav-link dropdown-warehouse btn btn-sm dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										ショップ：全て

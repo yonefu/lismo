@@ -1,10 +1,16 @@
-<button type="button" data-trigger="#side--menu" class="btn btn-warning btn-sidebar">
-	<i class="fa fa-caret-right"></i>
+<button type="button" data-trigger="#side--menu" class="btn btn-sidebar">
+	<span class=""></span>
+	<span class=""></span>
+	<span class=""></span>
 </button>
 
 <div id="side--menu" class="side-menu mobile-offcanvas d-flex justify-content-between flex-column">
 	<div class="offcanvas-header">
-		<button class="btn btn-danger btn-close">&times</button>
+		<div class="btn-close">
+			<span class=""></span>
+			<span class=""></span>
+			<span class=""></span>
+		</div>
 	</div>
 
 	<div class="top-menu">

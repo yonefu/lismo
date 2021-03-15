@@ -16,7 +16,7 @@
 						</div>
 						<!--div-->
 
-						<div class="d-flex justify-content-between align-items-center mb-3">
+						<div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
 							<ul class="nav top-nav status-box">
 								<li class="nav-item">
 									<a class="nav-link" href="report_dashboard.php">ダッシュボード</a>
@@ -32,8 +32,8 @@
 								</li>
 							</ul>
 							<!--ul nav-->
-							<div class="right-dropdown d-flex">
-								<div>
+							<div class="right-dropdown d-flex ml-auto">
+								<div class="mb-2">
 									<a class="nav-link btn btn-sm dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										全てのショップ
 									</a>
@@ -42,7 +42,7 @@
 										<a class="dropdown-item" href="#">AmazonFAB</a>
 									</div>
 								</div>
-								<div>
+								<div class="mb-2">
 									<a class="nav-link btn btn-sm dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										直近30⽇
 									</a>
@@ -601,7 +601,7 @@
 															<span class="f-12">¥862,200</span>
 														</td>
 														<td class="text-right">
-															<span class="clr-blue f-12">¥362,200</span>
+															<span class="f-12">¥362,200</span>
 														</td>
 													</tr>
 													<!--tr-->
@@ -622,7 +622,7 @@
 															<span class="f-12">¥462,200</span>
 														</td>
 														<td class="text-right">
-															<span class="clr-blue f-12">¥262,200</span>
+															<span class="f-12">¥262,200</span>
 														</td>
 													</tr>
 													<!--tr-->
@@ -643,7 +643,7 @@
 															<span class="f-12">¥162,200</span>
 														</td>
 														<td class="text-right">
-															<span class="clr-blue f-12">¥62,200</span>
+															<span class="f-12">¥62,200</span>
 														</td>
 													</tr>
 													<!--tr-->
@@ -664,7 +664,7 @@
 															<span class="f-12">¥862,200</span>
 														</td>
 														<td class="text-right">
-															<span class="clr-blue f-12">¥562,200</span>
+															<span class="f-12">¥562,200</span>
 														</td>
 													</tr>
 													<!--tr-->
@@ -685,7 +685,7 @@
 															<span class="f-12">¥62,200</span>
 														</td>
 														<td class="text-right">
-															<span class="clr-blue f-12">¥32,200</span>
+															<span class="f-12">¥32,200</span>
 														</td>
 													</tr>
 													<!--tr-->
@@ -873,11 +873,11 @@
 			data: {
 				datasets: [{
 					data: [
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
+						25.3,
+						12.3,
+						5.3,
+						3.3,
+						1.3,
 					],
 					backgroundColor: [
 						window.chartColors.red,

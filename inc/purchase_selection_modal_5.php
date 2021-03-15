@@ -33,8 +33,8 @@
 				</div>
 			</div>
 			<!--left-col-->
-			<div class="right-dropdown d-flex">
-				<div>
+			<div class="right-dropdown flex-wrap d-flex ml-auto">
+				<div class="mb-2">
 					<a class="nav-link btn btn-sm dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						期間：過去30⽇
 					</a>
@@ -45,7 +45,7 @@
 					</div>
 				</div>
 				<!--div-->
-				<div>
+				<div class="mb-2">
 					<a class="nav-link btn-sm dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						タグ選択：なし
 					</a>
@@ -56,7 +56,7 @@
 					</div>
 				</div>
 				<!--div-->
-				<div>
+				<div class="mb-2">
 					<a class="nav-link btn btn-sm dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						倉庫：全て
 					</a>
@@ -67,7 +67,7 @@
 					</div>
 				</div>
 				<!--div-->
-				<div>
+				<div class="mb-2">
 					<a class="nav-link btn btn-sm dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						アクション：全て
 					</a>
@@ -77,7 +77,7 @@
 					</div>
 				</div>
 				<!--div-->
-				<div>
+				<div class="mb-2">
 					<a class="nav-link btn btn-sm dropdown-toggle bg-white br-25" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						ショップ：全て
 					</a>

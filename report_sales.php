@@ -16,7 +16,7 @@
 						</div>
 						<!--div-->
 
-						<div class="d-flex justify-content-between align-items-center mb-3">
+						<div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
 							<ul class="nav top-nav status-box">
 								<li class="nav-item">
 									<a class="nav-link" href="report_dashboard.php">ダッシュボード</a>
@@ -32,8 +32,8 @@
 								</li>
 							</ul>
 							<!--ul nav-->
-							<div class="right-dropdown d-flex">
-								<div>
+							<div class="right-dropdown flex-wrap d-flex ml-auto">
+								<div class="mb-2">
 									<a class="nav-link btn btn-sm dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										全てのショップ
 									</a>
@@ -43,7 +43,7 @@
 									</div>
 								</div>
 								<!--div-->
-								<div>
+								<div class="mb-2">
 									<a class="nav-link btn btn-sm dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										2021年12⽉
 									</a>
@@ -123,8 +123,11 @@
 						<!-- <p class="report-date f-18 mb-2">現在の在庫状況</p> -->
 						<div class="product-analysis bg-white br-25 p-3">
 							<div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
-								<div class="f-15">12⽉の商品ABC分析</div>
-								<div><span class="btn btn-sm btn-navy mr-2">B.在庫を管理</span><small class="text-muted f-12">詳細を⾒る</small></div>
+								<div class="f-15">2020年12⽉のストア売上⽐</div>
+								<div class="see-detail-box text-right">
+									<small class="text-muted f-12">詳細を⾒る</small>
+									<p class="mb-1"><span class="btn btn-sm btn-navy">G.売上の推移詳細</span></p>
+								</div>
 							</div>
 							<!--div-->
 							<div class="row">
@@ -141,25 +144,25 @@
 											<div class="progress-data px-2 text-center">
 												<p class="mb-1 f-20 fontEN">51.0%</p>
 												<p class="mb-1 f-12 clr-green">+3.2%</p>
-												<p class="mb-1 f-12">ABCマーケット</p>
+												<p class="mb-1 f-12"><img width="16px" src="dist/img/icons/icon-sm-shopify.png" alt="" />ABCマーケット</p>
 											</div>
 											<!--progress-data-->
 											<div class="progress-data px-2 text-center">
 												<p class="mb-1 f-20 fontEN">21.0%</p>
 												<p class="mb-1 f-12 clr-green">+3.2%</p>
-												<p class="mb-1 f-12">ABCマーケット</p>
+												<p class="mb-1 f-12"><img width="16px" src="dist/img/icons/icon-sm-amazon.png" alt="" />ABCマーケット</p>
 											</div>
 											<!--progress-data-->
 											<div class="progress-data px-2 text-center">
 												<p class="mb-1 f-20 fontEN">18.0%</p>
 												<p class="mb-1 f-12 clr-red">-3.2%</p>
-												<p class="mb-1 f-12">よろず屋本舗</p>
+												<p class="mb-1 f-12"><img width="16px" src="dist/img/icons/icon-sm-shopify.png" alt="" />よろず屋本舗</p>
 											</div>
 											<!--progress-data-->
 											<div class="progress-data px-2 text-center">
 												<p class="mb-1 f-20 fontEN">9.0%</p>
 												<p class="mb-1 f-12 clr-red">-3.2%</p>
-												<p class="mb-1 f-12">よろず屋本舗</p>
+												<p class="mb-1 f-12"><img width="16px" src="dist/img/icons/icon-sm-amazon.png" alt="" />よろず屋本舗</p>
 											</div>
 											<!--progress-data-->
 										</div>
@@ -188,8 +191,8 @@
 																</div>
 																<div class="info-status">
 																	<p class="mb-1 f-12">
-																		<img src="dist/img/icons/icon-sm-shopify.png" alt="">
-																		<span class="ml-2">ABCマーケッ</span>
+																		<img width="20px" src="dist/img/icons/icon-sm-shopify.png" alt="">
+																		<span class="ml-1">ABCマーケッ</span>
 																	</p>
 																</div>
 															</div>
@@ -213,8 +216,8 @@
 																</div>
 																<div class="info-status">
 																	<p class="mb-1 f-12">
-																		<img src="dist/img/icons/icon-sm-amazon.png" alt="">
-																		<span class="ml-2">ABCマーケッ</span>
+																		<img width="20px" src="dist/img/icons/icon-sm-amazon.png" alt="">
+																		<span class="ml-1">ABCマーケッ</span>
 																	</p>
 																</div>
 															</div>
@@ -238,8 +241,8 @@
 																</div>
 																<div class="info-status">
 																	<p class="mb-1 f-12">
-																		<img src="dist/img/icons/icon-sm-shopify.png" alt="">
-																		<span class="ml-2">よろず屋本舗</span>
+																		<img width="20px" src="dist/img/icons/icon-sm-shopify.png" alt="">
+																		<span class="ml-1">よろず屋本舗</span>
 																	</p>
 																</div>
 															</div>
@@ -263,8 +266,8 @@
 																</div>
 																<div class="info-status">
 																	<p class="mb-1 f-12">
-																		<img src="dist/img/icons/icon-sm-amazon.png" alt="">
-																		<span class="ml-2">よろず屋本舗</span>
+																		<img width="20px" src="dist/img/icons/icon-sm-amazon.png" alt="">
+																		<span class="ml-1">よろず屋本舗</span>
 																	</p>
 																</div>
 															</div>
@@ -368,33 +371,33 @@
 									<div class="data-middle mb-5">
 										<div class="d-flex align-items-center flex-column justify-content-center h-100">
 											<div class="progress w-75 mb-3">
-												<div class="progress-bar bg-pink" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-												<div class="progress-bar bg-semiOrange" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-												<div class="progress-bar bg-yellow" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
-												<div class="progress-bar bg-silver" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+												<div class="progress-bar bg-pink" role="progressbar" style="width: 18.3%" aria-valuenow="18.3" aria-valuemin="0" aria-valuemax="100"></div>
+												<div class="progress-bar bg-semiOrange" role="progressbar" style="width: 9.7%" aria-valuenow="9.7" aria-valuemin="0" aria-valuemax="100"></div>
+												<div class="progress-bar bg-yellow" role="progressbar" style="width: 1.2%" aria-valuenow="1.2" aria-valuemin="0" aria-valuemax="100"></div>
+												<div class="progress-bar bg-silver" role="progressbar" style="width: 75.6%" aria-valuenow="75.6" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 											<!--progress-->
 											<div class="progressbar-data d-flex align-items-center justify-content-around w-75">
 												<div class="progress-data px-2 text-center">
-													<p class="mb-1 f-20 fontEN">20.0%</p>
+													<p class="mb-1 f-20 fontEN">18.3%</p>
 													<p class="mb-1 f-12 clr-green">+3.2%</p>
 													<p class="mb-1 f-12">リピーター</p>
 												</div>
 												<!--progress-data-->
 												<div class="progress-data px-2 text-center">
-													<p class="mb-1 f-20 fontEN">10.0%</p>
+													<p class="mb-1 f-20 fontEN">9.7%</p>
 													<p class="mb-1 f-12 clr-green">+3.2%</p>
 													<p class="mb-1 f-12">リピーター</p>
 												</div>
 												<!--progress-data-->
 												<div class="progress-data px-2 text-center">
-													<p class="mb-1 f-20 fontEN">5.0%</p>
+													<p class="mb-1 f-20 fontEN">1.2%</p>
 													<p class="mb-1 f-12 clr-red">-3.2%</p>
 													<p class="mb-1 f-12">リピーター</p>
 												</div>
 												<!--progress-data-->
 												<div class="progress-data px-2 text-center">
-													<p class="mb-1 f-20 fontEN">65.0%</p>
+													<p class="mb-1 f-20 fontEN">75.6%</p>
 													<p class="mb-1 f-12 clr-red">-3.2%</p>
 													<p class="mb-1 f-12">新規</p>
 												</div>
@@ -642,7 +645,7 @@
 										<div class="date f-14"><span>2020年12⽉のキャンセル</span></div>
 										<div class="see-detail-box text-right">
 											<small class="text-muted f-12">詳細を⾒る</small>
-											<p class="mb-1"><span class="btn btn-sm btn-navy">G.売上の推移詳細</span></p>
+											<p class="mb-1"><span class="btn btn-sm btn-navy">C.キャンセル⼀覧</span></p>
 										</div>
 									</div>
 									<!--div-->
@@ -774,7 +777,7 @@
 																<span class="f-12">¥121,972</span>
 															</td>
 															<td class="text-right">
-																<span class="f-12">100.0%</span>
+																<span class="f-12">10.0%</span>
 															</td>
 															<td class="text-right">
 																<span class="clr-green">+3.2%</span>
@@ -1198,10 +1201,10 @@
 			data: {
 				datasets: [{
 					data: [
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
+						75.6,
+						18.3,
+						3.7,
+						1.2,
 					],
 					backgroundColor: [
 						window.chartColors.red,
@@ -1239,9 +1242,9 @@
 			data: {
 				datasets: [{
 					data: [
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
+						24.7,
+						65.3,
+						10,
 					],
 					backgroundColor: [
 						window.chartColors.yellow,

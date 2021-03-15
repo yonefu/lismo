@@ -16,7 +16,7 @@
 						</div>
 						<!--div-->
 
-						<div class="d-flex justify-content-between align-items-center mb-3">
+						<div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
 							<ul class="nav top-nav status-box">
 								<li class="nav-item">
 									<a class="nav-link" href="report_dashboard.php">ダッシュボード</a>
@@ -32,8 +32,8 @@
 								</li>
 							</ul>
 							<!--ul nav-->
-							<div class="right-dropdown d-flex">
-								<div>
+							<div class="right-dropdown d-flex ml-auto">
+								<div class="mb-2">
 									<a class="nav-link btn btn-sm dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										全てのショップ
 									</a>
@@ -43,7 +43,7 @@
 									</div>
 								</div>
 								<!--div-->
-								<div>
+								<div class="mb-2">
 									<a class="nav-link btn btn-sm dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										直近30⽇
 									</a>
@@ -113,7 +113,7 @@
 									<!--div-->
 									<div class="data-middle d-flex flex-column align-items-center justify-content-around mb-3">
 										<p class="f-20 mb-1"><span>12個</span></p>
-										<p class="clr-green f-12 mb-1"><span class="text-muted">XXXX⽐</span><span>+3.2%</span></p>
+										<p class="clr-green f-12 mb-1"><span class="text-muted mr-2">XXXX⽐</span><span>+3.2%</span></p>
 									</div>
 									<!--div-->
 									<div class="data-bottom d-flex align-items-center flex-column justify-content-between">
@@ -139,7 +139,7 @@
 									<!--div-->
 									<div class="data-middle d-flex flex-column align-items-center justify-content-around mb-3">
 										<p class="f-20 mb-1"><span>1.2%</span></p>
-										<p class="clr-green f-12 mb-1"><span class="text-muted">XXXX⽐</span><span>+3.2%</span></p>
+										<p class="clr-green f-12 mb-1"><span class="text-muted mr-2">XXXX⽐</span><span>+3.2%</span></p>
 									</div>
 									<!--div-->
 									<div class="data-bottom d-flex align-items-center flex-column justify-content-between">
@@ -165,7 +165,7 @@
 									<!--div-->
 									<div class="data-middle d-flex flex-column align-items-center justify-content-around mb-3">
 										<p class="f-20 mb-1"><span>¥51,219</span></p>
-										<p class="clr-green f-12 mb-1"><span class="text-muted">XXXX⽐</span><span>+3.2%</span></p>
+										<p class="clr-green f-12 mb-1"><span class="text-muted mr-2">XXXX⽐</span><span>+3.2%</span></p>
 									</div>
 									<!--div-->
 									<div class="data-bottom d-flex align-items-center flex-column justify-content-between">
@@ -199,38 +199,38 @@
 									<div class="data-middle mb-5">
 										<div class="d-flex align-items-center flex-column justify-content-center h-100">
 											<div class="progress w-75 mb-3">
-												<div class="progress-bar bg-pink" role="progressbar" style="width: 71%" aria-valuenow="71" aria-valuemin="0" aria-valuemax="100"></div>
-												<div class="progress-bar bg-semiOrange" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-												<div class="progress-bar bg-yellow" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-												<div class="progress-bar bg-green" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-												<div class="progress-bar bg-dark" role="progressbar" style="width: 4%" aria-valuenow="4" aria-valuemin="0" aria-valuemax="100"></div>
+												<div class="progress-bar bg-pink" role="progressbar" style="width: 51%" aria-valuenow="51" aria-valuemin="0" aria-valuemax="100"></div>
+												<div class="progress-bar bg-semiOrange" role="progressbar" style="width: 21%" aria-valuenow="21" aria-valuemin="0" aria-valuemax="100"></div>
+												<div class="progress-bar bg-yellow" role="progressbar" style="width: 18%" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100"></div>
+												<div class="progress-bar bg-green" role="progressbar" style="width: 9%" aria-valuenow="9" aria-valuemin="0" aria-valuemax="100"></div>
+												<div class="progress-bar bg-dark" role="progressbar" style="width: 2.2%" aria-valuenow="2.2" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 											<!--progress-->
 											<div class="progressbar-data d-flex align-items-center justify-content-around w-75">
 												<div class="progress-data px-2 text-center">
-													<p class="mb-1 f-20 fontEN">71.0%</p>
+													<p class="mb-1 f-20 fontEN">51.0%</p>
 													<p class="mb-1 f-12">0〜90⽇</p>
 												</div>
 												<!--progress-data-->
 												<div class="progress-data px-2 text-center">
-													<p class="mb-1 f-20 fontEN">15.0%</p>
+													<p class="mb-1 f-20 fontEN">21.0%</p>
 													<p class="mb-1 f-12">91〜180⽇</p>
 												</div>
 												<!--progress-data-->
 												<div class="progress-data px-2 text-center">
-													<p class="mb-1 f-20 fontEN">10.0%</p>
+													<p class="mb-1 f-20 fontEN">18.0%</p>
 													<p class="mb-1 f-12">181〜270⽇</p>
 												</div>
 												<!--progress-data-->
 												<!--progress-data-->
 												<div class="progress-data px-2 text-center">
-													<p class="mb-1 f-20 fontEN">10.0%</p>
+													<p class="mb-1 f-20 fontEN">9.0%</p>
 													<p class="mb-1 f-12">271〜365⽇</p>
 												</div>
 												<!--progress-data-->
 												<!--progress-data-->
 												<div class="progress-data px-2 text-center">
-													<p class="mb-1 f-20 fontEN">4.0%</p>
+													<p class="mb-1 f-20 fontEN">2.2%</p>
 													<p class="mb-1 f-12">365⽇以上</p>
 												</div>
 												<!--progress-data-->
@@ -431,7 +431,7 @@
 																<span class="f-12">¥3,142,340</span>
 															</td>
 															<td class="text-right">
-																<span class="f-12">38.3%</span>
+																<span class="f-12">71.0%</span>
 															</td>
 															<td class="text-right">
 																<span class="clr-blue f-12">+3.2%</span>
@@ -456,7 +456,7 @@
 															</td>
 															</td>
 															<td class="text-right">
-																<span class="f-12">34.7%</span>
+																<span class="f-12">19.0%</span>
 															</td>
 															<td class="text-right">
 																<span class="clr-blue f-12">+3.2%</span>
@@ -480,7 +480,7 @@
 																<span class="f-12">¥2,340</span>
 															</td>
 															<td class="text-right">
-																<span class="f-12">0.6%</span>
+																<span class="f-12">10.0%</span>
 															</td>
 															<td class="text-right">
 																<span class="clr-red f-12">-3.2%</span>
@@ -750,9 +750,9 @@
 			data: {
 				datasets: [{
 					data: [
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
+						71.0,
+						19.0,
+						10.0,
 					],
 					backgroundColor: [
 						window.chartColors.red,
@@ -762,9 +762,9 @@
 					label: 'Dataset 1'
 				}],
 				labels: [
-					'海外倉庫',
 					'AmazonFAB',
 					'横浜⾃社倉庫',
+					'海外倉庫',
 				]
 			},
 			options: {

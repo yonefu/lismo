@@ -30,7 +30,7 @@
 						</div>
 						<!--div-->
 
-						<div class="d-flex justify-content-between align-items-center">
+						<div class="d-flex flex-wrap justify-content-between align-items-center">
 							<ul class="nav top-nav mb-3">
 								<li class="nav-item">
 									<a class="nav-link active" href="list_all.php">
@@ -52,7 +52,7 @@
 								</li>
 							</ul>
 							<!--ul nav-->
-							<a href="javascript:void(0);" class="view-hidden-products bg-white br-25 btn btn-lg f-12 text-dark"  data-toggle="modal" data-target="#ProductModalOption"><span>⾮表⽰にした商品を⾒る</span></a>
+							<a href="javascript:void(0);" class="view-hidden-products bg-white br-25 btn btn-lg f-12 text-dark mb-2 ml-auto"  data-toggle="modal" data-target="#ProductModalOption"><span>⾮表⽰にした商品を⾒る</span></a>
 						</div>
 						<!--d-flex flex-wrap justify-content-between align-items-center-->
 					</div>

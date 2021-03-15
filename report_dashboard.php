@@ -16,7 +16,7 @@
 						</div>
 						<!--div-->
 
-						<div class="d-flex justify-content-between align-items-center mb-3">
+						<div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
 							<ul class="nav top-nav status-box">
 								<li class="nav-item">
 									<a class="nav-link active" href="report_dashboard.php">ダッシュボード</a>
@@ -32,8 +32,8 @@
 								</li>
 							</ul>
 							<!--ul nav-->
-							<div class="right-dropdown d-flex">
-								<div>
+							<div class="right-dropdown d-flex ml-auto">
+								<div class="mb-2">
 									<a class="nav-link btn btn-sm dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										全てのショップ
 									</a>
@@ -198,7 +198,7 @@
 							<div class="col-sm-6 col-lg-4 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
-										<div class="date f-14"><span>12⽉の売上合計</span></div>
+										<div class="date f-14"><span>12⽉の注⽂数合計</span></div>
 										<div class="see-detail-box text-right">
 											<small class="text-muted f-12">詳細を⾒る</small>
 											<p class="mb-1"><span class="btn btn-sm btn-navy">G.売上の推移詳細</span></p>
@@ -224,7 +224,7 @@
 							<div class="col-sm-6 col-lg-4 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
-										<div class="date f-14"><span>12⽉の売上合計</span></div>
+										<div class="date f-14"><span>12⽉の売上着地予想</span></div>
 										<div class="see-detail-box text-right">
 											<!-- <small class="text-muted f-12">詳細を⾒る</small>
 											<p class="mb-1"><span class="btn btn-sm btn-navy">G.売上の推移詳細</span></p> -->
@@ -232,15 +232,15 @@
 									</div>
 									<!--div-->
 									<div class="data-middle d-flex flex-column align-items-center justify-content-between mb-3">
-										<div class="d-flex align-items-center">
-											<p class="mr-4">12⽉予想</p>
+										<div class="d-flex align-items-center mb-4">
+											<p class="mr-4 mb-0">12⽉予想</p>
 											<div class="text-center">
 												<p class="f-20 mb-1"><span>¥9,121,900</span></p>
 												<p class="clr-red f-12 mb-1"><span>-12.2%</span></p>
 											</div>
 										</div>
 										<div class="d-flex align-items-center">
-											<p class="mr-4">11⽉確定</p>
+											<p class="mr-4 mb-0">11⽉確定</p>
 											<div class="text-center">
 												<p class="f-20 mb-1"><span>¥29,121,972</span></p>
 												<!-- <p class="clr-red f-12 mb-1"><span>-12.2%</span></p> -->
@@ -529,19 +529,19 @@
 											<div class="progress-data px-2 text-center">
 												<p class="mb-1 f-20 fontEN">71.0%</p>
 												<p class="mb-1 f-12">Aクラス</p>
-												<p class="mb-1 f-12 clr-green">Aクラス</p>
+												<p class="mb-1 f-12 clr-green">+3.2%</p>
 											</div>
 											<!--progress-data-->
 											<div class="progress-data px-2 text-center">
 												<p class="mb-1 f-20 fontEN">19.0%</p>
 												<p class="mb-1 f-12">Bクラス</p>
-												<p class="mb-1 f-12 clr-green">Aクラス</p>
+												<p class="mb-1 f-12 clr-green">+3.2%</p>
 											</div>
 											<!--progress-data-->
 											<div class="progress-data px-2 text-center">
 												<p class="mb-1 f-20 fontEN">10.0%</p>
 												<p class="mb-1 f-12">Cクラス</p>
-												<p class="mb-1 f-12 clr-green">Aクラス</p>
+												<p class="mb-1 f-12 clr-green">+3.2%</p>
 											</div>
 											<!--progress-data-->
 										</div>
@@ -561,7 +561,7 @@
 						<p class="report-date f-18 mb-2">現在の在庫状況</p>
 						<div class="product-analysis bg-white br-25 p-3">
 							<div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
-								<div class="f-15">12⽉の商品ABC分析</div>
+								<div class="f-15">在庫の保管期間</div>
 								<div><span class="btn btn-sm btn-navy mr-2">B.在庫を管理</span><small class="text-muted f-12">詳細を⾒る</small></div>
 							</div>
 							<!--div-->
@@ -707,27 +707,27 @@
 										<!--progress-->
 										<div class="progressbar-data d-flex align-items-center justify-content-around w-75">
 											<div class="progress-data px-2 text-center">
-												<p class="mb-1 f-20 fontEN">51.0%</p>
+												<p class="mb-1 f-20 fontEN">50.0%</p>
 												<p class="mb-1 f-12">0〜90⽇</p>
 											</div>
 											<!--progress-data-->
 											<div class="progress-data px-2 text-center">
-												<p class="mb-1 f-20 fontEN">21.0%</p>
+												<p class="mb-1 f-20 fontEN">20.0%</p>
 												<p class="mb-1 f-12">91〜180⽇</p>
 											</div>
 											<!--progress-data-->
 											<div class="progress-data px-2 text-center">
-												<p class="mb-1 f-20 fontEN">18.0%</p>
+												<p class="mb-1 f-20 fontEN">12.0%</p>
 												<p class="mb-1 f-12">181〜270⽇</p>
 											</div>
 											<!--progress-data-->
 											<div class="progress-data px-2 text-center">
-												<p class="mb-1 f-20 fontEN">9.0%</p>
+												<p class="mb-1 f-20 fontEN">12.0%</p>
 												<p class="mb-1 f-12">271〜365⽇</p>
 											</div>
 											<!--progress-data-->
 											<div class="progress-data px-2 text-center">
-												<p class="mb-1 f-20 fontEN">2.2%</p>
+												<p class="mb-1 f-20 fontEN">6%</p>
 												<p class="mb-1 f-12">365⽇以上</p>
 											</div>
 											<!--progress-data-->
