@@ -140,7 +140,7 @@
 											<div class="progress-bar bg-green" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
 										</div>
 										<!--progress-->
-										<div class="progressbar-data d-flex align-items-center justify-content-around w-75">
+										<div class="progressbar-data d-flex mx-auto justify-content-around w-75">
 											<div class="progress-data px-2 text-center">
 												<p class="mb-1 f-20 fontEN">51.0%</p>
 												<p class="mb-1 f-12 clr-green">+3.2%</p>
@@ -377,7 +377,7 @@
 												<div class="progress-bar bg-silver" role="progressbar" style="width: 75.6%" aria-valuenow="75.6" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 											<!--progress-->
-											<div class="progressbar-data d-flex align-items-center justify-content-around w-75">
+											<div class="progressbar-data d-flex mx-auto justify-content-around w-75">
 												<div class="progress-data px-2 text-center">
 													<p class="mb-1 f-20 fontEN">18.3%</p>
 													<p class="mb-1 f-12 clr-green">+3.2%</p>

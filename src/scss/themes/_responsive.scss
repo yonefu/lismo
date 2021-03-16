@@ -208,6 +208,10 @@
 	.data-table-group {
 		margin-bottom: 1.5em;
 	}
+
+	.progress.w-75, .progressbar-data.w-75{
+		width: 90% !important;
+	}
 }
 
 /* Small devices (landscape phones, less than 768px)*/
@@ -362,6 +366,7 @@
 	.right-dropdown.ml-auto{
 		margin-left: inherit !important;
 		width: 100%;
+		margin-top: 1em;
 		div.mb-2{
 			width: 50%;
 			a {
@@ -382,6 +387,18 @@
 			margin-bottom: 1em;
 			padding: 0 15px !important;
 		}
+	}
+
+	.progress-data{
+		padding-left: 0.15rem !important;
+		padding-right: 0.15rem !important;
+		.f-20{
+			font-size: 18px !important;
+		}
+	}
+
+	.progress.w-75, .progressbar-data.w-75{
+		width: 100% !important;
 	}
 
 	.modal{
@@ -423,21 +440,6 @@
 			}
 		}
 	}
-
-	// .report-page{
-	// 	.product-analysis{
-	// 		.data-table-group{
-	// 			td, th{
-	// 				display: block;
-	// 				width: 100%;
-	// 				text-align: left !important;
-	// 			}
-	// 			td.text-right{
-	// 				padding-left: 3em !important;
-	// 			}
-	// 		}
-	// 	}
-	// }
 }
 
 

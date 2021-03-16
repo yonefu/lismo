@@ -815,7 +815,7 @@
 											<div class="progress-bar bg-yellow" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
 										</div>
 										<!--progress-->
-										<div class="progressbar-data d-flex align-items-center justify-content-around w-75">
+										<div class="progressbar-data d-flex mx-auto justify-content-around w-75">
 											<div class="progress-data px-2 text-center">
 												<p class="mb-1 f-20 fontEN">71.0%</p>
 												<p class="mb-1 f-12">Aクラス</p>

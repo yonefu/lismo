@@ -206,7 +206,7 @@
 												<div class="progress-bar bg-dark" role="progressbar" style="width: 2.2%" aria-valuenow="2.2" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 											<!--progress-->
-											<div class="progressbar-data d-flex align-items-center justify-content-around w-75">
+											<div class="progressbar-data d-flex mx-auto justify-content-around w-75">
 												<div class="progress-data px-2 text-center">
 													<p class="mb-1 f-20 fontEN">51.0%</p>
 													<p class="mb-1 f-12">0〜90⽇</p>
