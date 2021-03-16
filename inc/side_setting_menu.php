@@ -1,4 +1,14 @@
+<button class="side-setting-menu-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<i class="fa fa-cog"></i>
+</button>
+
 <div class="side-setting-menu">
+	<div class="side-setting-menu-close">
+		<span class=""></span>
+		<span class=""></span>
+		<span class=""></span>
+	</div>
+
 	<div class="ss-menu-box mb-3">
 		<p class="ss-menu-title">アカウント設定</p>
 		<ul class="nav flex-column">

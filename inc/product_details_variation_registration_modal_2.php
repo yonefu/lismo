@@ -42,11 +42,11 @@
 		</div>
 		<!--product information-->
 
-		<div class="d-flex justify-content-between align-items-center mb-3">
-			<h3 class="mb-1 f-18 font-weight-normal">
+		<div class="d-flex flex-wrap justify-content-between align-items-center">
+			<h3 class="mb-1 f-18 font-weight-normal mb-3">
 				<span>バリェ一ション(5)</span>
 			</h3>
-			<div class="btn-right"><a href="#" class="btn btn-dark py-2 px-4 f-15">新規セット商品を作る</a></div>
+			<div class="btn-right mb-3"><a href="#" class="btn btn-dark py-2 px-4 f-15">新規セット商品を作る</a></div>
 		</div>
 		<!--div-->
 

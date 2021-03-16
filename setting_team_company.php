@@ -26,7 +26,7 @@
 									<form>
 										<p class="form-heading mb-4 f-15">チーム情報</p>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">区分</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">区分</label>
 											<div class="col-lg-9">
 												<div class="custom-control custom-radio custom-control-inline">
 													<input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
@@ -39,25 +39,25 @@
 											</div>
 										</div>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">会社名 / 屋号</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">会社名 / 屋号</label>
 											<div class="col-lg-9">
 												<input type="text"  class="form-control" placeholder="⽥中太郎">
 											</div>
 										</div>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">主な業種</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">主な業種</label>
 											<div class="col-lg-9">
 												<input type="text"  class="form-control" placeholder="⽥中太郎">
 											</div>
 										</div>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">タイムゾーン</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">タイムゾーン</label>
 											<div class="col-lg-9">
 												<input type="text"  class="form-control" placeholder="⽥中太郎">
 											</div>
 										</div>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">表⽰通貨</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">表⽰通貨</label>
 											<div class="col-lg-9">
 												<input type="text"  class="form-control" placeholder="⽥中太郎">
 											</div>
@@ -76,43 +76,43 @@
 									<form>
 										<p class="form-heading mb-4 f-15">住所</p>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">国</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">国</label>
 											<div class="col-lg-9">
 												<input type="text"  class="form-control" placeholder="⽥中太郎">
 											</div>
 										</div>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">郵便番号</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">郵便番号</label>
 											<div class="col-lg-9">
 												<input type="text"  class="form-control" placeholder="⽥中太郎">
 											</div>
 										</div>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">都道府県</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">都道府県</label>
 											<div class="col-lg-9">
 												<input type="text"  class="form-control" placeholder="⽥中太郎">
 											</div>
 										</div>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">市区町村</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">市区町村</label>
 											<div class="col-lg-9">
 												<input type="text"  class="form-control" placeholder="⽥中太郎">
 											</div>
 										</div>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">住所1</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">住所1</label>
 											<div class="col-lg-9">
 												<input type="text"  class="form-control" placeholder="⽥中太郎">
 											</div>
 										</div>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">住所2</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">住所2</label>
 											<div class="col-lg-9">
 												<input type="text"  class="form-control" placeholder="⽥中太郎">
 											</div>
 										</div>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">電話番号</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">電話番号</label>
 											<div class="col-lg-9">
 												<input type="text"  class="form-control" placeholder="⽥中太郎">
 											</div>

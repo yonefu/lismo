@@ -1068,9 +1068,6 @@
 
 <?php include('inc/footer.php'); ?>
 
-<!--for slider-->
-<script src="dist/js/slick.min.js"></script>
-
 <!--for chart-->
 <script src="dist/js/Chart.min.js"></script>
 <script src="dist/js/Chart.bundle.min.js"></script>

@@ -34,7 +34,7 @@ $(document).ready(function() {
         $(".search-box").removeClass("show");
     });
 
-    // sidebar menu collapse
+    // Sidebar Menu Collapse
     $("[data-trigger]").on("click", function(e) {
         e.preventDefault();
         e.stopPropagation();
@@ -48,16 +48,25 @@ $(document).ready(function() {
         $("body").removeClass("offcanvas-active");
     });
 
-    // Prevent two submenus from being opened at once
-    $('.side-setting-menu li.dropdown > a').on('click', function(event) {
-
-        $(this).parent().find('ul').first().toggle(300);
-        $(this).parent('li').addClass('opened');
-        $(this).parent().siblings().find('ul').hide(200);
-        $(this).parent().siblings('li').removeClass('opened');
-        $(this).siblings().find('li').removeClass('opened');
-        event.preventDefault()
+    // Setting Menu Collapse
+    $('#reservationDate').on('change', function() {
+        var pickedDate = $('input').val();
+        $('#pickedDate').html(pickedDate);
     });
+
+    $navToggler = $('.side-setting-menu-toggler'),
+        $navClose = $('.side-setting-menu-close'),
+        $navbar = $('.side-setting-menu');
+
+    $navToggler.on('click', function() {
+        $navbar.addClass('show');
+        $('body').addClass('overflow');
+    })
+
+    $navClose.on('click', function() {
+        $navbar.removeClass('show');
+        $('body').removeClass('overflow');
+    })
 
     //
     $('.modal').on('shown.bs.modal', function(e) {
@@ -103,40 +112,4 @@ $(document).ready(function() {
         format: "dd/mm/yyyy"
     });
 
-
-    // FOR DEMO PURPOSE
-    $('#reservationDate').on('change', function() {
-        var pickedDate = $('input').val();
-        $('#pickedDate').html(pickedDate);
-    });
-
-
-    //sales ranking slider
-    $('.sales-ranking-slider').slick({
-        dots: false,
-        centerMode: false,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        infinite: false,
-        arrows: true,
-        responsive: [{
-            breakpoint: 991,
-            settings: {
-                arrows: true,
-                slidesToShow: 3
-            }
-        }, {
-            breakpoint: 769,
-            settings: {
-                arrows: true,
-                slidesToShow: 2
-            }
-        }, {
-            breakpoint: 576,
-            settings: {
-                arrows: true,
-                slidesToShow: 1
-            }
-        }]
-    });
 });

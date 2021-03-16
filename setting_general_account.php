@@ -29,19 +29,19 @@
 									<form>
 										<p class="form-heading mb-4 f-15">アカウント設定</p>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">ユーザー名</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">ユーザー名</label>
 											<div class="col-lg-9">
 												<input type="text"  class="form-control" placeholder="⽥中太郎">
 											</div>
 										</div>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">メールアドレス</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">メールアドレス</label>
 											<div class="col-lg-9">
 												<input type="email"  class="form-control" placeholder="tanaka@gmail.com">
 											</div>
 										</div>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">外部サービス</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">外部サービス</label>
 											<div class="col-lg-9 d-flex">
 												<a href="#" class="mr-1">
 													<img class="img-fluid" src="dist/img/icon-google.png" alt="Google Icon" />
@@ -52,7 +52,7 @@
 											</div>
 										</div>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">担当拠点</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">担当拠点</label>
 											<div class="col-lg-9">
 												<select class="custom-select form-control">
 													<option selected>⽥中太郎</option>
@@ -62,7 +62,7 @@
 											</div>
 										</div>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">⾔語設定</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">⾔語設定</label>
 											<div class="col-lg-9">
 												<select class="custom-select form-control">
 													<option selected>101-0001</option>
@@ -85,7 +85,7 @@
 									<form>
 										<p class="form-heading mb-4 f-15">ページ閲覧権限</p>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">レポート</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">レポート</label>
 											<div class="col-lg-9">
 												<div class="d-flex align-items-center justify-content-between">
 													<span class="clr-green view">閲覧可能</span>
@@ -99,7 +99,7 @@
 											</div>
 										</div>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">出品</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">出品</label>
 											<div class="col-lg-9">
 												<div class="d-flex align-items-center justify-content-between">
 													<span class="clr-green view">閲覧可能</span>
@@ -113,7 +113,7 @@
 											</div>
 										</div>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">在庫</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">在庫</label>
 											<div class="col-lg-9">
 												<div class="d-flex align-items-center justify-content-between">
 													<span class="clr-red not-view">閲覧不可</span>
@@ -127,7 +127,7 @@
 											</div>
 										</div>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">仕⼊れ</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">仕⼊れ</label>
 											<div class="col-lg-9">
 												<div class="d-flex align-items-center justify-content-between">
 													<span class="clr-green view">閲覧可能</span>
@@ -141,7 +141,7 @@
 											</div>
 										</div>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">受注</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">受注</label>
 											<div class="col-lg-9">
 												<div class="d-flex align-items-center justify-content-between">
 													<span class="clr-green view">閲覧可能</span>
@@ -155,7 +155,7 @@
 											</div>
 										</div>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">設定</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">設定</label>
 											<div class="col-lg-9">
 												<div class="d-flex align-items-center justify-content-between">
 													<span class="clr-red not-partly-view">閲覧⼀部不可</span>

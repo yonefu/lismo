@@ -758,6 +758,36 @@
 <!--for slider-->
 <script src="dist/js/slick.min.js"></script>
 
+<script type="text/javascript">
+	$('.sales-ranking-slider').slick({
+        dots: false,
+        centerMode: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: false,
+        arrows: true,
+        responsive: [{
+            breakpoint: 991,
+            settings: {
+                arrows: true,
+                slidesToShow: 3
+            }
+        }, {
+            breakpoint: 769,
+            settings: {
+                arrows: true,
+                slidesToShow: 2
+            }
+        }, {
+            breakpoint: 576,
+            settings: {
+                arrows: true,
+                slidesToShow: 1
+            }
+        }]
+    });
+</script>
+
 <!--for chart-->
 <script src="dist/js/Chart.min.js"></script>
 <script src="dist/js/Chart.bundle.min.js"></script>

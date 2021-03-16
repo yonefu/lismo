@@ -346,7 +346,7 @@ p, span {
   position: absolute;
   right: 15px;
   top: 18px;
-  z-index: 999;
+  z-index: 9;
   padding: 0;
   border-radius: 5px;
   -webkit-transition: all ease 0.5s;
@@ -1221,8 +1221,6 @@ tr.no-data th {
   border-radius: 25px;
   padding: 30px; }
   .form-box form .form-group label {
-    padding-right: 0;
-    padding-left: 0;
     text-align: right;
     font-size: 12px; }
 
@@ -1533,13 +1531,26 @@ input[type="checkbox"] {
 .original-product-table .column-9 {
   width: 120px; }
 
+.btn-sidesettingbar {
+  position: absolute;
+  top: 1px;
+  right: 40px; }
+  .btn-sidesettingbar .fa {
+    font-size: 32px; }
+
 .side-setting-menu {
-  background: white;
-  border-radius: 25px;
+  background: #ffffff;
+  min-width: 180px;
+  border-radius: 30px;
   padding: 20px;
-  min-width: 180px; }
-  .side-setting-menu .dropdown-menu {
-    position: inherit; }
+  text-align: center;
+  left: 15px;
+  height: 96vh;
+  z-index: 10;
+  margin-right: 20px; }
+
+.setting-inner-wrap {
+  padding-bottom: 1em; }
 
 .ss-menu-box .ss-menu-title {
   font-size: 15px;
@@ -1565,7 +1576,6 @@ input[type="checkbox"] {
     background: #1f2634; }
 
 .setting-wrap {
-  padding-left: 20px;
   max-width: 540px;
   width: 100%;
   position: relative; }
@@ -1577,7 +1587,16 @@ input[type="checkbox"] {
     top: 15px;
     right: 30px; }
   .setting-wrap.w-100 {
-    max-width: calc(100% - 180px); }
+    max-width: 100%; }
+
+.side-setting-menu-toggler, .side-setting-menu-close {
+  display: none; }
+
+body.overflow {
+  overflow: hidden; }
+
+.datepicker-days table {
+  width: 250px; }
 
 table.setting-table .column-1 {
   width: 50px; }
@@ -1586,7 +1605,7 @@ table.setting-table .column-2 {
   width: 100px; }
 
 table.setting-table .column-3 {
-  width: 250px; }
+  width: 200px; }
 
 table.setting-table .column-4 {
   width: 80px; }
@@ -1792,7 +1811,8 @@ table.setting-table .column-7 {
       right: 0;
       bottom: 0;
       padding: 20px;
-      overflow-y: auto; }
+      overflow-y: auto;
+      position: fixed; }
     .offcanvas-active .offcanvas-header {
       display: block;
       position: absolute;
@@ -1801,7 +1821,8 @@ table.setting-table .column-7 {
       -webkit-transform: rotate(-180deg);
               transform: rotate(-180deg);
       height: 30px;
-      width: 30px; }
+      width: 30px;
+      z-index: 9; }
       .offcanvas-active .offcanvas-header span {
         width: 30px;
         height: 3px;
@@ -1836,7 +1857,9 @@ table.setting-table .column-7 {
     width: 100%;
     display: none !important; }
   .mobile-offcanvas.show {
-    display: block !important; }
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important; }
   .modal-full {
     margin-left: auto;
     margin-right: auto; }
@@ -1852,9 +1875,8 @@ table.setting-table .column-7 {
     text-align: left !important; }
     .col-form-label br {
       display: none; }
-  .setting-wrap .form-group .col-lg-9 {
-    padding-left: 0;
-    padding-right: 0; }
+  .setting-wrap .form-heading {
+    margin-bottom: 0.5em !important; }
   .modal .product-details--modal-page .col-lg-6.d-flex {
     margin-bottom: 1em; }
     .modal .product-details--modal-page .col-lg-6.d-flex:last-child {
@@ -1878,6 +1900,65 @@ table.setting-table .column-7 {
     width: 90% !important; } }
 
 /* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+  .setting-wrap {
+    max-width: 100%; }
+  .side-setting-menu-toggler {
+    position: absolute;
+    top: 0;
+    right: 45px;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    font-size: 32px;
+    line-height: 100%; }
+  .side-setting-menu-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 10;
+    cursor: pointer;
+    height: 30px;
+    width: 30px; }
+    .side-setting-menu-close span {
+      width: 30px;
+      height: 3px;
+      background: #1f2634;
+      display: block;
+      margin-bottom: 6px;
+      position: absolute;
+      top: 12px; }
+    .side-setting-menu-close span:nth-of-type(1) {
+      -webkit-transform: rotate(-45deg);
+              transform: rotate(-45deg);
+      margin-top: 0;
+      width: 30px; }
+    .side-setting-menu-close span:nth-of-type(2) {
+      display: none; }
+    .side-setting-menu-close span:nth-of-type(3) {
+      -webkit-transform: rotate(45deg);
+              transform: rotate(45deg);
+      margin-top: 0;
+      width: 30px; }
+  .side-setting-menu {
+    display: none;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s; }
+    .side-setting-menu.show {
+      display: block;
+      left: 0;
+      height: 100vh;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      padding: 20px;
+      overflow-y: auto;
+      position: fixed;
+      width: 100%;
+      border-radius: 0; }
+  .side-setting-menu-toggler, .side-setting-menu-close {
+    display: block; } }
+
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
   .login-form .social-login-container {
@@ -1945,8 +2026,6 @@ table.setting-table .column-7 {
   .top-block .search-box {
     margin-right: 0;
     width: 100%; }
-  .btn-sidebar {
-    top: 10px; }
   .offcanvas-active .offcanvas-header {
     top: 10px; }
   .side-menu .logo {
@@ -1984,6 +2063,11 @@ table.setting-table .column-7 {
       font-size: 18px !important; }
   .progress.w-75, .progressbar-data.w-75 {
     width: 100% !important; }
+  .form-box form {
+    padding: 15px; }
+  .modal .order-details-modal-page .d-flex.flex-wrap .col-lg-6 {
+    padding-left: 0;
+    padding-right: 0; }
   .modal .order-details-modal-page .page-title span.f-15 {
     display: block;
     margin-top: 0.5em;
@@ -2000,14 +2084,21 @@ table.setting-table .column-7 {
         display: block; }
     .modal .order-details-modal-page .btn-group.flex-column .dropdown-toggle {
       width: 50%; }
-  .modal .order-details-modal-page .d-flex.flex-wrap .col-lg-6 {
-    padding: 0; }
-    .modal .order-details-modal-page .d-flex.flex-wrap .col-lg-6 .col-lg-9 {
-      padding-left: 0;
-      padding-right: 0; }
   .modal .order-details-modal-page .form-box .col-md-12 {
     padding-left: 0;
-    padding-right: 0; } }
+    padding-right: 0; }
+  .setting-wrap .form-group.row.justify-content-end div.pr-3 {
+    padding: 0 15px;
+    width: 100%; }
+  .setting-wrap .form-group.row.justify-content-end .btn {
+    width: 47%;
+    min-width: 47%;
+    margin: 0 1% !important; }
+  .setting-wrap .account-delete {
+    position: static;
+    padding-top: 15px;
+    float: right;
+    padding-right: 15px; } }
 
 /* Extra small devices (portrait phones, less than 320px)*/
 @media (max-width: 360.98px) {

@@ -26,19 +26,19 @@
 									<form>
 										<p class="form-heading mb-4 f-15">パスワードの変更</p>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">新しいパスワード<br/> 6⽂字以上</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">新しいパスワード<br/> 6⽂字以上</label>
 											<div class="col-lg-9">
 												<input type="text"  class="form-control" placeholder="⽥中太郎">
 											</div>
 										</div>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">新しいパスワードの<br/>確認</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">新しいパスワードの<br/>確認</label>
 											<div class="col-lg-9">
 												<input type="email"  class="form-control" placeholder="tanaka@gmail.com">
 											</div>
 										</div>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12">現在のパスワード</label>
+											<label class="col-lg-3 col-form-label f-12 pr-0">現在のパスワード</label>
 											<div class="col-lg-9">
 												<input type="email"  class="form-control" placeholder="tanaka@gmail.com">
 											</div>
