@@ -53,6 +53,11 @@
 									<span class="selcted-counter">1</span>
 								</a>
 							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="order_modal.php">
+									Modals
+								</a>
+							</li>
 						</ul>
 						<!--ul nav-->
 
@@ -192,32 +197,7 @@
 											</tr>
 										</tbody>
 										<!--tbody-->
-									</table>
-									<!--table-->
-								</div>
-							</div>
-							<!--card-body-->
-						</div>
-						<!--card-->
 
-						<div class="card mb-3">
-							<div class="card-body">
-								<div class="table-responsive-lg">
-									<table class="table order-table">
-										<thead>
-											<tr class="blank-tr">
-												<th class="col-checkbox"></th>
-												<th class="column-1"></th>
-												<th class="column-2"></th>
-												<th class="column-3"></th>
-												<th class="column-4"></th>
-												<th class="column-5"></th>
-												<th class="column-6"></th>
-												<th class="column-7"></th>
-												<th class="column-8"></th>
-												<th class="column-9"></th>
-											</tr>
-										</thead>
 										<tbody>
 											<tr>
 												<td class="text-center" rowspan="2">
@@ -311,32 +291,7 @@
 											</tr>
 										</tbody>
 										<!--tbody-->
-									</table>
-									<!--table-->
-								</div>
-							</div>
-							<!--card-body-->
-						</div>
-						<!--card-->
 
-						<div class="card mb-3">
-							<div class="card-body">
-								<div class="table-responsive-lg">
-									<table class="table order-table">
-										<thead>
-											<tr class="blank-tr">
-												<th class="col-checkbox"></th>
-												<th class="column-1"></th>
-												<th class="column-2"></th>
-												<th class="column-3"></th>
-												<th class="column-4"></th>
-												<th class="column-5"></th>
-												<th class="column-6"></th>
-												<th class="column-7"></th>
-												<th class="column-8"></th>
-												<th class="column-9"></th>
-											</tr>
-										</thead>
 										<tbody>
 											<tr>
 												<td class="text-center">
@@ -402,32 +357,7 @@
 											</tr>
 										</tbody>
 										<!--tbody-->
-									</table>
-									<!--table-->
-								</div>
-							</div>
-							<!--card-body-->
-						</div>
-						<!--card-->
 
-						<div class="card mb-3">
-							<div class="card-body">
-								<div class="table-responsive-lg">
-									<table class="table order-table">
-										<thead>
-											<tr class="blank-tr">
-												<th class="col-checkbox"></th>
-												<th class="column-1"></th>
-												<th class="column-2"></th>
-												<th class="column-3"></th>
-												<th class="column-4"></th>
-												<th class="column-5"></th>
-												<th class="column-6"></th>
-												<th class="column-7"></th>
-												<th class="column-8"></th>
-												<th class="column-9"></th>
-											</tr>
-										</thead>
 										<tbody>
 											<tr>
 												<td class="text-center">
@@ -493,32 +423,7 @@
 											</tr>
 										</tbody>
 										<!--tbody-->
-									</table>
-									<!--table-->
-								</div>
-							</div>
-							<!--card-body-->
-						</div>
-						<!--card-->
 
-						<div class="card">
-							<div class="card-body">
-								<div class="table-responsive-lg">
-									<table class="table order-table">
-										<thead>
-											<tr class="blank-tr">
-												<th class="col-checkbox"></th>
-												<th class="column-1"></th>
-												<th class="column-2"></th>
-												<th class="column-3"></th>
-												<th class="column-4"></th>
-												<th class="column-5"></th>
-												<th class="column-6"></th>
-												<th class="column-7"></th>
-												<th class="column-8"></th>
-												<th class="column-9"></th>
-											</tr>
-										</thead>
 										<tbody>
 											<tr>
 												<td class="text-center">

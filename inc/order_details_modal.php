@@ -22,7 +22,7 @@
 		<!--div-->
 
 		<div class="d-flex flex-wrap">
-			<div class="col-lg-6">
+			<div class="col-md-6 col-lg-6">
 				<div class="form-box mb-3">
 					<p class="form-heading pl-4 mb-2 f-15">購入者情報</p>
 					<form>
@@ -103,9 +103,9 @@
 				</div>
 				<!--form-box mb-3-->
 			</div>
-			<!--col-lg-6-->
+			<!--col-md-6 col-lg-6-->
 
-			<div class="col-lg-6">
+			<div class="col-md-6 col-lg-6">
 				<div class="form-box mb-3">
 					<p class="form-heading pl-4 mb-2 f-15">出荷詳細</p>
 					<form>
@@ -214,7 +214,7 @@
 				</div>
 				<!--form-box mb-3-->
 			</div>
-			<!--col-lg-6-->
+			<!--col-md-6 col-lg-6-->
 		</div>
 		<!--d-flex flex-wrap-->
 

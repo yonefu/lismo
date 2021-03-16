@@ -729,6 +729,10 @@ table {
 	}
 }
 
+.table tbody + tbody {
+    border-top: 15px solid $gray;
+}
+
 .table-wrapper {
 	.table-title {
 		.tt-lt-col {

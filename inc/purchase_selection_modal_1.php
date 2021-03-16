@@ -197,27 +197,7 @@
 								<!--tr-->
 							</tbody>
 							<!--tbody-->
-						</table>
-					</div>
-				</div>
-				<!--card-body-->
 
-				<div class="card-body">
-					<div class="table-responsive-lg">
-						<table class="table purchase-selected-modal-1">
-							<thead>
-								<tr class="blank-tr">
-									<th class="column-1"></th>
-									<th class="column-2"></th>
-									<th class="column-3"></th>
-									<th class="column-4"></th>
-									<th class="column-5"></th>
-									<th class="column-6"></th>
-									<th class="column-7"></th>
-									<th class="column-8"></th>
-									<th class="column-9"></th>
-								</tr>
-							</thead>
 							<tbody>
 								<tr>
 									<td class="text-center" rowspan="3">
@@ -259,27 +239,7 @@
 								<!--tr-->
 							</tbody>
 							<!--tbody-->
-						</table>
-					</div>
-				</div>
-				<!--card-body-->
 
-				<div class="card-body">
-					<div class="table-responsive-lg">
-						<table class="table purchase-selected-modal-1">
-							<thead>
-								<tr class="blank-tr">
-									<th class="column-1"></th>
-									<th class="column-2"></th>
-									<th class="column-3"></th>
-									<th class="column-4"></th>
-									<th class="column-5"></th>
-									<th class="column-6"></th>
-									<th class="column-7"></th>
-									<th class="column-8"></th>
-									<th class="column-9"></th>
-								</tr>
-							</thead>
 							<tbody>
 								<tr>
 									<td class="text-center" rowspan="3">

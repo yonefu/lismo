@@ -71,29 +71,7 @@
 								</tr>
 							</tbody>
 							<!--tbody-->
-						</table>
-					</div>
-				</div>
-				<!--card-body-->
-			</div>
-			<!--card-->
 
-			<div class="card mb-3">
-				<div class="card-body">
-					<div class="table-responsive-lg">
-						<table class="table order-confirmation-inclusion-table">
-							<thead>
-								<tr class="blank-tr">
-									<th class="col-checkbox"></th>
-									<th class="column-1"></th>
-									<th class="column-2"></th>
-									<th class="column-3"></th>
-									<th class="column-4"></th>
-									<th class="column-5"></th>
-									<th class="column-6"></th>
-									<th class="column-7"></th>
-								</tr>
-							</thead>
 							<tbody>
 								<tr>
 									<td class="text-center">

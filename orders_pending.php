@@ -52,6 +52,11 @@
 									<span class="selcted-counter">1</span>
 								</a>
 							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="order_modal.php">
+									Modals
+								</a>
+							</li>
 						</ul>
 						<!--ul nav-->
 

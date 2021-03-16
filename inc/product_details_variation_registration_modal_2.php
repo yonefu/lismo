@@ -68,29 +68,7 @@
 								<th class="column-10">&nbsp;</th>
 							</tr>
 						</thead>
-					</table>
-					<!--table-->
-				</div>
-			</div>
-			<!--card-body-->
 
-			<div class="card-body p-0 mb-0">
-				<div class="table-responsive-lg">
-					<table class="table variation-table bg-white br-25">
-						<thead>
-							<tr class="blank-tr">
-								<th class="column-1"></th>
-								<th class="column-2"></th>
-								<th class="column-3"></th>
-								<th class="column-4"></th>
-								<th class="column-5"></th>
-								<th class="column-6"></th>
-								<th class="column-7"></th>
-								<th class="column-8"></th>
-								<th class="column-9"></th>
-								<th class="column-10"></th>
-							</tr>
-						</thead>
 						<tbody>
 							<tr>
 								<td class="text-center">
@@ -129,6 +107,9 @@
 				<div id="toggle-div1" class="toggle-div" style="display: none;">
 					<div class="bg-white p-3 br-10 mb-3">
 						<div class="product-information mb-5">
+							<div class="right-button">
+								<div id="close-button1" class="close-button btn btn-sm btn-outline-dark px-3 br-25"><span>閉じる</span></div>
+							</div>
 							<div class="row">
 								<div class="col-lg-2 border-right">
 									<div class="product-img text-center mb-2">
@@ -151,9 +132,6 @@
 									<h6 class="sku-status">
 										<span>カラー : ピンク / サイズ : M</span>
 									</h6>
-									<div class="right-button">
-										<div id="close-button1" class="close-button btn btn-sm btn-outline-dark px-3 br-25"><span>閉じる</span></div>
-									</div>
 								</div>
 							</div>
 							<!--row-->
@@ -508,6 +486,9 @@
 				<div id="toggle-div2" class="toggle-div" style="display: none;">
 					<div class="bg-white p-3 br-10 mb-3">
 						<div class="product-information mb-5">
+							<div class="right-button">
+								<div id="close-button2" class="close-button btn btn-sm btn-outline-dark px-3 br-25"><span>閉じる</span></div>
+							</div>
 							<div class="row">
 								<div class="col-lg-2 border-right">
 									<div class="product-img text-center mb-2">
@@ -530,9 +511,6 @@
 									<h6 class="sku-status">
 										<span>カラー : ピンク / サイズ : M</span>
 									</h6>
-									<div class="right-button">
-										<div id="close-button2" class="close-button btn btn-sm btn-outline-dark px-3 br-25"><span>閉じる</span></div>
-									</div>
 								</div>
 							</div>
 							<!--row-->
@@ -833,6 +811,9 @@
 				<div id="toggle-div3" class="toggle-div" style="display: none;">
 					<div class="bg-white p-3 br-10 mb-3">
 						<div class="product-information mb-5">
+							<div class="right-button">
+								<div id="close-button3" class="close-button btn btn-sm btn-outline-dark px-3 br-25"><span>閉じる</span></div>
+							</div>
 							<div class="row">
 								<div class="col-lg-2 border-right">
 									<div class="product-img text-center mb-2">
@@ -855,9 +836,6 @@
 									<h6 class="sku-status">
 										<span>カラー : ピンク / サイズ : M</span>
 									</h6>
-									<div class="right-button">
-										<div id="close-button3" class="close-button btn btn-sm btn-outline-dark px-3 br-25"><span>閉じる</span></div>
-									</div>
 								</div>
 							</div>
 							<!--row-->
@@ -1158,6 +1136,9 @@
 				<div id="toggle-div4" class="toggle-div" style="display: none;">
 					<div class="bg-white p-3 br-10 mb-3">
 						<div class="product-information mb-5">
+							<div class="right-button">
+								<div id="close-button4" class="close-button btn btn-sm btn-outline-dark px-3 br-25"><span>閉じる</span></div>
+							</div>
 							<div class="row">
 								<div class="col-lg-2 border-right">
 									<div class="product-img text-center mb-2">
@@ -1180,9 +1161,6 @@
 									<h6 class="sku-status">
 										<span>カラー : ピンク / サイズ : M</span>
 									</h6>
-									<div class="right-button">
-										<div id="close-button4" class="close-button btn btn-sm btn-outline-dark px-3 br-25"><span>閉じる</span></div>
-									</div>
 								</div>
 							</div>
 							<!--row-->
@@ -1483,6 +1461,9 @@
 				<div id="toggle-div5" class="toggle-div">
 					<div class="bg-white p-3 br-10 mb-3">
 						<div class="product-information mb-5">
+							<div class="right-button">
+								<div id="close-button5" class="close-button btn btn-sm btn-outline-dark px-3 br-25"><span>閉じる</span></div>
+							</div>
 							<div class="row">
 								<div class="col-lg-2 border-right">
 									<div class="product-img text-center mb-2">
@@ -1505,9 +1486,6 @@
 									<h6 class="sku-status">
 										<span>カラー : ピンク / サイズ : M</span>
 									</h6>
-									<div class="right-button">
-										<div id="close-button5" class="close-button btn btn-sm btn-outline-dark px-3 br-25"><span>閉じる</span></div>
-									</div>
 								</div>
 							</div>
 							<!--row-->
