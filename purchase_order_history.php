@@ -36,6 +36,9 @@
 							<li class="nav-item">
 								<a class="nav-link active li-order-history" href="purchase_order_history.php">発注履歴</a>
 							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="purchase_modal.php">Purchase Modals</a>
+							</li>
 						</ul>
 						<!--ul nav-->
 
@@ -81,25 +84,25 @@
 
 								<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
 									<div class="card-body">
-										<div class="table-responsive-lg">
-											<div class="table-title">
-												<div class="d-flex justify-content-between align-items-center py-2 px-4">
-													<div class="tt-lt-col mb-1">
-														<span>横浜本社倉庫への仕⼊れ </span>
+										<div class="table-title">
+											<div class="d-flex justify-content-between align-items-center py-2 px-4">
+												<div class="tt-lt-col mb-1">
+													<span>横浜本社倉庫への仕⼊れ </span>
+												</div>
+												<div class="tt-rt-col row mb-1 px-3 align-items-center">
+													<div class="date ml-4 f-12">
+														<span class="mr-1">2020年08月15日</span> <span>15:35</span>
 													</div>
-													<div class="tt-rt-col row mb-1 px-3 align-items-center">
-														<div class="date ml-4 f-12">
-															<span class="mr-1">2020年08月15日</span> <span>15:35</span>
-														</div>
-														<div class="order-no ml-4">
-															<span class="f-12">発注ID:PO0453-00000010643</span>
-														</div>
-														<div class="total ml-4">
-															<span class="t-label">合計:</span><span class="t-price">¥206,582</span>
-														</div>
+													<div class="order-no ml-4">
+														<span class="f-12">発注ID:PO0453-00000010643</span>
+													</div>
+													<div class="total ml-4">
+														<span class="t-label">合計:</span><span class="t-price">¥206,582</span>
 													</div>
 												</div>
 											</div>
+										</div>
+										<div class="table-responsive-lg">
 											<table class="table purchase-order-history-table">
 												<thead>
 													<tr>
@@ -171,25 +174,25 @@
 									<!--card-body-->
 
 									<div class="card-body">
-										<div class="table-responsive-lg">
-											<div class="table-title">
-												<div class="d-flex justify-content-between align-items-center py-2 px-4">
-													<div class="tt-lt-col mb-1">
-														<span>横浜本社倉庫への仕⼊れ </span>
+										<div class="table-title">
+											<div class="d-flex justify-content-between align-items-center py-2 px-4">
+												<div class="tt-lt-col mb-1">
+													<span>横浜本社倉庫への仕⼊れ </span>
+												</div>
+												<div class="tt-rt-col row mb-1 px-3 align-items-center">
+													<div class="date ml-4 f-12">
+														<span class="mr-1">2020年08月15日</span> <span>15:35</span>
 													</div>
-													<div class="tt-rt-col row mb-1 px-3 align-items-center">
-														<div class="date ml-4 f-12">
-															<span class="mr-1">2020年08月15日</span> <span>15:35</span>
-														</div>
-														<div class="order-no ml-4">
-															<span class="f-12">発注ID:PO0453-00000010643</span>
-														</div>
-														<div class="total ml-4">
-															<span class="t-label">合計:</span><span class="t-price">¥12,582</span>
-														</div>
+													<div class="order-no ml-4">
+														<span class="f-12">発注ID:PO0453-00000010643</span>
+													</div>
+													<div class="total ml-4">
+														<span class="t-label">合計:</span><span class="t-price">¥12,582</span>
 													</div>
 												</div>
 											</div>
+										</div>
+										<div class="table-responsive-lg">
 											<table class="table purchase-order-history-table">
 												<thead>
 													<tr>
@@ -248,25 +251,25 @@
 								</div>
 								<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
 									<div class="card-body">
-										<div class="table-responsive-lg">
-											<div class="table-title">
-												<div class="d-flex justify-content-between align-items-center py-2 px-4">
-													<div class="tt-lt-col mb-1">
-														<span>Amazonへの仕入れ </span>
+										<div class="table-title">
+											<div class="d-flex justify-content-between align-items-center py-2 px-4">
+												<div class="tt-lt-col mb-1">
+													<span>Amazonへの仕入れ </span>
+												</div>
+												<div class="tt-rt-col row mb-1 px-3 align-items-center">
+													<div class="date ml-4 f-12">
+														<span class="mr-1">2020年08月15日</span> <span>15:35</span>
 													</div>
-													<div class="tt-rt-col row mb-1 px-3 align-items-center">
-														<div class="date ml-4 f-12">
-															<span class="mr-1">2020年08月15日</span> <span>15:35</span>
-														</div>
-														<div class="order-no ml-4">
-															<span class="f-12">発注ID:PO0453-00000010643</span>
-														</div>
-														<div class="total ml-4">
-															<span class="t-label">合計:</span><span class="t-price">¥12,582</span>
-														</div>
+													<div class="order-no ml-4">
+														<span class="f-12">発注ID:PO0453-00000010643</span>
+													</div>
+													<div class="total ml-4">
+														<span class="t-label">合計:</span><span class="t-price">¥12,582</span>
 													</div>
 												</div>
 											</div>
+										</div>
+										<div class="table-responsive-lg">
 											<table class="table purchase-order-history-table">
 												<thead>
 													<tr>
@@ -350,25 +353,25 @@
 								</div>
 								<div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
 									<div class="card-body">
-										<div class="table-responsive-lg">
-											<div class="table-title">
-												<div class="d-flex justify-content-between align-items-center py-2 px-4">
-													<div class="tt-lt-col mb-1">
-														<span>Amazonへの仕入れ </span>
+										<div class="table-title">
+											<div class="d-flex justify-content-between align-items-center py-2 px-4">
+												<div class="tt-lt-col mb-1">
+													<span>Amazonへの仕入れ </span>
+												</div>
+												<div class="tt-rt-col row mb-1 px-3 align-items-center">
+													<div class="date ml-4 f-12">
+														<span class="mr-1">2020年08月15日</span> <span>15:35</span>
 													</div>
-													<div class="tt-rt-col row mb-1 px-3 align-items-center">
-														<div class="date ml-4 f-12">
-															<span class="mr-1">2020年08月15日</span> <span>15:35</span>
-														</div>
-														<div class="order-no ml-4">
-															<span class="f-12">発注ID:PO0453-00000010643</span>
-														</div>
-														<div class="total ml-4">
-															<span class="t-label">合計:</span><span class="t-price">¥12,582</span>
-														</div>
+													<div class="order-no ml-4">
+														<span class="f-12">発注ID:PO0453-00000010643</span>
+													</div>
+													<div class="total ml-4">
+														<span class="t-label">合計:</span><span class="t-price">¥12,582</span>
 													</div>
 												</div>
 											</div>
+										</div>
+										<div class="table-responsive-lg">
 											<table class="table purchase-order-history-table">
 												<thead>
 													<tr>

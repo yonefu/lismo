@@ -30,6 +30,27 @@ select,
 textarea {
   font-family: "Noto Sans JP", "Lato", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif !important; }
 
+/* custom scrollbar  */
+::-webkit-scrollbar {
+  width: 6px !important; }
+
+::-webkit-scrollbar:horizontal {
+  height: 6px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  height: 6px; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 4px !important;
+  background: #808080 !important;
+  height: 6px; }
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #808080 !important;
+  height: 6px; }
+
 a,
 button {
   cursor: pointer; }
@@ -350,7 +371,8 @@ p, span {
   padding: 0;
   border-radius: 5px;
   -webkit-transition: all ease 0.5s;
-  transition: all ease 0.5s; }
+  transition: all ease 0.5s;
+  background: transparent; }
   .btn-sidebar i {
     font-size: 28px; }
   .btn-sidebar span {
@@ -677,6 +699,9 @@ table {
 #accordion .card-header h5 .btn {
   font-size: 14px; }
 
+#accordion button[data-toggle="collapse"] {
+  background: transparent; }
+
 div.checkbox.switcher label,
 div.radio.switcher label {
   padding: 0; }
@@ -924,13 +949,13 @@ input.box-80 {
   width: 80px; }
 
 .purchase-selected-modal .column-5 {
-  width: 120px; }
+  width: 60px; }
 
 .purchase-selected-modal .column-6 {
   width: 120px; }
 
 .purchase-selected-modal .column-7 {
-  width: 50px; }
+  width: 70px; }
 
 .purchase-selected-modal-1 .column-1 {
   width: 120px; }
@@ -1800,7 +1825,8 @@ table.setting-table .column-7 {
   table {
     table-layout: fixed; }
   .table-wrapper .table-responsive-lg {
-    overflow-x: auto; }
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; }
   .btn-sidebar {
     display: block; }
   .offcanvas-active {
@@ -2105,7 +2131,19 @@ table.setting-table .column-7 {
     position: static;
     padding-top: 15px;
     float: right;
-    padding-right: 15px; } }
+    padding-right: 15px; }
+  .supplier-warehouse-option {
+    top: 55%;
+    -webkit-transform: translate(-50%, -45%);
+            transform: translate(-50%, -45%); }
+  .pagination a.previous {
+    margin-right: 5px; }
+  .pagination a.next {
+    margin-left: 5px; }
+  .pagination a.previous, .pagination a.next {
+    min-height: 40px;
+    min-width: 60px;
+    line-height: 20px; } }
 
 /* Extra small devices (portrait phones, less than 320px)*/
 @media (max-width: 360.98px) {

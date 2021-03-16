@@ -37,6 +37,9 @@
 							<li class="nav-item">
 								<a class="nav-link li-order-history" href="purchase_order_history.php">発注履歴</a>
 							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="purchase_modal.php">Purchase Modals</a>
+							</li>
 						</ul>
 						<!--nav top-nav-->
 
