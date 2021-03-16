@@ -75,25 +75,25 @@
 					<div class="table-wrapper purchase-table-wrapper">
 						<div class="card mb-3">
 							<div class="card-body">
-								<div class="table-responsive-lg">
-									<div class="table-title">
-										<div class="d-flex justify-content-between align-items-center py-2 px-4">
-											<div class="tt-lt-col mb-1">
-												<span>横浜本社倉庫への仕⼊れ </span>
+								<div class="table-title">
+									<div class="d-flex flex-wrap justify-content-between align-items-center py-2 px-4">
+										<div class="tt-lt-col mb-1">
+											<span>横浜本社倉庫への仕⼊れ </span>
+										</div>
+										<div class="tt-rt-col row mb-1 align-items-center">
+											<div class="total mr-0">
+												<span class="t-label">合計:</span><span class="t-price">¥206,582</span>
 											</div>
-											<div class="tt-rt-col row mb-1 align-items-center">
-												<div class="total mr-0">
-													<span class="t-label">合計:</span><span class="t-price">¥206,582</span>
-												</div>
-												<a href="#" class="btn btn-200 btn-dark ml-4 my-1">
-													<span>仕入れる商品を追加する</span>
-												</a>
-												<a href="purchase_selected_multiple.php" class="btn btn-200 btn-golden ml-2 my-1">
-													<span>以下の商品を全て発注する</span>
-												</a>
-											</div>
+											<a href="#" class="btn btn-200 btn-dark ml-4 my-1">
+												<span>仕入れる商品を追加する</span>
+											</a>
+											<a href="purchase_selected_multiple.php" class="btn btn-200 btn-golden ml-2 my-1">
+												<span>以下の商品を全て発注する</span>
+											</a>
 										</div>
 									</div>
+								</div>
+								<div class="table-responsive-lg">
 									<table class="table purchase-selected-table">
 										<thead>
 											<tr>
@@ -194,25 +194,25 @@
 						<!--card-->
 						<div class="card">
 							<div class="card-body">
-								<div class="table-responsive-lg">
-									<div class="table-title">
-										<div class="d-flex flex-wrap justify-content-between align-items-center py-2 pl-4 pr-3">
-											<div class="tt-lt-col mb-1">
-												<span>AmazonFBAへの仕入れ </span>
+								<div class="table-title">
+									<div class="d-flex flex-wrap justify-content-between align-items-center py-2 pl-4 pr-3">
+										<div class="tt-lt-col mb-1">
+											<span>AmazonFBAへの仕入れ </span>
+										</div>
+										<div class="tt-rt-col row mb-1 align-items-center">
+											<div class="total mr-0">
+												<span class="t-label">合計:</span><span class="t-price">¥54,582</span>
 											</div>
-											<div class="tt-rt-col row mb-1 align-items-center">
-												<div class="total mr-0">
-													<span class="t-label">合計:</span><span class="t-price">¥54,582</span>
-												</div>
-												<a href="#" class="btn btn-200 btn-dark ml-4 my-1" data-toggle="modal" data-target="#purchaseSelectedModal">
-													<span>仕入れる商品を追加する</span>
-												</a>
-												<a href="purchase_selected_multiple.php" class="btn btn-200 btn-golden ml-2 my-1">
-													<span>以下の商品を全て発注する</span>
-												</a>
-											</div>
+											<a href="#" class="btn btn-200 btn-dark ml-4 my-1" data-toggle="modal" data-target="#purchaseSelectedModal">
+												<span>仕入れる商品を追加する</span>
+											</a>
+											<a href="purchase_selected_multiple.php" class="btn btn-200 btn-golden ml-2 my-1">
+												<span>以下の商品を全て発注する</span>
+											</a>
 										</div>
 									</div>
+								</div>
+								<div class="table-responsive-lg">
 									<table class="table purchase-selected-table">
 										<thead>
 											<tr>

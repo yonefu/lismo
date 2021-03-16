@@ -85,7 +85,7 @@
 								<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
 									<div class="card-body">
 										<div class="table-title">
-											<div class="d-flex justify-content-between align-items-center py-2 px-4">
+											<div class="d-flex flex-wrap justify-content-between align-items-center py-2 px-4">
 												<div class="tt-lt-col mb-1">
 													<span>横浜本社倉庫への仕⼊れ </span>
 												</div>
@@ -175,7 +175,7 @@
 
 									<div class="card-body">
 										<div class="table-title">
-											<div class="d-flex justify-content-between align-items-center py-2 px-4">
+											<div class="d-flex flex-wrap justify-content-between align-items-center py-2 px-4">
 												<div class="tt-lt-col mb-1">
 													<span>横浜本社倉庫への仕⼊れ </span>
 												</div>
@@ -252,7 +252,7 @@
 								<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
 									<div class="card-body">
 										<div class="table-title">
-											<div class="d-flex justify-content-between align-items-center py-2 px-4">
+											<div class="d-flex flex-wrap justify-content-between align-items-center py-2 px-4">
 												<div class="tt-lt-col mb-1">
 													<span>Amazonへの仕入れ </span>
 												</div>
@@ -354,7 +354,7 @@
 								<div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
 									<div class="card-body">
 										<div class="table-title">
-											<div class="d-flex justify-content-between align-items-center py-2 px-4">
+											<div class="d-flex flex-wrap justify-content-between align-items-center py-2 px-4">
 												<div class="tt-lt-col mb-1">
 													<span>Amazonへの仕入れ </span>
 												</div>
