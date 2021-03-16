@@ -456,7 +456,7 @@ p, span{
 
 .btn-sidebar {
 	display: none;
-	position: fixed;
+	position: absolute;
 	right: 15px;
 	top: 18px;
 	z-index: 999;
@@ -1019,5 +1019,12 @@ div.radio.switcher {
 		&.next {
 			margin-left: 20px;
 		}
+	}
+}
+
+.chartWrapper{
+	width: 100%;
+	canvas{
+		width: 100%;
 	}
 }

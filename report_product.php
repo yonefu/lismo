@@ -722,7 +722,7 @@
 								<div class="col-lg-6 mb-2">
 									<div class="data-table-group">
 										<div class="table-responsive-lg">
-											<table class="table">
+											<table class="table table-4-column">
 												<thead>
 													<tr class="blank-tr">
 														<th class="column-1"></th>
@@ -857,10 +857,13 @@
 
 <?php include('inc/footer.php'); ?>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.min.js" integrity="sha512-SuxO9djzjML6b9w9/I07IWnLnQhgyYVSpHZx0JV97kGBfTIsUYlWflyuW4ypnvhBrslz1yJ3R+S14fdCWmSmSA==" crossorigin="anonymous"></script>
-<script src="dist/js/utils.js"></script>
+<!--for slider-->
+<script src="dist/js/slick.min.js"></script>
 
+<!--for chart-->
+<script src="dist/js/Chart.min.js"></script>
+<script src="dist/js/Chart.bundle.min.js"></script>
+<script src="dist/js/utils.js"></script>
 
 <script>
 	// doughnut chart

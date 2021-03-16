@@ -169,7 +169,7 @@
 					<section class="mb-4 px-2">
 						<p class="report-date f-18 mb-2">今⽉112⽉の速報</p>
 						<div class="row">
-							<div class="col-sm-6 col-lg-4 px-1 mb-2">
+							<div class="col-lg-4 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
 										<div class="date f-14"><span>12⽉の売上合計</span></div>
@@ -195,7 +195,7 @@
 							</div>
 							<!--col-md-6 col-lg-3-->
 
-							<div class="col-sm-6 col-lg-4 px-1 mb-2">
+							<div class="col-lg-4 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
 										<div class="date f-14"><span>12⽉の注⽂数合計</span></div>
@@ -221,7 +221,7 @@
 							</div>
 							<!--col-md-6 col-lg-3-->
 
-							<div class="col-sm-6 col-lg-4 px-1 mb-2">
+							<div class="col-lg-4 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
 										<div class="date f-14"><span>12⽉の売上着地予想</span></div>
@@ -432,7 +432,7 @@
 								<div class="col-lg-6 mb-2">
 									<div class="data-table-group">
 										<div class="table-responsive-lg">
-											<table class="table">
+											<table class="table table-4-column">
 												<thead>
 													<tr class="blank-tr">
 														<th class="column-1"></th>
@@ -559,7 +559,7 @@
 
 					<section class="mb-4">
 						<p class="report-date f-18 mb-2">現在の在庫状況</p>
-						<div class="product-analysis bg-white br-25 p-3">
+						<div class="current-stock-status bg-white br-25 p-3">
 							<div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
 								<div class="f-15">在庫の保管期間</div>
 								<div><span class="btn btn-sm btn-navy mr-2">B.在庫を管理</span><small class="text-muted f-12">詳細を⾒る</small></div>
@@ -569,7 +569,7 @@
 								<div class="col-lg-6 mb-2">
 									<div class="data-table-group">
 										<div class="table-responsive-lg">
-											<table class="table">
+											<table class="table table-4-column">
 												<thead>
 													<tr class="blank-tr">
 														<th class="column-1"></th>
@@ -755,10 +755,13 @@
 
 <?php include('inc/footer.php'); ?>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.min.js" integrity="sha512-SuxO9djzjML6b9w9/I07IWnLnQhgyYVSpHZx0JV97kGBfTIsUYlWflyuW4ypnvhBrslz1yJ3R+S14fdCWmSmSA==" crossorigin="anonymous"></script>
-<script src="dist/js/utils.js"></script>
+<!--for slider-->
+<script src="dist/js/slick.min.js"></script>
 
+<!--for chart-->
+<script src="dist/js/Chart.min.js"></script>
+<script src="dist/js/Chart.bundle.min.js"></script>
+<script src="dist/js/utils.js"></script>
 
 <script>
 

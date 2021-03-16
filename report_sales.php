@@ -121,7 +121,7 @@
 
 					<section class="mb-4">
 						<!-- <p class="report-date f-18 mb-2">現在の在庫状況</p> -->
-						<div class="product-analysis bg-white br-25 p-3">
+						<div class="store-sales bg-white br-25 p-3">
 							<div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
 								<div class="f-15">2020年12⽉のストア売上⽐</div>
 								<div class="see-detail-box text-right">
@@ -173,7 +173,7 @@
 								<div class="col-lg-6 mb-2">
 									<div class="data-table-group">
 										<div class="table-responsive-lg">
-											<table class="table">
+											<table class="table table-4-column">
 												<thead>
 													<tr class="blank-tr">
 														<th class="column-1"></th>
@@ -410,7 +410,7 @@
 									<div class="data-bottom d-flex align-items-center flex-column justify-content-between">
 										<div class="data-table-group">
 											<div class="table-responsive-lg">
-												<table class="table">
+												<table class="table table-3-column">
 													<thead>
 														<tr class="blank-tr">
 															<th class="column-1"></th>
@@ -535,7 +535,7 @@
 									<div class="data-bottom d-flex align-items-center flex-column justify-content-between">
 										<div class="data-table-group">
 											<div class="table-responsive-lg">
-												<table class="table">
+												<table class="table table-3-column">
 													<thead>
 														<tr class="blank-tr">
 															<th class="column-1"></th>
@@ -703,12 +703,13 @@
 									<div class="data-bottom d-flex align-items-center flex-column justify-content-between">
 										<div class="data-table-group">
 											<div class="table-responsive-lg">
-												<table class="table">
+												<table class="table table-4-column">
 													<thead>
 														<tr class="blank-tr">
 															<th class="column-1"></th>
 															<th class="column-2"></th>
 															<th class="column-3"></th>
+															<th class="column-4"></th>
 														</tr>
 													</thead>
 													<tbody>
@@ -1067,10 +1068,13 @@
 
 <?php include('inc/footer.php'); ?>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.min.js" integrity="sha512-SuxO9djzjML6b9w9/I07IWnLnQhgyYVSpHZx0JV97kGBfTIsUYlWflyuW4ypnvhBrslz1yJ3R+S14fdCWmSmSA==" crossorigin="anonymous"></script>
-<script src="dist/js/utils.js"></script>
+<!--for slider-->
+<script src="dist/js/slick.min.js"></script>
 
+<!--for chart-->
+<script src="dist/js/Chart.min.js"></script>
+<script src="dist/js/Chart.bundle.min.js"></script>
+<script src="dist/js/utils.js"></script>
 
 <script>
 

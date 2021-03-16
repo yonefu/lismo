@@ -123,22 +123,19 @@ $(document).ready(function() {
             breakpoint: 991,
             settings: {
                 arrows: true,
-                centerMode: true,
-                slidesToShow: 4
+                slidesToShow: 3
             }
         }, {
-            breakpoint: 768,
+            breakpoint: 769,
             settings: {
                 arrows: true,
-                centerMode: true,
-                slidesToShow: 3
+                slidesToShow: 2
             }
         }, {
             breakpoint: 576,
             settings: {
-                arrows: false,
-                centerMode: true,
-                slidesToShow: 2
+                arrows: true,
+                slidesToShow: 1
             }
         }]
     });
