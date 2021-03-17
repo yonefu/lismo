@@ -60,6 +60,35 @@ textarea {
 	height: 6px;
 }
 
+.progress {
+  background-color: rgba(0,0,0,0.1);
+  height: 5rem;
+  border-radius: 5rem;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0 0 0.25rem rgba(255,255,255,0.8), 0 2.8rem 1rem -2rem rgba(0,0,0,0.15);
+}
+
+
+.progress-bar {
+	animation: fill 2s;
+}
+
+@keyframes fill {
+	0% {
+		width: 0;
+	}
+}
+
+// @keyframes loading-fill {
+//   0% {
+//     background-position: 0 0;
+//   }
+//   100% {
+//     background-position: 100% 100%;
+//   }
+// }
+
 a,
 button {
 	cursor: pointer;

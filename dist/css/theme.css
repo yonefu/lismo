@@ -51,6 +51,27 @@ textarea {
   background: #808080 !important;
   height: 6px; }
 
+.progress {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 5rem;
+  border-radius: 5rem;
+  overflow: hidden;
+  position: relative;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.8), 0 2.8rem 1rem -2rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.8), 0 2.8rem 1rem -2rem rgba(0, 0, 0, 0.15); }
+
+.progress-bar {
+  -webkit-animation: fill 2s;
+          animation: fill 2s; }
+
+@-webkit-keyframes fill {
+  0% {
+    width: 0; } }
+
+@keyframes fill {
+  0% {
+    width: 0; } }
+
 a,
 button {
   cursor: pointer; }

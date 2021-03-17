@@ -111,5 +111,4 @@ $(document).ready(function() {
         clearBtn: true,
         format: "dd/mm/yyyy"
     });
-
 });
