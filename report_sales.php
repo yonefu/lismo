@@ -66,7 +66,7 @@
 							<div class="col-lg-6 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
-										<div class="date f-14"><span>2020年12⽉の売上合計</span></div>
+										<div class="date f-15"><span>2020年12⽉の売上合計</span></div>
 										<div class="see-detail-box text-right">
 											<small class="text-muted f-12">詳細を⾒る</small>
 											<p class="mb-1"><span class="btn btn-sm btn-navy">G.売上の推移詳細</span></p>
@@ -92,7 +92,7 @@
 							<div class="col-lg-6 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
-										<div class="date f-14"><span>2020年12⽉の売上推移</span></div>
+										<div class="date f-15"><span>2020年12⽉の売上推移</span></div>
 										<div class="see-detail-box text-right">
 											<small class="text-muted f-12">詳細を⾒る</small>
 											<p class="mb-1"><span class="btn btn-sm btn-navy">G.売上の推移詳細</span></p>
@@ -302,7 +302,7 @@
 							<div class="col-lg-6 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
-										<div class="date f-14"><span>2020年12⽉の1注⽂の平均商品数</span></div>
+										<div class="date f-15"><span>2020年12⽉の1注⽂の平均商品数</span></div>
 										<div class="see-detail-box text-right">
 											<small class="text-muted f-12">詳細を⾒る</small>
 											<p class="mb-1"><span class="btn btn-sm btn-navy">G.売上の推移詳細</span></p>
@@ -328,7 +328,7 @@
 							<div class="col-lg-6 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
-										<div class="date f-14"><span>2020年12⽉の平均注⽂単価</span></div>
+										<div class="date f-15"><span>2020年12⽉の平均注⽂単価</span></div>
 										<div class="see-detail-box text-right">
 											<small class="text-muted f-12">詳細を⾒る</small>
 											<p class="mb-1"><span class="btn btn-sm btn-navy">G.売上の推移詳細</span></p>
@@ -361,7 +361,7 @@
 							<div class="col-lg-4 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
-										<div class="date f-14"><span>2020年12⽉のリピーター率</span></div>
+										<div class="date f-15"><span>2020年12⽉のリピーター率</span></div>
 										<div class="see-detail-box text-right">
 											<!-- <small class="text-muted f-12">詳細を⾒る</small>
 											<p class="mb-1"><span class="btn btn-sm btn-navy">G.売上の推移詳細</span></p> -->
@@ -517,7 +517,7 @@
 							<div class="col-lg-4 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
-										<div class="date f-14"><span>2020年12⽉の決済割合</span></div>
+										<div class="date f-15"><span>2020年12⽉の決済割合</span></div>
 										<div class="see-detail-box text-right">
 											<!-- <small class="text-muted f-12">詳細を⾒る</small>
 											<p class="mb-1"><span class="btn btn-sm btn-navy">G.売上の推移詳細</span></p> -->
@@ -642,7 +642,7 @@
 							<div class="col-lg-4 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
-										<div class="date f-14"><span>2020年12⽉のキャンセル</span></div>
+										<div class="date f-15"><span>2020年12⽉のキャンセル</span></div>
 										<div class="see-detail-box text-right">
 											<small class="text-muted f-12">詳細を⾒る</small>
 											<p class="mb-1"><span class="btn btn-sm btn-navy">C.キャンセル⼀覧</span></p>
@@ -685,7 +685,7 @@
 							<div class="col-lg-4 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
-										<div class="date f-14"><span>2020年12⽉のコスト⽐率</span></div>
+										<div class="date f-15"><span>2020年12⽉のコスト⽐率</span></div>
 										<div class="see-detail-box text-right">
 											<!-- <small class="text-muted f-12">詳細を⾒る</small>
 											<p class="mb-1"><span class="btn btn-sm btn-navy">G.売上の推移詳細</span></p> -->
@@ -799,7 +799,7 @@
 							<div class="col-lg-8 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
-										<div class="date f-14"><span>2020年12⽉のコスト内訳</span></div>
+										<div class="date f-15"><span>2020年12⽉のコスト内訳</span></div>
 										<div class="see-detail-box text-right">
 											<!-- <small class="text-muted f-12">詳細を⾒る</small>
 											<p class="mb-1"><span class="btn btn-sm btn-navy">G.売上の推移詳細</span></p> -->
@@ -1065,6 +1065,10 @@
 	<!--container-fluid-->
 </div>
 <!--outer-page-wrap-->
+
+<div class="chat-box">
+	<button type="button"><img src="dist/img/icons/icon-chat.png" alt="Chat Icon" /></button>
+</div>
 
 <?php include('inc/footer.php'); ?>
 

@@ -7,8 +7,8 @@
 		</div>
 		<!--div-->
 
-		<form class="mb-4">
-			<div class="form-group row">
+		<form class="mb-0">
+			<div class="form-group row br-bottom">
 				<div class="col-lg-6 d-flex px-0">
 					<label for="inputPassword" class="col-lg-3 col-form-label text-right pr-0">状態</label>
 					<div class="col-lg-9">
@@ -20,7 +20,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="form-group row">
+			<div class="form-group row br-bottom">
 				<div class="col-lg-6 d-flex px-0">
 					<label for="inputPassword" class="col-lg-3 col-form-label text-right pr-0">項目1</label>
 					<div class="col-lg-9">
@@ -42,7 +42,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="form-group row">
+			<div class="form-group row br-bottom mb-2">
 				<div class="col-lg-6 d-flex px-0">
 					<label for="inputPassword" class="col-lg-3 col-form-label text-right pr-0">項目2</label>
 					<div class="col-lg-9">

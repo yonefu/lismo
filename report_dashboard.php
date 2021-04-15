@@ -55,7 +55,7 @@
 							<div class="col-sm-6 col-lg-3 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
-										<div class="date f-14"><span>12/30⽇の売上合計</span></div>
+										<div class="date f-15"><span>12/30⽇の売上合計</span></div>
 										<div class="see-detail-box text-right">
 											<small class="text-muted f-12">詳細を⾒る</small>
 											<p class="mb-1"><span class="btn btn-sm btn-navy">A.受注した商品</span></p>
@@ -81,7 +81,7 @@
 							<div class="col-sm-6 col-lg-3 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
-										<div class="date f-14"><span>12⽉30⽇の注⽂数</span></div>
+										<div class="date f-15"><span>12⽉30⽇の注⽂数</span></div>
 										<div class="see-detail-box text-right">
 											<small class="text-muted f-12">詳細を⾒る</small>
 											<p class="mb-1"><span class="btn btn-sm btn-navy">A.受注した商品</span></p>
@@ -107,7 +107,7 @@
 							<div class="col-sm-6 col-lg-3 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
-										<div class="date f-14"><span>12⽉30⽇の平均注⽂単価</span></div>
+										<div class="date f-15"><span>12⽉30⽇の平均注⽂単価</span></div>
 										<div class="see-detail-box text-right">
 											<small class="text-muted f-12">詳細を⾒る</small>
 											<p class="mb-1"><span class="btn btn-sm btn-navy">A.受注した商品</span></p>
@@ -133,7 +133,7 @@
 							<div class="col-sm-6 col-lg-3 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
-										<div class="date f-14"><span>12⽉30⽇のストア割合</span></div>
+										<div class="date f-15"><span>12⽉30⽇のストア割合</span></div>
 										<div class="see-detail-box text-right">
 											<small class="text-muted f-12">詳細を⾒る</small>
 											<p class="mb-1"><span class="btn btn-sm btn-navy">A.受注した商品</span></p>
@@ -172,7 +172,7 @@
 							<div class="col-lg-4 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
-										<div class="date f-14"><span>12⽉の売上合計</span></div>
+										<div class="date f-15"><span>12⽉の売上合計</span></div>
 										<div class="see-detail-box text-right">
 											<small class="text-muted f-12">詳細を⾒る</small>
 											<p class="mb-1"><span class="btn btn-sm btn-navy">G.売上の推移詳細</span></p>
@@ -198,7 +198,7 @@
 							<div class="col-lg-4 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
-										<div class="date f-14"><span>12⽉の注⽂数合計</span></div>
+										<div class="date f-15"><span>12⽉の注⽂数合計</span></div>
 										<div class="see-detail-box text-right">
 											<small class="text-muted f-12">詳細を⾒る</small>
 											<p class="mb-1"><span class="btn btn-sm btn-navy">G.売上の推移詳細</span></p>
@@ -224,7 +224,7 @@
 							<div class="col-lg-4 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
-										<div class="date f-14"><span>12⽉の売上着地予想</span></div>
+										<div class="date f-15"><span>12⽉の売上着地予想</span></div>
 										<div class="see-detail-box text-right">
 											<!-- <small class="text-muted f-12">詳細を⾒る</small>
 											<p class="mb-1"><span class="btn btn-sm btn-navy">G.売上の推移詳細</span></p> -->
@@ -752,6 +752,10 @@
 	<!--container-fluid-->
 </div>
 <!--outer-page-wrap-->
+
+<div class="chat-box">
+	<button type="button"><img src="dist/img/icons/icon-chat.png" alt="Chat Icon" /></button>
+</div>
 
 <?php include('inc/footer.php'); ?>
 

@@ -327,6 +327,9 @@ p, span {
     height: 14px;
     vertical-align: middle;
     margin-top: 5px; }
+  .login-form .form-wrapper .custom-control-label::before, .login-form .form-wrapper .custom-control-label::after {
+    width: 14px;
+    height: 14px; }
 
 .outer-page-wrap {
   padding-top: 12px;
@@ -834,6 +837,25 @@ div.radio.switcher label {
   width: 100%; }
   .chartWrapper canvas {
     width: 100%; }
+
+.chat-box button {
+  position: fixed;
+  bottom: 9px;
+  z-index: 9999;
+  right: 15px;
+  border: 0; }
+  .chat-box button:focus {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    outline: none; }
+
+.report-page {
+  padding-bottom: 4em; }
+  .report-page .date {
+    color: #383e4b; }
+
+.report-dashboard .data-box .data-middle .d-flex.align-items-center.mb-4 .mr-4.mb-0 {
+  margin-top: -22px; }
 
 .position-relative.custom-control.custom-checkbox {
   display: inline-block;
@@ -1461,6 +1483,15 @@ input[type="checkbox"] {
   .product-information .col-lg-3 {
     padding-left: 5px;
     padding-right: 5px; }
+
+.product-information .product-img small, .product-top-information .product-img small {
+  position: absolute;
+  right: 15px;
+  top: 15px; }
+
+.form-group.row.br-bottom {
+  border-bottom: 1px solid #f8f8f8;
+  padding-bottom: 1em; }
 
 .right-button {
   position: absolute;

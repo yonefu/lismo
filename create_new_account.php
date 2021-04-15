@@ -33,9 +33,6 @@
 					<li class="mr-2">
 						<button type="button" class="btn"><i class="icon icon-google"></i><span>Google</span>で作成する</button>
 					</li>
-					<li>
-						<button type="button" class="btn"><i class="icon icon-facebook"></i><span>Facebook</span>で作成する</button>
-					</li>
 				</ul>
 			</div>
 			<div class="form-group">
@@ -47,8 +44,11 @@
 				<input type="password" class="form-control" placeholder="●●●●●●●●●●" required="">
 			</div>
 			<div class="form-group d-flex justify-content-between align-items-center mb-0">
-				<div class="form-check">
-					<input type="checkbox" class="form-check-input" id="checkbox">
+				<div class="form-check pl-0">
+					<div class="position-relative custom-control custom-checkbox pl-3">
+						<input type="checkbox" class="form-check-input custom-control-input ml-0" id="checkbox">
+						<label class="custom-control-label" for="checkbox"></label>
+					</div>
 					<label class="form-check-label" for="checkbox">利⽤規約・個⼈情報等保護⽅針に同意する</label>
 				</div>
 				<button type="submit" class="btn btn-login">作成する</button>

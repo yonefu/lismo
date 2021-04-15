@@ -56,6 +56,21 @@ input[type="checkbox"]{
 	}
 }
 
+.product-information, .product-top-information{
+	.product-img{
+		small{
+			position: absolute;
+			right: 15px;
+			top: 15px;
+		}
+	}
+}
+
+.form-group.row.br-bottom {
+    border-bottom: 1px solid #f8f8f8;
+    padding-bottom: 1em;
+}
+
 .right-button{
 	position: absolute;
 	top: 0;

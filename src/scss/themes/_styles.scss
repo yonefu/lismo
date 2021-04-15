@@ -431,6 +431,10 @@ p, span{
 			vertical-align: middle;
 			margin-top: 5px;
 		}
+		.custom-control-label::before, .custom-control-label::after {
+			width: 14px;
+			height: 14px;
+		}
 	}
 }
 
@@ -1100,6 +1104,37 @@ div.radio.switcher {
 	width: 100%;
 	canvas{
 		width: 100%;
+	}
+}
+
+.chat-box{
+	button{
+		position: fixed;
+		bottom: 9px;
+		z-index: 9999;
+		right: 15px;
+		border: 0;
+		&:focus{
+			box-shadow: none;
+			outline: none;
+		}
+	}
+}
+
+.report-page{
+	padding-bottom: 4em;
+	.date{
+		color: #383e4b;
+	}
+}
+
+.report-dashboard{
+	.data-box{
+		.data-middle{
+			.d-flex.align-items-center.mb-4 .mr-4.mb-0{
+				margin-top: -22px;
+			}
+		}
 	}
 }
 

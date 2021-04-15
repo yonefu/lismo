@@ -44,11 +44,11 @@
 											<label class="col-lg-3 col-form-label f-12 pr-0">外部サービス</label>
 											<div class="col-lg-9 d-flex">
 												<a href="#" class="mr-1">
-													<img class="img-fluid" src="dist/img/icon-google.png" alt="Google Icon" />
+													<img class="img-fluid" src="dist/img/icon-google.png" alt="Google Icon" width="175px" />
 												</a>
-												<a href="#">
+												<!-- <a href="#">
 													<img class="img-fluid" src="dist/img/icon-facebook.png" alt="Facebook Icon" />
-												</a>
+												</a> -->
 											</div>
 										</div>
 										<div class="form-group row">

@@ -8,7 +8,7 @@
 		<!--div-->
 
 		<div class="product-image">
-			<div class="text-center mb-4"><img src="dist/img/mob-b-1.png" align="" /></div>
+			<div class="text-center mb-4"><img src="dist/img/mob-b-1.png" alt="" /></div>
 		</div>
 
 		<form class="mb-4">

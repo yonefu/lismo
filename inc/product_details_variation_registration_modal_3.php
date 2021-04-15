@@ -26,7 +26,8 @@
 				<div class="row">
 					<div class="col-lg-2 border-right">
 						<div class="product-img text-center mb-2">
-							<img src="dist/img/mob-b-1.png" align="" />
+							<img src="dist/img/mob-b-1.png" alt="" />
+							<small class="text-muted f-12">握集する</small>
 						</div>
 					</div>
 					<div class="col-lg-6 pl-5 border-right">
@@ -335,8 +336,8 @@
 										<div class="d-flex">
 											<div class="mr-2">
 												<div class="checkbox switcher">
-													<label for="switchIcon2">
-														<input type="checkbox" id="switchIcon2" value="">
+													<label for="switchIcon20">
+														<input type="checkbox" id="switchIcon20" value="">
 														<span><small></small></span>
 													</label>
 											    </div>
@@ -352,8 +353,8 @@
 										<div class="d-flex">
 											<div class="mr-2">
 												<div class="checkbox switcher">
-													<label for="switchIcon2">
-														<input type="checkbox" id="switchIcon2" value="" checked>
+													<label for="switchIcon21">
+														<input type="checkbox" id="switchIcon21" value="" checked>
 														<span><small></small></span>
 													</label>
 											    </div>
@@ -384,8 +385,8 @@
 										<div class="d-flex">
 											<div class="mr-2">
 												<div class="checkbox switcher">
-													<label for="switchIcon2">
-														<input type="checkbox" id="switchIcon2" value="" checked>
+													<label for="switchIcon22">
+														<input type="checkbox" id="switchIcon22" value="" checked>
 														<span><small></small></span>
 													</label>
 											    </div>
@@ -401,8 +402,8 @@
 										<div class="d-flex">
 											<div class="mr-2">
 												<div class="checkbox switcher">
-													<label for="switchIcon2">
-														<input type="checkbox" id="switchIcon2" value="">
+													<label for="switchIcon23">
+														<input type="checkbox" id="switchIcon23" value="">
 														<span><small></small></span>
 													</label>
 											    </div>

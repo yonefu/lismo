@@ -66,7 +66,7 @@
 							<div class="col-lg-12 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
-										<div class="date f-14"><span>直近30⽇の在庫推移と売上</span></div>
+										<div class="date f-15"><span>直近30⽇の在庫推移と売上</span></div>
 										<div class="see-detail-box text-right">
 											<div class="d-flex float-left mr-5 label-status">
 													<div class="mr-3 f-12">
@@ -104,7 +104,7 @@
 							<div class="col-lg-4 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
-										<div class="date f-14"><span>直近30⽇の返品商品数</span></div>
+										<div class="date f-15"><span>直近30⽇の返品商品数</span></div>
 										<div class="see-detail-box text-right">
 											<small class="text-muted f-12">詳細を⾒る</small>
 											<p class="mb-1"><span class="btn btn-sm btn-navy">E.⼊出庫した商品</span></p>
@@ -130,7 +130,7 @@
 							<div class="col-lg-4 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
-										<div class="date f-14"><span>直近30⽇の返品率</span></div>
+										<div class="date f-15"><span>直近30⽇の返品率</span></div>
 										<div class="see-detail-box text-right">
 											<!-- <small class="text-muted f-12">詳細を⾒る</small>
 											<p class="mb-1"><span class="btn btn-sm btn-navy">G.売上の推移詳細</span></p> -->
@@ -156,7 +156,7 @@
 							<div class="col-lg-4 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
-										<div class="date f-14"><span>直近30⽇の返品⾦額合計</span></div>
+										<div class="date f-15"><span>直近30⽇の返品⾦額合計</span></div>
 										<div class="see-detail-box text-right">
 											<small class="text-muted f-12">詳細を⾒る</small>
 											<p class="mb-1"><span class="btn btn-sm btn-navy">E.⼊出庫した商品</span></p>
@@ -189,7 +189,7 @@
 							<div class="col-lg-6 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
-										<div class="date f-14"><span>在庫の保管期間</span></div>
+										<div class="date f-15"><span>在庫の保管期間</span></div>
 										<div class="see-detail-box text-right">
 											<small class="text-muted f-12">詳細を⾒る</small>
 											<p class="mb-1"><span class="btn btn-sm btn-navy">B.在庫を管理</span></p>
@@ -386,7 +386,7 @@
 							<div class="col-lg-6 px-1 mb-2">
 								<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 									<div class="data-top d-flex align-items-start justify-content-between mb-3">
-										<div class="date f-14"><span>拠点ごとの在庫割合</span></div>
+										<div class="date f-15"><span>拠点ごとの在庫割合</span></div>
 										<div class="see-detail-box text-right">
 											<small class="text-muted f-12">詳細を⾒る</small>
 											<p class="mb-1"><span class="btn btn-sm btn-navy">B.在庫を管理</span></p>
@@ -511,6 +511,10 @@
 	<!--container-fluid-->
 </div>
 <!--outer-page-wrap-->
+
+<div class="chat-box">
+	<button type="button"><img src="dist/img/icons/icon-chat.png" alt="Chat Icon" /></button>
+</div>
 
 <?php include('inc/footer.php'); ?>
 

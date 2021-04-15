@@ -23,12 +23,13 @@
 
 		<div class="product-top-information mb-5 bg-white p-3 br-10">
 			<div class="row">
-				<div class="col-lg-3 px-5 border-right">
+				<div class="col-lg-2 border-right">
 					<div class="product-img text-center mb-2">
-						<img src="dist/img/mob-b-1.png" align="" />
+						<img src="dist/img/mob-b-1.png" alt="" />
+						<small class="text-muted f-12">握集する</small>
 					</div>
 				</div>
-				<div class="col-lg-9 px-5">
+				<div class="col-lg-6 pl-5">
 					<p class="product-name">
 						<span class="f-15 mr-3">Apple</span>
 						<small class="text-muted f-12">握集する</small>
@@ -113,7 +114,8 @@
 							<div class="row">
 								<div class="col-lg-2 border-right">
 									<div class="product-img text-center mb-2">
-										<img src="dist/img/mob-b-3.png" align="" />
+										<img src="dist/img/mob-b-3.png" alt="" />
+										<small class="text-muted f-12">握集する</small>
 									</div>
 								</div>
 								<div class="col-lg-6 pl-5 border-right">
@@ -331,8 +333,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon2">
-																	<input type="checkbox" id="switchIcon2" value="">
+																<label for="switchIcon30">
+																	<input type="checkbox" id="switchIcon30" value="">
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -348,8 +350,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon2">
-																	<input type="checkbox" id="switchIcon2" value="" checked>
+																<label for="switchIcon31">
+																	<input type="checkbox" id="switchIcon31" value="" checked>
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -380,8 +382,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon2">
-																	<input type="checkbox" id="switchIcon2" value="" checked>
+																<label for="switchIcon3">
+																	<input type="checkbox" id="switchIcon32" value="" checked>
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -397,8 +399,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon2">
-																	<input type="checkbox" id="switchIcon2" value="">
+																<label for="switchIcon33">
+																	<input type="checkbox" id="switchIcon33" value="">
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -492,7 +494,8 @@
 							<div class="row">
 								<div class="col-lg-2 border-right">
 									<div class="product-img text-center mb-2">
-										<img src="dist/img/mob-b-3.png" align="" />
+										<img src="dist/img/mob-b-3.png" alt="" />
+										<small class="text-muted f-12">握集する</small>
 									</div>
 								</div>
 								<div class="col-lg-6 pl-5 border-right">
@@ -656,8 +659,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon2">
-																	<input type="checkbox" id="switchIcon2" value="">
+																<label for="switchIcon34">
+																	<input type="checkbox" id="switchIcon34" value="">
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -673,8 +676,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon2">
-																	<input type="checkbox" id="switchIcon2" value="" checked>
+																<label for="switchIcon35">
+																	<input type="checkbox" id="switchIcon35" value="" checked>
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -705,8 +708,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon2">
-																	<input type="checkbox" id="switchIcon2" value="" checked>
+																<label for="switchIcon36">
+																	<input type="checkbox" id="switchIcon36" value="" checked>
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -722,8 +725,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon2">
-																	<input type="checkbox" id="switchIcon2" value="">
+																<label for="switchIcon37">
+																	<input type="checkbox" id="switchIcon37" value="">
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -817,7 +820,8 @@
 							<div class="row">
 								<div class="col-lg-2 border-right">
 									<div class="product-img text-center mb-2">
-										<img src="dist/img/mob-b-3.png" align="" />
+										<img src="dist/img/mob-b-3.png" alt="" />
+										<small class="text-muted f-12">握集する</small>
 									</div>
 								</div>
 								<div class="col-lg-6 pl-5 border-right">
@@ -981,8 +985,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon2">
-																	<input type="checkbox" id="switchIcon2" value="">
+																<label for="switchIcon38">
+																	<input type="checkbox" id="switchIcon38" value="">
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -998,8 +1002,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon2">
-																	<input type="checkbox" id="switchIcon2" value="" checked>
+																<label for="switchIcon40">
+																	<input type="checkbox" id="switchIcon40" value="" checked>
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -1030,8 +1034,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon2">
-																	<input type="checkbox" id="switchIcon2" value="" checked>
+																<label for="switchIcon41">
+																	<input type="checkbox" id="switchIcon41" value="" checked>
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -1047,8 +1051,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon2">
-																	<input type="checkbox" id="switchIcon2" value="">
+																<label for="switchIcon42">
+																	<input type="checkbox" id="switchIcon42" value="">
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -1142,7 +1146,8 @@
 							<div class="row">
 								<div class="col-lg-2 border-right">
 									<div class="product-img text-center mb-2">
-										<img src="dist/img/mob-b-3.png" align="" />
+										<img src="dist/img/mob-b-3.png" alt="" />
+										<small class="text-muted f-12">握集する</small>
 									</div>
 								</div>
 								<div class="col-lg-6 pl-5 border-right">
@@ -1306,8 +1311,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon2">
-																	<input type="checkbox" id="switchIcon2" value="">
+																<label for="switchIcon43">
+																	<input type="checkbox" id="switchIcon43" value="">
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -1323,8 +1328,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon2">
-																	<input type="checkbox" id="switchIcon2" value="" checked>
+																<label for="switchIcon44">
+																	<input type="checkbox" id="switchIcon44" value="" checked>
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -1355,8 +1360,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon2">
-																	<input type="checkbox" id="switchIcon2" value="" checked>
+																<label for="switchIcon45">
+																	<input type="checkbox" id="switchIcon45" value="" checked>
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -1372,8 +1377,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon2">
-																	<input type="checkbox" id="switchIcon2" value="">
+																<label for="switchIcon46">
+																	<input type="checkbox" id="switchIcon46" value="">
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -1467,7 +1472,8 @@
 							<div class="row">
 								<div class="col-lg-2 border-right">
 									<div class="product-img text-center mb-2">
-										<img src="dist/img/mob-b-3.png" align="" />
+										<img src="dist/img/mob-b-3.png" alt="" />
+										<small class="text-muted f-12">握集する</small>
 									</div>
 								</div>
 								<div class="col-lg-6 pl-5 border-right">
@@ -1784,8 +1790,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon2">
-																	<input type="checkbox" id="switchIcon2" value="">
+																<label for="switchIcon47">
+																	<input type="checkbox" id="switchIcon47" value="">
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -1801,8 +1807,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon2">
-																	<input type="checkbox" id="switchIcon2" value="" checked>
+																<label for="switchIcon48">
+																	<input type="checkbox" id="switchIcon48" value="" checked>
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -1833,8 +1839,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon2">
-																	<input type="checkbox" id="switchIcon2" value="" checked>
+																<label for="switchIcon49">
+																	<input type="checkbox" id="switchIcon49" value="" checked>
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -1850,8 +1856,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon2">
-																	<input type="checkbox" id="switchIcon2" value="">
+																<label for="switchIcon50">
+																	<input type="checkbox" id="switchIcon50" value="">
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -1885,7 +1891,8 @@
 							<div class="row">
 								<div class="col-lg-2 border-right">
 									<div class="product-img text-center mb-2">
-										<img src="dist/img/mob-b-2.png" align="" />
+										<img src="dist/img/mob-b-2.png" alt="" />
+										<small class="text-muted f-12">握集する</small>
 									</div>
 								</div>
 								<div class="col-lg-6 pl-5 border-right">
@@ -2106,8 +2113,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon5">
-																	<input type="checkbox" id="switchIcon5" value="">
+																<label for="switchIcon51">
+																	<input type="checkbox" id="switchIcon51" value="">
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -2123,8 +2130,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon6">
-																	<input type="checkbox" id="switchIcon6" value="" checked>
+																<label for="switchIcon52">
+																	<input type="checkbox" id="switchIcon52" value="" checked>
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -2155,8 +2162,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon7">
-																	<input type="checkbox" id="switchIcon7" value="" checked>
+																<label for="switchIcon53">
+																	<input type="checkbox" id="switchIcon53" value="" checked>
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -2172,8 +2179,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon8">
-																	<input type="checkbox" id="switchIcon8" value="">
+																<label for="switchIcon54">
+																	<input type="checkbox" id="switchIcon54" value="">
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -2206,8 +2213,9 @@
 						<div class="product-information mb-5">
 							<div class="row">
 								<div class="col-lg-2 border-right">
-									<div class="product-img text-center mb-2">
-										<img src="dist/img/mob-b-4.png" align="" />
+									<div class="product-img text-left mb-2">
+										<img src="dist/img/mob-b-4.png" alt="" />
+										<small class="text-muted f-12">握集する</small>
 									</div>
 								</div>
 								<div class="col-lg-6 pl-5 border-right">
@@ -2470,8 +2478,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon5">
-																	<input type="checkbox" id="switchIcon5" value="">
+																<label for="switchIcon55">
+																	<input type="checkbox" id="switchIcon55" value="">
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -2487,8 +2495,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon6">
-																	<input type="checkbox" id="switchIcon6" value="" checked>
+																<label for="switchIcon56">
+																	<input type="checkbox" id="switchIcon56" value="" checked>
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -2519,8 +2527,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon7">
-																	<input type="checkbox" id="switchIcon7" value="" checked>
+																<label for="switchIcon57">
+																	<input type="checkbox" id="switchIcon57" value="" checked>
 																	<span><small></small></span>
 																</label>
 															</div>
@@ -2536,8 +2544,8 @@
 													<div class="d-flex">
 														<div class="mr-2">
 															<div class="checkbox switcher">
-																<label for="switchIcon8">
-																	<input type="checkbox" id="switchIcon8" value="">
+																<label for="switchIcon58">
+																	<input type="checkbox" id="switchIcon58" value="">
 																	<span><small></small></span>
 																</label>
 															</div>
