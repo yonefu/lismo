@@ -30,7 +30,10 @@
 							<tbody>
 								<tr>
 									<td class="text-center">
-										<input type="checkbox" class="form-check-input ml-0" id="selectedId">
+										<div class="position-relative custom-control custom-checkbox">
+											<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId10">
+											<label class="custom-control-label" for="selectedId10"></label>
+										</div>
 									</td>
 									<td class="text-center">
 										<p>横浜本社</p>
@@ -75,7 +78,10 @@
 							<tbody>
 								<tr>
 									<td class="text-center">
-										<input type="checkbox" class="form-check-input ml-0" id="selectedId">
+										<div class="position-relative custom-control custom-checkbox">
+											<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId11">
+											<label class="custom-control-label" for="selectedId11"></label>
+										</div>
 									</td>
 									<td class="text-center">
 										<p>amazon</p>

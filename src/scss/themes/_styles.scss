@@ -976,8 +976,8 @@ div.radio.switcher {
 			&+span {
 				position: relative;
 				display: inline-block;
-				width: 50px;
-				height: 25px;
+				width: 36px;
+				height: 18px;
 				background: $gray;
 				border: 1px solid $lightGray;
 				border-radius: 50px;
@@ -992,15 +992,22 @@ div.radio.switcher {
 					border-radius: 50%;
 					transition: all 0.3s ease-in-out;
 					left: 0;
-					background: $red;
+					background: $red url('../img/icons/icon-toggle-uncheck.png');
 					border-color: $red;
+					top: -5px;
+					width: 24px;
+					height: 24px;
+					cursor: pointer;
 				}
 			}
 
 			&:checked+span small {
-				background: $green;
+				background: $green url('../img/icons/icon-toggle-check.png');
 				border-color: $green;
 				left: 50%;
+				top: -5px;
+				width: 24px;
+				height: 24px;
 			}
 		}
 	}
@@ -1036,7 +1043,7 @@ div.radio.switcher {
 	padding: 15px;
 	border-radius: 10px;
 	width: 150px;
-	left: 50px;
+	left: 30px;
 	top: 0;
 	z-index: 9;
 }
@@ -1094,4 +1101,23 @@ div.radio.switcher {
 	canvas{
 		width: 100%;
 	}
+}
+
+.position-relative.custom-control.custom-checkbox{
+	display: inline-block;
+	padding-left: 0;
+}
+.custom-control-label::before, .custom-control-label::after{
+	width: 20px;
+	height: 20px;
+}
+.custom-control-label::before{
+	background-color: #ffffff;
+	border: 1px solid #767676;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::after{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E");
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{
+	background-color: black;
 }

@@ -63,6 +63,9 @@
     .form-box{
     	font-size: 12px;
     	clear: both;
+    	.custom-control-label::before, .custom-control-label::after{
+    		top: 0;
+    	}
     }
     .account-delete{
     	position: absolute;
@@ -72,7 +75,12 @@
     &.w-100{
     	max-width: 100%;
     }
+	.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+	    background-color: #000000;
+	    cursor: pointer;
+	}
 }
+
 
 .side-setting-menu-toggler, .side-setting-menu-close{
 	display: none;

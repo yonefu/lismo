@@ -66,7 +66,10 @@
 										<thead>
 											<tr>
 												<th class="col-checkbox">
-													<input type="checkbox" class="form-check-input ml-0" id="checkall">
+													<div class="position-relative custom-control custom-checkbox">
+														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="checkall">
+														<label class="custom-control-label" for="checkall"></label>
+													</div>
 												</th>
 												<th class="column-1">出品場所</th>
 												<th class="column-2">製品</th>
@@ -80,8 +83,9 @@
 										<tbody>
 											<tr>
 												<td class="text-center">
-													<div class="position-relative">
-														<input type="checkbox" class="form-check-input ml-0" id="selectedId" checked>
+													<div class="position-relative custom-control custom-checkbox">
+														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId" checked>
+														<label class="custom-control-label" for="selectedId"></label>
 														<div id="showDiv" class="show-msg-div">
 														    保留を解除する
 														</div>
@@ -127,7 +131,10 @@
 											<!--tr-->
 											<tr>
 												<td class="text-center">
-													<input type="checkbox" class="form-check-input ml-0" id="selectedId">
+													<div class="position-relative custom-control custom-checkbox">
+														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId1">
+														<label class="custom-control-label" for="selectedId1"></label>
+													</div>
 												</td>
 												<td class="text-center">
 													<img class="" src="dist/img/icons/icon-sm-amazon.png" alt="Shopify" />
@@ -169,7 +176,10 @@
 											<!--tr-->
 											<tr>
 												<td class="text-center">
-													<input type="checkbox" class="form-check-input ml-0" id="selectedId">
+													<div class="position-relative custom-control custom-checkbox">
+														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId2">
+														<label class="custom-control-label" for="selectedId2"></label>
+													</div>
 												</td>
 												<td class="text-center">
 													<img class="" src="dist/img/icons/icon-sm-shopify.png" alt="Shopify" />
@@ -211,7 +221,10 @@
 											<!--tr-->
 											<tr>
 												<td class="text-center">
-													<input type="checkbox" class="form-check-input ml-0" id="selectedId">
+													<div class="position-relative custom-control custom-checkbox">
+														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId3">
+														<label class="custom-control-label" for="selectedId3"></label>
+													</div>
 												</td>
 												<td class="text-center">
 													<img class="" src="dist/img/icons/icon-sm-amazon.png" alt="Shopify" />
@@ -253,7 +266,10 @@
 											<!--tr-->
 											<tr>
 												<td class="text-center">
-													<input type="checkbox" class="form-check-input ml-0" id="selectedId">
+													<div class="position-relative custom-control custom-checkbox">
+														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId4">
+														<label class="custom-control-label" for="selectedId4"></label>
+													</div>
 												</td>
 												<td class="text-center">
 													<img class="" src="dist/img/icons/icon-sm-shopify.png" alt="Shopify" />

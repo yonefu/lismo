@@ -30,7 +30,7 @@
 								<tr>
 									<td class="d-flex align-items-center">
 										<p>
-											<img class="product-img" src="dist/img/mob-1.jpg" alt="" />
+											<img class="product-img" src="dist/img/mob-1.png" alt="" />
 										</p>
 										<p>iPhoneX (たまごっちみくす) Melody mix ver. パープル  ⽇本限定2020年モ デル最新型
 										</p>
@@ -48,7 +48,7 @@
 								<tr>
 									<td class="d-flex align-items-center">
 										<p>
-											<img class="product-img" src="dist/img/mob-2.jpg" alt="" />
+											<img class="product-img" src="dist/img/mob-2.png" alt="" />
 										</p>
 										<p>iPhoneX (たまごっちみくす) Melody mix ver. パープル  ⽇本限定2020年モ デル最新型
 										</p>
@@ -66,7 +66,7 @@
 								<tr>
 									<td class="d-flex align-items-center">
 										<p>
-											<img class="product-img" src="dist/img/mob-3.jpg" alt="" />
+											<img class="product-img" src="dist/img/mob-3.png" alt="" />
 										</p>
 										<p>iPhoneX (たまごっちみくす) Melody mix ver. パープル  ⽇本限定2020年モ デル最新型
 										</p>

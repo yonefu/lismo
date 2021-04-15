@@ -94,7 +94,10 @@
 										<thead>
 											<tr>
 												<th class="col-checkbox">
-													<input type="checkbox" class="form-check-input ml-0" id="checkall">
+													<div class="position-relative custom-control custom-checkbox">
+														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="checkall">
+														<label class="custom-control-label" for="checkall"></label>
+													</div>
 												</th>
 												<th class="column-1">倉庫</th>
 												<th class="column-2">出荷ID / 期限</th>
@@ -110,8 +113,9 @@
 										<tbody>
 											<tr>
 												<td class="text-center" rowspan="2">
-													<div class="position-relative">
-														<input type="checkbox" class="form-check-input ml-0" id="selectedId" checked>
+													<div class="position-relative custom-control custom-checkbox">
+														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId" checked>
+														<label class="custom-control-label" for="selectedId"></label>
 														<div id="showDiv" class="show-msg-div">
 														    保留を解除する
 														</div>
@@ -206,7 +210,10 @@
 										<tbody>
 											<tr>
 												<td class="text-center">
-													<input type="checkbox" class="form-check-input ml-0" id="selectedId">
+													<div class="position-relative custom-control custom-checkbox">
+														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId1">
+														<label class="custom-control-label" for="selectedId1"></label>
+													</div>
 												</td>
 												<td class="text-center">
 													<p>横浜本社</p>
@@ -272,7 +279,10 @@
 										<tbody>
 											<tr>
 												<td class="text-center">
-													<input type="checkbox" class="form-check-input ml-0" id="selectedId">
+													<div class="position-relative custom-control custom-checkbox">
+														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId2">
+														<label class="custom-control-label" for="selectedId2"></label>
+													</div>
 												</td>
 												<td class="text-center">
 													<p>横浜本社</p>
