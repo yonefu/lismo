@@ -61,7 +61,6 @@
 									<th class="column-4">⼊庫待ち</th>
 									<th class="column-5">&nbsp;</th>
 									<th class="column-6">&nbsp;</th>
-									<th class="column-7">&nbsp;</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -95,8 +94,6 @@
 									</td>
 									<td class="text-center">
 										<a class="btn btn-golden add-to-purchase">仕入れるに追加する</a>
-									</td>
-									<td class="text-center">
 										<div class="delete-row"><img src="dist/img/icons/icon-close-wh.png" alt="" /></div>
 									</td>
 								</tr>
@@ -132,8 +129,6 @@
 									</td>
 									<td class="text-center">
 										<a class="btn btn-golden add-to-purchase">仕入れるに追加する</a>
-									</td>
-									<td class="text-center">
 										<div class="delete-row"><img src="dist/img/icons/icon-close-wh.png" alt="" /></div>
 									</td>
 								</tr>
@@ -167,8 +162,6 @@
 									</td>
 									<td class="text-center">
 										<a class="btn btn-golden add-to-purchase">仕入れるに追加する</a>
-									</td>
-									<td class="text-center">
 										<div class="delete-row"><img src="dist/img/icons/icon-close-wh.png" alt="" /></div>
 									</td>
 								</tr>
@@ -204,8 +197,6 @@
 									</td>
 									<td class="text-center">
 										<a class="btn btn-gray add-to-purchase">Unpurchase</a>
-									</td>
-									<td class="text-center">
 										<div class="delete-row"><img src="dist/img/icons/icon-close-wh.png" alt="" /></div>
 									</td>
 								</tr>

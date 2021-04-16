@@ -177,7 +177,7 @@ input.box-80{
 
 .purchase-selected-modal{
 	.column-1{
-		width: 300px;
+		width: 350px;
 	}
 	.column-2{
 		width: 80px;
@@ -196,6 +196,13 @@ input.box-80{
 	}
 	.column-7{
 		width: 70px;
+	}
+	.add-to-purchase{
+		float: left;
+	}
+	.delete-row{
+		float: left;
+		padding-top: 6px;
 	}
 }
 

@@ -36,7 +36,13 @@
 /* ----- max-width ----- //*/
 
 
-@media (max-width: 1440px) {}
+@media (max-width: 1440px) {
+	.product-information, .product-top-information{
+		.product-img.text-center{
+			text-align: left !important;
+		}
+	}
+}
 
 /* Large devices (desktops, less than 1200px)*/
 @media (max-width: 1199.98px) {

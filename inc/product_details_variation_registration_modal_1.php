@@ -337,14 +337,14 @@
 											<div class="mr-2">
 												<div class="checkbox switcher">
 													<label for="switchIcon11">
-														<input type="checkbox" id="switchIcon11" value="">
+														<input type="checkbox" id="switchIcon11" value="" checked>
 														<span><small></small></span>
 													</label>
 											    </div>
-												<p class="">同聞中</p>
+												<p class="">出品中</p>
 											</div>
 											<div>
-												<p class="td-date">2021/02/22</p>
+												<p class="td-date">2019/11/30</p>
 												<p class="td-time">15:00</p>
 											</div>
 										</div>
@@ -358,7 +358,7 @@
 														<span><small></small></span>
 													</label>
 											    </div>
-												<p class="">同聞中</p>
+												<p class="">同期中</p>
 											</div>
 											<div>
 												<p class="td-date">2021/02/22</p>
@@ -386,11 +386,11 @@
 											<div class="mr-2">
 												<div class="checkbox switcher">
 													<label for="switchIcon13">
-														<input type="checkbox" id="switchIcon13" value="" checked>
+														<input type="checkbox" id="switchIcon13" value="">
 														<span><small></small></span>
 													</label>
 											    </div>
-												<p class="">同聞中</p>
+												<p class="">停⽌中</p>
 											</div>
 											<div>
 												<p class="td-date">2021/02/22</p>
@@ -407,7 +407,7 @@
 														<span><small></small></span>
 													</label>
 											    </div>
-												<p class="">同聞中</p>
+												<p class="">⾮同期</p>
 											</div>
 											<div>
 												<p class="td-date">2021/02/22</p>

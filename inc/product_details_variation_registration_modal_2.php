@@ -334,11 +334,11 @@
 														<div class="mr-2">
 															<div class="checkbox switcher">
 																<label for="switchIcon30">
-																	<input type="checkbox" id="switchIcon30" value="">
+																	<input type="checkbox" id="switchIcon30" value="" checked>
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">出品中</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -355,7 +355,7 @@
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">同期中</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -383,11 +383,11 @@
 														<div class="mr-2">
 															<div class="checkbox switcher">
 																<label for="switchIcon3">
-																	<input type="checkbox" id="switchIcon32" value="" checked>
+																	<input type="checkbox" id="switchIcon32" value="">
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">停⽌中</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -404,7 +404,7 @@
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">⾮同期</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -660,11 +660,11 @@
 														<div class="mr-2">
 															<div class="checkbox switcher">
 																<label for="switchIcon34">
-																	<input type="checkbox" id="switchIcon34" value="">
+																	<input type="checkbox" id="switchIcon34" value="" checked>
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">出品中</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -681,7 +681,7 @@
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">同期中</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -709,11 +709,11 @@
 														<div class="mr-2">
 															<div class="checkbox switcher">
 																<label for="switchIcon36">
-																	<input type="checkbox" id="switchIcon36" value="" checked>
+																	<input type="checkbox" id="switchIcon36" value="">
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">停⽌中</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -730,7 +730,7 @@
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">⾮同期</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -986,11 +986,11 @@
 														<div class="mr-2">
 															<div class="checkbox switcher">
 																<label for="switchIcon38">
-																	<input type="checkbox" id="switchIcon38" value="">
+																	<input type="checkbox" id="switchIcon38" value="" checked>
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">出品中</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -1007,7 +1007,7 @@
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">同期中</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -1035,11 +1035,11 @@
 														<div class="mr-2">
 															<div class="checkbox switcher">
 																<label for="switchIcon41">
-																	<input type="checkbox" id="switchIcon41" value="" checked>
+																	<input type="checkbox" id="switchIcon41" value="">
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">停⽌中</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -1056,7 +1056,7 @@
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">⾮同期</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -1312,11 +1312,11 @@
 														<div class="mr-2">
 															<div class="checkbox switcher">
 																<label for="switchIcon43">
-																	<input type="checkbox" id="switchIcon43" value="">
+																	<input type="checkbox" id="switchIcon43" value="" checked>
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">出品中</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -1333,7 +1333,7 @@
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">同期中</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -1361,11 +1361,11 @@
 														<div class="mr-2">
 															<div class="checkbox switcher">
 																<label for="switchIcon45">
-																	<input type="checkbox" id="switchIcon45" value="" checked>
+																	<input type="checkbox" id="switchIcon45" value="">
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">停⽌中</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -1382,7 +1382,7 @@
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">⾮同期</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -1791,11 +1791,11 @@
 														<div class="mr-2">
 															<div class="checkbox switcher">
 																<label for="switchIcon47">
-																	<input type="checkbox" id="switchIcon47" value="">
+																	<input type="checkbox" id="switchIcon47" value="" checked>
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">出品中</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -1812,7 +1812,7 @@
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">同期中</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -1840,11 +1840,11 @@
 														<div class="mr-2">
 															<div class="checkbox switcher">
 																<label for="switchIcon49">
-																	<input type="checkbox" id="switchIcon49" value="" checked>
+																	<input type="checkbox" id="switchIcon49" value="">
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">停⽌中</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -1861,7 +1861,7 @@
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">⾮同期</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -2114,11 +2114,11 @@
 														<div class="mr-2">
 															<div class="checkbox switcher">
 																<label for="switchIcon51">
-																	<input type="checkbox" id="switchIcon51" value="">
+																	<input type="checkbox" id="switchIcon51" value="" checked>
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">出品中</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -2135,7 +2135,7 @@
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">同期中</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -2163,11 +2163,11 @@
 														<div class="mr-2">
 															<div class="checkbox switcher">
 																<label for="switchIcon53">
-																	<input type="checkbox" id="switchIcon53" value="" checked>
+																	<input type="checkbox" id="switchIcon53" value="">
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">停⽌中</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -2184,7 +2184,7 @@
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">⾮同期</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -2232,7 +2232,7 @@
 									<small class="text-muted">握集する</small>
 									<p class="brand-status">
 										<span class="badge badge-dark  py-2 px-4 f-15">セット商品</span>
-										<span class="badge badge-light  py-2 px-4 f-15">新品</span>
+										<!-- <span class="badge badge-light  py-2 px-4 f-15">新品</span> -->
 									</p>
 									<h6 class="sku-status">
 										<span>カラー : ピンク / サイズ : M</span>
@@ -2244,7 +2244,7 @@
 									</div>
 								</div>
 							</div>
-							<!-row-->
+							<!--row-->
 						</div>
 						<!--product information-->
 
@@ -2479,11 +2479,11 @@
 														<div class="mr-2">
 															<div class="checkbox switcher">
 																<label for="switchIcon55">
-																	<input type="checkbox" id="switchIcon55" value="">
+																	<input type="checkbox" id="switchIcon55" value="" checked>
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">出品中</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -2500,7 +2500,7 @@
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">同期中</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -2528,11 +2528,11 @@
 														<div class="mr-2">
 															<div class="checkbox switcher">
 																<label for="switchIcon57">
-																	<input type="checkbox" id="switchIcon57" value="" checked>
+																	<input type="checkbox" id="switchIcon57" value="">
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">停⽌中</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
@@ -2549,7 +2549,7 @@
 																	<span><small></small></span>
 																</label>
 															</div>
-															<p class="">同聞中</p>
+															<p class="">⾮同期</p>
 														</div>
 														<div>
 															<p class="td-date">2021/02/22</p>
