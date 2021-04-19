@@ -27,13 +27,13 @@
 					<div class="col-lg-2 border-right">
 						<div class="product-img text-center mb-2">
 							<img src="dist/img/mob-b-1.png" alt="" />
-							<small class="text-muted f-12">握集する</small>
+							<!-- <small class="text-muted f-12">編集する</small> -->
 						</div>
 					</div>
 					<div class="col-lg-6 pl-5 border-right">
 						<p class="product-name">
 							<span class="f-15 mr-3">Apple</span>
-							<small class="text-muted f-12">握集する</small>
+							<a href="#"><small class="text-muted f-12">編集する</small></a>
 						</p>
 						<h4 class="mb-3 f-20">iPhoneX (たまごっちみくす) Melody mix ver. パープ</h4>
 						<p class="product-code text-muted f-12">
@@ -41,7 +41,7 @@
 						</p>
 					</div>
 					<div class="col-lg-4 pl-5">
-						<small class="text-muted mb-2 d-inline-block f-12">握集する</small>
+						<a href="#"><small class="text-muted mb-2 d-inline-block f-12">編集する</small></a>
 						<p class="brand-status"><span class="badge badge-light py-2 px-4 f-15">新品</span></p>
 						<h6 class="sku-status">
 							<!-- <span>カラー : ピンク / サイズ : M</span> -->
@@ -56,7 +56,8 @@
 					<div class="col-md-6 col-lg-3 mb-2">
 						<div class="border-box">
 							<h6 class="mb-2 pl-3">
-								<span class="mr-2 font-weight-normal f-15">基本情報</span><small class="text-muted f-12">握集する</small>
+								<span class="mr-2 font-weight-normal f-15">基本情報</span>
+								<a href="#"><small class="text-muted f-12">編集する</small></a>
 							</h6>
 							<div class="p-info-box">
 								<p>
@@ -85,7 +86,8 @@
 					<div class="col-md-6 col-lg-3 mb-2">
 						<div class="border-box">
 							<h6 class="mb-2 pl-3">
-								<span class="mr-2 font-weight-normal f-15">出荷情報</span><small class="text-muted f-12">握集する</small>
+								<span class="mr-2 font-weight-normal f-15">出荷情報</span>
+								<a href="#"><small class="text-muted f-12">編集する</small></a>
 							</h6>
 							<div class="p-info-box">
 								<p>
@@ -119,7 +121,8 @@
 					<div class="col-md-6 col-lg-3 mb-2">
 						<div class="border-box">
 							<h6 class="mb-2 pl-3">
-								<span class="mr-2 font-weight-normal f-15">発注情報</span><small class="text-muted f-12">握集する</small>
+								<span class="mr-2 font-weight-normal f-15">発注情報</span>
+								<a href="#"><small class="text-muted f-12">編集する</small></a>
 							</h6>
 							<div class="p-info-box">
 								<p>
@@ -143,7 +146,8 @@
 					<div class="col-md-6 col-lg-3 mb-2">
 						<div class="border-box">
 							<h6 class="mb-2 pl-3">
-								<span class="mr-2 font-weight-normal f-15">商品タグ</span><small class="text-muted f-12">握集する</small>
+								<span class="mr-2 font-weight-normal f-15">商品タグ</span>
+								<a href="#"><small class="text-muted f-12">編集する</small></a>
 							</h6>
 							<div class="p-info-box">
 								<span class="btn btn-sm btn-outline-dark br-10 px-3 mb-1 mr-1">iPhone</span>

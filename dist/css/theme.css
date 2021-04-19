@@ -1912,10 +1912,6 @@ table.setting-table .column-7 {
     margin-bottom: 0 !important; } }
 
 /* ----- max-width ----- //*/
-@media (max-width: 1440px) {
-  .product-information .product-img.text-center, .product-top-information .product-img.text-center {
-    text-align: left !important; } }
-
 /* Large devices (desktops, less than 1200px)*/
 @media (max-width: 1199.98px) {
   table {
