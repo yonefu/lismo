@@ -60,7 +60,6 @@
 									<th class="column-3">在庫数</th>
 									<th class="column-4">⼊庫待ち</th>
 									<th class="column-5">&nbsp;</th>
-									<th class="column-6">&nbsp;</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -88,9 +87,6 @@
 									</td>
 									<td class="text-center">
 										<p>なし</p>
-									</td>
-									<td class="text-center">
-										&nbsp;
 									</td>
 									<td class="text-center">
 										<a class="btn btn-golden add-to-purchase">仕入れるに追加する</a>
@@ -125,9 +121,6 @@
 										<p>0/6</p>
 									</td>
 									<td class="text-center">
-										&nbsp;
-									</td>
-									<td class="text-center">
 										<a class="btn btn-golden add-to-purchase">仕入れるに追加する</a>
 										<div class="delete-row"><img src="dist/img/icons/icon-close-wh.png" alt="" /></div>
 									</td>
@@ -156,9 +149,6 @@
 									</td>
 									<td class="text-center">
 										<p>なし</p>
-									</td>
-									<td class="text-center">
-										&nbsp;
 									</td>
 									<td class="text-center">
 										<a class="btn btn-golden add-to-purchase">仕入れるに追加する</a>
@@ -191,9 +181,6 @@
 									<td class="text-center">
 										<img class="icon-img" src="dist/img/icons/icon-yellow.png" alt="" />
 										<p>5/10</p>
-									</td>
-									<td class="text-center">
-										&nbsp;
 									</td>
 									<td class="text-center">
 										<a class="btn btn-gray add-to-purchase">Unpurchase</a>
