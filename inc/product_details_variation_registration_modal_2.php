@@ -23,10 +23,10 @@
 
 		<div class="product-top-information mb-5 bg-white p-3 br-10">
 			<div class="row">
-				<div class="col-lg-2 border-right">
+				<div class="col-lg-3 border-right">
 					<div class="product-img text-center mb-2">
 						<img src="dist/img/mob-b-1.png" alt="" />
-						<!-- <small class="text-muted f-12">編集する</small> -->
+						<a href="#" class="pl-3"><small class="text-muted f-12">編集する</small></a>
 					</div>
 				</div>
 				<div class="col-lg-6 pl-5">
@@ -112,13 +112,13 @@
 								<div id="close-button1" class="close-button btn btn-sm btn-outline-dark px-3 br-25"><span>閉じる</span></div>
 							</div>
 							<div class="row">
-								<div class="col-lg-2 border-right">
+								<div class="col-lg-3 border-right">
 									<div class="product-img text-center mb-2">
 										<img src="dist/img/mob-b-3.png" alt="" />
-										<!-- <small class="text-muted f-12">編集する</small> -->
+										<a href="#" class="pl-3"><small class="text-muted f-12">編集する</small></a>
 									</div>
 								</div>
-								<div class="col-lg-6 pl-5 border-right">
+								<div class="col-lg-5 pl-5 border-right">
 									<p class="product-name">
 										<span class="f-15 mr-3">Apple</span>
 										<a href="#"><small class="text-muted f-12">編集する</small></a>
@@ -496,13 +496,13 @@
 								<div id="close-button2" class="close-button btn btn-sm btn-outline-dark px-3 br-25"><span>閉じる</span></div>
 							</div>
 							<div class="row">
-								<div class="col-lg-2 border-right">
+								<div class="col-lg-3 border-right">
 									<div class="product-img text-center mb-2">
 										<img src="dist/img/mob-b-3.png" alt="" />
-										<!-- <small class="text-muted f-12">編集する</small> -->
+										<a href="#" class="pl-3"><small class="text-muted f-12">編集する</small></a>
 									</div>
 								</div>
-								<div class="col-lg-6 pl-5 border-right">
+								<div class="col-lg-5 pl-5 border-right">
 									<p class="product-name">
 										<span class="f-15 mr-3">Apple</span>
 										<a href="#"><small class="text-muted f-12">編集する</small></a>
@@ -826,13 +826,13 @@
 								<div id="close-button3" class="close-button btn btn-sm btn-outline-dark px-3 br-25"><span>閉じる</span></div>
 							</div>
 							<div class="row">
-								<div class="col-lg-2 border-right">
+								<div class="col-lg-3 border-right">
 									<div class="product-img text-center mb-2">
 										<img src="dist/img/mob-b-3.png" alt="" />
-										<!-- <small class="text-muted f-12">編集する</small> -->
+										<a href="#" class="pl-3"><small class="text-muted f-12">編集する</small></a>
 									</div>
 								</div>
-								<div class="col-lg-6 pl-5 border-right">
+								<div class="col-lg-5 pl-5 border-right">
 									<p class="product-name">
 										<span class="f-15 mr-3">Apple</span>
 										<a href="#"><small class="text-muted f-12">編集する</small></a>
@@ -1156,13 +1156,13 @@
 								<div id="close-button4" class="close-button btn btn-sm btn-outline-dark px-3 br-25"><span>閉じる</span></div>
 							</div>
 							<div class="row">
-								<div class="col-lg-2 border-right">
+								<div class="col-lg-3 border-right">
 									<div class="product-img text-center mb-2">
 										<img src="dist/img/mob-b-3.png" alt="" />
-										<!-- <small class="text-muted f-12">編集する</small> -->
+										<a href="#" class="pl-3"><small class="text-muted f-12">編集する</small></a>
 									</div>
 								</div>
-								<div class="col-lg-6 pl-5 border-right">
+								<div class="col-lg-5 pl-5 border-right">
 									<p class="product-name">
 										<span class="f-15 mr-3">Apple</span>
 										<a href="#"><small class="text-muted f-12">編集する</small></a>
@@ -1486,13 +1486,13 @@
 								<div id="close-button5" class="close-button btn btn-sm btn-outline-dark px-3 br-25"><span>閉じる</span></div>
 							</div>
 							<div class="row">
-								<div class="col-lg-2 border-right">
+								<div class="col-lg-3 border-right">
 									<div class="product-img text-center mb-2">
 										<img src="dist/img/mob-b-3.png" alt="" />
-										<!-- <small class="text-muted f-12">編集する</small> -->
+										<a href="#" class="pl-3"><small class="text-muted f-12">編集する</small></a>
 									</div>
 								</div>
-								<div class="col-lg-6 pl-5 border-right">
+								<div class="col-lg-5 pl-5 border-right">
 									<p class="product-name">
 										<span class="f-15 mr-3">Apple</span>
 										<a href="#"><small class="text-muted f-12">編集する</small></a>
@@ -1909,13 +1909,13 @@
 					<div class="bg-white p-3 br-10 mb-3">
 						<div class="product-information mb-5">
 							<div class="row">
-								<div class="col-lg-2 border-right">
+								<div class="col-lg-3 border-right">
 									<div class="product-img text-center mb-2">
 										<img src="dist/img/mob-b-2.png" alt="" />
-										<!-- <small class="text-muted f-12">編集する</small> -->
+										<a href="#" class="pl-3"><small class="text-muted f-12">編集する</small></a>
 									</div>
 								</div>
-								<div class="col-lg-6 pl-5 border-right">
+								<div class="col-lg-5 pl-5 border-right">
 									<p class="product-name">
 										<span class="">Apple</span>
 										<a href="#"><small class="text-muted">編集する</small></a>
@@ -2237,13 +2237,13 @@
 					<div class="bg-white p-3 br-10 mb-3">
 						<div class="product-information mb-5">
 							<div class="row">
-								<div class="col-lg-2 border-right">
+								<div class="col-lg-3 border-right">
 									<div class="product-img text-center mb-2">
 										<img src="dist/img/mob-b-4.png" alt="" />
-										<!-- <small class="text-muted f-12">編集する</small> -->
+										<a href="#" class="pl-3"><small class="text-muted f-12">編集する</small></a>
 									</div>
 								</div>
-								<div class="col-lg-6 pl-5 border-right">
+								<div class="col-lg-5 pl-5 border-right">
 									<p class="product-name">
 										<span class="">Apple</span>
 										<a href="#"><small class="text-muted">編集する</small></a>

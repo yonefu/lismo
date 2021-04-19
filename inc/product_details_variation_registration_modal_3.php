@@ -24,13 +24,13 @@
 		<div class="bg-white p-3 br-10">
 			<div class="product-information mb-5">
 				<div class="row">
-					<div class="col-lg-2 border-right">
+					<div class="col-lg-3 border-right">
 						<div class="product-img text-center mb-2">
 							<img src="dist/img/mob-b-1.png" alt="" />
-							<!-- <small class="text-muted f-12">編集する</small> -->
+							<a href="#" class="pl-3"><small class="text-muted f-12">編集する</small></a>
 						</div>
 					</div>
-					<div class="col-lg-6 pl-5 border-right">
+					<div class="col-lg-5 pl-5 border-right">
 						<p class="product-name">
 							<span class="f-15 mr-3">Apple</span>
 							<a href="#"><small class="text-muted f-12">編集する</small></a>
