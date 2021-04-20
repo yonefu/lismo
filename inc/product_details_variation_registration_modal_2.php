@@ -472,7 +472,7 @@
 								<td class="text-center">袖浜本社倉庫(25)</td>
 								<td class="text-center">25</td>
 								<td class="text-center">
-									<img src="dist/img/icons/icon-sm-shopify.png" alt="" />
+									<img src="dist/img/icons/icon-sm-shopify_cross.png" alt="" />
 									<img src="dist/img/icons/icon-sm-amazon.png" alt="" />
 								</td>
 								<td class="text-center">
@@ -807,7 +807,7 @@
 								</td>
 								<td class="text-center">
 									<img src="dist/img/icons/icon-sm-shopify.png" alt="" />
-									<img src="dist/img/icons/icon-sm-amazon.png" alt="" />
+									<img src="dist/img/icons/icon-sm-amazon_cross.png" alt="" />
 								</td>
 								<td class="text-center">
 									<p><a href="#" id="see-detail-btn3" class="see-detail-btn btn btn-sm btn-outline-dark px-3 br-25">詳細を⾒る</a></p>
@@ -1136,7 +1136,7 @@
 									<img src="dist/img/icons/icon-sm-amazon.png" alt="" />
 								</td>
 								<td class="text-center">
-									<img src="dist/img/icons/icon-sm-shopify.png" alt="" />
+									<img src="dist/img/icons/icon-sm-shopify_cross.png" alt="" />
 									<img src="dist/img/icons/icon-sm-amazon.png" alt="" />
 								</td>
 								<td class="text-center">
