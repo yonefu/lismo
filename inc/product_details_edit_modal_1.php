@@ -15,7 +15,10 @@
 			<div class="form-group row">
 				<label for="staticEmail" class="col-lg-4 col-form-label text-right pr-0">ファイルを選択</label>
 				<div class="col-lg-8">
-					<input type="text"  class="form-control" placeholder="選択する">
+					<div class="custom-file">
+						<input type="file" class="custom-file-input form-control" id="customFile">
+						<label class="custom-file-label form-control" for="customFile"></label>
+					</div>
 				</div>
 			</div>
 			<div class="form-group row">
@@ -27,8 +30,11 @@
 			<div class="form-group row">
 				<label for="inputPassword" class="col-lg-4 col-form-label text-right pr-0"></label>
 				<div class="col-lg-8">
-					<textarea class="form-control" rows="4" placeholder="ここに画像をドラッグ&ドロップ"></textarea>
+					<div class="form-group inputDnD">
+						<input type="file" class="form-control-file" id="inputFile" onchange="readUrl(this)" data-title="ここに画像をドラッグ">
+					</div>
 				</div>
+			</div>
 			</div>
 		</form>
 

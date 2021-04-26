@@ -44,7 +44,7 @@
 	<div class="bottom-menu">
 		<ul class="nav flex-column nav-footer">
 			<li>
-				<a class="li-setting" href="setting_general_account.php">設定</a>
+				<a class="li-setting" href="setting_account.php">設定</a>
 			</li>
 			<li class="social-icons">
 				<a class="" href="javascript:void(0);"><i class="fa fa-youtube"></i></a>

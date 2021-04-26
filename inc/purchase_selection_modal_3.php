@@ -7,7 +7,7 @@
 
 			<div class="search-box">
 				<form class="form-inline">
-					<div class="search-result mr-3"><span>全てを表示中:<span class="fontEN">30</span>件</span></div>
+					<div class="search-result mr-3"><span>検索して表⽰中:<span class="fontEN">30</span>件</span></div>
 					<div class="input-group align-items-center">
 						<input type="text" class="form-control" placeholder="そらの">
 						<button type="search" class="btn-search">検索</button>
@@ -71,6 +71,7 @@
 						ABC分類：あり
 					</a>
 					<div class="dropdown-menu dropdown-menu-right">
+						<a class="dropdown-item" href="#">全て表⽰する</a>
 						<a class="dropdown-item" href="#">Aの商品のみ表⽰する</a>
 						<a class="dropdown-item" href="#">Bの商品のみ表⽰する</a>
 						<a class="dropdown-item" href="#">Cの商品のみ表⽰する</a>

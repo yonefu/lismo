@@ -81,6 +81,9 @@
 											<span>横浜本社倉庫への仕⼊れ </span>
 										</div>
 										<div class="tt-rt-col row mb-1 align-items-center">
+											<div class="order-no mr-4">
+												<span class="f-12">発注ID:PO0453-00000010643</span>
+											</div>
 											<div class="total mr-0">
 												<span class="t-label">合計:</span><span class="t-price">¥206,582</span>
 											</div>

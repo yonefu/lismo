@@ -1,6 +1,6 @@
 <div class="inner-page-wrap">
 	<div class="product-details--modal-page w-100">
-		<div class="d-flex justify-content-between align-items-center mb-3">
+		<div class="d-flex justify-content-between align-items-center mb-3"><img src="dist/img/
 			<h3 class="page-title mb-1">
 				<span>商品の詳細</span>
 			</h3>
@@ -457,7 +457,7 @@
 						<tbody>
 							<tr>
 								<td class="text-center">
-									<img src="dist/img/mob-2.png" alt="" height="65" />
+									<img class="product-img" src="dist/img/mob-2.png" alt="" height="65" />
 								</td>
 								<td class="text-center">
 									iPhoneX
@@ -2079,7 +2079,7 @@
 										</thead>
 										<tbody>
 											<tr>
-												<td class="text-center"><img src="dist/img/mob-2.png" alt="" /></td>
+												<td class="text-center"><img class="product-img" src="dist/img/mob-2.png" alt="" /></td>
 												<td class="text-center">iPhoneX</td>
 												<td class="text-center">
 													<p><span class="badge first-hand">直接</span></p>
@@ -2429,7 +2429,7 @@
 											</tr>
 											<!--tr-->
 											<tr>
-												<td class="text-center"><img src="dist/img/mob-2.png" alt="" /></td>
+												<td class="text-center"><img class="product-img" src="dist/img/mob-2.png" alt="" /></td>
 												<td class="text-center">iPhoneXグリーン</td>
 												<td class="text-center">
 													<p><span class="badge first-hand">直接</span></p>

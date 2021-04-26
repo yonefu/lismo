@@ -7,7 +7,7 @@
 
 			<div class="search-box">
 				<form class="form-inline">
-					<div class="search-result mr-3"><span>全てを表示中:<span class="fontEN">30</span>件</span></div>
+					<div class="search-result mr-3"><span>検索して表⽰中:<span class="fontEN">30</span>件</span></div>
 					<div class="input-group align-items-center">
 						<input type="text" class="form-control" placeholder="そらの">
 						<button type="search" class="btn-search">検索</button>

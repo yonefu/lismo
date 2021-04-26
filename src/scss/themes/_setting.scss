@@ -8,15 +8,19 @@
 }
 
 .side-setting-menu{
-	background: $white;
-	min-width: 180px;
-	border-radius: 30px;
-	padding: 20px;
-	text-align: center;
-	left: 15px;
-	height: 96vh;
-	z-index: 10;
-	margin-right: 20px;
+	.side-setting-menu-wrap{
+		background: $white;
+		min-width: 180px;
+		border-radius: 30px;
+		padding: 20px;
+		left: 15px;
+		height: 100%;
+		z-index: 10;
+		margin-right: 20px;
+	}
+	.page-title{
+		padding-left: 15px;
+	}
 }
 
 .setting-inner-wrap{
@@ -60,6 +64,12 @@
 	max-width: 540px;
     width: 100%;
     position: relative;
+    .top-block{
+    	min-height: 57px;
+    	.form-heading{
+    		padding-left: 15px;
+    	}
+    }
     .form-box{
     	font-size: 12px;
     	clear: both;
@@ -79,6 +89,17 @@
 	    background-color: #000000;
 	    cursor: pointer;
 	}
+	.table-wrapper{
+		.card-body{
+			border-radius: 30px;
+		}
+	}
+}
+
+.plan-status{
+	span{
+		border-radius: 4px;
+	}
 }
 
 
@@ -96,18 +117,48 @@ body.overflow{
 	}
 }
 
-table.setting-table{
-	.column-1{
-		width: 50px;
+.form-group{
+	label{
+		span.clr-red{
+			display: inline-block;
+			vertical-align: middle;
+		}
 	}
+}
+
+table.setting-table{
 	.column-2{
 		width: 100px;
 	}
 	.column-3{
-		width: 200px;
+		width: 250px;
 	}
 	.column-4{
 		width: 80px;
+	}
+	.column-5{
+		width: 80px;
+	}
+	.column-6{
+		width: 80px;
+	}
+	.column-7{
+		width: 80px;
+	}
+}
+
+table.store-account-table{
+	.column-1{
+		width: 100px;
+	}
+	.column-2{
+		width: 250px;
+	}
+	.column-3{
+		width: 100px;
+	}
+	.column-4{
+		width: 100px;
 	}
 	.column-5{
 		width: 100px;
@@ -116,6 +167,151 @@ table.setting-table{
 		width: 100px;
 	}
 	.column-7{
-		width: 80px;
+		width: 100px;
+	}
+	.column-8{
+		width: 100px;
+	}
+	.d-flex{
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+table.delivery-warehouse-table{
+	.column-1{
+		width: 120px;
+	}
+	.column-2{
+		width: 100px;
+	}
+	.column-3{
+		width: 100px;
+	}
+	.column-4{
+		width: 300px;
+	}
+	.column-5{
+		width: 100px;
+	}
+	.column-6{
+		width: 100px;
+	}
+	.d-flex{
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+table.supplier-table{
+	.column-1{
+		width: 120px;
+	}
+	.column-2{
+		width: 60%;
+	}
+	.column-3{
+		width: 100px;
+	}
+	.text-left{
+		padding-left: 3em !important;
+	}
+}
+
+table.hold-status-table{
+	.column-1{
+		width: 80%;
+	}
+	.column-2{
+		width: 100px;
+	}
+	.text-left{
+		padding-left: 3em !important;
+	}
+}
+
+.setting-modal-page{
+	.status-box{
+		li a{
+			border: 1px solid #e0e0e0;
+			line-height: 38px !important;
+			&.active{
+				border-width: 4px;
+				line-height: 30px !important;
+			}
+		}
+	}
+	label{
+		font-size: 12px;
+	}
+	.choose-option-box{
+		border-top: 1px solid #e0e0e0;
+		padding-top: 1em;
+	}
+}
+
+table.delivery-warehouse-edit-table{
+	.column-1{
+		width: 100px;
+	}
+	.column-2{
+		width: 100px;
+	}
+	.column-3{
+		width: 100px;
+	}
+	.column-4{
+		width: 100px;
+	}
+	.column-5{
+		width: 100px;
+	}
+	.column-6{
+		width: 120px;
+	}
+}
+
+.setting-pagi{
+	.pagination a.previous, .pagination a.next, .pagination a.active {
+	    border: 0 !important;
+	}
+}
+
+.delivery-carrier-table{
+	.column-1{
+		width: 100px;
+	}
+	.column-2{
+		width: 100px;
+	}
+	.column-3{
+		width: 200px;
+	}
+	.column-4{
+		width: 15px;
+	}
+	th, td{
+		border: 0;
+	}
+}
+
+.settelment-method-table{
+	.column-1{
+		width: 100px;
+	}
+	.column-2{
+		width: 100px;
+	}
+	.column-3{
+		width: 100px;
+	}
+	.column-4{
+		width: 100px;
+	}
+	.column-5{
+		width: 100px;
+	}
+	.column-6{
+		width: 100px;
 	}
 }

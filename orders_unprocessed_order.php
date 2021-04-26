@@ -67,9 +67,21 @@
 							</div>
 							<ul class="nav top-nav status-box">
 								<li class="nav-item">
-									<a class="nav-link active">
-										<span class="mr-2">倉庫：指定あり</span>
+									<a class="nav-link active dropdown-warehouse dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										倉庫：指定あり
 									</a>
+									<div class="dropdown-menu dropdown-menu-right">
+										<a class="dropdown-item" href="#">全ての倉庫</a>
+										<a class="dropdown-item" href="#">横浜本社倉庫</a>
+										<a class="dropdown-item" href="#">AmazonFAB</a>
+										<div class="d-flex">
+											<div class="position-relative custom-control custom-checkbox  pl-4 ml-2">
+												<input type="checkbox" class="form-check-input custom-control-input ml-0" id="checkbox12">
+												<label class="custom-control-label" for="checkbox12"></label>
+											</div>
+											<a class="dropdown-item" href="#"><span class="">選択した倉庫を次回からデフォルトで出表荷⽰準する</span></a>
+										</div>
+									</div>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link">

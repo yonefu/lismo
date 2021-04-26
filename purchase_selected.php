@@ -82,6 +82,9 @@
 										</div>
 										<!--div-->
 										<div class="tt-rt-col d-flex flex-wrap align-items-center">
+											<div class="order-no mr-4">
+												<span class="f-12">発注ID:PO0453-00000010643</span>
+											</div>
 											<div class="total mr-0">
 												<span class="t-label">合計:</span><span class="t-price">¥206,582</span>
 											</div>
@@ -124,7 +127,7 @@
 														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId" checked>
 														<label class="custom-control-label" for="selectedId"></label>
 														<div id="showDiv" class="show-msg-div">
-														    保留を解除する
+														    リストから削除する
 														</div>
 													</div>
 												</td>

@@ -30,6 +30,10 @@ textarea {
 	font-family: $fontJP;
 }
 
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+	font-weight: 400;
+}
+
 /* custom scrollbar  */
 ::-webkit-scrollbar {
 	width: 6px !important;
@@ -302,6 +306,59 @@ p, span{
 	}
 }
 
+.btn-palm-green {
+	background: #94bf47 !important;
+	transition: all ease 0.5s;
+	color: $white !important;
+	border-radius: 10px;
+	text-align: center;
+	padding: 3px 10px 5px 10px;
+	font-size: 10px;
+
+	&:hover {
+		opacity: 0.8;
+		color: $white !important;
+	}
+}
+
+.custom-file-input::-webkit-file-upload-button {
+	visibility: hidden;
+}
+
+.custom-file-label::after{
+	content: '選択する';
+}
+
+.inputDnD {
+	.form-control-file {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		min-height: 6em;
+		outline: none;
+		visibility: hidden;
+		cursor: pointer;
+		background-color: #c61c23;
+		&:before {
+			content: attr(data-title);
+			position: absolute;
+			left: 0;
+			width: 100%;
+			min-height: 6em;
+			line-height: 2em;
+			padding-top: 1.5em;
+			opacity: 1;
+			visibility: visible;
+		    border: 1px solid #e0e0e0;
+			overflow: visible;
+			background: #f2f2f2;
+		    color: #1f2634;
+		    padding: 0.375rem 0.5rem;
+		    border-radius: 10px;
+		}
+	}
+}
+
 /*--login form--*/
 .login-form {
 	.login-links {
@@ -336,10 +393,15 @@ p, span{
 			font-size: 26px;
 			font-weight: bold;
 			text-align: center;
+			img{
+				height: 114px;
+				width: 92px;
+			}
 		}
 
 		h5 {
 			margin-bottom: 30px;
+			font-size: 18px;
 		}
 
 		form {
@@ -361,7 +423,7 @@ p, span{
 			background: $dark;
 			border-color: $dark;
 			color: $white;
-			font-size: 14px;
+			font-size: 12px;
 
 			&.btn:hover,
 			&.btn:active,
@@ -421,7 +483,7 @@ p, span{
 		}
 
 		label.form-check-label {
-			font-size: 11px;
+			font-size: 10px;
 			font-weight: 300 !important;
 		}
 
@@ -434,6 +496,7 @@ p, span{
 		.custom-control-label::before, .custom-control-label::after {
 			width: 14px;
 			height: 14px;
+			top: 6px;
 		}
 	}
 }
@@ -615,6 +678,10 @@ p, span{
 	&:hover {
 		color: $dark !important;
 	}
+}
+
+.btn-transparent.clr-red.d-block{
+	color: $red !important;
 }
 
 .form-control {
@@ -840,7 +907,7 @@ table {
 }
 
 .modal-full {
-	max-width: 90%;
+	max-width: 90% !important;
 }
 
 .modal {
@@ -973,6 +1040,7 @@ div.checkbox.switcher,
 div.radio.switcher {
 	label {
 		padding: 0;
+		margin-bottom: 0;
 
 		input {
 			display: none;
@@ -1008,7 +1076,7 @@ div.radio.switcher {
 			&:checked+span small {
 				background: $green url('../img/icons/icon-toggle-check.png');
 				border-color: $green;
-				left: 50%;
+				left: 32%;
 				top: -5px;
 				width: 24px;
 				height: 24px;
@@ -1046,10 +1114,11 @@ div.radio.switcher {
 	box-shadow: 0px 2px 8px #d4d4d4;
 	padding: 15px;
 	border-radius: 10px;
-	width: 150px;
+	width: 160px;
 	left: 30px;
 	top: 0;
 	z-index: 9;
+	text-align: left;
 }
 
 .pagination {

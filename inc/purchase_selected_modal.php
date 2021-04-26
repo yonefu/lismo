@@ -5,7 +5,16 @@
 				<span>仕入れる商品を選択</span>
 			</h3>
 
-			<?php include('inc/search_box.php'); ?>
+			<div class="search-box">
+				<form class="form-inline">
+					<div class="input-group align-items-center">
+						<input type="text" class="form-control" placeholder="そらの">
+						<button type="search" class="btn-search">検索</button>
+						<span class="clearable"><img src="dist/img/icons/icon-close.png" alt="" /></span>
+					</div>
+				</form>
+			</div>
+			<!--search box-->
 		</div>
 		<!--div-->
 

@@ -13,6 +13,9 @@
 							<h3 class="page-title mb-1">
 								<span>レポート</span>
 							</h3>
+							<a href="#" class="icon-upload pr-2">
+								<img src="dist/img/icons/icon-upload.png" alt="upload icon" />
+							</a>
 						</div>
 						<!--div-->
 

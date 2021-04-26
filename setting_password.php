@@ -8,38 +8,31 @@
 
 			<div class="inner-page-wrap">
 				<div class="setting-page w-100">
-					<div class="top-block">
-						<div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
-							<h3 class="page-title mb-1">
-								<span>設定</span>
-							</h3>
-						</div>
-						<!--div-->
-					</div>
-					<!--top-block-->
-
 					<div class="setting-inner-wrap d-flex">
 						<?php include('inc/side_setting_menu.php'); ?>
 						<div class="setting-wrap">
+							<div class="top-block">
+							</div>
+							<!--top-block-->
 							<div class="bg-white br-25">
 								<div class="form-box">
 									<form>
-										<p class="form-heading mb-4 f-15">パスワードの変更</p>
+										<p class="form-heading mb-4 f-18">パスワードの変更</p>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12 pr-0">新しいパスワード<br/> 6⽂字以上</label>
-											<div class="col-lg-9">
+											<label class="col-lg-4 col-form-label f-12 pr-0">新しいパスワード<br/> 6⽂字以上</label>
+											<div class="col-lg-8">
 												<input type="text"  class="form-control" placeholder="⽥中太郎">
 											</div>
 										</div>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12 pr-0">新しいパスワードの<br/>確認</label>
-											<div class="col-lg-9">
+											<label class="col-lg-4 col-form-label f-12 pr-0">新しいパスワードの確認</label>
+											<div class="col-lg-8">
 												<input type="email"  class="form-control" placeholder="tanaka@gmail.com">
 											</div>
 										</div>
 										<div class="form-group row">
-											<label class="col-lg-3 col-form-label f-12 pr-0">現在のパスワード</label>
-											<div class="col-lg-9">
+											<label class="col-lg-4 col-form-label f-12 pr-0">現在のパスワード</label>
+											<div class="col-lg-8">
 												<input type="email"  class="form-control" placeholder="tanaka@gmail.com">
 											</div>
 										</div>

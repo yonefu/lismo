@@ -60,10 +60,13 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td class="text-center font-weight-bold">
+									<td class="text-center">
 										<div class="position-relative custom-control custom-checkbox">
-											<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId1">
-											<label class="custom-control-label" for="selectedId1"></label>
+											<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId" checked>
+											<label class="custom-control-label" for="selectedId"></label>
+											<div id="showDiv" class="show-msg-div">
+											    <span class="clr-red">完全に⾮表⽰にする</span>
+											</div>
 										</div>
 									</td>
 									<td class="d-flex align-items-center">

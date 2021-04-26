@@ -118,10 +118,13 @@
 												</thead>
 												<tbody>
 													<tr>
-														<td class="text-center " rowspan="2">
+														<td class="text-center" rowspan="2">
 															<div class="position-relative custom-control custom-checkbox">
-																<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId1">
-																<label class="custom-control-label" for="selectedId1"></label>
+																<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId" checked>
+																<label class="custom-control-label" for="selectedId"></label>
+																<div id="showDiv" class="show-msg-div">
+																    倉庫に返送する期限<br/>未処理へ複製する
+																</div>
 															</div>
 														</td>
 														<td class="text-center" rowspan="2">

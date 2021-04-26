@@ -8,23 +8,16 @@
 
 			<div class="inner-page-wrap">
 				<div class="setting-page w-100">
-					<div class="top-block">
-						<div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
-							<h3 class="page-title mb-1">
-								<span>設定</span>
-							</h3>
-						</div>
-						<!--div-->
-					</div>
-					<!--top-block-->
-
 					<div class="setting-inner-wrap d-flex">
 						<?php include('inc/side_setting_menu.php'); ?>
 						<div class="setting-wrap">
+							<div class="top-block">
+							</div>
+							<!--top-block-->
 							<div class="bg-white br-25">
 								<div class="form-box">
 									<form>
-										<p class="form-heading mb-4 f-15">アカウント設定</p>
+										<p class="form-heading mb-4 f-18">アカウント基本設定</p>
 										<div class="form-group row">
 											<label class="col-lg-3 col-form-label f-12 pr-0">ユーザー名</label>
 											<div class="col-lg-9">
@@ -52,9 +45,9 @@
 											<label class="col-lg-3 col-form-label f-12 pr-0">担当拠点</label>
 											<div class="col-lg-9">
 												<select class="custom-select form-control">
-													<option selected>⽥中太郎</option>
-													<option value="1">⽥中太郎</option>
-													<option value="2">⽥中太郎</option>
+													<option selected>全配送拠点</option>
+													<option value="1">全配送拠点</option>
+													<option value="2">全配送拠点</option>
 												</select>
 											</div>
 										</div>
@@ -62,62 +55,19 @@
 											<label class="col-lg-3 col-form-label f-12 pr-0">⾔語設定</label>
 											<div class="col-lg-9">
 												<select class="custom-select form-control">
-													<option selected>101-0001</option>
-													<option value="1">101-0001</option>
-													<option value="2">101-0001</option>
+													<option selected>⽇本語</option>
+													<option value="1">⽇本語</option>
+													<option value="2">⽇本語</option>
 												</select>
 											</div>
 										</div>
-										<div class="form-group row justify-content-end mt-4">
-											<div class="pr-3">
-												<a href="#" class="btn btn-red mb-2 mr-2"><span>キャンセル</span></a>
-												<a href="#" class="btn btn-dark mb-2"><span>保存する</span></a>
-											</div>
-										</div>
-									</form>
-								</div>
-								<!--form-box-->
-
-								<div class="form-box">
-									<form>
-										<p class="form-heading mb-4 f-15">ページ閲覧権限</p>
 										<div class="form-group row">
-											<label class="col-4 col-lg-3 col-form-label f-12 pr-0">レポート</label>
-											<div class="col-8 col-lg-9">
-												<span class="clr-green view">閲覧可能</span>
+											<label class="col-lg-3 col-form-label f-12 pr-0">権限</label>
+											<div class="col-lg-9">
+												<input type="text"  class="form-control" placeholder="メンバー  変更は管理者のみ可能">
 											</div>
 										</div>
-										<div class="form-group row">
-											<label class="col-4 col-lg-3 col-form-label f-12 pr-0">出品</label>
-											<div class="col-8 col-lg-9">
-												<span class="clr-green view">閲覧可能</span>
-											</div>
-										</div>
-										<div class="form-group row">
-											<label class="col-4 col-lg-3 col-form-label f-12 pr-0">在庫</label>
-											<div class="col-8 col-lg-9">
-												<span class="clr-red not-view">閲覧不可</span>
-											</div>
-										</div>
-										<div class="form-group row">
-											<label class="col-4 col-lg-3 col-form-label f-12 pr-0">仕⼊れ</label>
-											<div class="col-8 col-lg-9">
-												<span class="clr-green view">閲覧可能</span>
-											</div>
-										</div>
-										<div class="form-group row">
-											<label class="col-4 col-lg-3 col-form-label f-12 pr-0">受注</label>
-											<div class="col-8 col-lg-9">
-												<span class="clr-green view">閲覧可能</span>
-											</div>
-										</div>
-										<div class="form-group row">
-											<label class="col-4 col-lg-3 col-form-label f-12 pr-0">設定</label>
-											<div class="col-8 col-lg-9">
-												<span class="clr-red not-partly-view">閲覧⼀部不可</span>
-											</div>
-										</div>
-										<div class="form-group row justify-content-end mt-4">
+										<div class="form-group row justify-content-end mt-5">
 											<div class="pr-3">
 												<a href="#" class="btn btn-red mb-2 mr-2"><span>キャンセル</span></a>
 												<a href="#" class="btn btn-dark mb-2"><span>保存する</span></a>
@@ -133,7 +83,7 @@
 					</div>
 					<!--setting-inner-wrap-->
 				</div>
-				<!--setting-page w-100-->
+				<!--list-page w-100-->
 			</div>
 			<!--"inner-page-wrap-->
 		</div>

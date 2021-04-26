@@ -28,6 +28,8 @@
 							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#productDetailsEditModal3a">商品の詳細_編集モーダル_3_a</a></li>
 							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#productDetailsEditModal3b">品の詳細_編集モーダル_3_b</a></li>
 
+							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#productDetailsEditModal4">商品の詳細_編集モーダル_4</a></li>
+
 							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#productDetailsVariationRegistrationModal1">商品の詳細_バリエーション登録：1</a></li>
 							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#productDetailsVariationRegistrationModal2">商品の詳細_バリエーション登録：2以上</a></li>
 							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#productDetailsVariationRegistrationModal3">商品の詳細_バリエーション登録：なし</a></li>
@@ -131,7 +133,7 @@
 	</div>
 </div>
 
-<!-- Modal Product Details_Edit Modal_3-->
+<!-- Modal Product Details_Edit Modal_3b-->
 <div class="modal fade" id="productDetailsEditModal3b" tabindex="-1" role="dialog" aria-labelledby="productDetailsEditModal3bTitle" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content bg-white">
@@ -140,6 +142,20 @@
 			</button>
 			<div class="modal-body py-4 px-1">
 				<?php include('inc/product_details_edit_modal_3b.php'); ?>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Product Details_Edit Modal_4-->
+<div class="modal fade" id="productDetailsEditModal4" tabindex="-1" role="dialog" aria-labelledby="productDetailsEditModal4Title" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content bg-white">
+			<button type="button" class="close position-absolute p-2" data-dismiss="modal" aria-label="Close" style="z-index: 15">
+				<span aria-hidden="true"><img src="dist/img/icons/icon-modal-close.png" alt="" /></span>
+			</button>
+			<div class="modal-body py-4 px-1">
+				<?php include('inc/product_details_edit_modal_4.php'); ?>
 			</div>
 		</div>
 	</div>

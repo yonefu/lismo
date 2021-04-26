@@ -174,8 +174,8 @@
 																他のアクション
 																</button>
 																<div class="dropdown-menu dropdown-menu-right">
-																	<a class="dropdown-item" href="#">出荷詳細を見る</a>
-																	<a class="dropdown-item" href="#">未処理の受注へ戻す</a>
+																	<a class="dropdown-item" href="#">出荷詳細を⾒る</a>
+																	<a class="dropdown-item" href="#">出荷を分割する</a>
 																</div>
 															</div>
 														</td>

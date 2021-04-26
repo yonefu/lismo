@@ -5,6 +5,12 @@
 	.ranking-col.mr-2 {
 		min-width: 70px;
 	}
+	.img-col{
+		img{
+			max-height: 65px;
+			max-width: 65px;
+		}
+	}
 }
 
 .sales-ranking-slider {

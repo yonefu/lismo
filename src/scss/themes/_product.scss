@@ -66,6 +66,24 @@ input[type="checkbox"]{
 	}
 }
 
+.product-information{
+	.product-img{
+		img{
+			max-height: 130px;
+			max-width: 130px;
+		}
+	}
+}
+
+table.variation-table{
+	td{
+		img{
+			max-height: 75px;
+			max-width: 75px;
+		}
+	}
+}
+
 .form-group.row.br-bottom {
     border-bottom: 1px solid #f8f8f8;
     padding-bottom: 1em;
@@ -253,5 +271,12 @@ input[type="checkbox"]{
 		.btn-red{
 			font-size: 12px;
 		}
+	}
+}
+
+.product-image{
+	img{
+		max-height: 130px;
+		max-width: 130px;
 	}
 }

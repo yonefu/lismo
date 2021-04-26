@@ -82,8 +82,11 @@
 											<tr>
 												<td class="text-center">
 													<div class="position-relative custom-control custom-checkbox">
-														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId1">
+														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId1" checked>
 														<label class="custom-control-label" for="selectedId1"></label>
+														<div id="showDiv" class="show-msg-div">
+														    ⾮表⽰にする<br/> 在庫同期をオフにする
+														</div>
 													</div>
 												</td>
 												<td class="text-center">

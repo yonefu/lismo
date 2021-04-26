@@ -87,7 +87,7 @@
 														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId" checked>
 														<label class="custom-control-label" for="selectedId"></label>
 														<div id="showDiv" class="show-msg-div">
-														    保留を解除する
+														    ⾮表⽰にする
 														</div>
 													</div>
 												</td>
