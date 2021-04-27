@@ -49,6 +49,7 @@
 			<li class="social-icons">
 				<a class="" href="javascript:void(0);"><i class="fa fa-youtube"></i></a>
 				<a class="" href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
+				<a class="" href="javascript:void(0);"><i class="fa fa-question"></i></a>
 			</li>
 		</ul>
 	</div>

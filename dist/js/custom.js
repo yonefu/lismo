@@ -5,24 +5,28 @@ $(document).ready(function() {
         if (checked) {
             $(".form-check-input").each(function() {
                 $(this).prop("checked", true);
+                $(this).parent(".custom-control").find(".show-msg-div").removeClass('d-none');
             });
         } else {
             $(".form-check-input").each(function() {
                 $(this).prop("checked", false);
+                $(this).parent(".custom-control").find(".show-msg-div").addClass('d-none');
             });
         }
     });
 
-    $("#selectedId").click(function() {
+    $(".selectedId").click(function() {
         if ($(this).is(":checked")) {
-            $("#showDiv").show();
+            $(this).parent(".custom-control").find(".show-msg-div").removeClass('d-none');
+            // $(this).siblings(".show-msg-div").show();
         } else {
-            $("#showDiv").hide();
+            $(this).parent(".custom-control").find(".show-msg-div").addClass('d-none');
+            // $(this).siblings(".show-msg-div").hide();
         }
     });
 
     // input text clear
-    $("input").on('keyup input', function() {
+    $("input[type='text']").on('keyup input', function() {
         if ($(this).val()) {
             $(".search-box").addClass("show");
         } else {

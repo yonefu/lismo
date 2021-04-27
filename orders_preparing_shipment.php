@@ -114,8 +114,8 @@
 											<tr>
 												<td class="text-center" rowspan="2">
 													<div class="position-relative custom-control custom-checkbox">
-														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId" checked>
-														<label class="custom-control-label" for="selectedId"></label>
+														<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId1" checked>
+														<label class="custom-control-label" for="selectedId1"></label>
 														<div id="showDiv" class="show-msg-div">
 														    保留を解除する
 														</div>
@@ -155,7 +155,7 @@
 													<p>3個</p>
 												</td>
 												<td class="text-center" rowspan="2">
-													<img src="dist/img/icons/icon-arrow-circle.png" alt="Shopify" />
+													<img src="dist/img/icons/icon-arrow-circle.png" alt="circle" />
 													<p>出荷準備中</p>
 												</td>
 												<td class="text-center" rowspan="2">
@@ -211,8 +211,11 @@
 											<tr>
 												<td class="text-center">
 													<div class="position-relative custom-control custom-checkbox">
-														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId1">
-														<label class="custom-control-label" for="selectedId1"></label>
+														<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId2">
+														<label class="custom-control-label" for="selectedId2"></label>
+														<div id="showDiv" class="show-msg-div d-none">
+														    保留を解除する
+														</div>
 													</div>
 												</td>
 												<td class="text-center">
@@ -249,7 +252,7 @@
 													<p>3個</p>
 												</td>
 												<td class="text-center">
-													<img src="dist/img/icons/icon-arrow-circle.png" alt="Shopify" />
+													<img src="dist/img/icons/icon-arrow-circle.png" alt="circle" />
 													<p>出荷準備中</p>
 												</td>
 												<td class="text-center">
@@ -280,8 +283,11 @@
 											<tr>
 												<td class="text-center">
 													<div class="position-relative custom-control custom-checkbox">
-														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId2">
-														<label class="custom-control-label" for="selectedId2"></label>
+														<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId3">
+														<label class="custom-control-label" for="selectedId3"></label>
+														<div id="showDiv" class="show-msg-div d-none">
+														    保留を解除する
+														</div>
 													</div>
 												</td>
 												<td class="text-center">
@@ -318,7 +324,7 @@
 													<p>3個</p>
 												</td>
 												<td class="text-center">
-													<img src="dist/img/icons/icon-arrow-circle.png" alt="Shopify" />
+													<img src="dist/img/icons/icon-arrow-circle.png" alt="circle" />
 													<p>出荷準備中</p>
 												</td>
 												<td class="text-center">

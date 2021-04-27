@@ -254,7 +254,7 @@
 							</div>
 							<div class="col-lg-2 ml-auto">
 								<div class="d-flex flex-column justify-content-end">
-									<a href="#" class="btn btn-red mb-2"><span>キャンセル</span></a>
+									<a href="#" class="btn btn-cancel mb-2"><span>キャンセル</span></a>
 									<a href="#" class="btn btn-red btn-red-outline"><span>作成完了</span></a>
 								</div>
 							</div>
@@ -513,7 +513,7 @@
 							</div>
 							<div class="col-lg-2 ml-auto">
 								<div class="d-flex flex-column justify-content-end">
-									<a href="#" class="btn btn-red mb-2"><span>キャンセル</span></a>
+									<a href="#" class="btn btn-cancel mb-2"><span>キャンセル</span></a>
 									<a href="#" class="btn btn-red btn-red-outline"><span>作成完了</span></a>
 								</div>
 							</div>

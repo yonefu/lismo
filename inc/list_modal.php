@@ -62,8 +62,8 @@
 								<tr>
 									<td class="text-center">
 										<div class="position-relative custom-control custom-checkbox">
-											<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId" checked>
-											<label class="custom-control-label" for="selectedId"></label>
+											<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId5" checked>
+											<label class="custom-control-label" for="selectedId5"></label>
 											<div id="showDiv" class="show-msg-div">
 											    <span class="clr-red">完全に⾮表⽰にする</span>
 											</div>
@@ -88,8 +88,11 @@
 								<tr>
 									<td class="text-center font-weight-bold">
 										<div class="position-relative custom-control custom-checkbox">
-											<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId2">
-											<label class="custom-control-label" for="selectedId2"></label>
+											<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId6">
+											<label class="custom-control-label" for="selectedId6"></label>
+											<div id="showDiv" class="show-msg-div d-none">
+											    <span class="clr-red">完全に⾮表⽰にする</span>
+											</div>
 										</div>
 									</td>
 									<td class="d-flex align-items-center">

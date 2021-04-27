@@ -105,7 +105,7 @@
 											<tr>
 												<th class="col-checkbox">
 													<div class="position-relative custom-control custom-checkbox">
-														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="checkall">
+														<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="checkall">
 														<label class="custom-control-label" for="checkall"></label>
 													</div>
 												</th>
@@ -124,8 +124,8 @@
 											<tr>
 												<td class="text-center">
 													<div class="position-relative custom-control custom-checkbox">
-														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId" checked>
-														<label class="custom-control-label" for="selectedId"></label>
+														<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId1" checked>
+														<label class="custom-control-label" for="selectedId1"></label>
 														<div id="showDiv" class="show-msg-div">
 														    リストから削除する
 														</div>
@@ -169,8 +169,11 @@
 											<tr>
 												<td class="text-center">
 													<div class="position-relative custom-control custom-checkbox">
-														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId1">
-														<label class="custom-control-label" for="selectedId1"></label>
+														<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId2">
+														<label class="custom-control-label" for="selectedId2"></label>
+														<div id="showDiv" class="show-msg-div d-none">
+														    リストから削除する
+														</div>
 													</div>
 												</td>
 												<td class="d-flex align-items-center">
@@ -211,8 +214,11 @@
 											<tr>
 												<td class="text-center">
 													<div class="position-relative custom-control custom-checkbox">
-														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId2">
-														<label class="custom-control-label" for="selectedId2"></label>
+														<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId3">
+														<label class="custom-control-label" for="selectedId3"></label>
+														<div id="showDiv" class="show-msg-div d-none">
+														    リストから削除する
+														</div>
 													</div>
 												</td>
 												<td class="d-flex align-items-center">
@@ -253,8 +259,11 @@
 											<tr class="tr-clone">
 												<td class="text-center">
 													<div class="position-relative custom-control custom-checkbox">
-														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId3">
-														<label class="custom-control-label" for="selectedId3"></label>
+														<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId4">
+														<label class="custom-control-label" for="selectedId4"></label>
+														<div id="showDiv" class="show-msg-div d-none">
+														    リストから削除する
+														</div>
 													</div>
 												</td>
 												<td class="d-flex align-items-center">

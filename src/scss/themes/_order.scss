@@ -228,3 +228,16 @@ tr.no-data {
 		width: 50px;
 	}
 }
+
+.order-hold-modal-page{
+	.table-scroll{
+		overflow-y: auto;
+		max-height: 210px;
+	}
+	.table-responsive-lg{
+		border: 1px solid #f2f2f2;
+		border-radius: 10px;
+		overflow: hidden;
+		border-top: 0;
+	}
+}

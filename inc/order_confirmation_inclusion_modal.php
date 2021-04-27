@@ -31,8 +31,11 @@
 								<tr>
 									<td class="text-center">
 										<div class="position-relative custom-control custom-checkbox">
-											<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId10">
+											<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId10">
 											<label class="custom-control-label" for="selectedId10"></label>
+											<div id="showDiv" class="show-msg-div d-none">
+											    ⾮表⽰にする<br/> 在庫同期をオフにする
+											</div>
 										</div>
 									</td>
 									<td class="text-center">
@@ -79,8 +82,11 @@
 								<tr>
 									<td class="text-center">
 										<div class="position-relative custom-control custom-checkbox">
-											<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId11">
+											<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId11">
 											<label class="custom-control-label" for="selectedId11"></label>
+											<div id="showDiv" class="show-msg-div d-none">
+											    ⾮表⽰にする<br/> 在庫同期をオフにする
+											</div>
 										</div>
 									</td>
 									<td class="text-center">
@@ -132,7 +138,7 @@
 		</div>
 
 		<div class="d-flex justify-content-end">
-			<a href="#" class="btn btn-red mr-1"><span>キャンセル</span></a>
+			<a href="#" class="btn btn-cancel mr-1"><span>キャンセル</span></a>
 			<a href="#" class="btn btn-dark"><span>同梱にする</span></a>
 		</div>
 

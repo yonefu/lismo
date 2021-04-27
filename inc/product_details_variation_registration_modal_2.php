@@ -1,6 +1,6 @@
 <div class="inner-page-wrap">
 	<div class="product-details--modal-page w-100">
-		<div class="d-flex justify-content-between align-items-center mb-3"><img src="dist/img/
+		<div class="d-flex justify-content-between align-items-center mb-3">
 			<h3 class="page-title mb-1">
 				<span>商品の詳細</span>
 			</h3>
@@ -14,10 +14,10 @@
 				</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link">
+			<!-- 	<a class="nav-link">
 					<span class="mr-2">分析</span>
 				</a>
-			</li>
+			</li> -->
 		</ul>
 		<!--status-box-->
 
@@ -73,7 +73,7 @@
 						<tbody>
 							<tr>
 								<td class="text-center">
-									<img src="dist/img/mob-1.png" alt="" height="65" />
+									<img class="product-img float-none" src="dist/img/mob-1.png" alt="" height="65" />
 								</td>
 								<td class="text-center">
 									iPhoneX
@@ -457,7 +457,7 @@
 						<tbody>
 							<tr>
 								<td class="text-center">
-									<img class="product-img" src="dist/img/mob-2.png" alt="" height="65" />
+									<img class="product-img float-none" src="dist/img/mob-2.png" alt="" height="65" />
 								</td>
 								<td class="text-center">
 									iPhoneX
@@ -787,7 +787,7 @@
 						<tbody>
 							<tr>
 								<td class="text-center">
-									<img src="dist/img/mob-3.png" alt="" height="65" />
+									<img  class="product-img float-none" src="dist/img/mob-3.png" alt="" height="65" />
 								</td>
 								<td class="text-center">
 									iPhoneX
@@ -1117,7 +1117,7 @@
 						<tbody>
 							<tr>
 								<td class="text-center">
-									<img src="dist/img/mob-4.png" alt="" height="65" />
+									<img  class="product-img float-none" src="dist/img/mob-4.png" alt="" height="65" />
 								</td>
 								<td class="text-center">
 									iPhoneX
@@ -1447,7 +1447,7 @@
 						<tbody>
 							<tr>
 								<td class="text-center">
-									<img src="dist/img/mob-5.png" alt="" height="65" />
+									<img  class="product-img float-none" src="dist/img/mob-5.png" alt="" height="65" />
 								</td>
 								<td class="text-center">
 									iPhoneX
@@ -1697,7 +1697,7 @@
 												<th class="column-6">合計</th>
 												<th class="column-7">現在庫</th>
 												<th class="column-8">実⾏者</th>
-												<th class="column-9">アクション</th>
+												<!-- <th class="column-9">アクション</th> -->
 											</tr>
 										</thead>
 										<tbody>
@@ -1713,9 +1713,9 @@
 												<td class="text-center">¥32,860</td>
 												<td class="text-center">12</td>
 												<td class="text-center">admin</td>
-												<td class="text-center">
+												<!-- <td class="text-center">
 													<p><a href="#" class="btn btn-outline-dark br-25">編集する</a></p>
-												</td>
+												</td> -->
 											</tr>
 											<!--tr-->
 											<tr>
@@ -1730,9 +1730,9 @@
 												<td class="text-center">¥32,860</td>
 												<td class="text-center">34</td>
 												<td class="text-center">admin</td>
-												<td class="text-center">
+												<!-- <td class="text-center">
 													<p><a href="#" class="btn btn-outline-dark br-25">編集する</a></p>
-												</td>
+												</td> -->
 											</tr>
 											<!--tr-->
 											<tr>
@@ -1747,9 +1747,9 @@
 												<td class="text-center">¥32,860</td>
 												<td class="text-center">4</td>
 												<td class="text-center">admin</td>
-												<td class="text-center">
+												<!-- <td class="text-center">
 													<p><a href="#" class="btn btn-outline-dark br-25">編集する</a></p>
-												</td>
+												</td> -->
 											</tr>
 											<!--tr-->
 											<tr>
@@ -1764,9 +1764,9 @@
 												<td class="text-center">¥32,860</td>
 												<td class="text-center">83</td>
 												<td class="text-center">admin</td>
-												<td class="text-center">
+												<!-- <td class="text-center">
 													<p><a href="#" class="btn btn-outline-dark br-25">編集する</a></p>
-												</td>
+												</td> -->
 											</tr>
 											<!--tr-->
 										</tbody>
@@ -2079,7 +2079,7 @@
 										</thead>
 										<tbody>
 											<tr>
-												<td class="text-center"><img class="product-img" src="dist/img/mob-2.png" alt="" /></td>
+												<td class="text-center"><img class="product-img float-none" src="dist/img/mob-2.png" alt="" /></td>
 												<td class="text-center">iPhoneX</td>
 												<td class="text-center">
 													<p><span class="badge first-hand">直接</span></p>
@@ -2408,7 +2408,7 @@
 										<!--thead-->
 										<tbody>
 											<tr>
-												<td class="text-center"><img src="dist/img/mob-1.png" alt="" /></td>
+												<td class="text-center"><img class="product-img float-none" src="dist/img/mob-1.png" alt="" /></td>
 												<td class="text-center">iPhoneXピンク</td>
 												<td class="text-center">
 													<p><span class="badge first-hand">直接</span></p>
@@ -2429,7 +2429,7 @@
 											</tr>
 											<!--tr-->
 											<tr>
-												<td class="text-center"><img class="product-img" src="dist/img/mob-2.png" alt="" /></td>
+												<td class="text-center"><img class="product-img float-none" src="dist/img/mob-2.png" alt="" /></td>
 												<td class="text-center">iPhoneXグリーン</td>
 												<td class="text-center">
 													<p><span class="badge first-hand">直接</span></p>
@@ -2450,7 +2450,7 @@
 											</tr>
 											<!--tr-->
 											<tr>
-												<td class="text-center"><img src="dist/img/mob-1.png" alt="" /></td>
+												<td class="text-center"><img class="product-img float-none" src="dist/img/mob-1.png" alt="" /></td>
 												<td class="text-center">iPhoneXブルー</td>
 												<td class="text-center">
 													<p><span class="badge first-hand">直接</span></p>

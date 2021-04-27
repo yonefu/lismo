@@ -16,9 +16,6 @@
 
 							<div class="search-box">
 								<form class="form-inline">
-									<div class="search-result mr-3">
-										<span>全てを表示中:<span class="fontEN">30</span>件</span>
-									</div>
 									<div class="input-group align-items-center">
 										<input type="text" class="form-control" placeholder="検索ワードを⼊⼒">
 										<button type="search" class="btn-search">検索</button>
@@ -30,29 +27,30 @@
 						</div>
 						<!--div-->
 
-						<div class="d-flex flex-wrap justify-content-between align-items-center">
-							<ul class="nav top-nav mb-3">
-								<li class="nav-item">
-									<a class="nav-link active" href="list_all.php">
-										すべての商品
-										<span class="selcted-counter">327</span>
+						<div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
+							<div class="search-result mr-3">
+								<span>全てを表示中:<span class="fontEN">30</span>件</span>
+							</div>
+							<div class="right-dropdown d-flex ml-auto">
+								<div>
+									<a class="nav-link dropdown-warehouse btn btn-sm dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										ショップ：全て
 									</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">
-										<img src="dist/img/icons/icon-shopify.png" alt="Shopify" />
-										<span class="selcted-counter">317</span>
+									<div class="dropdown-menu dropdown-menu-right">
+										<a class="dropdown-item" href="#">横浜本社倉庫へ</a>
+										<a class="dropdown-item" href="#">AmazonFAB</a>
+									</div>
+								</div>
+								<div>
+									<a class="nav-link btn dropdown-tags btn-sm dropdown-toggle bg-white br-25" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										タグ選択：なし
 									</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">
-										<img src="dist/img/icons/icon-amazon.png" alt="Amazon" />
-										<span class="selcted-counter">10</span>
-									</a>
-								</li>
-							</ul>
-							<!--ul nav-->
-							<a href="javascript:void(0);" class="view-hidden-products bg-white br-25 btn btn-lg f-12 text-dark mb-2 ml-auto"  data-toggle="modal" data-target="#ProductModalOption"><span>⾮表⽰にした商品を⾒る</span></a>
+									<div class="dropdown-menu dropdown-menu-right">
+										<a class="dropdown-item" href="#">*************</a>
+										<a class="dropdown-item" href="#">*************</a>
+									</div>
+								</div>
+							</div>
 						</div>
 						<!--d-flex flex-wrap justify-content-between align-items-center-->
 					</div>
@@ -84,7 +82,7 @@
 											<tr>
 												<td class="text-center">
 													<div class="position-relative custom-control custom-checkbox">
-														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId" checked>
+														<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId" checked>
 														<label class="custom-control-label" for="selectedId"></label>
 														<div id="showDiv" class="show-msg-div">
 														    ⾮表⽰にする
@@ -132,8 +130,11 @@
 											<tr>
 												<td class="text-center">
 													<div class="position-relative custom-control custom-checkbox">
-														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId1">
+														<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId1">
 														<label class="custom-control-label" for="selectedId1"></label>
+														<div id="showDiv" class="show-msg-div d-none">
+														    ⾮表⽰にする
+														</div>
 													</div>
 												</td>
 												<td class="text-center">
@@ -177,8 +178,11 @@
 											<tr>
 												<td class="text-center">
 													<div class="position-relative custom-control custom-checkbox">
-														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId2">
+														<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId2">
 														<label class="custom-control-label" for="selectedId2"></label>
+														<div id="showDiv" class="show-msg-div d-none">
+														    ⾮表⽰にする
+														</div>
 													</div>
 												</td>
 												<td class="text-center">
@@ -222,8 +226,11 @@
 											<tr>
 												<td class="text-center">
 													<div class="position-relative custom-control custom-checkbox">
-														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId3">
+														<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId3">
 														<label class="custom-control-label" for="selectedId3"></label>
+														<div id="showDiv" class="show-msg-div d-none">
+														    ⾮表⽰にする
+														</div>
 													</div>
 												</td>
 												<td class="text-center">
@@ -267,8 +274,11 @@
 											<tr>
 												<td class="text-center">
 													<div class="position-relative custom-control custom-checkbox">
-														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId4">
+														<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId4">
 														<label class="custom-control-label" for="selectedId4"></label>
+														<div id="showDiv" class="show-msg-div d-none">
+														    ⾮表⽰にする
+														</div>
 													</div>
 												</td>
 												<td class="text-center">
@@ -319,6 +329,7 @@
 					</div>
 					<!--table-wrapper-->
 					<?php include('inc/pagination.php'); ?>
+					<a href="javascript:void(0);" class="view-hidden-products bg-white br-25 btn btn-lg f-12 text-dark mb-2 ml-auto"  data-toggle="modal" data-target="#ProductModalOption"><span>⾮表⽰にした商品を⾒る</span></a>
 				</div>
 				<!--list-page w-100-->
 			</div>
@@ -332,7 +343,7 @@
 
 <!-- Modal ProductModalOption-->
 <div class="modal fade" id="ProductModalOption" tabindex="-1" role="dialog" aria-labelledby="ProductModalOptionTitle" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+	<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
 		<div class="modal-content bg-white">
 			<button type="button" class="close position-absolute p-2" data-dismiss="modal" aria-label="Close" style="z-index: 5">
 				<span aria-hidden="true"><img src="dist/img/icons/icon-modal-close.png" alt="" /></span>

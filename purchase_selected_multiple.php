@@ -120,8 +120,11 @@
 											<tr>
 												<td class="text-center">
 													<div class="position-relative custom-control custom-checkbox">
-														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId1">
+														<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId1">
 														<label class="custom-control-label" for="selectedId1"></label>
+														<div id="showDiv" class="show-msg-div d-none">
+														    リストから削除する
+														</div>
 													</div>
 												</td>
 												<td class="d-flex align-items-center">
@@ -159,8 +162,11 @@
 											<tr class="tr-clone">
 												<td class="text-center">
 													<div class="position-relative custom-control custom-checkbox">
-														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId2">
+														<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId2">
 														<label class="custom-control-label" for="selectedId2"></label>
+														<div id="showDiv" class="show-msg-div d-none">
+														    リストから削除する
+														</div>
 													</div>
 												</td>
 												<td class="d-flex align-items-center">
@@ -207,7 +213,7 @@
 						<div class="card">
 							<div class="card-body">
 								<div class="table-title">
-									<div class="d-flex flex-wrap justify-content-between align-items-center py-2 pl-4 pr-3">
+									<div class="d-flex flex-wrap justify-content-between align-items-center py-2 px-4">
 										<div class="tt-lt-col mb-1">
 											<span>AmazonFBAへの仕入れ </span>
 										</div>
@@ -248,8 +254,11 @@
 											<tr>
 												<td class="text-center">
 													<div class="position-relative custom-control custom-checkbox">
-														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId3">
+														<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId3">
 														<label class="custom-control-label" for="selectedId3"></label>
+														<div id="showDiv" class="show-msg-div d-none">
+														    リストから削除する
+														</div>
 													</div>
 												</td>
 												<td class="d-flex align-items-center">

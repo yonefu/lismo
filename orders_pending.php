@@ -120,8 +120,11 @@
 													<tr>
 														<td class="text-center " rowspan="2">
 															<div class="position-relative custom-control custom-checkbox">
-																<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId1">
+																<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId1">
 																<label class="custom-control-label" for="selectedId1"></label>
+																<div id="showDiv" class="show-msg-div d-none">
+																    保留を解除する
+																</div>
 															</div>
 														</td>
 														<td class="text-center" rowspan="2">
@@ -249,8 +252,11 @@
 													<tr>
 														<td class="text-center ">
 															<div class="position-relative custom-control custom-checkbox">
-																<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId2">
+																<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId2">
 																<label class="custom-control-label" for="selectedId2"></label>
+																<div id="showDiv" class="show-msg-div d-none">
+																    保留を解除する
+																</div>
 															</div>
 														</td>
 														<td class="text-center">

@@ -272,7 +272,7 @@ p, span{
 }
 
 .btn-red {
-	background: $red !important;
+	background: #f23d46 !important;
 }
 
 .btn-red-outline {
@@ -318,6 +318,14 @@ p, span{
 	&:hover {
 		opacity: 0.8;
 		color: $white !important;
+	}
+}
+
+.btn-cancel{
+	color: $dark;
+	transition: all ease 0.5s;
+	&:hover{
+		opacity: 0.8;
 	}
 }
 
@@ -562,11 +570,13 @@ p, span{
 			justify-content: center;
 
 			a {
-				padding: 0 10px;
+				padding: 0 8px;
 				color: #d4d4d4;
+				border: 0;
 
 				&:hover,
 				&.active {
+					border: 0;
 					&:before {
 						content: none;
 					}
@@ -663,7 +673,7 @@ p, span{
 	min-width: 130px;
 	text-align: center;
 	padding: 8px 16px;
-	font-size: 14px;
+	font-size: 12px;
 
 	&:hover {
 		opacity: 0.8;
@@ -1119,6 +1129,7 @@ div.radio.switcher {
 	top: 0;
 	z-index: 9;
 	text-align: left;
+	font-weight: normal;
 }
 
 .pagination {

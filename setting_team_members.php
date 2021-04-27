@@ -16,7 +16,7 @@
 									<div class="form-heading mb-2 f-28">チームメンバー</div>
 									<div class="d-flex align-items-center">
 										<div class="mb-2 mr-4">
-											<span class="badge storage text-white py-1 px-2 mr-2">PROプラン</span>
+											<span class="badge storage text-white py-1 px-2 mr-2 text-dark">PROプラン</span>
 											<span class="f-12">チームメンバー数：無制限∞</span>
 										</div>
 										<a href="#" class="btn btn-dark mb-2"><span>メンバーを追加する</span></a>

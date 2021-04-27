@@ -112,7 +112,7 @@
 		</div>
 
 		<div class="d-flex justify-content-end">
-			<a href="#" class="btn btn-red mr-1"><span>キャンセル</span></a>
+			<a href="#" class="btn btn-cancel mr-1"><span>キャンセル</span></a>
 			<a href="#" class="btn btn-dark"><span>複製する</span></a>
 		</div>
 

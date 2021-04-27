@@ -13,11 +13,11 @@
 					<span class="mr-2">管理</span>
 				</a>
 			</li>
-			<li class="nav-item">
+			<!-- <li class="nav-item">
 				<a class="nav-link">
 					<span class="mr-2">分析</span>
 				</a>
-			</li>
+			</li> -->
 		</ul>
 		<!--status-box-->
 
@@ -228,7 +228,7 @@
 									<th class="column-6">合計</th>
 									<th class="column-7">現在庫</th>
 									<th class="column-8">実⾏者</th>
-									<th class="column-9">アクション</th>
+									<<!-- th class="column-9">アクション</th> -->
 								</tr>
 							</thead>
 							<tbody>
@@ -244,9 +244,9 @@
 									<td class="text-center">¥32,860</td>
 									<td class="text-center">12</td>
 									<td class="text-center">admin</td>
-									<td class="text-center">
+									<!-- <td class="text-center">
 										<p><a href="#" class="btn btn-outline-dark br-25">編集する</a></p>
-									</td>
+									</td> -->
 								</tr>
 								<!--tr-->
 								<tr>
@@ -261,9 +261,9 @@
 									<td class="text-center">¥32,860</td>
 									<td class="text-center">34</td>
 									<td class="text-center">admin</td>
-									<td class="text-center">
+									<!-- <td class="text-center">
 										<p><a href="#" class="btn btn-outline-dark br-25">編集する</a></p>
-									</td>
+									</td> -->
 								</tr>
 								<!--tr-->
 								<tr>
@@ -278,9 +278,9 @@
 									<td class="text-center">¥32,860</td>
 									<td class="text-center">4</td>
 									<td class="text-center">admin</td>
-									<td class="text-center">
+									<!-- <td class="text-center">
 										<p><a href="#" class="btn btn-outline-dark br-25">編集する</a></p>
-									</td>
+									</td> -->
 								</tr>
 								<!--tr-->
 								<tr>
@@ -295,9 +295,9 @@
 									<td class="text-center">¥32,860</td>
 									<td class="text-center">83</td>
 									<td class="text-center">admin</td>
-									<td class="text-center">
+									<!-- <td class="text-center">
 										<p><a href="#" class="btn btn-outline-dark br-25">編集する</a></p>
-									</td>
+									</td> -->
 								</tr>
 								<!--tr-->
 							</tbody>

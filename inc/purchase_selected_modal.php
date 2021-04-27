@@ -75,8 +75,11 @@
 								<tr>
 									<td class="text-center">
 										<div class="position-relative custom-control custom-checkbox">
-											<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId1">
+											<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId1">
 											<label class="custom-control-label" for="selectedId1"></label>
+											<div id="showDiv" class="show-msg-div d-none">
+											    仕⼊れに追加する<br/>追加を取り消す
+											</div>
 										</div>
 									</td>
 									<td class="d-flex align-items-center">
@@ -99,15 +102,18 @@
 									</td>
 									<td class="text-center">
 										<a class="btn btn-golden add-to-purchase">仕入れるに追加する</a>
-										<div class="delete-row"><img src="dist/img/icons/icon-close-wh.png" alt="" /></div>
+										<div class="delete-row"><!-- <img src="dist/img/icons/icon-close-wh.png" alt="" /> --></div>
 									</td>
 								</tr>
 
 								<tr>
 									<td class="text-center">
 										<div class="position-relative custom-control custom-checkbox">
-											<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId2">
+											<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId2">
 											<label class="custom-control-label" for="selectedId2"></label>
+											<div id="showDiv" class="show-msg-div d-none">
+											    仕⼊れに追加する<br/>追加を取り消す
+											</div>
 										</div>
 									</td>
 									<td class="d-flex align-items-center">
@@ -131,14 +137,17 @@
 									</td>
 									<td class="text-center">
 										<a class="btn btn-golden add-to-purchase">仕入れるに追加する</a>
-										<div class="delete-row"><img src="dist/img/icons/icon-close-wh.png" alt="" /></div>
+										<div class="delete-row"><!-- <img src="dist/img/icons/icon-close-wh.png" alt="" /> --></div>
 									</td>
 								</tr>
 								<tr>
 									<td class="text-center">
 										<div class="position-relative custom-control custom-checkbox">
-											<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId3">
+											<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId3">
 											<label class="custom-control-label" for="selectedId3"></label>
+											<div id="showDiv" class="show-msg-div d-none">
+											    仕⼊れに追加する<br/>追加を取り消す
+											</div>
 										</div>
 									</td>
 									<td class="d-flex align-items-center">
@@ -161,15 +170,18 @@
 									</td>
 									<td class="text-center">
 										<a class="btn btn-golden add-to-purchase">仕入れるに追加する</a>
-										<div class="delete-row"><img src="dist/img/icons/icon-close-wh.png" alt="" /></div>
+										<div class="delete-row"><!-- <img src="dist/img/icons/icon-close-wh.png" alt="" /> --></div>
 									</td>
 								</tr>
 
 								<tr>
 									<td class="text-center">
 										<div class="position-relative custom-control custom-checkbox">
-											<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId4">
+											<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId4">
 											<label class="custom-control-label" for="selectedId4"></label>
+											<div id="showDiv" class="show-msg-div d-none">
+											    仕⼊れに追加する<br/>追加を取り消す
+											</div>
 										</div>
 									</td>
 									<td class="d-flex align-items-center">

@@ -38,7 +38,7 @@
 										</div>
 										<div class="form-group row justify-content-end mt-4">
 											<div class="pr-3">
-												<a href="#" class="btn btn-red mb-2 mr-2"><span>キャンセル</span></a>
+												<a href="#" class="btn btn-cancel mb-2 mr-2"><span>キャンセル</span></a>
 												<a href="#" class="btn btn-dark mb-2"><span>保存する</span></a>
 											</div>
 										</div>

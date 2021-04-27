@@ -123,8 +123,12 @@
 											<tr>
 												<td class="text-center" rowspan="2">
 													<div class="position-relative custom-control custom-checkbox">
-														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId1">
+														<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId1" checked>
 														<label class="custom-control-label" for="selectedId1"></label>
+														<div id="showDiv" class="show-msg-div">
+														    同梱にする<br/>出荷準備中にする<br/>保留にする<br/>
+														    <span class="clr-red">倉キャンセ庫ルにする</span>
+														</div>
 													</div>
 												</td>
 												<td class="text-center" rowspan="2">
@@ -220,8 +224,12 @@
 											<tr>
 												<td class="text-center" rowspan="2">
 													<div class="position-relative custom-control custom-checkbox">
-														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId2">
+														<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId2">
 														<label class="custom-control-label" for="selectedId2"></label>
+														<div id="showDiv" class="show-msg-div d-none">
+														    同梱にする<br/>出荷準備中にする<br/>保留にする<br/>
+														    <span class="clr-red">倉キャンセ庫ルにする</span>
+														</div>
 													</div>
 												</td>
 												<td class="text-center" rowspan="2">
@@ -317,8 +325,12 @@
 											<tr>
 												<td class="text-center">
 													<div class="position-relative custom-control custom-checkbox">
-														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId3">
+														<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId3">
 														<label class="custom-control-label" for="selectedId3"></label>
+														<div id="showDiv" class="show-msg-div d-none">
+														    同梱にする<br/>出荷準備中にする<br/>保留にする<br/>
+														    <span class="clr-red">倉キャンセ庫ルにする</span>
+														</div>
 													</div>
 												</td>
 												<td class="text-center">
@@ -386,8 +398,12 @@
 											<tr>
 												<td class="text-center">
 													<div class="position-relative custom-control custom-checkbox">
-														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId4">
+														<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId4">
 														<label class="custom-control-label" for="selectedId4"></label>
+														<div id="showDiv" class="show-msg-div d-none">
+														    同梱にする<br/>出荷準備中にする<br/>保留にする<br/>
+														    <span class="clr-red">倉キャンセ庫ルにする</span>
+														</div>
 													</div>
 												</td>
 												<td class="text-center">
@@ -455,8 +471,12 @@
 											<tr>
 												<td class="text-center">
 													<div class="position-relative custom-control custom-checkbox">
-														<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selectedId5">
+														<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId5">
 														<label class="custom-control-label" for="selectedId5"></label>
+														<div id="showDiv" class="show-msg-div d-none">
+														    同梱にする<br/>出荷準備中にする<br/>保留にする<br/>
+														    <span class="clr-red">倉キャンセ庫ルにする</span>
+														</div>
 													</div>
 												</td>
 												<td class="text-center">

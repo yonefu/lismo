@@ -30,7 +30,7 @@
 														<span class="bg-yellow py-1 px-2">PROプラン</span>
 													</div>
 													<div class="btn-change-plan">
-														<a href="#" class="btn btn-outline-dark br-25"><span>プランを変更する</span></a>
+														<a href="#" class="btn btn-outline-dark br-25 f-12"><span>プランを変更する</span></a>
 													</div>
 												</div>
 											</div>
@@ -68,14 +68,14 @@
 											<label class="col-lg-3 col-form-label f-12 pr-0">カード番号</label>
 											<div class="col-lg-9">
 												<p class="mb-1">下四ケタのみ表⽰</p>
-												<input type="text"  class="form-control" placeholder="************9767">
+												<p class="mb-1 pl-2">************9767</p>
 											</div>
 										</div>
 										<div class="form-group row">
 											<label class="col-lg-3 col-form-label f-12 pr-0">カード有効期限</label>
 											<div class="col-lg-9">
 												<p class="mb-1">⽉/年</p>
-												<input type="text"  class="form-control" placeholder="07/2022">
+												<p class="mb-1">07/2022</p>
 											</div>
 										</div>
 									</form>

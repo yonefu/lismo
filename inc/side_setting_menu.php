@@ -72,7 +72,7 @@
 		</div>
 		<!--ss-menu-box-->
 
-		<div class="ss-menu-box mb-3">
+		<div class="ss-menu-box">
 			<p class="ss-menu-title">Modal</p>
 			<ul class="nav flex-column">
 				<li class="nav-item">

@@ -175,7 +175,7 @@
 				<!--form-group row-->
 			</div>
 			<div class="d-flex justify-content-end mt-4">
-				<a href="#" class="btn btn-red mr-1"><span>キャンセル</span></a>
+				<a href="#" class="btn btn-cancel mr-1"><span>キャンセル</span></a>
 				<a href="#" class="btn btn-dark"><span>保存する</span></a>
 			</div>
 			<!--div-->
@@ -287,7 +287,7 @@
 			</div>
 
 			<div class="d-flex justify-content-end mt-4">
-				<a href="#" class="btn btn-red mr-1"><span>キャンセル</span></a>
+				<a href="#" class="btn btn-cancel mr-1"><span>キャンセル</span></a>
 				<a href="#" class="btn btn-dark"><span>保存する</span></a>
 			</div>
 			<!--div-->
