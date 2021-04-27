@@ -23,11 +23,11 @@
 
 			<div class="form-check row d-flex">
 				<label class="col-lg-3 col-form-label text-right pr-0">&nbsp;</label>
-				<div class="col-lg-9 pl-4">
-					<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-					<label class="form-check-label f-12" for="defaultCheck1">
-						ブランド名の変更を他のバリエーションにも適⽤する
-					</label>
+				<div class="col-lg-9 pl-0">
+					<div class="position-relative custom-control custom-checkbox checkbox-sm">
+						<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selected1">
+						<label class="custom-control-label f-12 ml-4" for="selected1">ブランド名の変更を他のバリエーションにも適⽤する</label>
+					</div>
 				</div>
 			</div>
 		</form>

@@ -280,3 +280,10 @@ table.variation-table{
 		max-width: 130px;
 	}
 }
+
+.checkbox-sm{
+	.custom-control-label::before, .custom-control-label::after {
+		width: 16px;
+		height: 16px;
+	}
+}

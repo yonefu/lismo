@@ -1743,6 +1743,10 @@ table.variation-table td img {
   max-height: 130px;
   max-width: 130px; }
 
+.checkbox-sm .custom-control-label::before, .checkbox-sm .custom-control-label::after {
+  width: 16px;
+  height: 16px; }
+
 .btn-sidesettingbar {
   position: absolute;
   top: 1px;
@@ -1764,6 +1768,15 @@ table.variation-table td img {
 
 .setting-inner-wrap {
   padding-bottom: 1em; }
+  .setting-inner-wrap .custom-radio .custom-control-label::before {
+    border-radius: 6px !important; }
+  .setting-inner-wrap .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+    width: 12px;
+    height: 12px;
+    background: white;
+    border-radius: 3px !important;
+    left: 4px;
+    top: 4px; }
 
 .ss-menu-box .ss-menu-title {
   font-size: 15px;

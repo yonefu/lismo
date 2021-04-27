@@ -66,11 +66,11 @@
 
 			<div class="form-check row d-flex">
 				<label class="col-lg-3 col-form-label text-right pr-0">&nbsp;</label>
-				<div class="col-lg-9 pl-4 f-12">
-					<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-					<label class="form-check-label" for="defaultCheck1">
-						他のバリエーションにもまとめて適用する
-					</label>
+				<div class="col-lg-9 pl-0">
+					<div class="position-relative custom-control custom-checkbox checkbox-sm">
+						<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selected12">
+						<label class="custom-control-label f-12 ml-4" for="selected12">他のバリエーションにもまとめて適用する</label>
+					</div>
 				</div>
 			</div>
 		</form>
