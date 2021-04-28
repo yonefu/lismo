@@ -126,3 +126,4 @@
 </div>
 <!--inner-page-wrap-->
 
+<?php include('inc/pagination.php'); ?>

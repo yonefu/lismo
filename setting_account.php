@@ -12,6 +12,9 @@
 						<?php include('inc/side_setting_menu.php'); ?>
 						<div class="setting-wrap">
 							<div class="top-block">
+								<h3 class="page-title mb-4">
+									<span>アカウント設定</span>
+								</h3>
 							</div>
 							<!--top-block-->
 							<div class="bg-white br-25">

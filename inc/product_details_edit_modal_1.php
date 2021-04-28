@@ -31,7 +31,7 @@
 				<label for="inputPassword" class="col-lg-4 col-form-label text-right pr-0"></label>
 				<div class="col-lg-8">
 					<div class="form-group inputDnD">
-						<input type="file" class="form-control-file" id="inputFile" onchange="readUrl(this)" data-title="ここに画像をドラッグ">
+						<input type="file" class="form-control-file" id="inputFile" onchange="readUrl(this)" data-title="ここに画像をドラッグ&ドロップ">
 					</div>
 				</div>
 			</div>

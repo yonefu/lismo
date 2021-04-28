@@ -748,9 +748,6 @@ table {
   background: #f2f2f2;
   border: 1px solid #e0e0e0; }
 
-.modal .pagination a.previous, .modal .pagination a.next, .modal .pagination a.active {
-  border: 1px solid #1f2634; }
-
 .search-box input {
   min-height: 42px;
   border-radius: 25px !important;
@@ -859,9 +856,9 @@ div.radio.switcher label {
   background: #ffffff;
   -webkit-box-shadow: 0px 2px 8px #d4d4d4;
           box-shadow: 0px 2px 8px #d4d4d4;
-  padding: 15px;
+  padding: 20px;
   border-radius: 10px;
-  width: 160px;
+  width: 165px;
   left: 30px;
   top: 0;
   z-index: 9;

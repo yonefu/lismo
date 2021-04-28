@@ -984,7 +984,7 @@ table {
 			&.previous,
 			&.next,
 			&.active {
-				border: 1px solid $dark;
+				// border: 1px solid $dark;
 			}
 		}
 	}
@@ -1122,9 +1122,9 @@ div.radio.switcher {
 	position: absolute;
 	background: $white;
 	box-shadow: 0px 2px 8px #d4d4d4;
-	padding: 15px;
+	padding: 20px;
 	border-radius: 10px;
-	width: 160px;
+	width: 165px;
 	left: 30px;
 	top: 0;
 	z-index: 9;

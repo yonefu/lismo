@@ -67,14 +67,14 @@
 										<div class="form-group row">
 											<label class="col-lg-3 col-form-label f-12 pr-0">カード番号</label>
 											<div class="col-lg-9">
-												<p class="mb-1">下四ケタのみ表⽰</p>
+												<p class="mb-1">(下四ケタのみ表⽰)</p>
 												<p class="mb-1 pl-2">************9767</p>
 											</div>
 										</div>
 										<div class="form-group row">
 											<label class="col-lg-3 col-form-label f-12 pr-0">カード有効期限</label>
 											<div class="col-lg-9">
-												<p class="mb-1">⽉/年</p>
+												<p class="mb-1">(⽉/年)</p>
 												<p class="mb-1">07/2022</p>
 											</div>
 										</div>
