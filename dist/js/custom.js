@@ -17,7 +17,7 @@ $(document).ready(function() {
 
     $(".selectedId").click(function() {
         if ($(this).is(":checked")) {
-            $('input.selectedId').not(this).prop('checked', false); 
+            // $('input.selectedId').not(this).prop('checked', false); 
             // $('.selectedId').removeAttr('checked');
             // $('.selectedId').attr('checked', false).triggerHandler('click');
             $(".show-msg-div").addClass('d-none');
