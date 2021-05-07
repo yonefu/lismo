@@ -1964,6 +1964,15 @@ table.delivery-warehouse-edit-table .column-5 {
 table.delivery-warehouse-edit-table .column-6 {
   width: 120px; }
 
+.setting-modal-page nav.py-3 {
+  border-top: 1px solid #f2f2f2; }
+
+.setting-modal-page .pagination li a.previous, .setting-modal-page .pagination li a.active, .setting-modal-page .pagination li a.next {
+  border: 1px solid #1f2634; }
+
+.setting-modal-page .pagination li a:hover {
+  border: 1px solid #1f2634; }
+
 .setting-pagi .pagination a.previous, .setting-pagi .pagination a.next, .setting-pagi .pagination a.active {
   border: 0 !important; }
 

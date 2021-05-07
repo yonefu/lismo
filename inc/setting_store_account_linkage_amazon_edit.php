@@ -104,77 +104,79 @@
 			<!--form-group row-->
 
 			<div class="choose-option-box">
-				<p class="f-12 pl-3">同期オプション設定を閉じる <i class="fa fa-caret-up ml-1"></i></p>
-				<div class="form-heading mb-3 f-18">注⽂取込</div>
+				<a class="f-12 pl-3 mb-3 d-flex align-items-center" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">同期オプション設定を閉じる <i class="fa fa-caret-up ml-1"></i></a>
+				<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+					<div class="form-heading mb-3 f-18">注⽂取込</div>
 
-				<div class="form-group row">
-					<div class="col-lg-6">
-						<div class="row">
-							<label for="staticEmail" class="col-lg-5 col-form-label text-right pr-0">発送期限⽇数</label>
-							<div class="col-lg-7">
-								<input type="text"  class="form-control" placeholder="⾃動">
+					<div class="form-group row">
+						<div class="col-lg-6">
+							<div class="row">
+								<label for="staticEmail" class="col-lg-5 col-form-label text-right pr-0">発送期限⽇数</label>
+								<div class="col-lg-7">
+									<input type="text"  class="form-control" placeholder="⾃動">
+								</div>
 							</div>
+							<!--row-->
 						</div>
-						<!--row-->
-					</div>
-					<div class="col-lg-6">
-						<div class="row">
-							<label for="staticEmail" class="col-lg-5 col-form-label text-right pr-0">販売⼿数料</label>
-							<div class="col-lg-7">
-								<input type="text"  class="form-control" placeholder="⾃動">
+						<div class="col-lg-6">
+							<div class="row">
+								<label for="staticEmail" class="col-lg-5 col-form-label text-right pr-0">販売⼿数料</label>
+								<div class="col-lg-7">
+									<input type="text"  class="form-control" placeholder="⾃動">
+								</div>
 							</div>
+							<!--row-->
 						</div>
-						<!--row-->
 					</div>
+					<!--form-group row-->
+
+					<div class="form-heading mb-3 f-18">在庫同期</div>
+
+					<div class="form-group row">
+						<div class="col-lg-6">
+							<div class="row">
+								<label for="staticEmail" class="col-lg-5 col-form-label text-right pr-0">在庫なし在庫数</label>
+								<div class="col-lg-7">
+									<input type="text"  class="form-control" placeholder="0">
+								</div>
+							</div>
+							<!--row-->
+						</div>
+					</div>
+					<!--form-group row-->
+
+					<div class="form-group row">
+						<div class="col-lg-6">
+							<div class="row">
+								<label for="staticEmail" class="col-lg-5 col-form-label text-right pr-0">在庫0ボーダーライン</label>
+								<div class="col-lg-7">
+									<input type="text"  class="form-control" placeholder="0">
+								</div>
+							</div>
+							<!--row-->
+						</div>
+					</div>
+					<!--form-group row-->
+
+					<div class="form-group row">
+						<div class="col-lg-6">
+							<div class="row">
+								<label for="staticEmail" class="col-lg-5 col-form-label text-right pr-0">リードタイム</label>
+								<div class="col-lg-7">
+									<input type="text"  class="form-control" placeholder="0">
+								</div>
+							</div>
+							<!--row-->
+						</div>
+					</div>
+					<!--form-group row-->
+					<div class="d-flex justify-content-end mt-4">
+						<a href="#" class="btn btn-cancel mr-1"><span>キャンセル</span></a>
+						<a href="#" class="btn btn-dark"><span>保存する</span></a>
+					</div>
+					<!--div-->
 				</div>
-				<!--form-group row-->
-
-				<div class="form-heading mb-3 f-18">在庫同期</div>
-
-				<div class="form-group row">
-					<div class="col-lg-6">
-						<div class="row">
-							<label for="staticEmail" class="col-lg-5 col-form-label text-right pr-0">在庫なし在庫数</label>
-							<div class="col-lg-7">
-								<input type="text"  class="form-control" placeholder="0">
-							</div>
-						</div>
-						<!--row-->
-					</div>
-				</div>
-				<!--form-group row-->
-
-				<div class="form-group row">
-					<div class="col-lg-6">
-						<div class="row">
-							<label for="staticEmail" class="col-lg-5 col-form-label text-right pr-0">在庫0ボーダーライン</label>
-							<div class="col-lg-7">
-								<input type="text"  class="form-control" placeholder="0">
-							</div>
-						</div>
-						<!--row-->
-					</div>
-				</div>
-				<!--form-group row-->
-
-				<div class="form-group row">
-					<div class="col-lg-6">
-						<div class="row">
-							<label for="staticEmail" class="col-lg-5 col-form-label text-right pr-0">リードタイム</label>
-							<div class="col-lg-7">
-								<input type="text"  class="form-control" placeholder="0">
-							</div>
-						</div>
-						<!--row-->
-					</div>
-				</div>
-				<!--form-group row-->
 			</div>
-			<div class="d-flex justify-content-end mt-4">
-				<a href="#" class="btn btn-cancel mr-1"><span>キャンセル</span></a>
-				<a href="#" class="btn btn-dark"><span>保存する</span></a>
-			</div>
-			<!--div-->
 		</form>
 		<!--form-->
 
