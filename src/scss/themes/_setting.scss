@@ -296,6 +296,22 @@ table.delivery-warehouse-edit-table{
 	}
 }
 
+.choose-option-box{
+	.collapsed{
+		i{
+			&:before {
+			    content: "\f0d7";
+				display: inline-block;
+				font: normal normal normal 14px/1 FontAwesome;
+				font-size: inherit;
+				text-rendering: auto;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+			}
+		}
+	}
+}
+
 .setting-pagi{
 	.pagination a.previous, .pagination a.next, .pagination a.active {
 	    border: 0 !important;

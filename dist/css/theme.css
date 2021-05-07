@@ -1973,6 +1973,15 @@ table.delivery-warehouse-edit-table .column-6 {
 .setting-modal-page .pagination li a:hover {
   border: 1px solid #1f2634; }
 
+.choose-option-box .collapsed i:before {
+  content: "\f0d7";
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
 .setting-pagi .pagination a.previous, .setting-pagi .pagination a.next, .setting-pagi .pagination a.active {
   border: 0 !important; }
 
