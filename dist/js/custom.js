@@ -154,7 +154,7 @@ $(document).ready(function() {
         $trLast.after($trNew);
 
         $('tr.tr-clone .delete-row').on('click', function() {
-            $(this).closest("tr.tr-clone").hide();
+            $(this).closest("tr.tr-clone").remove();
         });
     });
     $(".add-more-1").on("click", function() {
@@ -165,7 +165,7 @@ $(document).ready(function() {
         $trLast.after($trNew);
 
         $('tr.tr-clone1 .delete-row').on('click', function() {
-            $(this).closest("tr.tr-clone1").hide();
+            $(this).closest("tr.tr-clone1").remove();
         });
     });
 
