@@ -1534,6 +1534,9 @@ span.text-right.mr-2 {
 input[type="checkbox"] {
   min-height: auto; }
 
+.clone, .add-more-url {
+  cursor: pointer; }
+
 .product-top-information {
   padding-left: 10px;
   padding-right: 10px; }

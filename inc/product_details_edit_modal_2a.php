@@ -64,10 +64,11 @@
 					</div>
 				</div>
 			</div>
+			<div class="results"></div>
+			<div class="msg-text text-right mb-4 f-12 clone"><p>さら項目を追加する</p></div>
 		</form>
 
 		<div class="msg-text text-right mb-4 f-12">
-			<p>さら項目を追加する</p>
 			<p class="clr-red text-center">
 				※頂目名は全てのバリーションに共通で適用されます
 			</p>

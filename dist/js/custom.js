@@ -15,12 +15,27 @@ $(document).ready(function() {
         }
     });
 
+    $(".modal #checkall1").change(function() {
+        var checked = $(this).is(":checked");
+        if (checked) {
+            $(".modal .form-check-input").each(function() {
+                $(this).prop("checked", true);
+                $(this).parent(".custom-control").find(".show-msg-div").removeClass('d-none');
+            });
+        } else {
+            $(".modal .form-check-input").each(function() {
+                $(this).prop("checked", false);
+                $(this).parent(".custom-control").find(".show-msg-div").addClass('d-none');
+            });
+        }
+    });
+
     $(".selectedId").click(function() {
         if ($(this).is(":checked")) {
             // $('input.selectedId').not(this).prop('checked', false);
             // $('.selectedId').removeAttr('checked');
             // $('.selectedId').attr('checked', false).triggerHandler('click');
-            $(".show-msg-div").addClass('d-none');
+            // $(".show-msg-div").addClass('d-none');
 
             $(this).attr('checked', true);
             $(this).parent(".custom-control").find(".show-msg-div").removeClass('d-none');
@@ -121,8 +136,40 @@ $(document).ready(function() {
         clearBtn: true,
         format: "dd/mm/yyyy"
     });
-});
 
+    $('form').on('click', '.clone', function() {
+        $('.clone').closest('form').find('.form-group.mb-2').first().clone().appendTo('.results');
+    });
+
+    $('form').on('click', '.add-more-url', function() {
+        $('.add-more-url').closest('form').find('.url-clone').first().clone().appendTo('.appends');
+    });
+
+    //add and remove table tr
+    $(".add-more").on("click", function() {
+        var $tableBody = $('.table').find("tbody"),
+            $trLast = $tableBody.find("tr.tr-clone:last-child"),
+            $trNew = $trLast.clone();
+
+        $trLast.after($trNew);
+
+        $('tr.tr-clone .delete-row').on('click', function() {
+            $(this).closest("tr.tr-clone").hide();
+        });
+    });
+    $(".add-more-1").on("click", function() {
+        var $tableBody = $('.table').find("tbody"),
+            $trLast = $tableBody.find("tr.tr-clone1:last-child"),
+            $trNew = $trLast.clone();
+
+        $trLast.after($trNew);
+
+        $('tr.tr-clone1 .delete-row').on('click', function() {
+            $(this).closest("tr.tr-clone1").hide();
+        });
+    });
+
+});
 
 (function($, window) {
     'use strict';

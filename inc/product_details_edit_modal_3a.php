@@ -39,6 +39,7 @@
 					<input type="text" class="form-control" placeholder="https://app.lismoa.co">
 				</div>
 			</div>
+			<div class="appends"></div>
 
 			<p class="text-right add-more-url f-12"><a>さらにURLを追加する</a></p>
 

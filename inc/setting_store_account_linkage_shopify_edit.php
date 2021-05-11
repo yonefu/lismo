@@ -256,7 +256,7 @@
 										</td>
 									</tr>
 									<!--tr-->
-									<tr>
+									<tr class="tr-clone1">
 										<td class="text-center">
 											<span>速達配送</span>
 										</td>
@@ -279,7 +279,7 @@
 							</table>
 							<!--table-->
 							<div class="d-flex justify-content-end mt-2 mb-5 mr-5">
-								<a href="#" class="btn btn-outline-dark br-25"><span>追加する</span></a>
+								<a href="#" class="btn btn-outline-dark br-25 add-more-1"><span>追加する</span></a>
 							</div>
 							<!--div-->
 						</div>

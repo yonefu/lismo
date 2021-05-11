@@ -48,8 +48,8 @@
 								<tr>
 									<th class="col-checkbox">
 										<div class="position-relative custom-control custom-checkbox">
-											<input type="checkbox" class="form-check-input custom-control-input ml-0" id="checkall">
-											<label class="custom-control-label" for="checkall"></label>
+											<input type="checkbox" class="form-check-input custom-control-input ml-0" id="checkall1">
+											<label class="custom-control-label" for="checkall1"></label>
 										</div>
 									</th>
 									<th class="column-1">製品</th>
