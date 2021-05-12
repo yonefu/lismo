@@ -112,6 +112,19 @@ table.variation-table{
     		border-top: 0;
 		}
 	}
+	.pagination{
+		a{
+			&.previous{
+				border: 1px solid #1F2634;
+			}
+			&.next{
+				border: 1px solid #1F2634;
+			}
+			&.active{
+				border: 1px solid #1F2634;
+			}
+		}
+	} 
 }
 
 .border-box{

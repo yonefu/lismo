@@ -1607,6 +1607,15 @@ table.variation-table td img {
   border-bottom: 1px solid #dee2e6 !important;
   border-top: 0; }
 
+.product-table-wrapper .pagination a.previous {
+  border: 1px solid #1F2634; }
+
+.product-table-wrapper .pagination a.next {
+  border: 1px solid #1F2634; }
+
+.product-table-wrapper .pagination a.active {
+  border: 1px solid #1F2634; }
+
 .border-box {
   height: 90%; }
   .border-box .p-info-box {
