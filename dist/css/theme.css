@@ -1397,20 +1397,22 @@ tr.no-data th {
   padding: 0 !important;
   border: 0; }
 
-.form-box form .form-group label {
-  text-align: right;
-  font-size: 12px; }
-
-.form-box form .form-box_1 {
+.form-box form {
   background: white;
   border-radius: 25px;
   padding: 30px; }
-
-.form-box form .form-box {
-  background: white;
-  border-radius: 25px;
-  padding: 30px;
-  margin-top: 1rem; }
+  .form-box form .form-group label {
+    text-align: right;
+    font-size: 12px; }
+  .form-box form .form-box_1 {
+    background: white;
+    border-radius: 25px;
+    padding: 30px; }
+  .form-box form .form-box {
+    background: white;
+    border-radius: 25px;
+    padding: 30px;
+    margin-top: 1rem; }
 
 .form-box .form-data {
   padding: 30px; }
@@ -1419,6 +1421,23 @@ tr.no-data th {
     min-width: 135px;
     text-align: right;
     margin-right: 10px; }
+
+.setting-team form {
+  background: transparent;
+  border-radius: 25px;
+  padding: 0px; }
+  .setting-team form .form-group label {
+    text-align: right;
+    font-size: 12px; }
+  .setting-team form .form-box_1 {
+    background: white;
+    border-radius: 25px;
+    padding: 30px; }
+  .setting-team form .form-box {
+    background: white;
+    border-radius: 25px;
+    padding: 30px;
+    margin-top: 1rem; }
 
 .border-right {
   border-right: 1px solid #cccccc; }

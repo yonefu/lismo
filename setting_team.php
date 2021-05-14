@@ -7,7 +7,7 @@
 			<?php include('inc/side_menu.php'); ?>
 
 			<div class="inner-page-wrap">
-				<div class="setting-page w-100">
+				<div class="setting-page w-100 setting-team">
 					<div class="setting-inner-wrap d-flex">
 						<?php include('inc/side_setting_menu.php'); ?>
 						<div class="setting-wrap">

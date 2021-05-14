@@ -77,9 +77,9 @@ tr.no-data {
 
 .form-box {
 	form {
-		// background: white;
-		// border-radius: 25px;
-		// padding: 30px;
+		background: white;
+		border-radius: 25px;
+		padding: 30px;
 
 		.form-group {
 			label {
@@ -114,6 +114,31 @@ tr.no-data {
 	}
 }
 
+.setting-team{
+	form {
+		background: transparent;
+		border-radius: 25px;
+		padding: 0px;
+
+		.form-group {
+			label {
+				text-align: right;
+				font-size: 12px;
+			}
+		}
+		.form-box_1{
+			background: white;
+			border-radius: 25px;
+			padding: 30px;
+		}
+		.form-box{
+			background: white;
+			border-radius: 25px;
+			padding: 30px;
+			margin-top: 1rem;
+		}
+	}
+}
 .border-right {
 	border-right: 1px solid $lightGray;
 }
