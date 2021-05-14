@@ -1385,18 +1385,32 @@ input.box-80 {
   padding: 5px 10px;
   border-radius: 12px;
   border: 1px solid #cccccc; }
+  .set-product input {
+    background: transparent;
+    min-height: auto;
+    border: none;
+    width: 100%; }
+    .set-product input:focus {
+      outline: none; }
 
 tr.no-data th {
   padding: 0 !important;
   border: 0; }
 
-.form-box form {
+.form-box form .form-group label {
+  text-align: right;
+  font-size: 12px; }
+
+.form-box form .form-box_1 {
   background: white;
   border-radius: 25px;
   padding: 30px; }
-  .form-box form .form-group label {
-    text-align: right;
-    font-size: 12px; }
+
+.form-box form .form-box {
+  background: white;
+  border-radius: 25px;
+  padding: 30px;
+  margin-top: 1rem; }
 
 .form-box .form-data {
   padding: 30px; }

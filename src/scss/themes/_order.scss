@@ -55,6 +55,15 @@
 	padding: 5px 10px;
 	border-radius: 12px;
 	border: 1px solid $lightGray;
+	input{
+		background: transparent;
+		min-height: auto;
+		border: none;
+		width: 100%;
+		&:focus{
+			outline: none;
+		}
+	}
 }
 
 
@@ -68,15 +77,26 @@ tr.no-data {
 
 .form-box {
 	form {
-		background: white;
-		border-radius: 25px;
-		padding: 30px;
+		// background: white;
+		// border-radius: 25px;
+		// padding: 30px;
 
 		.form-group {
 			label {
 				text-align: right;
 				font-size: 12px;
 			}
+		}
+		.form-box_1{
+			background: white;
+			border-radius: 25px;
+			padding: 30px;
+		}
+		.form-box{
+			background: white;
+			border-radius: 25px;
+			padding: 30px;
+			margin-top: 1rem;
 		}
 	}
 

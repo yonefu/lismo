@@ -3,7 +3,8 @@
 
 		<label><span>セット商品の名称</span></label>
 		<div class="set-product mb-3 py-2 px-3 f-12">
-			<span>iPhoneX (たまさっちみくす) Melody mix ver パープル 日本限定2020年モデル虹新型</span>
+			<!-- <span>iPhoneX (たまさっちみくす) Melody mix ver パープル 日本限定2020年モデル虹新型</span> -->
+			<input type="" name="" placeholder="iPhoneX (たまさっちみくす) Melody mix ver パープル 日本限定2020年モデル虹新型">
 		</div>
 
 		<div class="table-wrapper">
