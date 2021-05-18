@@ -41,7 +41,14 @@
 	}
 }
 
+.list-page{
+	nav.py-3{
+		width: calc(100% - 200px);
+    	float: left;
+	}
+}
+
 .view-hidden-products{
-	margin-top: -80px;
+	margin-top: 1rem;
 	float: right;
 }
