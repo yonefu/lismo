@@ -33,6 +33,11 @@
 							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#settingDeliveryWarehouseEditInventoryTagEdit">設定_配送倉庫_編集_在庫タグ編集</a></li>
 							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#settingDeliveryWarehouseEditInventoryTagAdd">設定_配送倉庫_編集_在庫タグ追加</a></li>
 							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#settingDeliveryWarehouseEditShipping">設定_配送倉庫_編集_送料設定</a></li>
+
+							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#settingStoreAccountLinkageAddNewStoreAccount">設定_ストアアカウント連携_新規ストアアカウント追加</a></li>
+							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#settingStoreAccountLinkageEditApprovalMethodEdit">設定_ストアアカウント連携_編集 _決裁方法編集</a></li>
+							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#settingDeliveryWarehouseAddNewWarehouse">設定_配送倉庫_新規倉庫追加</a></li>
+							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#settingDeliveryWarehouseEditAddNewDeliveryMethod">設定_配送倉庫_編集_新規配送方法追加</a></li>
 						</ul>
 					</section>
 					<!--table-wrapper-->
@@ -226,6 +231,65 @@
 			</button>
 			<div class="modal-body py-4 px-1">
 				<?php include('inc/setting_delivery_warehouse_edit_shipping.php'); ?>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal 設定_ストアアカウント連携_新規ストアアカウント追加-->
+<div class="modal fade" id="settingStoreAccountLinkageAddNewStoreAccount" tabindex="-1" role="dialog" aria-labelledby="settingStoreAccountLinkageAddNewStoreAccountTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+		<div class="modal-content">
+			<button type="button" class="close position-absolute p-2" data-dismiss="modal" aria-label="Close" style="z-index: 10">
+				<span aria-hidden="true"><img src="dist/img/icons/icon-modal-close.png" alt="" /></span>
+			</button>
+			<div class="modal-body py-4 px-1">
+				<?php include('inc/setting_store_account_linkage_add_new_store_account.php'); ?>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Modal 設定_ストアアカウント連携_編集 _決裁方法編集-->
+<div class="modal fade" id="settingStoreAccountLinkageEditApprovalMethodEdit" tabindex="-1" role="dialog" aria-labelledby="settingStoreAccountLinkageEditApprovalMethodEditTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+		<div class="modal-content">
+			<button type="button" class="close position-absolute p-2" data-dismiss="modal" aria-label="Close" style="z-index: 10">
+				<span aria-hidden="true"><img src="dist/img/icons/icon-modal-close.png" alt="" /></span>
+			</button>
+			<div class="modal-body py-4 px-1">
+				<?php include('inc/setting_store_account_linkage_edit_approval_method_edit.php'); ?>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Modal 設定_配送倉庫_新規倉庫追加-->
+<div class="modal fade" id="settingDeliveryWarehouseAddNewWarehouse" tabindex="-1" role="dialog" aria-labelledby="settingDeliveryWarehouseAddNewWarehouseTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<button type="button" class="close position-absolute p-2" data-dismiss="modal" aria-label="Close" style="z-index: 10">
+				<span aria-hidden="true"><img src="dist/img/icons/icon-modal-close.png" alt="" /></span>
+			</button>
+			<div class="modal-body py-4 px-1">
+				<?php include('inc/setting_delivery_warehouse_add_new_warehouse.php'); ?>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Modal 設定_配送倉庫_編集_新規配送方法追加-->
+<div class="modal fade" id="settingDeliveryWarehouseEditAddNewDeliveryMethod" tabindex="-1" role="dialog" aria-labelledby="settingDeliveryWarehouseEditAddNewDeliveryMethodTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+		<div class="modal-content">
+			<button type="button" class="close position-absolute p-2" data-dismiss="modal" aria-label="Close" style="z-index: 10">
+				<span aria-hidden="true"><img src="dist/img/icons/icon-modal-close.png" alt="" /></span>
+			</button>
+			<div class="modal-body py-4 px-1">
+				<?php include('inc/setting_delivery_warehouse_edit_add_new_delivery_method.php'); ?>
 			</div>
 		</div>
 	</div>

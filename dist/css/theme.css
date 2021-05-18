@@ -1346,6 +1346,40 @@ input.box-80 {
 .stock-table .column-8 {
   width: 150px; }
 
+.storage-waiting-table .column-1 {
+  width: 120px; }
+
+.storage-waiting-table .column-2 {
+  width: 300px; }
+
+.storage-waiting-table .column-3 {
+  width: 80px; }
+
+.storage-waiting-table .column-4 {
+  width: 100px; }
+
+.storage-waiting-table .column-5 {
+  width: 100px; }
+
+.storage-waiting-table .column-6 {
+  width: 100px; }
+
+.storage-waiting-table .column-7 {
+  width: 100px; }
+
+.storage-waiting-table .column-8 {
+  width: 100px; }
+
+.storage-waiting-table .column-9 {
+  width: 180px; }
+
+.storage-waiting-table .btn-dark {
+  float: left; }
+
+.storage-waiting-table .delete-row {
+  float: left;
+  padding-top: 6px; }
+
 .csv-btn {
   border-color: #ff0000 !important; }
   .csv-btn:hover {
