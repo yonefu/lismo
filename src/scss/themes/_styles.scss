@@ -243,6 +243,10 @@ p, span{
 	font-weight: 400;
 }
 
+.br-0{
+	border: 0 !important;
+}
+
 .br-25 {
 	border-radius: 25px !important;
 }
@@ -552,9 +556,17 @@ p, span{
 				border-radius: 25px;
 				font-size: 15px;
 
-				&:hover,
-				&.active {
+				&:hover:before,
+				&.active:before {
 					border-color: $dark;
+					content: "";
+					width: 12px;
+					height: 30px;
+					background: #2d3346;
+					display: inline-block;
+					position: absolute;
+					left: 0;
+					border-radius: 6px;
 				}
 			}
 

@@ -254,7 +254,7 @@
 <!-- Modal 設定_ストアアカウント連携_編集 _決裁方法編集-->
 <div class="modal fade" id="settingStoreAccountLinkageEditApprovalMethodEdit" tabindex="-1" role="dialog" aria-labelledby="settingStoreAccountLinkageEditApprovalMethodEditTitle" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered modal-md" role="document">
-		<div class="modal-content">
+		<div class="modal-content bg-white">
 			<button type="button" class="close position-absolute p-2" data-dismiss="modal" aria-label="Close" style="z-index: 10">
 				<span aria-hidden="true"><img src="dist/img/icons/icon-modal-close.png" alt="" /></span>
 			</button>
@@ -284,7 +284,7 @@
 <!-- Modal 設定_配送倉庫_編集_新規配送方法追加-->
 <div class="modal fade" id="settingDeliveryWarehouseEditAddNewDeliveryMethod" tabindex="-1" role="dialog" aria-labelledby="settingDeliveryWarehouseEditAddNewDeliveryMethodTitle" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered modal-md" role="document">
-		<div class="modal-content">
+		<div class="modal-content bg-white">
 			<button type="button" class="close position-absolute p-2" data-dismiss="modal" aria-label="Close" style="z-index: 10">
 				<span aria-hidden="true"><img src="dist/img/icons/icon-modal-close.png" alt="" /></span>
 			</button>

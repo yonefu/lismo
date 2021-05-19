@@ -57,26 +57,47 @@
 					<table class="table variation-table bg-white br-25">
 						<thead>
 							<tr>
-								<th class="column-1">&nbsp;</th>
-								<th class="column-2">商品名</th>
-								<th class="column-3">種類</th>
-								<th class="column-4">平均単価</th>
-								<th class="column-5">在庫総額</th>
-								<th class="column-6">倉庫</th>
-								<th class="column-7">在庫総数</th>
-								<th class="column-8">出品中</th>
-								<th class="column-9">同期中</th>
-								<th class="column-10">&nbsp;</th>
+								<th class="column-1 br-0">&nbsp;</th>
+								<th class="column-2 br-0 text-left">商品名</th>
+								<th class="column-3 br-0">種類</th>
+								<th class="column-4 br-0">平均単価</th>
+								<th class="column-5 br-0">在庫総額</th>
+								<th class="column-6 br-0">倉庫</th>
+								<th class="column-7 br-0">在庫総数</th>
+								<th class="column-8 br-0">出品中</th>
+								<th class="column-9 br-0">同期中</th>
+								<th class="column-10 br-0">&nbsp;</th>
 							</tr>
 						</thead>
-
+					</table>
+					<!--table-->
+				</div>
+			</div>
+			<!--card-body-->
+			<div class="card-body p-0 mb-0">
+				<div class="table-responsive-lg">
+					<table class="table variation-table bg-white br-25">
+						<thead>
+							<tr class="blank-tr">
+								<th class="column-1"></th>
+								<th class="column-2"></th>
+								<th class="column-3"></th>
+								<th class="column-4"></th>
+								<th class="column-5"></th>
+								<th class="column-6"></th>
+								<th class="column-7"></th>
+								<th class="column-8"></th>
+								<th class="column-9"></th>
+								<th class="column-10"></th>
+							</tr>
+						</thead>
 						<tbody>
 							<tr>
 								<td class="text-center">
 									<img class="product-img float-none" src="dist/img/mob-1.png" alt="" height="65" />
 								</td>
-								<td class="text-center">
-									iPhoneX
+								<td class="text-left">
+									iPhoneXブルー
 								</td>
 								<td class="text-center">
 									<p><span class="badge first-hand">直接</span></p>
@@ -459,8 +480,8 @@
 								<td class="text-center">
 									<img class="product-img float-none" src="dist/img/mob-2.png" alt="" height="65" />
 								</td>
-								<td class="text-center">
-									iPhoneX
+								<td class="text-left">
+									iPhoneXグリーン
 								</td>
 								<td class="text-center">
 									<p><span class="badge first-hand">直接</span></p>
@@ -789,8 +810,8 @@
 								<td class="text-center">
 									<img  class="product-img float-none" src="dist/img/mob-3.png" alt="" height="65" />
 								</td>
-								<td class="text-center">
-									iPhoneX
+								<td class="text-left">
+									iPhoneXグリーン
 								</td>
 								<td class="text-center">
 									<p><span class="badge first-hand">直接</span></p>
@@ -1119,8 +1140,9 @@
 								<td class="text-center">
 									<img  class="product-img float-none" src="dist/img/mob-4.png" alt="" height="65" />
 								</td>
-								<td class="text-center">
-									iPhoneX
+								<td class="text-left">
+									<p><span class="badge badge-dark  py-1 px-2 f-15">セット商品</span></p>
+									<span>iPhoneXピンク3個セット</span>
 								</td>
 								<td class="text-center">
 									<p><span class="badge first-hand">直接</span></p>
@@ -1449,8 +1471,9 @@
 								<td class="text-center">
 									<img  class="product-img float-none" src="dist/img/mob-5.png" alt="" height="65" />
 								</td>
-								<td class="text-center">
-									iPhoneX
+								<td class="text-left">
+									<p><span class="badge badge-dark  py-1 px-2 f-15">セット商品</span></p>
+									<span>iPhoneX3⾊セット</span>
 								</td>
 								<td class="text-center">
 									<p><span class="badge first-hand">直接</span></p>

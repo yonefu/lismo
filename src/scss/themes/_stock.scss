@@ -61,3 +61,11 @@
    		padding-top: 6px;
 	}
 }
+
+.right-dropdown.flex-wrap.d-flex.ml-auto a{
+	border: 3px solid #fff !important;
+	transition: all ease 0.5s;
+	&.active, &:hover{
+		border-color: #383e4b !important;
+	}
+}

@@ -53,8 +53,8 @@
 									</div>
 								</div>
 								<div class="mb-3">
-									<a class="nav-link btn dropdown-tags btn-sm dropdown-toggle bg-white br-25" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										タグ選択：なし
+									<a class="nav-link active btn dropdown-tags btn-sm dropdown-toggle bg-white br-25" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										タグ選択：あり
 									</a>
 									<div class="dropdown-menu dropdown-menu-right">
 										<a class="dropdown-item" href="#">*************</a>
