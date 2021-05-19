@@ -7,7 +7,7 @@
 		</div>
 		<!--div-->
 
-		<form class="bg-white br-25 p-4 mb-3">
+		<form class="">
 			<div class="form-group row">
 				<label for="staticEmail" class="col-lg-2 col-form-label text-right pr-0">キャリア
 					<span class="clr-red">*</span></label>

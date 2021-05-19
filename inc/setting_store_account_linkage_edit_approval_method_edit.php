@@ -7,7 +7,7 @@
 		</div>
 		<!--div-->
 
-		<form class="bg-white br-25 p-4">
+		<form class="br-25">
 			<div class="form-group row">
 				<label for="staticEmail" class="col-lg-3 col-form-label text-right pr-0">名称</label>
 				<div class="col-lg-9">

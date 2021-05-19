@@ -33,7 +33,7 @@
 								</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link active li-order-history" href="waiting_storage.php">⼊庫待ち</a>
+								<a class="nav-link active li-order-history" href="waiting_storage.php">⼊庫待ち<span class="selcted-counter">3</span></a>
 							</li>
 						</ul>
 						<!--ul nav-->

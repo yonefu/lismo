@@ -16,9 +16,6 @@
 
 							<div class="search-box">
 								<form class="form-inline">
-									<div class="search-result mr-3">
-										<span>全てを表示中:<span class="fontEN">30</span>件</span>
-									</div>
 									<div class="input-group align-items-center">
 										<input type="text" class="form-control" placeholder="検索ワードを⼊⼒">
 										<button type="search" class="btn-search">検索</button>
@@ -30,12 +27,23 @@
 						</div>
 						<!--div-->
 
-						<div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
+						<ul class="nav top-nav mb-1">
+							<li class="nav-item">
+								<a class="nav-link active li-product-order" href="stock.php">⼊庫済み
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link li-order-history" href="waiting_storage.php">⼊庫待ち<span class="selcted-counter">3</span></a>
+							</li>
+						</ul>
+						<!--ul nav-->
+
+						<div class="d-flex flex-wrap justify-content-between align-items-center mb-0">
 							<div class="search-result mr-3">
 								<span>タグ Apple , Apple で絞り込んで表⽰中:<span class="fontEN">30</span>件</span>
 							</div>
-							<div class="right-dropdown d-flex ml-auto">
-								<div>
+							<div class="right-dropdown flex-wrap d-flex ml-auto">
+								<div class="mb-3">
 									<a class="nav-link dropdown-warehouse btn btn-sm dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										倉庫：全て
 									</a>
@@ -44,9 +52,9 @@
 										<a class="dropdown-item" href="#">AmazonFAB</a>
 									</div>
 								</div>
-								<div>
+								<div class="mb-3">
 									<a class="nav-link btn dropdown-tags btn-sm dropdown-toggle bg-white br-25" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										タグ選択：あり
+										タグ選択：なし
 									</a>
 									<div class="dropdown-menu dropdown-menu-right">
 										<a class="dropdown-item" href="#">*************</a>
