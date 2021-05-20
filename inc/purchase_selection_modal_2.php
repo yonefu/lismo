@@ -97,7 +97,7 @@
 							<thead>
 								<tr>
 									<th class="column-1">倉庫</th>
-									<th class="column-2">商品</th>
+									<th class="column-2 product-col">商品</th>
 									<th class="column-3">ﾊﾞﾘｴｰｼｮﾝ</th>
 									<th class="column-4">在庫総数</th>
 									<th class="column-5">単価</th>

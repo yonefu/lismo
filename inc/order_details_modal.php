@@ -267,7 +267,7 @@
 									<table class="table order-details-table">
 										<thead>
 											<tr>
-												<th class="column-1">商品名</th>
+												<th class="column-1 product-col">商品名</th>
 												<th class="column-2">バリエーション</th>
 												<th class="column-3">セット個数</th>
 												<th class="column-4 text-right">セット個数</th>

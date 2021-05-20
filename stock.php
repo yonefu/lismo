@@ -75,7 +75,7 @@
 										<thead>
 											<tr>
 												<th class="column-1">店護</th>
-												<th class="column-2">製品</th>
+												<th class="column-2 product-col">製品</th>
 												<th class="column-3">バリエーション</th>
 												<th class="column-4">在庫総数</th>
 												<th class="column-5">単価</th>

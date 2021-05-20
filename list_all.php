@@ -70,7 +70,7 @@
 													</div>
 												</th>
 												<th class="column-1">出品場所</th>
-												<th class="column-2">製品</th>
+												<th class="column-2 product-col">製品</th>
 												<th class="column-3">ﾊﾞﾘｴｰｼｮﾝ</th>
 												<th class="column-4">出品状況</th>
 												<th class="column-5">在庫同期</th>

@@ -107,13 +107,13 @@
 												<thead>
 													<tr>
 														<th class="column-1">倉庫 <i class="fa fa-caret-down ml-1"></i></th>
-														<th class="column-2">商品</th>
+														<th class="column-2 product-col">商品</th>
 														<th class="column-3">ﾊﾞﾘｴｰｼｮﾝ</th>
 														<th class="column-4">サプライヤー</th>
 														<th class="column-5">入荷状況</th>
 														<th class="column-6">個数</th>
 														<th class="column-7">コメント <i class="fa fa-caret-down ml-1"></i></th>
-														<th class="column-8">発注額</th>
+														<th class="column-8 text-right pr-4">発注額</th>
 													</tr>
 												</thead>
 												<tbody>
@@ -197,13 +197,13 @@
 												<thead>
 													<tr>
 														<th class="column-1">倉庫 <i class="fa fa-caret-down ml-1"></i></th>
-														<th class="column-2">商品</th>
+														<th class="column-2 product-col">商品</th>
 														<th class="column-3">ﾊﾞﾘｴｰｼｮﾝ</th>
 														<th class="column-4">サプライヤー</th>
 														<th class="column-5">入荷状況</th>
 														<th class="column-6">個数</th>
 														<th class="column-7">コメント <i class="fa fa-caret-down ml-1"></i></th>
-														<th class="column-8">発注額</th>
+														<th class="column-8 text-right pr-4">発注額</th>
 													</tr>
 												</thead>
 												<tbody>
@@ -274,13 +274,13 @@
 												<thead>
 													<tr>
 														<th class="column-1">倉庫 <i class="fa fa-caret-down ml-1"></i></th>
-														<th class="column-2">商品</th>
+														<th class="column-2 product-col">商品</th>
 														<th class="column-3">ﾊﾞﾘｴｰｼｮﾝ</th>
 														<th class="column-4">サプライヤー</th>
 														<th class="column-5">入荷状況</th>
 														<th class="column-6">個数</th>
 														<th class="column-7">コメント <i class="fa fa-caret-down ml-1"></i></th>
-														<th class="column-8">発注額</th>
+														<th class="column-8 text-right pr-4">発注額</th>
 													</tr>
 												</thead>
 												<tbody>
@@ -376,13 +376,13 @@
 												<thead>
 													<tr>
 														<th class="column-1">倉庫 <i class="fa fa-caret-down ml-1"></i></th>
-														<th class="column-2">商品</th>
+														<th class="column-2 product-col">商品</th>
 														<th class="column-3">ﾊﾞﾘｴｰｼｮﾝ</th>
 														<th class="column-4">サプライヤー</th>
 														<th class="column-5">入荷状況</th>
 														<th class="column-6">個数</th>
 														<th class="column-7">コメント <i class="fa fa-caret-down ml-1"></i></th>
-														<th class="column-8">発注額</th>
+														<th class="column-8 text-right pr-4">発注額</th>
 													</tr>
 												</thead>
 												<tbody>

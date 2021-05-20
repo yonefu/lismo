@@ -52,7 +52,7 @@
 											<label class="custom-control-label" for="checkall1"></label>
 										</div>
 									</th>
-									<th class="column-1">製品</th>
+									<th class="column-1 product-col">製品</th>
 									<th class="column-2">ﾊﾞﾘｴｰｼｮﾝ</th>
 									<th class="column-3">出品をやめた⽇時</th>
 									<th class="column-4">アクション</th>

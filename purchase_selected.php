@@ -109,12 +109,12 @@
 														<label class="custom-control-label" for="checkall"></label>
 													</div>
 												</th>
-												<th class="column-1">商品 <i class="fa fa-caret-down ml-1"></i></th>
+												<th class="column-1 product-col">商品 <i class="fa fa-caret-down ml-1"></i></th>
 												<th class="column-2">ﾊﾞﾘｴｰｼｮﾝ</th>
 												<th class="column-3">サプライヤー</th>
 												<th class="column-4">発注単価</th>
 												<th class="column-5">発注数</th>
-												<th class="column-6">発注額 <i class="fa fa-caret-down ml-1"></i></th>
+												<th class="column-6 text-right pr-4">発注額 <i class="fa fa-caret-down ml-1"></i></th>
 												<th class="column-7">コメント <i class="fa fa-caret-down ml-1"></i></th>
 												<th class="column-8">&nbsp;</th>
 											</tr>

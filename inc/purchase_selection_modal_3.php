@@ -100,7 +100,7 @@
 						<table class="table purchase-selected-modal-3">
 							<thead>
 								<tr>
-									<th class="column-1">商品</th>
+									<th class="column-1 product-col">商品</th>
 									<th class="column-2">ﾊﾞﾘｴｰｼｮﾝ</th>
 									<th class="column-3">個数</th>
 									<th class="column-4">売上</th>

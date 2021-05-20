@@ -21,7 +21,7 @@
 						<table class="table order-hold-table-modal-2">
 							<thead>
 								<tr>
-									<th class="column-1">商品名</th>
+									<th class="column-1 productname-col">商品名</th>
 									<th class="column-2">ﾊﾞﾘｴｰｼｮﾝ</th>
 									<th class="column-3">アクション</th>
 								</tr>

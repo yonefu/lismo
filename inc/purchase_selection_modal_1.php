@@ -94,7 +94,7 @@
 									<th class="column-1">配送先/注⽂⽇</th>
 									<th class="column-2">ショップ</th>
 									<th class="column-3">倉庫</th>
-									<th class="column-4">商品 <i class="fa fa-caret-down ml-1"></i></th>
+									<th class="column-4 product-col">商品 <i class="fa fa-caret-down ml-1"></i></th>
 									<th class="column-5">ﾊﾞﾘｴｰｼｮﾝ</th>
 									<th class="column-6">個数</th>
 									<th class="column-7">売上</th>

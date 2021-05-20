@@ -108,7 +108,7 @@
 														<th class="column-1">倉庫</th>
 														<th class="column-2">出荷ID / 期限</th>
 														<th class="column-3">ショップ情報</th>
-														<th class="column-4">商品</th>
+														<th class="column-4 product-col">商品</th>
 														<th class="column-5">種類</th>
 														<th class="column-6">個数</th>
 														<th class="column-7">出荷状況</th>
@@ -311,7 +311,7 @@
 														<th class="column-1">倉庫</th>
 														<th class="column-2">出荷ID / 期限</th>
 														<th class="column-3">ショップ情報</th>
-														<th class="column-4">商品</th>
+														<th class="column-4 product-col">商品</th>
 														<th class="column-5">種類</th>
 														<th class="column-6">個数</th>
 														<th class="column-7">出荷状況</th>
@@ -515,7 +515,7 @@
 														<th class="column-1">倉庫</th>
 														<th class="column-2">出荷ID / 期限</th>
 														<th class="column-3">ショップ情報</th>
-														<th class="column-4">商品</th>
+														<th class="column-4 product-col">商品</th>
 														<th class="column-5">種類</th>
 														<th class="column-6">個数</th>
 														<th class="column-7">出荷状況</th>

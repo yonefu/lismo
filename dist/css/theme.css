@@ -713,6 +713,14 @@ table {
 .d-flex.flex-wrap.justify-content-between.align-items-center {
   min-height: 42px; }
 
+.product-col {
+  text-align: left !important;
+  padding-left: 76px !important; }
+
+.productname-col {
+  text-align: left !important;
+  padding-left: 50px !important; }
+
 .modal-full {
   max-width: 90% !important; }
 

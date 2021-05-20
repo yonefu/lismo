@@ -102,7 +102,7 @@
 									<th class="column-1">実⾏⽇</th>
 									<th class="column-2">倉庫</th>
 									<th class="column-3">アクション</th>
-									<th class="column-4">商品</th>
+									<th class="column-4 product-col">商品</th>
 									<th class="column-5">ﾊﾞﾘｴｰｼｮﾝ</th>
 									<th class="column-6">変更個数</th>
 									<th class="column-7">単価</th>

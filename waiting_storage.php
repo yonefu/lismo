@@ -93,7 +93,7 @@
 														</div>
 													</th>
 													<th class="column-1">発注⽇ <i class="fa fa-caret-down ml-1"></i></th>
-													<th class="column-2">商品</th>
+													<th class="column-2 product-col">商品</th>
 													<th class="column-3">ﾊﾞﾘｴｰｼｮﾝ</th>
 													<th class="column-4">サプライヤー</th>
 													<th class="column-5">入荷状況</th>
@@ -224,7 +224,7 @@
 														</div>
 													</th>
 													<th class="column-1">発注⽇ <i class="fa fa-caret-down ml-1"></i></th>
-													<th class="column-2">商品</th>
+													<th class="column-2 product-col">商品</th>
 													<th class="column-3">ﾊﾞﾘｴｰｼｮﾝ</th>
 													<th class="column-4">サプライヤー</th>
 													<th class="column-5">入荷状況</th>
