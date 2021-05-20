@@ -110,6 +110,9 @@ table.variation-table{
 		th{
 			border-bottom: 1px solid #dee2e6 !important;
     		border-top: 0;
+    		&.br-0{
+    			border-bottom: 0 !important;
+    		}
 		}
 	}
 	.pagination{
@@ -124,7 +127,7 @@ table.variation-table{
 				border: 1px solid #1F2634;
 			}
 		}
-	} 
+	}
 }
 
 .border-box{
@@ -143,34 +146,34 @@ table.variation-table{
 
 .variation-table{
 	margin-bottom: 0.5rem !important;
-	.column-1{
+	.column-1, tbody td:nth-child(1){
 		width: 100px;
 	}
-	.column-2{
+	.column-2, tbody td:nth-child(2){
+		width: 200px;
+	}
+	.column-3, tbody td:nth-child(3){
 		width: 100px;
 	}
-	.column-3{
-		width: 80px;
-	}
-	.column-4{
+	.column-4, tbody td:nth-child(4){
 		width: 100px;
 	}
-	.column-5{
+	.column-5, tbody td:nth-child(5){
 		width: 100px;
 	}
-	.column-6{
-		width: 120px;
+	.column-6, tbody td:nth-child(6){
+		width: 150px;
 	}
-	.column-7{
+	.column-7, tbody td:nth-child(7){
 		width: 60px;
 	}
-	.column-8{
+	.column-8, tbody td:nth-child(8){
 		width: 80px;
 	}
-	.column-9{
+	.column-9, tbody td:nth-child(9){
 		width: 80px;
 	}
-	.column-10{
+	.column-10, tbody td:nth-child(10){
 		width: 120px;
 	}
 	th{
@@ -288,6 +291,25 @@ table.variation-table{
 		.btn-red{
 			font-size: 12px;
 		}
+		.table th, .table td {
+		    text-align: left !important;
+		}
+		th.column-1, td:first-child {
+		    padding-left: 30px !important;
+		}
+		h6.card-title {
+		    padding-left: 20px;
+		}
+		h3.mb-1.f-18.font-weight-normal.mb-3 {
+		    padding-left: 20px;
+		}
+		.border-left {
+		    padding-left: 20px !important;
+		}
+	}
+	.variation-table .column-1, .variation-table tbody td:nth-child(1) {
+	    text-align: center !important;
+		padding-left: 0 !important;
 	}
 }
 

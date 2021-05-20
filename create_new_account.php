@@ -45,11 +45,12 @@
 			</div>
 			<div class="form-group d-flex justify-content-between align-items-center mb-0">
 				<div class="form-check pl-0">
-					<div class="position-relative custom-control custom-checkbox pl-3">
+					<!-- <div class="position-relative custom-control custom-checkbox pl-3">
 						<input type="checkbox" class="form-check-input custom-control-input ml-0" id="checkbox">
 						<label class="custom-control-label" for="checkbox"></label>
-					</div>
-					<label class="form-check-label" for="checkbox">利⽤規約・個⼈情報等保護⽅針に同意する</label>
+					</div> -->
+					<input type="checkbox" class="form-check-input ml-0" id="checkbox">
+					<label class="form-check-label pl-3" for="checkbox">利⽤規約・個⼈情報等保護⽅針に同意する</label>
 				</div>
 				<button type="submit" class="btn btn-login">作成する</button>
 			</div>

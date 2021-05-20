@@ -138,8 +138,8 @@
 														<td class="text-center">1</td>
 														<td class="text-center">連⽇の在庫不⾜により通</td>
 														<td class="text-right pr-4">
-															<p class="original-price mb-0">940円</p>
-															<p class="discounted-price mb-0">940円</p>
+															<p class="original-price mb-0">¥940</p>
+															<p class="discounted-price mb-0">¥940</p>
 														</td>
 													</tr>
 													<tr>
@@ -163,8 +163,8 @@
 														<td class="text-center">20</td>
 														<td class="text-center">なし</td>
 														<td class="text-right pr-4">
-															<p class="original-price mb-0">8400円</p>
-															<p class="discounted-price mb-0">4200円</p>
+															<p class="original-price mb-0">¥8400</p>
+															<p class="discounted-price mb-0">¥4200</p>
 														</td>
 													</tr>
 												</tbody>
@@ -228,8 +228,8 @@
 														<td class="text-center">1</td>
 														<td class="text-center">連⽇の在庫不⾜により通</td>
 														<td class="text-right pr-4">
-															<p class="original-price mb-0">940円</p>
-															<p class="discounted-price mb-0">940円</p>
+															<p class="original-price mb-0">¥940</p>
+															<p class="discounted-price mb-0">¥940</p>
 														</td>
 													</tr>
 												</tbody>
@@ -305,8 +305,8 @@
 														<td class="text-center">1</td>
 														<td class="text-center">なし</td>
 														<td class="text-right pr-4">
-															<p class="original-price mb-0">940円</p>
-															<p class="discounted-price mb-0">940円</p>
+															<p class="original-price mb-0">¥940</p>
+															<p class="discounted-price mb-0">¥940</p>
 														</td>
 													</tr>
 													<tr>
@@ -330,8 +330,8 @@
 														<td class="text-center">20</td>
 														<td class="text-center">なし</td>
 														<td class="text-right pr-4">
-															<p class="original-price mb-0">8400円</p>
-															<p class="discounted-price mb-0">4200円</p>
+															<p class="original-price mb-0">¥8400</p>
+															<p class="discounted-price mb-0">¥4200</p>
 														</td>
 													</tr>
 												</tbody>
@@ -407,8 +407,8 @@
 														<td class="text-center">1</td>
 														<td class="text-center">なし</td>
 														<td class="text-right pr-4">
-															<p class="original-price mb-0">940円</p>
-															<p class="discounted-price mb-0">940円</p>
+															<p class="original-price mb-0">¥940</p>
+															<p class="discounted-price mb-0">¥940</p>
 														</td>
 													</tr>
 													<tr>
@@ -432,8 +432,8 @@
 														<td class="text-center">20</td>
 														<td class="text-center">なし</td>
 														<td class="text-right pr-4">
-															<p class="original-price mb-0">8400円</p>
-															<p class="discounted-price mb-0">4200円</p>
+															<p class="original-price mb-0">¥8400</p>
+															<p class="discounted-price mb-0">¥4200</p>
 														</td>
 													</tr>
 												</tbody>
