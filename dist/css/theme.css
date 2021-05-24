@@ -1630,6 +1630,26 @@ tr.no-data th {
   overflow: hidden;
   border-top: 0; }
 
+.order-hold-modal-page select.form-control {
+  font-size: 16px; }
+
+.order-hold-modal-page .popup-dropdownmenu .dropdown-item {
+  position: relative; }
+  .order-hold-modal-page .popup-dropdownmenu .dropdown-item.active:before {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 9px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #f2f2f2; }
+
+.order-hold-modal-page .popup-dropdownmenu .dropdown-item.active, .order-hold-modal-page .popup-dropdownmenu .dropdown-item:active {
+  color: #1f2634;
+  text-decoration: none;
+  background-color: #e2e2e2; }
+
 span.text-right.mr-2 {
   min-width: 90px;
   display: inline-block; }

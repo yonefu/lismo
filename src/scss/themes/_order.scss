@@ -286,3 +286,29 @@ tr.no-data {
 		border-top: 0;
 	}
 }
+
+.order-hold-modal-page{
+	select.form-control{
+		font-size: 16px;
+	}
+	.popup-dropdownmenu{
+		.dropdown-item{
+			position: relative;
+			&.active:before{
+				content: "";
+				position: absolute;
+				left: 3px;
+				top: 9px;
+				width: 10px;
+				height: 10px;
+				border-radius: 100%;
+				background: #f2f2f2;
+			}
+		}
+		.dropdown-item.active, .dropdown-item:active {
+			color: #1f2634;
+			text-decoration: none;
+			background-color: #e2e2e2;
+		}
+	}
+}

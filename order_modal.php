@@ -45,7 +45,7 @@
 
 <!-- Modal Order Hold Modal-->
 <div class="modal fade" id="orderHoldModal" tabindex="-1" role="dialog" aria-labelledby="orderHoldModalTitle" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+	<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
 		<div class="modal-content bg-white">
 			<button type="button" class="close position-absolute p-2" data-dismiss="modal" aria-label="Close" style="z-index: 5">
 				<span aria-hidden="true"><img src="dist/img/icons/icon-modal-close.png" alt="" /></span>

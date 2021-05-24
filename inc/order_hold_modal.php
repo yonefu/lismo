@@ -7,12 +7,20 @@
 				理由を選択
 			</a>
 			<div class="dropdown-menu">
-				<a class="dropdown-item" href="#">理由を選択</a>
+				<a class="dropdown-item active" href="#">理由を選択</a>
 				<a class="dropdown-item" href="#">保計中</a>
 				<a class="dropdown-item" href="#">購入者へ偽計中</a>
 				<a class="dropdown-item" href="#">住所休中</a>
 			</div>
 		</div>
+
+		<!-- <select class="custom-select form-control mb-3">
+			<option selected="">理由を選択</option>
+			<option value="1">理由を選択</option>
+			<option value="2">保計中</option>
+			<option value="2">購入者へ偽計中</option>
+			<option value="2">住所休中</option>
+		</select> -->
 
 		<div class="float-right">
 			<a href="#" class="btn btn-dark">保習にする</a>
