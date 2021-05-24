@@ -58,7 +58,7 @@
 						<thead>
 							<tr>
 								<th class="column-1 br-0">&nbsp;</th>
-								<th class="column-2 br-0 text-left productname-col">商品名</th>
+								<th class="column-2 br-0 text-left">商品名</th>
 								<th class="column-3 br-0">種類</th>
 								<th class="column-4 br-0">平均単価</th>
 								<th class="column-5 br-0">在庫総額</th>
@@ -2090,7 +2090,7 @@
 										<thead>
 											<tr>
 												<th class="column-1">&nbsp;</th>
-												<th class="column-2 productname-col">商品名</th>
+												<th class="column-2">商品名</th>
 												<th class="column-3">種類</th>
 												<th class="column-4">平均単価</th>
 												<th class="column-5">在庫総額</th>
@@ -2418,7 +2418,7 @@
 										<thead>
 											<tr>
 												<th class="column-1">&nbsp;</th>
-												<th class="column-2 productname-col">商品名</th>
+												<th class="column-2">商品名</th>
 												<th class="column-3">種類</th>
 												<th class="column-4">平均単価</th>
 												<th class="column-5">在庫総額</th>
