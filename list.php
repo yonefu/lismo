@@ -74,7 +74,7 @@
 												<th class="column-3">ﾊﾞﾘｴｰｼｮﾝ</th>
 												<th class="column-4">出品状況</th>
 												<th class="column-5">在庫同期</th>
-												<th class="column-6">最終更新⽇</th>
+												<th class="column-6 text-left">最終更新⽇</th>
 												<th class="column-7">&nbsp;</th>
 											</tr>
 										</thead>

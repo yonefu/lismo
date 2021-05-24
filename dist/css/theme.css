@@ -1305,7 +1305,9 @@ input.box-80 {
   border-top: 0; }
 
 .list-table .column-1 {
-  width: 120px; }
+  width: 120px;
+  padding-left: 60px !important;
+  text-align: left; }
 
 .list-table .column-2 {
   width: 300px; }
