@@ -64,10 +64,10 @@
 							<div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
 								<ul class="nav top-nav status-box">
 									<li class="nav-item">
-										<a class="nav-link active" href="report_dashboard.php">上昇率ランキング</a>
+										<a class="nav-link active" href="#">上昇率ランキング</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link btn-outline" href="report_sales.php">減少率ランキング</a>
+										<a class="nav-link btn-outline" href="#">減少率ランキング</a>
 									</li>
 								</ul>
 								<!--ul nav-->
@@ -559,10 +559,10 @@
 							<div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
 								<ul class="nav top-nav status-box">
 									<li class="nav-item">
-										<a class="nav-link active" href="report_dashboard.php">売上額ランキング</a>
+										<a class="nav-link active" href="#">売上額ランキング</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link btn-outline" href="report_sales.php">売上個数ランキング</a>
+										<a class="nav-link btn-outline" href="#">売上個数ランキング</a>
 									</li>
 								</ul>
 								<!--ul nav-->
