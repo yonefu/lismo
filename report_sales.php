@@ -656,7 +656,7 @@
 										</div>
 										<div class="mb-3">
 											<p class="f-20 mb-1"><span>¥121,972</span></p>
-											<p class="clr-green f-12 mb-1"><span>+3.2%</span></p>
+											<p class="clr-green f-12 mb-1 text-center"><span>+3.2%</span></p>
 										</div>
 										<div class="mb-0">
 											<p class="f-20 mb-1"><span>1.4%</span></p>

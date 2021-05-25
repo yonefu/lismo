@@ -26,12 +26,12 @@
 			<div class="form-group row">
 				<label class="col-lg-3 col-form-label text-right pr-0">登録済タグ</label>
 				<div class="col-lg-9">
-					<div class="d-flex registerd-tags">
-						<div class="tag btn btn-outline-dark br-25 mr-2 px-3">
+					<div class="d-flex flex-wrap registerd-tags">
+						<div class="tag btn btn-outline-dark br-25 mr-2 px-3 mb-1">
 							<span class="mr-2">iPhone</span>
 							<i class="fa fa-close"></i>
 						</div>
-						<div class="tag btn btn-outline-dark br-25 mr-2 px-3">
+						<div class="tag btn btn-outline-dark br-25 mr-2 px-3 mb-1">
 							<span class="mr-2">Apple</span>
 							<i class="fa fa-close"></i>
 						</div>

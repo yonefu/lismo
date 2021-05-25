@@ -50,7 +50,7 @@
 					</a>
 					<div class="dropdown-menu dropdown-menu-right">
 						<a class="dropdown-item" href="#">⾦額が⾼い順</a>
-						<a class="dropdown-item" href="#">⾦額が低い順</a>
+						<a class="dropdown-item active" href="#">⾦額が低い順</a>
 						<a class="dropdown-item" href="#">率が⾼い順</a>
 						<a class="dropdown-item" href="#">率が低い順</a>
 					</div>
@@ -72,7 +72,7 @@
 					</a>
 					<div class="dropdown-menu dropdown-menu-right">
 						<a class="dropdown-item" href="#">全て表⽰する</a>
-						<a class="dropdown-item" href="#">Aの商品のみ表⽰する</a>
+						<a class="dropdown-item active" href="#">Aの商品のみ表⽰する</a>
 						<a class="dropdown-item" href="#">Bの商品のみ表⽰する</a>
 						<a class="dropdown-item" href="#">Cの商品のみ表⽰する</a>
 					</div>

@@ -328,8 +328,15 @@ p, span{
 .btn-cancel{
 	color: $dark;
 	transition: all ease 0.5s;
+	min-height: 35px;
+	padding: 8px 10px;
+	font-size: 12px;
+	min-width: 130px;
 	&:hover{
 		opacity: 0.8;
+	}
+	&:focus{
+		box-shadow: none;
 	}
 }
 
@@ -1259,4 +1266,26 @@ div.radio.switcher {
 }
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{
 	background-color: black;
+}
+
+.dropdown-menu.dropdown-menu-right{
+	a.dropdown-item{
+		position: relative;
+		&.active:before{
+			content: "";
+			position: absolute;
+			left: 3px;
+			top: 9px;
+			width: 10px;
+			height: 10px;
+			border-radius: 100%;
+			background: #1f2634;
+		}
+	}
+	a.dropdown-item.active, a.dropdown-item:active {
+		color: #1f2634;
+		text-decoration: none;
+		background-color: #f8f9fa;
+		border: 0 !important;
+	}
 }
