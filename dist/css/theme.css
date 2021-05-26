@@ -1967,7 +1967,8 @@ textarea.form-control {
   font-size: 13px; }
 
 .page-title {
-  font-size: 28px; }
+  font-size: 28px;
+  font-weight: 500; }
 
 .top-nav {
   -webkit-box-align: center;
@@ -2102,9 +2103,6 @@ table {
 .productname-col {
   text-align: left !important;
   padding-left: 50px !important; }
-
-.modal-full {
-  max-width: 90% !important; }
 
 .modal .form-control,
 .modal textarea,
@@ -2371,19 +2369,23 @@ div.radio.switcher label {
     margin-bottom: 1.25em; } }
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-  .modal-lg {
-    max-width: 800px !important; } }
-
 /* Medium devices (tablets, 768px and up)*/
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
   .right-dropdown.ml-auto div.mb-2 {
     margin-bottom: 0 !important; }
   .modal-dialog {
-    max-width: 580px; }
+    max-width: 770px; }
+  .modal-full {
+    max-width: 1600px !important; }
+  .modal-lg {
+    max-width: 1280px; }
+  .modal-md {
+    max-width: 1035px; }
   .modal-sm {
-    max-width: 350px; } }
+    max-width: 550px; }
+  .modal-xs {
+    max-width: 470px; } }
 
 /* ----- max-width ----- //*/
 /* Large devices (desktops, less than 1200px)*/

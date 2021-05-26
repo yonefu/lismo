@@ -67,8 +67,8 @@
 									<th class="column-1 product-col">製品 <i class="fa fa-caret-down ml-1"></i></th>
 									<th class="column-2">ﾊﾞﾘｴｰｼｮﾝ</th>
 									<th class="column-3">在庫数</th>
-									<th class="column-4">⼊庫待ち</th>
 									<th class="column-5">&nbsp;</th>
+									<th class="column-4">&nbsp;</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -94,7 +94,7 @@
 										<p>Mサイズ</p>
 									</td>
 									<td class="text-center">
-										<p>18</p>
+										<p class="f-15">18</p>
 										<p class="warehouse-company">袖浜本社倉庫</p>
 									</td>
 									<td class="text-center">
@@ -128,7 +128,7 @@
 										<p>Mサイズ</p>
 									</td>
 									<td class="text-center">
-										<p class="clr-red">0</p>
+										<p class="clr-red f-15">0</p>
 										<p class="warehouse-company">AmazonFAB</p>
 									</td>
 									<td class="text-center">
@@ -162,7 +162,7 @@
 										<p>Mサイズ</p>
 									</td>
 									<td class="text-center">
-										<p>18</p>
+										<p class="f-15">18</p>
 										<p class="warehouse-company">袖浜本社倉庫</p>
 									</td>
 									<td class="text-center">
@@ -196,7 +196,7 @@
 										<p>Mサイズ</p>
 									</td>
 									<td class="text-center">
-										<p class="clr-red">0</p>
+										<p class="clr-red f-15">0</p>
 										<p class="warehouse-company">AmazonFAB</p>
 									</td>
 									<td class="text-center">

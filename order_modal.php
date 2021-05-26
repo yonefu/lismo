@@ -45,7 +45,7 @@
 
 <!-- Modal Order Hold Modal-->
 <div class="modal fade" id="orderHoldModal" tabindex="-1" role="dialog" aria-labelledby="orderHoldModalTitle" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+	<div class="modal-dialog modal-dialog-centered modal-xs" role="document">
 		<div class="modal-content bg-white">
 			<button type="button" class="close position-absolute p-2" data-dismiss="modal" aria-label="Close" style="z-index: 5">
 				<span aria-hidden="true"><img src="dist/img/icons/icon-modal-close.png" alt="" /></span>
@@ -59,7 +59,7 @@
 
 <!-- Modal Order Hold Modal 1-->
 <div class="modal fade" id="orderHoldModalOne" tabindex="-1" role="dialog" aria-labelledby="orderHoldModalOneTitle" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content bg-white">
 			<button type="button" class="close position-absolute p-2" data-dismiss="modal" aria-label="Close" style="z-index: 6">
 				<span aria-hidden="true"><img src="dist/img/icons/icon-modal-close.png" alt="" /></span>
@@ -73,7 +73,7 @@
 
 <!-- Modal Order Hold Modal 2-->
 <div class="modal fade" id="orderHoldModalTwo" tabindex="-1" role="dialog" aria-labelledby="orderHoldModalTwoTitle" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+	<div class="modal-dialog modal-dialog-centered modal-md" role="document">
 		<div class="modal-content bg-white">
 			<button type="button" class="close position-absolute p-2" data-dismiss="modal" aria-label="Close" style="z-index: 7">
 				<span aria-hidden="true"><img src="dist/img/icons/icon-modal-close.png" alt="" /></span>
@@ -87,7 +87,7 @@
 
 <!-- Modal Order return warehouse -->
 <div class="modal fade" id="orderReturnWarehouseModal" tabindex="-1" role="dialog" aria-labelledby="orderReturnWarehouseModalTitle" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-full" role="document">
+	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 		<div class="modal-content">
 			<button type="button" class="close position-absolute p-2" data-dismiss="modal" aria-label="Close" style="z-index: 8">
 				<span aria-hidden="true"><img src="dist/img/icons/icon-modal-close.png" alt="" /></span>
@@ -101,7 +101,7 @@
 
 <!-- Modal Order Split confirmation Modal-->
 <div class="modal fade" id="orderSplitConfirmation" tabindex="-1" role="dialog" aria-labelledby="orderSplitConfirmationTitle" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-full" role="document">
+	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 		<div class="modal-content">
 			<button type="button" class="close position-absolute p-2" data-dismiss="modal" aria-label="Close" style="z-index: 9">
 				<span aria-hidden="true"><img src="dist/img/icons/icon-modal-close.png" alt="" /></span>
@@ -115,7 +115,7 @@
 
 <!-- Modal Order confirmation Inclusion Modal-->
 <div class="modal fade" id="orderConfirmationInclusionModal" tabindex="-1" role="dialog" aria-labelledby="orderConfirmationInclusionModalTitle" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-full" role="document">
+	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 		<div class="modal-content">
 			<button type="button" class="close position-absolute p-2" data-dismiss="modal" aria-label="Close" style="z-index: 10">
 				<span aria-hidden="true"><img src="dist/img/icons/icon-modal-close.png" alt="" /></span>
@@ -129,7 +129,7 @@
 
 <!-- Modal Order Unprocessed Duplicate -->
 <div class="modal fade" id="orderUnprocessedDuplicateModal" tabindex="-1" role="dialog" aria-labelledby="orderUnprocessedDuplicateModalTitle" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-full" role="document">
+	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 		<div class="modal-content">
 			<button type="button" class="close position-absolute p-2" data-dismiss="modal" aria-label="Close" style="z-index: 11">
 				<span aria-hidden="true"><img src="dist/img/icons/icon-modal-close.png" alt="" /></span>
@@ -143,7 +143,7 @@
 
 <!-- Modal Order details-->
 <div class="modal fade" id="orderDetailsModal" tabindex="-1" role="dialog" aria-labelledby="orderDetailsModalTitle" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-full" role="document">
+	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 		<div class="modal-content">
 			<button type="button" class="close position-absolute p-2" data-dismiss="modal" aria-label="Close" style="z-index: 12">
 				<span aria-hidden="true"><img src="dist/img/icons/icon-modal-close.png" alt="" /></span>
