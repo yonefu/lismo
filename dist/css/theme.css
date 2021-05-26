@@ -2317,7 +2317,7 @@ div.radio.switcher label {
     outline: none; }
 
 .report-page {
-  padding-bottom: 4em; }
+  padding-bottom: 0.5em; }
   .report-page .date {
     color: #383e4b; }
 

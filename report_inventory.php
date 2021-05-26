@@ -515,10 +515,6 @@
 </div>
 <!--outer-page-wrap-->
 
-<div class="chat-box">
-	<button type="button"><img src="dist/img/icons/icon-chat.png" alt="Chat Icon" /></button>
-</div>
-
 <?php include('inc/footer.php'); ?>
 
 <!--for chart-->
