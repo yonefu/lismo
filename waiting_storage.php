@@ -97,7 +97,7 @@
 													<th class="column-3">ﾊﾞﾘｴｰｼｮﾝ</th>
 													<th class="column-4">サプライヤー</th>
 													<th class="column-5">入荷状況</th>
-													<th class="column-6">仕⼊額</th>
+													<th class="column-6 text-right">仕⼊額</th>
 													<th class="column-7">⼊庫キャリア</th>
 													<th class="column-8">⼊庫した数</th>
 													<th class="column-9">アクション</th>
@@ -136,7 +136,7 @@
 														<img class="icon-img" src="dist/img/icons/icon-yellow.png" alt="" />
 														<p>165/200</p>
 													</td>
-													<td class="text-center">
+													<td class="text-right">
 														<p>¥40,000</p>
 														<p>¥200</p>
 													</td>
@@ -181,7 +181,7 @@
 														<img class="icon-img" src="dist/img/icons/icon-yellow.png" alt="" />
 														<p>165/200</p>
 													</td>
-													<td class="text-center">
+													<td class="text-right">
 														<p>¥40,000</p>
 														<p>¥200</p>
 													</td>
@@ -228,7 +228,7 @@
 													<th class="column-3">ﾊﾞﾘｴｰｼｮﾝ</th>
 													<th class="column-4">サプライヤー</th>
 													<th class="column-5">入荷状況</th>
-													<th class="column-6">仕⼊額</th>
+													<th class="column-6 text-right">仕⼊額</th>
 													<th class="column-7">⼊庫キャリア</th>
 													<th class="column-8">⼊庫した数</th>
 													<th class="column-9">アクション</th>
@@ -267,7 +267,7 @@
 														<img class="icon-img" src="dist/img/icons/icon-yellow.png" alt="" />
 														<p>165/200</p>
 													</td>
-													<td class="text-center">
+													<td class="text-right">
 														<p>¥40,000</p>
 														<p>¥200</p>
 													</td>
