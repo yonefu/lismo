@@ -340,6 +340,9 @@ input.box-80 {
 .purchase-selected-modal-9 .column-11 {
   width: 100px; }
 
+.registerd-tags .tag.btn.btn-outline-dark.br-10.mr-2.px-3.mb-2 {
+  margin-bottom: 0.5rem !important; }
+
 .modal-footer {
   border-top: 0; }
 
@@ -450,6 +453,9 @@ input.box-80 {
   transition: all ease 0.5s; }
   .right-dropdown.flex-wrap.d-flex.ml-auto a.active, .right-dropdown.flex-wrap.d-flex.ml-auto a:hover {
     border-color: #383e4b !important; }
+
+.right-dropdown.flex-wrap.d-flex.ml-auto .dropdown-menu.dropdown-menu-right a.active, .right-dropdown.flex-wrap.d-flex.ml-auto .dropdown-menu.dropdown-menu-right a:hover {
+  border-color: #ffffff !important; }
 
 .csv-btn {
   border-color: #ff0000 !important; }

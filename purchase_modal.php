@@ -27,8 +27,8 @@
 							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#purchaseSelectionModal4">仕入れる_選択画面 – 4</a></li>
 							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#purchaseSelectionModal5">仕入れる_選択画面 – 5</a></li>
 							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#purchaseSelectionModal6">仕入れる_選択画面 – 6</a></li>
-							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#">仕入れる_選択画面 – 7 (Design not completed)</a></li>
-							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#">仕入れる_選択画面 – 8 (Design not completed)</a></li>
+							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#purchaseSelectionModal7">仕入れる_選択画面 – 7</a></li>
+							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#purchaseSelectionModal8">仕入れる_選択画面 – 8</a></li>
 							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#purchaseSelectionModal9">仕入れる_選択画面 – 9</a></li>
 						</ul>
 					</section>
@@ -145,7 +145,7 @@
 
 <!-- Modal Purchase Selection 7-->
 <div class="modal fade" id="purchaseSelectionModal7" tabindex="-1" role="dialog" aria-labelledby="purchaseSelectionModal7Title" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-full" role="document">
+	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 		<div class="modal-content">
 			<button type="button" class="close position-absolute p-2" data-dismiss="modal" aria-label="Close" style="z-index: 12">
 				<span aria-hidden="true"><img src="dist/img/icons/icon-modal-close.png" alt="" /></span>
@@ -159,7 +159,7 @@
 
 <!-- Modal Purchase Selection 8-->
 <div class="modal fade" id="purchaseSelectionModal8" tabindex="-1" role="dialog" aria-labelledby="purchaseSelectionModal8Title" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-full" role="document">
+	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 		<div class="modal-content">
 			<button type="button" class="close position-absolute p-2" data-dismiss="modal" aria-label="Close" style="z-index: 13">
 				<span aria-hidden="true"><img src="dist/img/icons/icon-modal-close.png" alt="" /></span>
