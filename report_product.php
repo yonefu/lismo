@@ -1180,7 +1180,7 @@
 										<div class="col-lg-6 mb-2">
 											<div class="d-flex align-items-center justify-content-center h-100">
 												<div class="chartWrapper">
-													<canvas id="doughnut001" width="500"></canvas>
+													<canvas id="doughnut002" width="500"></canvas>
 												</div>
 											</div>
 										</div>
@@ -1463,6 +1463,8 @@
 	window.onload = function() {
 		// doughnut chart 001
 			var doughnut001 = document.getElementById('doughnut001').getContext('2d');
+			var doughnut002 = document.getElementById('doughnut002').getContext('2d');
 			window.myDoughnut = new Chart(doughnut001, configDoughnutChart001);
+			window.myDoughnut = new Chart(doughnut002, configDoughnutChart001);
 	};
 </script>
