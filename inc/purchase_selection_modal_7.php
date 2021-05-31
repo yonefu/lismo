@@ -77,6 +77,18 @@
 						</div>
 					</div>
 				</div>
+				<div class="mb-2">
+					<a class="nav-link dropdown-warehouse btn btn-sm dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="min-width: 150px; text-align: right;">
+						&nbsp;
+					</a>
+				</div>
+				<div class="mb-2">
+					<a class="nav-link dropdown-warehouse btn btn-sm dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="min-width: 150px; text-align: right;">
+						&nbsp;
+					</a>
+				</div>
+
+				</div>
 			</div>
 		</div>
 

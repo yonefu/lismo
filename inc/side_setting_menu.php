@@ -72,6 +72,16 @@
 		</div>
 		<!--ss-menu-box-->
 
+		<div class="ss-menu-box mb-3">
+			<ul class="nav flex-column">
+				<li class="nav-item">
+					<a class="nav-link clr-red" href="#">ログアウトする</a>
+				</li>
+			</ul>
+			<!--ul-->
+		</div>
+		<!--ss-menu-box-->
+
 		<div class="ss-menu-box">
 			<p class="ss-menu-title">Modal</p>
 			<ul class="nav flex-column">
