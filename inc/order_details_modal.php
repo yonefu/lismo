@@ -3,7 +3,7 @@
 		<div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
 			<h3 class="page-title mb-1">
 				<span class="mr-2">出荷詳細</span>
-				<button type="button" class="btn btn-outline-dark mr-2 f-15">出荷の準備中</button>
+				<button type="button" class="btn btn-outline-dark mr-2 f-15 font-weight-bold">出荷の準備中</button>
 				<span class="f-15">出荷ID : FO00361500</span>
 			</h3>
 			<div class="btn-group flex-column">
@@ -254,8 +254,8 @@
 							</div>
 							<div class="col-lg-2 ml-auto">
 								<div class="d-flex flex-column justify-content-end">
-									<a href="#" class="btn btn-cancel mb-2"><span>キャンセル</span></a>
-									<a href="#" class="btn btn-red btn-red-outline"><span>作成完了</span></a>
+									<a href="#" class="btn btn-cancel bg-red mb-2"><span>返⾦する</span></a>
+									<a href="#" class="btn btn-red btn-red-outline"><span>キャンセルにする</span></a>
 								</div>
 							</div>
 						</div>
@@ -513,8 +513,8 @@
 							</div>
 							<div class="col-lg-2 ml-auto">
 								<div class="d-flex flex-column justify-content-end">
-									<a href="#" class="btn btn-cancel mb-2"><span>キャンセル</span></a>
-									<a href="#" class="btn btn-red btn-red-outline"><span>作成完了</span></a>
+									<a href="#" class="btn btn-cancel bg-red mb-2"><span>返⾦する</span></a>
+									<a href="#" class="btn btn-red btn-red-outline"><span>キャンセルにする</span></a>
 								</div>
 							</div>
 						</div>
