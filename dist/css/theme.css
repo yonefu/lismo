@@ -343,6 +343,11 @@ input.box-80 {
 .registerd-tags .tag.btn.btn-outline-dark.br-10.mr-2.px-3.mb-2 {
   margin-bottom: 0.5rem !important; }
 
+.button-ok a {
+  float: right;
+  margin-right: 1.5em;
+  margin-bottom: 1em; }
+
 .modal-footer {
   border-top: 0; }
 

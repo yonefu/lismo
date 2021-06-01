@@ -75,6 +75,11 @@
 								<span class="mr-2">imac</span>
 							</div>
 						</div>
+						<div class="button-ok">
+							<a class="btn btn-dark br-25" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								OK
+							</a>
+						</div>
 					</div>
 				</div>
 				<div class="mb-2">
