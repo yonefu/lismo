@@ -381,13 +381,18 @@ input.box-80 {
 .list-table-modal .column-4 {
   width: 150px; }
 
-.list-page nav.py-3 {
-  width: calc(100% - 200px);
-  float: left; }
+.list-page {
+  position: relative; }
+  .list-page nav.py-3 {
+    width: 100%;
+    float: left; }
 
 .view-hidden-products {
   margin-top: 1rem;
-  float: right; }
+  float: right;
+  position: absolute;
+  bottom: -60px;
+  right: 0px; }
 
 .stock-table .column-1 {
   width: 120px; }

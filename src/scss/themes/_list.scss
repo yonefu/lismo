@@ -44,8 +44,9 @@
 }
 
 .list-page{
+	position: relative;
 	nav.py-3{
-		width: calc(100% - 200px);
+		width: 100%;
     	float: left;
 	}
 }
@@ -53,4 +54,7 @@
 .view-hidden-products{
 	margin-top: 1rem;
 	float: right;
+	position: absolute;
+	bottom: -60px;
+	right: 0px;
 }
