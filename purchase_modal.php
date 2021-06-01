@@ -31,6 +31,8 @@
 							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#purchaseSelectionModal8">仕入れる_選択画面 – 8</a></li>
 							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#purchaseSelectionModal9">仕入れる_選択画面 – 9</a></li>
 						</ul>
+
+
 					</section>
 					<!--table-wrapper-->
 				</div>

@@ -695,6 +695,12 @@ tr.no-data th {
   text-decoration: none;
   background-color: #e2e2e2; }
 
+tr.purchase-subtotal td {
+  border: 0; }
+
+.bg-light {
+  background: #fafafa !important; }
+
 span.text-right.mr-2 {
   min-width: 90px;
   display: inline-block; }

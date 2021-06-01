@@ -298,7 +298,7 @@
 													3個
 												</td>
 												<td class="text-right">
-													<p>¥3600</p>
+													<p class="font-weight-bold">¥3600</p>
 													<p>-¥1200</p>
 												</td>
 												<td class="text-center">&nbsp;</td>
@@ -326,7 +326,7 @@
 													2個
 												</td>
 												<td class="text-right">
-													<p>¥4000</p>
+													<p class="font-weight-bold">¥4000</p>
 													<p>-¥1400</p>
 												</td>
 												<td class="text-center">&nbsp;</td>
@@ -339,7 +339,7 @@
 													&nbsp;
 												</td>
 												<td class="text-right bg-light">
-													<p class="font-weight-bold">売上⼩計</p>
+													<p>売上⼩計</p>
 												</td>
 												<td class="text-right">
 													<p class="font-weight-bold">-¥7600</p>
@@ -347,7 +347,7 @@
 												<td class="text-center">&nbsp;</td>
 											</tr>
 											<!--tr-->
-											<tr class="purchase-subtotal">
+											<tr class="purchase-subtotal bg-light">
 												<td class="text-right" colspan="3">
 													&nbsp;
 												</td>
@@ -456,7 +456,7 @@
 													&nbsp;
 												</td>
 												<td class="text-right">
-													<p class="font-weight-bold">販売利益</p>
+													<p>販売利益</p>
 												</td>
 												<td class="text-right">
 													<p class="font-weight-bold">-¥3900</p>
@@ -556,7 +556,7 @@
 													3個
 												</td>
 												<td class="text-right">
-													<p>¥3600</p>
+													<p class="font-weight-bold">¥3600</p>
 													<p>-¥1200</p>
 												</td>
 											</tr>
@@ -583,7 +583,7 @@
 													2個
 												</td>
 												<td class="text-right">
-													<p>¥4000</p>
+													<p class="font-weight-bold">¥4000</p>
 													<p>-¥1400</p>
 												</td>
 											</tr>
