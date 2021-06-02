@@ -23,7 +23,7 @@
 		</form>
 
 		<div class="msg-text clr-red text-right mb-4 f-12 col-lg-9 ml-auto pr-0">
-			<p>※上記の情報を変更すると商品管理に重⼤な影響が 出る場合があります。慎重に変更を⾏ってください。</p>
+			<p class="text-left">※上記の情報を変更すると商品管理に重⼤な影響が 出る場合があります。慎重に変更を⾏ってください。</p>
 		</div>
 
 		<div class="d-flex justify-content-end">

@@ -22,8 +22,37 @@
 			<div class="right-dropdown flex-wrap d-flex ml-auto">
 				<div class="mb-2">
 					<a class="nav-link dropdown-warehouse btn btn-sm dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="demo-non-form">
-						<input type="text" id="txtDateRange" name="txtDateRange" class="inputField shortInputField dateRangeField" placeholder="期間：今⽉" data-from-field="txtDateFrom" data-to-field="txtDateTo" />
+						<!-- <input type="text" id="txtDateRange" name="txtDateRange" class="inputField shortInputField dateRangeField" placeholder="期間：今⽉" data-from-field="txtDateFrom" data-to-field="txtDateTo" /> -->
+						<input type="text" id="txtDateRange" name="txtDateRange" class="inputField shortInputField dateRangeField" placeholder="期間：今⽉"  />
 					</a>
+					<div class="dropdown-menu dropdown-menu-right" style="width: 500px; max-width: 700px">
+						<div class="d-flex flex-wrap registerd-tags">
+							<div class="archive">
+								<ul>
+									<li class="active"><a href="">カレンダーで指定する</a></li>
+									<li><a href="">本日</a></li>
+									<li><a href="">今月</a></li>
+									<li><a href="">先月</a></li>
+									<li><a href="">直近1週間</a></li>
+									<li><a href="">直近2週間</a></li>
+									<li><a href="">直近30日</a></li>
+									<li><a href="">直近60日</a></li>
+									<li><a href="">直近90日</a></li>
+									<li><a href="">直近1年</a></li>
+									<li><a href="">2020年</a></li>
+									<li><a href="">2019年</a></li>
+								</ul>
+							</div>
+							<div class="calendar">
+								<div id="calendar" style="float: left; width: 100%"></div>
+							</div>
+						</div>
+						<div class="button-ok">
+							<a class="btn btn-dark br-25" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								OK
+							</a>
+						</div>
+					</div>
 				</div>
 				<div class="mb-2">
 					<a class="nav-link dropdown-warehouse btn btn-sm dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="min-width: 150px; text-align: right;">
@@ -61,12 +90,13 @@
 	table.ui-datepicker-calendar { text-align: center; font-size: 16px;}
 	table.ui-datepicker-calendar td { padding: 0 !important;}
 	table.ui-datepicker-calendar tr { border-bottom: 2px solid white;}
-	table.ui-datepicker-calendar td a { padding: 6px; display: block; color: #72767f;}
+	table.ui-datepicker-calendar td a { padding: 2px; display: block; color: #72767f;}
 	td.ui-datepicker-current-day a{ background: #2196f3; border-radius: 100%; color: white !important; display: block; text-align: center;}
 	td.ui-datepicker-range{background: #b3e5fc;}
 	td.ui-datepicker-range a{color: #1f2634;	}
 	td.ui-datepicker-current-day{border-radius: 25px 0 0 25px;}
 	/*td.ui-datepicker-range:last-child{ border-radius: 0 25px 25px 0;}*/
+
 </style>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
@@ -187,12 +217,25 @@
 	}(jQuery));
 
 	$(document).ready(function() {
-	    $("#txtDateRange").dateRangePicker({
-	        showOn: "focus",
-	        rangeSeparator: " to ",
-	        dateFormat: "yy-mm-dd",
-	        useHiddenAltFields: true,
-	        constrainInput: true
-	    });
+	    // $("#txtDateRange").dateRangePicker({
+	    //     showOn: "focus",
+	    //     rangeSeparator: " to ",
+	    //     dateFormat: "yy-mm-dd",
+	    //     useHiddenAltFields: true,
+	    //     constrainInput: true
+	    // });
+
+		$('#calendar').datepicker({
+			numberOfMonths: 2
+		});
+		// $('#calendar2').datepicker({
+		// 	format: 'L',
+		// 	inline: true,
+		// 	defaultDate: moment().add(1, 'months'));
+		// });
+		// $("#calendar").on("update.datetimepicker", function (e) {
+		// 	e.viewDate.add(1, 'months');
+		// 	$('#calendar2').datetimepicker('date', e.viewDate);
+		// });
 	});
 </script>
