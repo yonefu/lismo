@@ -151,10 +151,28 @@
 										</div>
 									</div>
 									<!--div-->
-									<div class="data-bottom d-flex align-items-center flex-column justify-content-between">
-										<div class="emo">
-											<img class="img-fluid" src="dist/img/ama-shopfy-chart.png" alt="とても好調" />
+
+									<div class="d-flex flex-column align-items-center justify-content-center h-25">
+										<div class="progressbar-data d-flex mx-auto w-75">
+											<div class="progress-data px-2 text-center" style="width: 79%">
+												<p class="mb-1 f-20 fontEN">
+													<img src="dist/img/icons/icon-sm-shopify.jpg" alt="" />
+												</p>
+											</div>
+											<!--progress-data-->
+											<div class="progress-data px-2 text-center">
+												<p class="mb-1 f-20 fontEN">
+													<img src="dist/img/icons/icon-sm-amazon.jpg" alt="" />
+												</p>
+											</div>
+											<!--progress-data-->
 										</div>
+										<!--progressbar-data-->
+										<div class="progress w-75 mb-3">
+											<div class="progress-bar bg-pink" role="progressbar" style="width: 79%" aria-valuenow="79" aria-valuemin="0" aria-valuemax="100"></div>
+											<div class="progress-bar bg-yellow" role="progressbar" style="width: 21%" aria-valuenow="21" aria-valuemin="0" aria-valuemax="100">	</div>
+										</div>
+										<!--progress-->
 									</div>
 									<!--div-->
 								</div>
