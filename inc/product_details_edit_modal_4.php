@@ -1,7 +1,7 @@
 <div class="inner-page-wrap">
 	<div class="product-details--modal-page w-100">
 		<div class="d-flex justify-content-between align-items-center mb-3">
-			<h3 class="page-title mb-1 f-15">
+			<h3 class="page-title mb-1 f-18">
 				<span>在庫を追加</span>
 			</h3>
 		</div>
