@@ -9,7 +9,7 @@
 
 		<form class="mb-4">
 			<div class="form-group row">
-				<label class="col-lg-3 col-form-label text-right pr-0">サプライヤー</label>
+				<label class="col-lg-3 col-form-label text-right pr-0 f-12">サプライヤー</label>
 				<div class="col-lg-9">
 					<select class="custom-select form-control">
 						<option selected>選ぶ</option>
@@ -18,7 +18,7 @@
 				</div>
 			</div>
 			<div class="form-group row">
-				<label class="col-lg-3 col-form-label text-right pr-0">単価</label>
+				<label class="col-lg-3 col-form-label text-right pr-0 f-12">単価</label>
 				<div class="col-lg-9">
 					<div class="row">
 						<div class="col-6 pr-2">
@@ -37,7 +37,7 @@
 				</div>
 			</div>
 			<div class="form-group row">
-				<label class="col-lg-3 col-form-label text-right pr-0">個数</label>
+				<label class="col-lg-3 col-form-label text-right pr-0 f-12">個数</label>
 				<div class="col-lg-9">
 					<select class="custom-select form-control">
 						<option selected>10</option>
@@ -46,13 +46,13 @@
 				</div>
 			</div>
 			<div class="form-group row">
-				<label class="col-lg-3 col-form-label text-right pr-0">在庫タグ</label>
+				<label class="col-lg-3 col-form-label text-right pr-0 f-12">在庫タグ</label>
 				<div class="col-lg-9">
 					<input type="text" class="form-control" placeholder="">
 				</div>
 			</div>
 			<div class="form-group row">
-				<label class="col-lg-3 col-form-label text-right pr-0">追加した理由</label>
+				<label class="col-lg-3 col-form-label text-right pr-0 f-12">追加した理由</label>
 				<div class="col-lg-9">
 					<textarea class="form-control" rows="3" placeholder="Tamagotchi m!x (たまごっちみくす) Melody m!x ver. パープル"></textarea>
 				</div>

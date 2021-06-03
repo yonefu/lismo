@@ -9,20 +9,20 @@
 
 		<form class="mb-4">
 			<div class="form-group row">
-				<label for="staticEmail" class="col-lg-3 col-form-label text-right pr-0">ブランド名</label>
+				<label for="staticEmail" class="col-lg-3 col-form-label text-right pr-0 f-12">ブランド名</label>
 				<div class="col-lg-9">
 					<input type="text"  class="form-control" placeholder="Apple">
 				</div>
 			</div>
 			<div class="form-group row">
-				<label for="inputPassword" class="col-lg-3 col-form-label text-right pr-0">商品名</label>
+				<label for="inputPassword" class="col-lg-3 col-form-label text-right pr-0 f-12">商品名</label>
 				<div class="col-lg-9">
 					<input type="text"  class="form-control" placeholder="r. パープル  ⽇本限定2020年モデル最新型">
 				</div>
 			</div>
 
 			<div class="form-check row d-flex">
-				<label class="col-lg-3 col-form-label text-right pr-0">&nbsp;</label>
+				<label class="col-lg-3 col-form-label text-right pr-0 f-12">&nbsp;</label>
 				<div class="col-lg-9 pl-0">
 					<div class="position-relative custom-control custom-checkbox checkbox-sm">
 						<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selected1">

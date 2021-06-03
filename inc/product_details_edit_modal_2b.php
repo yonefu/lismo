@@ -9,13 +9,13 @@
 
 		<form class="mb-4">
 			<div class="form-group row">
-				<label for="staticEmail" class="col-lg-3 col-form-label text-right pr-0">JAN</label>
+				<label for="staticEmail" class="col-lg-3 col-form-label text-right pr-0 f-12">JAN</label>
 				<div class="col-lg-9">
 					<input type="text"  class="form-control" placeholder="4582413451014">
 				</div>
 			</div>
 			<div class="form-group row">
-				<label for="inputPassword" class="col-lg-3 col-form-label text-right pr-0">ASIN</label>
+				<label for="inputPassword" class="col-lg-3 col-form-label text-right pr-0 f-12">ASIN</label>
 				<div class="col-lg-9">
 					<input type="text"  class="form-control" placeholder="B01GFKOG1M">
 				</div>

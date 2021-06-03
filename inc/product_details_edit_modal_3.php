@@ -9,7 +9,7 @@
 
 		<form class="mb-4">
 			<div class="form-group row">
-				<label class="col-lg-3 col-form-label text-right pr-0">重量/サイズ</label>
+				<label class="col-lg-3 col-form-label text-right pr-0 f-12">重量/サイズ</label>
 				<div class="col-lg-9">
 					<div class="row">
 						<div class="col-6 pr-2">
@@ -30,7 +30,7 @@
 				</div>
 			</div>
 			<div class="form-group row">
-				<label class="col-lg-3 col-form-label text-right pr-0">⻑さ/幅/⾼さ</label>
+				<label class="col-lg-3 col-form-label text-right pr-0 f-12">⻑さ/幅/⾼さ</label>
 				<div class="col-lg-9">
 					<div class="row">
 						<div class="col-4 pr-2">
@@ -46,26 +46,26 @@
 				</div>
 			</div>
 			<div class="form-group row">
-				<label class="col-lg-3 col-form-label text-right pr-0">HSコード</label>
+				<label class="col-lg-3 col-form-label text-right pr-0 f-12">HSコード</label>
 				<div class="col-lg-9">
 					<input type="text" class="form-control" placeholder="B01GFKOG1m">
 				</div>
 			</div>
 			<div class="form-group row">
-				<label class="col-lg-3 col-form-label text-right pr-0">ユニット詳細</label>
+				<label class="col-lg-3 col-form-label text-right pr-0 f-12">ユニット詳細</label>
 				<div class="col-lg-9">
 					<textarea class="form-control" rows="3" placeholder="Tamagotchi m!x (たまごっちみくす) Melody m!x ver. パープル"></textarea>
 				</div>
 			</div>
 			<div class="form-group row">
-				<label class="col-lg-3 col-form-label text-right pr-0">内容品名 <br/> (⽇本語)</label>
+				<label class="col-lg-3 col-form-label text-right pr-0 f-12">内容品名 <br/> (⽇本語)</label>
 				<div class="col-lg-9">
 					<textarea class="form-control" rows="3" placeholder="Tamagotchi m!x (たまごっちみくす) Melody m!x ver. パープル"></textarea>
 				</div>
 			</div>
 
 			<div class="form-check row d-flex">
-				<label class="col-lg-3 col-form-label text-right pr-0">&nbsp;</label>
+				<label class="col-lg-3 col-form-label text-right pr-0 f-12">&nbsp;</label>
 				<div class="col-lg-9 pl-0">
 					<div class="position-relative custom-control custom-checkbox checkbox-sm">
 						<input type="checkbox" class="form-check-input custom-control-input ml-0" id="selected12">

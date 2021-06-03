@@ -10,7 +10,7 @@
 		<form class="mb-0">
 			<div class="form-group row br-bottom">
 				<div class="col-lg-6 d-flex px-0">
-					<label for="inputPassword" class="col-lg-3 col-form-label text-right pr-0">状態</label>
+					<label for="inputPassword" class="col-lg-3 col-form-label text-right pr-0 f-12">状態</label>
 					<div class="col-lg-9">
 						<select class="custom-select form-control">
 							<option selected>新品</option>
@@ -22,7 +22,7 @@
 			</div>
 			<div class="form-group row br-bottom">
 				<div class="col-lg-6 d-flex px-0">
-					<label for="inputPassword" class="col-lg-3 col-form-label text-right pr-0">項目1</label>
+					<label for="inputPassword" class="col-lg-3 col-form-label text-right pr-0 f-12">項目1</label>
 					<div class="col-lg-9">
 						<select class="custom-select form-control">
 							<option selected>サイズ</option>
@@ -32,7 +32,7 @@
 					</div>
 				</div>
 				<div class="col-lg-6 d-flex px-0">
-					<label for="inputPassword" class="col-lg-3 col-form-label text-right pr-0">内容</label>
+					<label for="inputPassword" class="col-lg-3 col-form-label text-right pr-0 f-12">内容</label>
 					<div class="col-lg-9">
 						<select class="custom-select form-control">
 							<option selected>M</option>
@@ -44,7 +44,7 @@
 			</div>
 			<div class="form-group row br-bottom mb-2">
 				<div class="col-lg-6 d-flex px-0">
-					<label for="inputPassword" class="col-lg-3 col-form-label text-right pr-0">項目2</label>
+					<label for="inputPassword" class="col-lg-3 col-form-label text-right pr-0 f-12">項目2</label>
 					<div class="col-lg-9">
 						<select class="custom-select form-control">
 							<option selected>カラー</option>
@@ -54,7 +54,7 @@
 					</div>
 				</div>
 				<div class="col-lg-6 d-flex px-0">
-					<label for="inputPassword" class="col-lg-3 col-form-label text-right pr-0">内容</label>
+					<label for="inputPassword" class="col-lg-3 col-form-label text-right pr-0 f-12">内容</label>
 					<div class="col-lg-9">
 						<select class="custom-select form-control">
 							<option selected>ブラック</option>

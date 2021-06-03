@@ -9,7 +9,7 @@
 
 		<form class="mb-4">
 			<div class="form-group row">
-				<label class="col-lg-3 col-form-label text-right pr-0">商品タグ</label>
+				<label class="col-lg-3 col-form-label text-right pr-0 f-12">商品タグ</label>
 				<div class="col-lg-9">
 					<div class="search-box">
 						<div class="form-inline">
@@ -24,7 +24,7 @@
 				</div>
 			</div>
 			<div class="form-group row">
-				<label class="col-lg-3 col-form-label text-right pr-0">登録済タグ</label>
+				<label class="col-lg-3 col-form-label text-right pr-0 f-12">登録済タグ</label>
 				<div class="col-lg-9">
 					<div class="d-flex flex-wrap registerd-tags">
 						<div class="tag btn btn-outline-dark br-25 mr-2 px-3 mb-1">

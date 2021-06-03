@@ -13,7 +13,7 @@
 
 		<form class="mb-4">
 			<div class="form-group row">
-				<label for="staticEmail" class="col-lg-4 col-form-label text-right pr-0">ファイルを選択</label>
+				<label for="staticEmail" class="col-lg-4 col-form-label text-right pr-0 f-12">ファイルを選択</label>
 				<div class="col-lg-8">
 					<div class="custom-file">
 						<input type="file" class="custom-file-input form-control" id="customFile">
@@ -22,13 +22,13 @@
 				</div>
 			</div>
 			<div class="form-group row">
-				<label for="inputPassword" class="col-lg-4 col-form-label text-right pr-0">画像URLから</label>
+				<label for="inputPassword" class="col-lg-4 col-form-label text-right pr-0 f-12">画像URLから</label>
 				<div class="col-lg-8">
 					<input type="text"  class="form-control" placeholder="erothree.sub.jp/php/mbckana">
 				</div>
 			</div>
 			<div class="form-group row">
-				<label for="inputPassword" class="col-lg-4 col-form-label text-right pr-0"></label>
+				<label for="inputPassword" class="col-lg-4 col-form-label text-right pr-0 f-12"></label>
 				<div class="col-lg-8">
 					<div class="form-group inputDnD">
 						<input type="file" class="form-control-file" id="inputFile" onchange="readUrl(this)" data-title="ここに画像をドラッグ&ドロップ">
