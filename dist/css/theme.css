@@ -762,6 +762,11 @@ tr.purchase-subtotal td {
   min-height: 40px;
   background: #f23d46 !important; }
 
+.order-details-modal-page .bg-white {
+  border-width: 2px; }
+  .order-details-modal-page .bg-white:hover {
+    color: #1f2634; }
+
 span.text-right.mr-2 {
   min-width: 90px;
   display: inline-block; }
