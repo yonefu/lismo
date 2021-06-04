@@ -3,11 +3,11 @@
 		<div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
 			<h3 class="page-title mb-1">
 				<span class="mr-2">出荷詳細</span>
-				<button type="button" class="btn btn-outline-dark mr-2 f-15 font-weight-bold">出荷の準備中</button>
+				<button type="button" class="btn btn-outline-dark mr-2 f-15 font-weight-bold bg-white">出荷の準備中</button>
 				<span class="f-15">出荷ID : FO00361500</span>
 			</h3>
-			<div class="btn-group flex-column">
-				<p class="mb-1"><a href="#" class="btn btn-dark">出荷済みにする</a></p>
+			<div class="btn-group flex-column pr-4">
+				<p class="mb-1"><a href="#" class="btn btn-dark px-4">出荷済みにする</a></p>
 				<button class="btn btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				他のアクション
 				</button>
@@ -361,107 +361,107 @@
 											</tr>
 											<!--tr-->
 											<tr class="sales-shipping">
-												<td class="text-right td-no-data" colspan="3">
+												<td class="br-0 text-right td-no-data" colspan="3">
 													&nbsp;
 												</td>
-												<td class="text-right">
+												<td class="br-0 text-right">
 													<p>売上送料</p>
 												</td>
-												<td class="text-right">
+												<td class="br-0 text-right">
 													<p>-¥500</p>
 												</td>
-												<td class="text-center">&nbsp;</td>
+												<td class="br-0 text-center">&nbsp;</td>
 											</tr>
 											<!--tr-->
 											<tr class="shipping-charges">
-												<td class="text-right td-no-data" colspan="3">
+												<td class="br-0 text-right td-no-data" colspan="3">
 													&nbsp;
 												</td>
-												<td class="text-right">
+												<td class="br-0 text-right">
 													<p>発送料</p>
 												</td>
-												<td class="text-right">
+												<td class="br-0 text-right">
 													<p>-¥600</p>
 												</td>
-												<td class="text-center">&nbsp;</td>
+												<td class="br-0 text-center">&nbsp;</td>
 											</tr>
 											<!--tr-->
 											<tr class="sales-commission">
-												<td class="text-right td-no-data" colspan="3">
+												<td class="br-0 text-right td-no-data" colspan="3">
 													&nbsp;
 												</td>
-												<td class="text-right">
+												<td class="br-0 text-right">
 													<p>販売⼿数料</p>
 												</td>
-												<td class="text-right">
+												<td class="br-0 text-right">
 													<p>-¥0</p>
 												</td>
-												<td class="text-center"><span class="badge unsettled">未確定</span></td>
+												<td class="br-0 text-center"><span class="badge unsettled">未確定</span></td>
 											</tr>
 											<!--tr-->
 											<tr class="settlement-fee">
-												<td class="text-right td-no-data" colspan="3">
+												<td class="br-0 text-right td-no-data" colspan="3">
 													&nbsp;
 												</td>
-												<td class="text-right">
+												<td class="br-0 text-right">
 													<p>決済数料</p>
 												</td>
-												<td class="text-right">
+												<td class="br-0 text-right">
 													<p>-¥0</p>
 												</td>
-												<td class="text-center">&nbsp;</td>
+												<td class="br-0 text-center">&nbsp;</td>
 											</tr>
 											<!--tr-->
 											<tr class="discount">
-												<td class="text-right td-no-data" colspan="3">
+												<td class="br-0 text-right td-no-data" colspan="3">
 													&nbsp;
 												</td>
-												<td class="text-right">
+												<td class="br-0 text-right">
 													<p>割引</p>
 												</td>
-												<td class="text-right">
+												<td class="br-0 text-right">
 													<p><input type="text" class="form-control text-right pull-right w-50" placeholder="-¥0"></p>
 												</td>
-												<td class="text-center">&nbsp;</td>
+												<td class="br-0 text-center">&nbsp;</td>
 											</tr>
 											<!--tr-->
 											<tr class="other-history">
-												<td class="text-right td-no-data" colspan="3">
+												<td class="br-0 text-right td-no-data" colspan="3">
 													&nbsp;
 												</td>
-												<td class="text-right">
+												<td class="br-0 text-right">
 													<p>その他経費</p>
 												</td>
-												<td class="text-right">
+												<td class="br-0 text-right">
 													<p><input type="text" class="form-control text-right pull-right w-50" placeholder="-¥0"></p>
 												</td>
-												<td class="text-center">&nbsp;</td>
+												<td class="br-0 text-center">&nbsp;</td>
 											</tr>
 											<!--tr-->
 											<tr class="total bg-light">
-												<td class="text-right" colspan="3">
+												<td class="br-0 text-right" colspan="3">
 													&nbsp;
 												</td>
-												<td class="text-right">
+												<td class="br-0 text-right">
 													<p>経費合計</p>
 												</td>
-												<td class="text-right">
+												<td class="br-0 text-right">
 													<p>-¥3700</p>
 												</td>
-												<td class="text-center">&nbsp;</td>
+												<td class="br-0 text-center">&nbsp;</td>
 											</tr>
 											<!--tr-->
 											<tr class="sales-profile">
-												<td class="text-right" colspan="3">
+												<td class="br-0 text-right" colspan="3">
 													&nbsp;
 												</td>
-												<td class="text-right">
+												<td class="br-0 text-right">
 													<p>販売利益</p>
 												</td>
-												<td class="text-right">
+												<td class="br-0 text-right">
 													<p class="font-weight-bold">-¥3900</p>
 												</td>
-												<td class="text-center"><span class="badge unsettled">未確定</span></td>
+												<td class="br-0 text-center"><span class="badge unsettled">未確定</span></td>
 											</tr>
 											<!--tr-->
 										</tbody>
@@ -483,7 +483,7 @@
 				<div class="bg-white br-25">
 					<div class="form-data f-12">
 						<div class="row">
-							<div class="col-lg-4 border-right">
+							<div class="col-lg-4">
 								<!-- <p>
 									<span>注文ID:</span>
 									<span>114-1810628-1813868</span>
