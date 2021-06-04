@@ -439,29 +439,29 @@
 											</tr>
 											<!--tr-->
 											<tr class="total bg-light">
-												<td class="br-0 text-right" colspan="3">
+												<td class="text-right" colspan="3">
 													&nbsp;
 												</td>
-												<td class="br-0 text-right">
+												<td class="text-right">
 													<p>経費合計</p>
 												</td>
-												<td class="br-0 text-right">
+												<td class="text-right">
 													<p>-¥3700</p>
 												</td>
-												<td class="br-0 text-center">&nbsp;</td>
+												<td class="text-center">&nbsp;</td>
 											</tr>
 											<!--tr-->
 											<tr class="sales-profile">
-												<td class="br-0 text-right" colspan="3">
+												<td class="text-right" colspan="3">
 													&nbsp;
 												</td>
-												<td class="br-0 text-right">
+												<td class="text-right">
 													<p>販売利益</p>
 												</td>
-												<td class="br-0 text-right">
+												<td class="text-right">
 													<p class="font-weight-bold">-¥3900</p>
 												</td>
-												<td class="br-0 text-center"><span class="badge unsettled">未確定</span></td>
+												<td class="text-center"><span class="badge unsettled">未確定</span></td>
 											</tr>
 											<!--tr-->
 										</tbody>
