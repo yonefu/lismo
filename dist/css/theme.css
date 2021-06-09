@@ -393,6 +393,11 @@ input.box-80 {
       .purchase-page .dropdown-menu .calendar .ui-datepicker-inline table {
         width: 100%; }
 
+.registerd-tags {
+  height: 200px;
+  overflow: auto;
+  margin-bottom: 10px; }
+
 .modal-footer {
   border-top: 0; }
 
