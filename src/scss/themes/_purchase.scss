@@ -482,8 +482,13 @@ input.box-80{
 	}
 }
 
-.registerd-tags {
-	height: 200px;
-	overflow: auto;
-	margin-bottom: 10px;
+#purchaseSelectionModal7{
+	.purchase-page{
+		.dropdown-menu.dropdown-menu-right{
+			.registerd-tags{
+				max-height: 235px;
+    			overflow-y: auto;
+			}
+		}
+	}
 }
