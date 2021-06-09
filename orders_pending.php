@@ -87,13 +87,13 @@
 							<div class="card">
 								<div class="card-header p-0" id="headingOne">
 									<h5 class="mb-0">
-										<button class="btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										<button class="btn" data-toggle="collapse" data-target="#collapseOne">
 										<i class="fa fa-caret-up mr-2"></i><span class="mr-4">2020年08月15日</span><small>(1件)</small>
 										</button>
 									</h5>
 								</div>
 
-								<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+								<div id="collapseOne" class="collapse show">
 									<div class="card-body">
 										<div class="table-responsive-lg">
 											<table class="table order-table">
@@ -220,12 +220,12 @@
 							<div class="card">
 								<div class="card-header p-0" id="headingTwo">
 									<h5 class="mb-0">
-										<button class="btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										<button class="btn collapsed" data-toggle="collapse" data-target="#collapseTwo">
 										<i class="fa fa-caret-up mr-2"></i><span class="mr-4">2020年08月15日</span><small>(2件)</small>
 										</button>
 									</h5>
 								</div>
-								<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+								<div id="collapseTwo" class="collapse">
 									<div class="card-body">
 										<div class="table-responsive-lg">
 											<table class="table order-table">
