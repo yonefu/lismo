@@ -393,6 +393,10 @@ input.box-80 {
       .purchase-page .dropdown-menu .calendar .ui-datepicker-inline table {
         width: 100%; }
 
+#purchaseSelectionModal7 .purchase-page .dropdown-menu.dropdown-menu-right .registerd-tags {
+  max-height: 235px;
+  overflow-y: auto; }
+
 .modal-footer {
   border-top: 0; }
 
@@ -2457,7 +2461,9 @@ div.radio.switcher label {
   .right-dropdown.ml-auto div.mb-2 {
     margin-bottom: 0 !important; }
   .modal-dialog {
-    max-width: 770px; }
+    max-width: 770px;
+    padding-left: 1em;
+    padding-right: 1em; }
   .modal-full {
     max-width: 1600px !important; }
   .modal-lg {
