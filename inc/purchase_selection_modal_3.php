@@ -49,10 +49,10 @@
 						期間：12⽉
 					</a>
 					<div class="dropdown-menu dropdown-menu-right">
-						<a class="dropdown-item" href="#">⾦額が⾼い順</a>
-						<a class="dropdown-item active" href="#">⾦額が低い順</a>
-						<a class="dropdown-item" href="#">率が⾼い順</a>
-						<a class="dropdown-item" href="#">率が低い順</a>
+						<a class="dropdown-item" href="#">Option</a>
+						<a class="dropdown-item active" href="#">Option</a>
+						<a class="dropdown-item" href="#">Option</a>
+						<a class="dropdown-item" href="#">Option</a>
 					</div>
 				</div>
 				<!--div-->
@@ -103,7 +103,17 @@
 									<th class="column-1 product-col">商品</th>
 									<th class="column-2">ﾊﾞﾘｴｰｼｮﾝ</th>
 									<th class="column-3">個数</th>
-									<th class="column-4">売上</th>
+									<th class="column-4">
+										<a class="dropdown-toggle position-relative" type="button" data-toggle="dropdown">
+											売上
+										</a>
+										<div class="dropdown-menu dropdown-menu-right">
+											<a class="dropdown-item" href="#">⾦額が⾼い順</a>
+											<a class="dropdown-item active" href="#">⾦額が低い順</a>
+											<a class="dropdown-item" href="#">率が⾼い順</a>
+											<a class="dropdown-item" href="#">率が低い順</a>
+										</div>
+									</th>
 									<th class="column-5">利益</th>
 									<th class="column-6">利益率</th>
 									<th class="column-7">ABC分析</th>
