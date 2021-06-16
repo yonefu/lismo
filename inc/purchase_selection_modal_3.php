@@ -101,9 +101,9 @@
 							<thead>
 								<tr>
 									<th class="column-1 product-col">商品</th>
-									<th class="column-2">ﾊﾞﾘｴｰｼｮﾝ</th>
-									<th class="column-3">個数</th>
-									<th class="column-4">
+									<th class="column-2 text-left">ﾊﾞﾘｴｰｼｮﾝ</th>
+									<th class="column-3 text-right">個数</th>
+									<th class="column-4 text-right">
 										<a class="dropdown-toggle position-relative" type="button" data-toggle="dropdown">
 											売上
 										</a>
@@ -114,9 +114,9 @@
 											<a class="dropdown-item" href="#">率が低い順</a>
 										</div>
 									</th>
-									<th class="column-5">利益</th>
-									<th class="column-6">利益率</th>
-									<th class="column-7">ABC分析</th>
+									<th class="column-5 text-right">利益</th>
+									<th class="column-6 text-right">利益率</th>
+									<th class="column-7 text-left p-5">ABC分析</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -127,28 +127,28 @@
 											<small class="text-muted">JAN4582191967738</small>
 										</p>
 									</td>
-									<td class="text-center">
+									<td class="text-left">
 										<p><span class="badge first-hand">新品</span></p>
 										<p>プラック</p>
 										<p>Mサイズ</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>543個</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>¥1,972</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>¥221,972</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>46.8%</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
-									<td class="text-center">
+									<td class="text-left p-5">
 										<p>A</p>
 									</td>
 								</tr>
@@ -160,28 +160,28 @@
 											<small class="text-muted">JAN4582191967738</small>
 										</p>
 									</td>
-									<td class="text-center">
+									<td class="text-left">
 										<p><span class="badge first-hand">新品</span></p>
 										<p>プラック</p>
 										<p>Mサイズ</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>543個</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>¥1,972</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>¥221,972</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>46.8%</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
-									<td class="text-center">
+									<td class="text-left p-5">
 										<p>A</p>
 									</td>
 								</tr>
@@ -193,28 +193,28 @@
 											<small class="text-muted">JAN4582191967738</small>
 										</p>
 									</td>
-									<td class="text-center">
+									<td class="text-left">
 										<p><span class="badge first-hand">新品</span></p>
 										<p>プラック</p>
 										<p>Mサイズ</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>543個</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>¥1,972</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>¥221,972</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>46.8%</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
-									<td class="text-center">
+									<td class="text-left p-5">
 										<p>A</p>
 									</td>
 								</tr>
@@ -226,28 +226,28 @@
 											<small class="text-muted">JAN4582191967738</small>
 										</p>
 									</td>
-									<td class="text-center">
+									<td class="text-left">
 										<p><span class="badge first-hand">新品</span></p>
 										<p>プラック</p>
 										<p>Mサイズ</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>543個</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>¥1,972</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>¥221,972</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>46.8%</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
-									<td class="text-center">
+									<td class="text-left p-5">
 										<p>A</p>
 									</td>
 								</tr>
@@ -259,28 +259,28 @@
 											<small class="text-muted">JAN4582191967738</small>
 										</p>
 									</td>
-									<td class="text-center">
+									<td class="text-left">
 										<p><span class="badge first-hand">新品</span></p>
 										<p>プラック</p>
 										<p>Mサイズ</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>543個</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>¥1,972</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>¥221,972</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>46.8%</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
-									<td class="text-center">
+									<td class="text-left p-5">
 										<p>A</p>
 									</td>
 								</tr>

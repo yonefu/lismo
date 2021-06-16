@@ -206,7 +206,8 @@ input.box-80 {
   width: 150px; }
 
 .purchase-selected-modal-3 .column-1 {
-  width: 300px; }
+  width: 300px;
+  padding-left: 25 !important; }
 
 .purchase-selected-modal-3 .column-2 {
   width: 80px; }

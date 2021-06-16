@@ -97,10 +97,10 @@
 									<th class="column-1">配送先/注⽂⽇</th>
 									<th class="column-2">ショップ</th>
 									<th class="column-3">倉庫</th>
-									<th class="column-4 product-col">商品</th>
-									<th class="column-5">ﾊﾞﾘｴｰｼｮﾝ</th>
-									<th class="column-6">個数</th>
-									<th class="column-7">キャンセル額合計</th>
+									<th class="column-4 product-col py-4">商品</th>
+									<th class="column-5 text-left">ﾊﾞﾘｴｰｼｮﾝ</th>
+									<th class="column-6 text-right">個数</th>
+									<th class="column-7 text-right pr-3">キャンセル額合計</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -123,15 +123,15 @@
 											<small class="text-muted">JAN4582191967738</small>
 										</p>
 									</td>
-									<td class="text-center">
+									<td class="text-left">
 										<p><span class="badge first-hand">新品</span></p>
 										<p>プラック</p>
 										<p>Mサイズ</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>2個</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right pr-4">
 										<p>¥21,972</p>
 									</td>
 								</tr>
@@ -146,15 +146,15 @@
 											<small class="text-muted">JAN4582191967738</small>
 										</p>
 									</td>
-									<td class="text-center">
+									<td class="text-left">
 										<p><span class="badge first-hand">新品</span></p>
 										<p>プラック</p>
 										<p>Mサイズ</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>1個</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right pr-4">
 										<p>¥21,972</p>
 									</td>
 								</tr>
@@ -169,15 +169,15 @@
 											<small class="text-muted">JAN4582191967738</small>
 										</p>
 									</td>
-									<td class="text-center">
+									<td class="text-left">
 										<p><span class="badge first-hand">新品</span></p>
 										<p>プラック</p>
 										<p>Mサイズ</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>1個</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right pr-4">
 										<p>¥21,972</p>
 									</td>
 								</tr>
@@ -205,15 +205,15 @@
 											<small class="text-muted">JAN4582191967738</small>
 										</p>
 									</td>
-									<td class="text-center">
+									<td class="text-left">
 										<p><span class="badge first-hand">新品</span></p>
 										<p>プラック</p>
 										<p>Mサイズ</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>2個</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right pr-4">
 										<p>¥21,972</p>
 									</td>
 								</tr>
@@ -241,15 +241,15 @@
 											<small class="text-muted">JAN4582191967738</small>
 										</p>
 									</td>
-									<td class="text-center">
+									<td class="text-left">
 										<p><span class="badge first-hand">新品</span></p>
 										<p>プラック</p>
 										<p>Mサイズ</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>3個</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right pr-4">
 										<p>¥21,972</p>
 									</td>
 								</tr>

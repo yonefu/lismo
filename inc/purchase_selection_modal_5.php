@@ -103,11 +103,11 @@
 									<th class="column-2">倉庫</th>
 									<th class="column-3">アクション</th>
 									<th class="column-4 product-col">商品</th>
-									<th class="column-5">ﾊﾞﾘｴｰｼｮﾝ</th>
-									<th class="column-6">変更個数</th>
-									<th class="column-7">単価</th>
-									<th class="column-8">合計額</th>
-									<th class="column-9">現在個</th>
+									<th class="column-5 text-left">ﾊﾞﾘｴｰｼｮﾝ</th>
+									<th class="column-6 text-right">変更個数</th>
+									<th class="column-7 text-right">単価</th>
+									<th class="column-8 text-right">合計額</th>
+									<th class="column-9 text-right">現在個</th>
 									<th class="column-10">実⾏者</th>
 								</tr>
 							</thead>
@@ -130,21 +130,21 @@
 											<small class="text-muted">JAN4582191967738</small>
 										</p>
 									</td>
-									<td class="text-center">
+									<td class="text-left">
 										<p><span class="badge first-hand">新品</span></p>
 										<p>プラック</p>
 										<p>Mサイズ</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>3</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>¥1,972</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>¥21,972</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>¥32</p>
 									</td>
 									<td class="text-center">
@@ -170,21 +170,21 @@
 											<small class="text-muted">JAN4582191967738</small>
 										</p>
 									</td>
-									<td class="text-center">
+									<td class="text-left">
 										<p><span class="badge first-hand">新品</span></p>
 										<p>レッド</p>
 										<p>Mサイズ</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>15</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>¥61,972</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>¥91,972</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>155</p>
 									</td>
 									<td class="text-center">
@@ -210,21 +210,21 @@
 											<small class="text-muted">JAN4582191967738</small>
 										</p>
 									</td>
-									<td class="text-center">
+									<td class="text-left">
 										<p><span class="badge first-hand">新品</span></p>
 										<p>バイオレッド</p>
 										<p>Mサイズ</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>3</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>¥21,972</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>¥56,972</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right">
 										<p>33</p>
 									</td>
 									<td class="text-center">
