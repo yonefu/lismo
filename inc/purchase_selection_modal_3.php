@@ -116,7 +116,7 @@
 									</th>
 									<th class="column-5 text-right">利益</th>
 									<th class="column-6 text-right">利益率</th>
-									<th class="column-7 text-left p-5">ABC分析</th>
+									<th class="column-7 text-left px-5">ABC分析</th>
 								</tr>
 							</thead>
 							<tbody>
