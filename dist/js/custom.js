@@ -96,38 +96,38 @@ $(document).ready(function() {
     //
     $('.modal').on('shown.bs.modal', function(e) {
         $("#see-detail-btn1").click(function() {
-            $("#toggle-div1").slideDown("slow");
+            $("#toggle-div1").fadeIn("slow");
         });
         $("#close-button1").click(function() {
-            $("#toggle-div1").slideUp("fast");
+            $("#toggle-div1").fadeOut("fast");
         });
 
         $("#see-detail-btn2").click(function() {
-            $("#toggle-div2").slideDown("slow");
+            $("#toggle-div2").fadeIn("slow");
         });
         $("#close-button2").click(function() {
-            $("#toggle-div2").slideUp("fast");
+            $("#toggle-div2").fadeOut("fast");
         });
 
         $("#see-detail-btn3").click(function() {
-            $("#toggle-div3").slideDown("slow");
+            $("#toggle-div3").fadeIn("slow");
         });
         $("#close-button3").click(function() {
-            $("#toggle-div3").slideUp("fast");
+            $("#toggle-div3").fadeOut("fast");
         });
 
         $("#see-detail-btn4").click(function() {
-            $("#toggle-div4").slideDown("slow");
+            $("#toggle-div4").fadeIn("slow");
         });
         $("#close-button4").click(function() {
-            $("#toggle-div4").slideUp("fast");
+            $("#toggle-div4").fadeOut("fast");
         });
 
         $("#see-detail-btn5").click(function() {
-            $("#toggle-div5").slideDown("slow");
+            $("#toggle-div5").fadeIn("slow");
         });
         $("#close-button5").click(function() {
-            $("#toggle-div5").slideUp("fast");
+            $("#toggle-div5").fadeOut("fast");
         });
     });
 
