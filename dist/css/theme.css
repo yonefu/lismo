@@ -842,8 +842,10 @@ table.variation-table td img {
 .right-button {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 52px;
   z-index: 9; }
+  .right-button .btn {
+    padding: 0.25rem 28px !important; }
 
 .product-table-wrapper .table-responsive-lg {
   border: 1px solid #ededed;

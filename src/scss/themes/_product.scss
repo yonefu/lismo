@@ -100,8 +100,11 @@ table.variation-table{
 .right-button{
 	position: absolute;
 	top: 0;
-	right: 0;
-	z-index: 9;
+	right: 52px;
+    z-index: 9;
+    .btn{
+    	padding: 0.25rem 28px!important;
+    }
 }
 
 .product-table-wrapper{
