@@ -248,3 +248,10 @@
 		}
 	}
 }
+
+#salesQtyRanking, #salesRanking{
+	.table-responsive-lg{
+		height: 450px;
+		overflow-y: auto;
+	}
+}

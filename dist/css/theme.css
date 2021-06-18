@@ -1463,6 +1463,10 @@ table.delivery-warehouse-edit-table .column-6 {
   border-radius: 10px;
   vertical-align: middle; }
 
+#salesQtyRanking .table-responsive-lg, #salesRanking .table-responsive-lg {
+  height: 450px;
+  overflow-y: auto; }
+
 body {
   font-family: "Noto Sans JP", "Lato", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif !important;
   font-size: 15px;
