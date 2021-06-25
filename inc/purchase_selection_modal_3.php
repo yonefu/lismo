@@ -122,7 +122,7 @@
 							<tbody>
 								<tr>
 									<td class="d-flex align-items-center">
-										<p><img class="product-img" src="dist/img/1.jpg" alt="" /></p>
+										<p class="py-2 px-3"><img class="product-img" src="dist/img/1.jpg" alt="" /></p>
 										<p>そらのおとしもどろいど ニンフ
 											<small class="text-muted">JAN4582191967738</small>
 										</p>
@@ -155,7 +155,7 @@
 								<!--tr-->
 								<tr>
 									<td class="d-flex align-items-center">
-										<p><img class="product-img" src="dist/img/2.jpg" alt="" /></p>
+										<p class="py-2 px-3"><img class="product-img" src="dist/img/2.jpg" alt="" /></p>
 										<p>そらのおとしもどろいど
 											<small class="text-muted">JAN4582191967738</small>
 										</p>
@@ -188,7 +188,7 @@
 								<!--tr-->
 								<tr>
 									<td class="d-flex align-items-center">
-										<p><img class="product-img" src="dist/img/3.jpg" alt="" /></p>
+										<p class="py-2 px-3"><img class="product-img" src="dist/img/3.jpg" alt="" /></p>
 										<p>そらのおとしもどろいど ニンフ
 											<small class="text-muted">JAN4582191967738</small>
 										</p>
@@ -221,7 +221,7 @@
 								<!--tr-->
 								<tr>
 									<td class="d-flex align-items-center">
-										<p><img class="product-img" src="dist/img/4.jpg" alt="" /></p>
+										<p class="py-2 px-3"><img class="product-img" src="dist/img/4.jpg" alt="" /></p>
 										<p>そらのおとしもどろいど ニンフ
 											<small class="text-muted">JAN4582191967738</small>
 										</p>
@@ -254,7 +254,7 @@
 								<!--tr-->
 								<tr>
 									<td class="d-flex align-items-center">
-										<p><img class="product-img" src="dist/img/5.jpg" alt="" /></p>
+										<p class="py-2 px-3"><img class="product-img" src="dist/img/5.jpg" alt="" /></p>
 										<p>そらのおとしもどろいど ニンフ
 											<small class="text-muted">JAN4582191967738</small>
 										</p>
