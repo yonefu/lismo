@@ -91,10 +91,10 @@ input.box-80 {
   width: 100px; }
 
 .purchase-selected-table .column-3 {
-  width: 180px; }
+  width: 160px; }
 
 .purchase-selected-table .column-4 {
-  width: 110px; }
+  width: 130px; }
 
 .purchase-selected-table .column-5 {
   width: 80px; }
@@ -107,6 +107,9 @@ input.box-80 {
 
 .purchase-selected-table .column-8 {
   width: 50px; }
+
+.purchase-selected-table .input-group-text {
+  border-radius: 10px 0 0 10px; }
 
 .purchase-order-history-table .column-1 {
   width: 100px; }
@@ -203,7 +206,10 @@ input.box-80 {
   width: 80px; }
 
 .purchase-selected-modal-2 .column-8 {
-  width: 150px; }
+  width: 80px; }
+
+.purchase-selected-modal-2 .column-9 {
+  width: 120px; }
 
 .purchase-selected-modal-3 .column-1 {
   width: 300px;
@@ -307,6 +313,9 @@ input.box-80 {
 
 .purchase-selected-modal-6 .column-10 {
   width: 100px; }
+
+.purchase-selected-modal-6 th, .purchase-selected-modal-6 td {
+  border: 1px solid #dee2e6; }
 
 .purchase-selected-modal-9 .column-1 {
   width: 100px; }
@@ -1396,7 +1405,8 @@ table.delivery-warehouse-edit-table .column-6 {
   border-radius: 0; }
 
 .table-4-column .column-1 {
-  width: 200px; }
+  width: 200px;
+  padding-left: 45px !important; }
 
 .table-4-column .column-2 {
   width: 100px; }
@@ -1438,7 +1448,7 @@ table.delivery-warehouse-edit-table .column-6 {
   width: 30px; }
 
 .table-report-ranking .column-2 {
-  width: 260px; }
+  width: 220px; }
 
 .table-report-ranking .column-3 {
   width: 80px; }
@@ -1447,6 +1457,9 @@ table.delivery-warehouse-edit-table .column-6 {
   width: 80px; }
 
 .table-report-ranking .column-5 {
+  width: 80px; }
+
+.table-report-ranking .column-6 {
   width: 80px; }
 
 .see-detail-box .label-status .icon-circle {
@@ -1464,7 +1477,7 @@ table.delivery-warehouse-edit-table .column-6 {
   vertical-align: middle; }
 
 #salesQtyRanking .table-responsive-lg, #salesRanking .table-responsive-lg {
-  height: 450px;
+  height: 525px;
   overflow-y: auto; }
 
 body {

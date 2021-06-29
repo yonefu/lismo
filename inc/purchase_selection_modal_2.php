@@ -76,7 +76,7 @@
 				<!--div-->
 				<div class="mb-2">
 					<a class="nav-link btn btn-sm dropdown-toggle bg-white br-25" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						タグ選択：なし
+						商品クラス：全て
 					</a>
 					<div class="dropdown-menu dropdown-menu-right">
 						<a class="dropdown-item" href="#">Option</a>
@@ -97,13 +97,14 @@
 							<thead>
 								<tr>
 									<th class="column-1">倉庫</th>
-									<th class="column-2 product-col">商品</th>
+									<th class="column-2 text-left pl-4">商品</th>
 									<th class="column-3">ﾊﾞﾘｴｰｼｮﾝ</th>
 									<th class="column-4">在庫総数</th>
 									<th class="column-5">単価</th>
 									<th class="column-6">在庫総額</th>
 									<th class="column-7">⼊庫待ち</th>
-									<th class="column-8">作成⽇/更新⽇</th>
+									<th class="column-8 text-right">商品クラス</th>
+									<th class="column-9">作成⽇/更新⽇</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -134,6 +135,10 @@
 									</td>
 									<td class="text-center">
 										<p>なし</p>
+									</td>
+									<td class="text-right">
+										<p>A</p>
+										<p class="text-muted">直近30⽇ <i class="fa fa-caret-down"></i></p>
 									</td>
 									<td class="text-center">
 										<p>2019/11/30 15:00</p>
@@ -171,6 +176,10 @@
 										<p><img src="dist/img/icons/icon-yellow.png" alt="" /></p>
 										<p>0/6</p>
 									</td>
+									<td class="text-right">
+										<p>B</p>
+										<p class="text-muted">直近30⽇ <i class="fa fa-caret-down"></i></p>
+									</td>
 									<td class="text-center">
 										<p>2019/11/30 15:00</p>
 										<p>2019/12/07 15:00</p>
@@ -205,6 +214,10 @@
 									</td>
 									<td class="text-center">
 										<p>なし</p>
+									</td>
+									<td class="text-right">
+										<p>C</p>
+										<p class="text-muted">直近30⽇ <i class="fa fa-caret-down"></i></p>
 									</td>
 									<td class="text-center">
 										<p>2019/11/30 15:00</p>
@@ -242,6 +255,10 @@
 										<p><img src="dist/img/icons/icon-yellow.png" alt="" /></p>
 										<p>5/10</p>
 									</td>
+									<td class="text-right">
+										<p>A</p>
+										<p class="text-muted">直近30⽇ <i class="fa fa-caret-down"></i></p>
+									</td>
 									<td class="text-center">
 										<p>2019/11/30 15:00</p>
 										<p>2019/12/07 15:00</p>
@@ -277,6 +294,10 @@
 									<td class="text-center">
 										<p><img src="dist/img/icons/icon-yellow.png" alt="" /></p>
 										<p>5/10</p>
+									</td>
+									<td class="text-right">
+										<p>A</p>
+										<p class="text-muted">直近30⽇ <i class="fa fa-caret-down"></i></p>
 									</td>
 									<td class="text-center">
 										<p>2019/11/30 15:00</p>

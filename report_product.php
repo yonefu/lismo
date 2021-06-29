@@ -967,6 +967,7 @@
 																<th class="column-3">ﾊﾞﾘｴｰｼｮﾝ</th>
 																<th class="column-4 text-right">売上合計</th>
 																<th class="column-5 text-right">粗利益</th>
+																<th class="column-6 text-right">販売個数</th>
 															</tr>
 														</thead>
 														<tbody>
@@ -989,6 +990,9 @@
 																<td class="text-right">
 																	<span class="f-12">¥362,200</span>
 																</td>
+																<td class="text-right">
+																	<span class="f-12">232個</span>
+																</td>
 															</tr>
 															<!--tr-->
 															<tr>
@@ -1009,6 +1013,9 @@
 																</td>
 																<td class="text-right">
 																	<span class="f-12">¥262,200</span>
+																</td>
+																<td class="text-right">
+																	<span class="f-12">182個</span>
 																</td>
 															</tr>
 															<!--tr-->
@@ -1031,6 +1038,9 @@
 																<td class="text-right">
 																	<span class="f-12">¥62,200</span>
 																</td>
+																<td class="text-right">
+																	<span class="f-12">334個</span>
+																</td>
 															</tr>
 															<!--tr-->
 															<tr>
@@ -1052,6 +1062,9 @@
 																<td class="text-right">
 																	<span class="f-12">¥562,200</span>
 																</td>
+																<td class="text-right">
+																	<span class="f-12">74個</span>
+																</td>
 															</tr>
 															<!--tr-->
 															<tr>
@@ -1072,6 +1085,9 @@
 																</td>
 																<td class="text-right">
 																	<span class="f-12">¥32,200</span>
+																</td>
+																<td class="text-right">
+																	<span class="f-12">423個</span>
 																</td>
 															</tr>
 															<!--tr-->
@@ -1105,6 +1121,7 @@
 																<th class="column-3">ﾊﾞﾘｴｰｼｮﾝ</th>
 																<th class="column-4 text-right">売上合計</th>
 																<th class="column-5 text-right">粗利益</th>
+																<th class="column-6 text-right">販売個数</th>
 															</tr>
 														</thead>
 														<tbody>
@@ -1127,6 +1144,9 @@
 																<td class="text-right">
 																	<span class="f-12">¥362,200</span>
 																</td>
+																<td class="text-right">
+																	<span class="f-12">232個</span>
+																</td>
 															</tr>
 															<!--tr-->
 															<tr>
@@ -1147,6 +1167,9 @@
 																</td>
 																<td class="text-right">
 																	<span class="f-12">¥262,200</span>
+																</td>
+																<td class="text-right">
+																	<span class="f-12">182個</span>
 																</td>
 															</tr>
 															<!--tr-->
@@ -1169,6 +1192,57 @@
 																<td class="text-right">
 																	<span class="f-12">¥62,200</span>
 																</td>
+																<td class="text-right">
+																	<span class="f-12">334個</span>
+																</td>
+															</tr>
+															<!--tr-->
+															<tr>
+																<td class="text-center">
+																	<span class="f-20">4</span>
+																</td>
+																<td class="d-flex align-items-center">
+																	<p><img class="product-img" src="dist/img/4.jpg" alt="" /></p>
+																	<p>Good Smile No Game No Life: Shiro Nendoro</p>
+																</td>
+																<td class="text-center">
+																	<p><span class="badge first-hand">直接</span></p>
+																	<p>ブラック</p>
+																	<p>Mサイズ</p>
+																</td>
+																<td class="text-right">
+																	<span class="f-12">¥862,200</span>
+																</td>
+																<td class="text-right">
+																	<span class="f-12">¥562,200</span>
+																</td>
+																<td class="text-right">
+																	<span class="f-12">74個</span>
+																</td>
+															</tr>
+															<!--tr-->
+															<tr>
+																<td class="text-center">
+																	<span class="f-20">5</span>
+																</td>
+																<td class="d-flex align-items-center">
+																	<p><img class="product-img" src="dist/img/5.jpg" alt="" /></p>
+																	<p>そらのおとしものf ねんどろいど ニン フ (ノンスケそらのおとしもノンスケノ ンスケ…</p>
+																</td>
+																<td class="text-center">
+																	<p><span class="badge first-hand">直接</span></p>
+																	<p>ブラック</p>
+																	<p>Mサイズ</p>
+																</td>
+																<td class="text-right">
+																	<span class="f-12">¥62,200</span>
+																</td>
+																<td class="text-right">
+																	<span class="f-12">¥32,200</span>
+																</td>
+																<td class="text-right">
+																	<span class="f-12">423個</span>
+																</td>
 															</tr>
 															<!--tr-->
 														</tbody>
@@ -1188,141 +1262,6 @@
 									</div>
 									<!--row-->
 								</div>
-						</div>
-						<!--product-analysis-->
-					</section>
-					<!--section-->
-
-					<section class="mb-4">
-						<!-- <p class="report-date f-18 mb-2">現在の在庫状況</p> -->
-						<div class="product-analysis bg-white br-25 p-3">
-							<div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
-								<div class="f-15">直近30⽇の商品ABC分析</div>
-								<div><span class="btn btn-sm btn-navy mr-2">D.販売した商品</span><small class="text-muted f-12">詳細を⾒る</small></div>
-							</div>
-							<!--div-->
-							<div class="row">
-								<div class="col-lg-6 mb-2">
-									<div class="data-table-group">
-										<div class="table-responsive-lg">
-											<table class="table table-4-column">
-												<thead>
-													<tr class="blank-tr">
-														<th class="column-1"></th>
-														<th class="column-2"></th>
-														<th class="column-3"></th>
-														<th class="column-4"></th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>
-															<div class="d-flex align-items-center">
-																<div class="label-status mr-2">
-																	<span class="icon-circle bg-red"></span>
-																</div>
-																<div class="info-status">
-																	<p class="mb-1 f-12">Aクラス</p>
-																	<p class="mb-1 f-12 text-muted">収益の80%を占めている商品群</p>
-																</div>
-															</div>
-														</td>
-														<td class="text-right">
-															<span class="f-12">¥372,340</span>
-														</td>
-														<td class="text-right">
-															<span class="f-12">71.0%</span>
-														</td>
-														<td class="text-right">
-															<span class="clr-blue f-12">+3.2%</span>
-														</td>
-													</tr>
-													<!--tr-->
-													<tr>
-														<td>
-															<div class="d-flex align-items-center">
-																<div class="label-status mr-2">
-																	<span class="icon-circle bg-orange"></span>
-																</div>
-																<div class="info-status">
-																	<p class="mb-1 f-12">Bクラス</p>
-																	<p class="mb-1 f-12 text-muted">収益の15%を占めている商品群</p>
-																</div>
-															</div>
-														</td>
-														<td class="text-right">
-															<span class="f-12">¥72,340</span>
-														</td>
-														<td class="text-right">
-															<span class="f-12">19.0%</span>
-														</td>
-														<td class="text-right">
-															<span class="clr-blue f-12">+3.2%</span>
-														</td>
-													</tr>
-													<!--tr-->
-													<tr>
-														<td>
-															<div class="d-flex align-items-center">
-																<div class="label-status mr-2">
-																	<span class="icon-circle bg-yellow"></span>
-																</div>
-																<div class="info-status">
-																	<p class="mb-1 f-12">Cクラス</p>
-																	<p class="mb-1 f-12 text-muted">収益の5%を占めている商品群</p>
-																</div>
-															</div>
-														</td>
-														<td class="text-right">
-															<span class="f-12">¥2,340</span>
-														</td>
-														<td class="text-right">
-															<span class="f-12">10.0%</span>
-														</td>
-														<td class="text-right">
-															<span class="clr-red">-3.2%</span>
-														</td>
-													</tr>
-													<!--tr-->
-												</tbody>
-											</table>
-										</div>
-									</div>
-								</div>
-								<!--div-->
-								<div class="col-lg-6 mb-2">
-									<div class="d-flex align-items-center flex-column justify-content-center h-100">
-										<div class="progress w-75 mb-3">
-											<div class="progress-bar bg-pink" role="progressbar" style="width: 71%" aria-valuenow="71" aria-valuemin="0" aria-valuemax="100"></div>
-											<div class="progress-bar bg-semiOrange" role="progressbar" style="width: 19%" aria-valuenow="19" aria-valuemin="0" aria-valuemax="100"></div>
-											<div class="progress-bar bg-yellow" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-										<!--progress-->
-										<div class="progressbar-data d-flex mx-auto justify-content-around w-75">
-											<div class="progress-data px-2 text-center">
-												<p class="mb-1 f-20 fontEN">71.0%</p>
-												<p class="mb-1 f-12">Aクラス</p>
-												<p class="mb-1 f-12 clr-green">+3.2%</p>
-											</div>
-											<!--progress-data-->
-											<div class="progress-data px-2 text-center">
-												<p class="mb-1 f-20 fontEN">19.0%</p>
-												<p class="mb-1 f-12">Bクラス</p>
-												<p class="mb-1 f-12 clr-green">+3.2%</p>
-											</div>
-											<!--progress-data-->
-											<div class="progress-data px-2 text-center">
-												<p class="mb-1 f-20 fontEN">10.0%</p>
-												<p class="mb-1 f-12">Cクラス</p>
-												<p class="mb-1 f-12 clr-green">+3.2%</p>
-											</div>
-										</div>
-										<!--progressbar-data-->
-									</div>
-								</div>
-								<!--div-->
-							</div>
-							<!--row-->
 						</div>
 						<!--product-analysis-->
 					</section>

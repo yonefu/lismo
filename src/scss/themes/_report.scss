@@ -147,6 +147,7 @@
 .table-4-column{
 	.column-1 {
 		width: 200px;
+		padding-left: 45px !important;
 	}
 
 	.column-2 {
@@ -213,7 +214,7 @@
 	}
 
 	.column-2 {
-		width: 260px;
+		width: 220px;
 	}
 
 	.column-3 {
@@ -225,6 +226,10 @@
 	}
 
 	.column-5 {
+		width: 80px;
+	}
+
+	.column-6 {
 		width: 80px;
 	}
 }
@@ -251,7 +256,7 @@
 
 #salesQtyRanking, #salesRanking{
 	.table-responsive-lg{
-		height: 450px;
+		height: 525px;
 		overflow-y: auto;
 	}
 }

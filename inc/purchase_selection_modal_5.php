@@ -22,12 +22,12 @@
 		<div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
 			<div class="left-data-col d-flex flex-wrap">
 				<div class="total-data">
-					<p class="p-label f-14">合計個数</p>
+					<p class="p-label f-14">⼊出庫合計個数</p>
 					<p class="p-price f-15">1,192個</p>
 					<p class="p-percentage clr-blue f-12">+3.2%</p>
 				</div>
 				<div class="total-data">
-					<p class="p-label f-14">合計額</p>
+					<p class="p-label f-14">⼊出庫合計額</p>
 					<p class="p-price f-15">¥421,972</p>
 					<p class="p-percentage clr-blue f-12">+3.2%</p>
 				</div>
@@ -35,7 +35,7 @@
 			<!--left-col-->
 			<div class="right-dropdown flex-wrap d-flex ml-auto">
 				<div class="mb-2">
-					<a class="nav-link btn btn-sm dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<a class="nav-link btn btn-sm dropdown-toggle bg-white br-25 mr-2 active" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						期間：過去30⽇
 					</a>
 					<div class="dropdown-menu dropdown-menu-right">
@@ -79,7 +79,7 @@
 				<!--div-->
 				<div class="mb-2">
 					<a class="nav-link btn btn-sm dropdown-toggle bg-white br-25" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						ショップ：全て
+						理由：全て
 					</a>
 					<div class="dropdown-menu dropdown-menu-right">
 						<a class="dropdown-item" href="#">Option</a>
@@ -99,10 +99,10 @@
 						<table class="table purchase-selected-modal-5">
 							<thead>
 								<tr>
-									<th class="column-1">実⾏⽇</th>
+									<th class="column-1 text-left pl-4">実⾏⽇</th>
 									<th class="column-2">倉庫</th>
 									<th class="column-3">アクション</th>
-									<th class="column-4 product-col">商品</th>
+									<th class="column-4 text-left pl-4">商品</th>
 									<th class="column-5 text-left">ﾊﾞﾘｴｰｼｮﾝ</th>
 									<th class="column-6 text-right">変更個数</th>
 									<th class="column-7 text-right">単価</th>
@@ -113,7 +113,7 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td class="text-center">
+									<td class="text-left pl-4">
 										<p>2019/11/30</p>
 										<p>15:00</p>
 									</td>
@@ -121,7 +121,7 @@
 										<p>横浜本社倉庫</p>
 									</td>
 									<td class="text-center">
-										<p><span class="badge storage">⼊庫</span></p>
+										<p><span class="badge storage font-weight-normal text-white">⼊庫</span></p>
 										<p>在庫補充</p>
 									</td>
 									<td class="d-flex align-items-center">
@@ -153,7 +153,7 @@
 								</tr>
 								<!--tr-->
 								<tr>
-									<td class="text-center">
+									<td class="text-left pl-4">
 										<p>2019/11/30</p>
 										<p>15:00</p>
 									</td>
@@ -161,7 +161,7 @@
 										<p>amazonFBA</p>
 									</td>
 									<td class="text-center">
-										<p><span class="badge storage">⼊庫</span></p>
+										<p><span class="badge storage font-weight-normal text-white">⼊庫</span></p>
 										<p>在庫補充</p>
 									</td>
 									<td class="d-flex align-items-center">
@@ -193,7 +193,7 @@
 								</tr>
 								<!--tr-->
 								<tr>
-									<td class="text-center">
+									<td class="text-left pl-4">
 										<p>2019/11/30</p>
 										<p>15:00</p>
 									</td>
@@ -201,7 +201,7 @@
 										<p>横浜本社倉庫</p>
 									</td>
 									<td class="text-center">
-										<p><span class="badge storage">⼊庫</span></p>
+										<p><span class="badge storage font-weight-normal text-white">⼊庫</span></p>
 										<p>在庫補充</p>
 									</td>
 									<td class="d-flex align-items-center">

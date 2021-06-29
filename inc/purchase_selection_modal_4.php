@@ -94,10 +94,10 @@
 						<table class="table purchase-selected-modal-4">
 							<thead>
 								<tr>
-									<th class="column-1">配送先/注⽂⽇</th>
+									<th class="column-1 text-left pl-4">配送先/注⽂⽇</th>
 									<th class="column-2">ショップ</th>
 									<th class="column-3">倉庫</th>
-									<th class="column-4 product-col py-4">商品</th>
+									<th class="column-4 text-left px-4">商品</th>
 									<th class="column-5 text-left">ﾊﾞﾘｴｰｼｮﾝ</th>
 									<th class="column-6 text-right">個数</th>
 									<th class="column-7 text-right pr-3">キャンセル額合計</th>
@@ -105,12 +105,12 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td class="text-center" rowspan="3">
+									<td class="text-left pl-4 align-top pt-3" rowspan="3">
 										<p>⽥中太郎</p>
 										<p>東京都</p>
 										<p class="text-muted f-10">2019/11/30 15:00</p>
 									</td>
-									<td class="text-center" rowspan="3">
+									<td class="text-center align-top pt-3" rowspan="3">
 										<p><img src="dist/img/icons/icon-sm-shopify.png" alt="" /></p>
 										<p>ABCマート本店</p>
 									</td>
@@ -187,7 +187,7 @@
 
 							<tbody>
 								<tr>
-									<td class="text-center">
+									<td class="text-left pl-4">
 										<p>⽥中太郎</p>
 										<p>東京都</p>
 										<p class="text-muted f-10">2019/11/30 15:00</p>
@@ -223,7 +223,7 @@
 
 							<tbody>
 								<tr>
-									<td class="text-center">
+									<td class="text-left pl-4">
 										<p>⽥中太郎</p>
 										<p>東京都</p>
 										<p class="text-muted f-10">2019/11/30 15:00</p>

@@ -131,10 +131,10 @@ input.box-80{
 		width: 100px;
 	}
 	.column-3{
-		width: 180px;
+		width: 160px;
 	}
 	.column-4{
-		width: 110px;
+		width: 130px;
 	}
 	.column-5{
 		width: 80px;
@@ -147,6 +147,9 @@ input.box-80{
 	}
 	.column-8{
 		width: 50px;
+	}
+	.input-group-text{
+		border-radius: 10px 0 0 10px;
 	}
 }
 
@@ -255,7 +258,10 @@ input.box-80{
 		width: 80px;
 	}
 	.column-8{
-		width: 150px;
+		width: 80px;
+	}
+	.column-9{
+		width: 120px;
 	}
 }
 
@@ -371,6 +377,9 @@ input.box-80{
 	}
 	.column-10{
 		width: 100px;
+	}
+	th, td{
+		border: 1px solid #dee2e6;
 	}
 }
 

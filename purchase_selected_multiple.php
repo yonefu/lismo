@@ -144,7 +144,12 @@
 													</select>
 												</td>
 												<td class="text-center">
-													<input type="text" class="form-control text-center box-100" placeholder="¥1200">
+													<div class="input-group">
+														<div class="input-group-prepend">
+												          <div class="input-group-text">¥</div>
+												        </div>
+												        <input type="text" class="form-control text-center box-80 fontEN" placeholder="¥1200">
+												    </div>
 												</td>
 												<td class="text-center">
 													<input type="text" class="form-control text-center box-80" placeholder="1">
@@ -188,7 +193,12 @@
 													</select>
 												</td>
 												<td class="text-center">
-													<input type="text" class="form-control text-center box-100" placeholder="¥1200">
+													<div class="input-group">
+														<div class="input-group-prepend">
+												          <div class="input-group-text">¥</div>
+												        </div>
+												        <input type="text" class="form-control text-center box-80 fontEN" placeholder="¥1200">
+												    </div>
 												</td>
 												<td class="text-center">
 													<input type="text" class="form-control text-center box-80" placeholder="1">
@@ -280,7 +290,12 @@
 													</select>
 												</td>
 												<td class="text-center">
-													<input type="text" class="form-control text-center box-100" placeholder="¥1200">
+													<div class="input-group">
+														<div class="input-group-prepend">
+												          <div class="input-group-text">¥</div>
+												        </div>
+												        <input type="text" class="form-control text-center box-80 fontEN" placeholder="¥1200">
+												    </div>
 												</td>
 												<td class="text-center">
 													<input type="text" class="form-control text-center box-80" placeholder="1">

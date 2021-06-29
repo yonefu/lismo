@@ -64,7 +64,7 @@
 						<table class="table purchase-selected-modal-6">
 							<thead>
 								<tr>
-									<th class="column-1">⽇時</th>
+									<th class="column-1 text-left pl-4">⽇時</th>
 									<th class="column-2">発注個数</th>
 									<th class="column-3">発注⾦額</th>
 									<th class="column-4">返品個数</th>
@@ -72,13 +72,13 @@
 									<th class="column-6">受注個数</th>
 									<th class="column-7">原価合計</th>
 									<th class="column-8">在庫合計</th>
-									<th class="column-9">在庫総額</th>
-									<th class="column-10">売上</th>
+									<th class="column-9 text-right pr-4">在庫総額</th>
+									<th class="column-10 text-right pr-4">売上</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<td class="text-center">
+									<td class=" text-left pl-4">
 										<p>2019/11/30</p>
 										<p>15:00</p>
 									</td>
@@ -103,18 +103,18 @@
 									<td class="text-center">
 										<p>¥13.255</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right pr-4">
 										<p>¥631,972</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right pr-4">
 										<p>¥221,972</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
 								</tr>
 								<!--tr-->
 								<tr>
-									<td class="text-center">
+									<td class=" text-left pl-4">
 										<p>2019/11/30</p>
 										<p>15:00</p>
 									</td>
@@ -139,18 +139,18 @@
 									<td class="text-center">
 										<p>¥53,255</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right pr-4">
 										<p>¥761,972</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right pr-4">
 										<p>¥691,972</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
 								</tr>
 								<!--tr-->
 								<tr>
-									<td class="text-center">
+									<td class=" text-left pl-4">
 										<p>2019/11/30</p>
 										<p>15:00</p>
 									</td>
@@ -175,11 +175,11 @@
 									<td class="text-center">
 										<p>¥53,255</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right pr-4">
 										<p>¥1,661,972</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
-									<td class="text-center">
+									<td class="text-right pr-4">
 										<p>¥156,972</p>
 										<p class="clr-blue">+2.8%</p>
 									</td>
