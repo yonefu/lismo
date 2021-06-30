@@ -795,6 +795,26 @@ tr.purchase-subtotal td {
   .order-details-modal-page .bg-white:hover {
     color: #1f2634; }
 
+.shipping-dropdown-menu {
+  padding: 1em; }
+  .shipping-dropdown-menu .drop-scroll {
+    max-height: 15em;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0 1em; }
+    .shipping-dropdown-menu .drop-scroll a {
+      color: #1f2634;
+      position: relative; }
+    .shipping-dropdown-menu .drop-scroll li a.active::before, .shipping-dropdown-menu .drop-scroll li a:hover::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 100%;
+      background: #1F2634;
+      position: absolute;
+      left: 0px;
+      top: 10px; }
+
 span.text-right.mr-2 {
   min-width: 90px;
   display: inline-block; }

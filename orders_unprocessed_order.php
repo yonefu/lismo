@@ -270,9 +270,54 @@
 													<p>在庫和保済み</p>
 												</td>
 												<td class="text-left pl-4" rowspan="2">
-													<p>ヤマト宅配便</p>
-													<p>60サイズ</p>
-													<p>02kg</p>
+													<div class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														<p>ヤマト宅配便</p>
+														<p>60サイズ</p>
+														<p>02kg</p>
+													</div>
+													<div class="shipping-dropdown-menu dropdown-menu dropdown-menu-right">
+														<div class="d-flex flex-wrap">
+															<div class="drop-scroll">
+																<ul class="nav flex-column">
+																	<li class="nav-item"><a href="" class="nav-link active">ゆうパケット</a></li>
+																	<li class="nav-item"><a href="" class="nav-link">ゆうパック</a></li>
+																	<li class="nav-item"><a href="" class="nav-link">定形外郵便</a></li>
+																	<li class="nav-item"><a href="" class="nav-link">ヤマト宅急便</a></li>
+																</ul>
+															</div>
+															<div class="drop-scroll">
+																<ul class="nav flex-column">
+																	<li class="nav-item"><a href="" class="nav-link active">ゆうパケット</a></li>
+																	<li class="nav-item"><a href="" class="nav-link">0.05kg</a></li>
+																	<li class="nav-item"><a href="" class="nav-link">0.1kg</a></li>
+																	<li class="nav-item"><a href="" class="nav-link">0.15kg</a></li>
+																	<li class="nav-item"><a href="" class="nav-link">0.2kg</a></li>
+																	<li class="nav-item"><a href="" class="nav-link">0.3kg</a></li>
+																	<li class="nav-item"><a href="" class="nav-link">0.4kg</a></li>
+																	<li class="nav-item"><a href="" class="nav-link">0.5kg</a></li>
+																	<li class="nav-item"><a href="" class="nav-link">0.6kg</a></li>
+																	<li class="nav-item"><a href="" class="nav-link">0.7kg</a></li>
+																	<li class="nav-item"><a href="" class="nav-link">0.8kg</a></li>
+																	<li class="nav-item"><a href="" class="nav-link">0.9kg</a></li>
+																</ul>
+															</div>
+															<div class="drop-scroll">
+																<ul class="nav flex-column">
+																	<li class="nav-item"><a href="" class="nav-link active">A4 x 1cm</a></li>
+																	<li class="nav-item"><a href="" class="nav-link">A4 x 2cm</a></li>
+																	<li class="nav-item"><a href="" class="nav-link">A4 x 3cm</a></li>
+																	<li class="nav-item"><a href="" class="nav-link">60サイズ</a></li>
+																	<li class="nav-item"><a href="" class="nav-link">70サイズ</a></li>
+																	<li class="nav-item"><a href="" class="nav-link">80サイズ</a></li>
+																	<li class="nav-item"><a href="" class="nav-link">90サイズ</a></li>
+																	<li class="nav-item"><a href="" class="nav-link">100サイズ</a></li>
+																	<li class="nav-item"><a href="" class="nav-link">110サイズ</a></li>
+																	<li class="nav-item"><a href="" class="nav-link">120サイズ</a></li>
+																	<li class="nav-item"><a href="" class="nav-link">130サイズ</a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
 												</td>
 												<td class="text-center" rowspan="2">
 													<p><a href="#" class="btn btn-dark">出荷済みにする</a></p>

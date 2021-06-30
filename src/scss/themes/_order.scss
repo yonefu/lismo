@@ -342,3 +342,27 @@ tr.purchase-subtotal td {
 		}
 	}
 }
+
+.shipping-dropdown-menu{
+	padding: 1em;
+	.drop-scroll{
+	    max-height: 15em;
+	    overflow-y: auto;
+	    overflow-x: hidden;
+	    padding: 0 1em;
+	    a{
+	    	color: $dark;
+	    	position: relative;
+	    }
+	    li a.active::before, li a:hover::before {
+			content: "";
+		    width: 8px;
+		    height: 8px;
+		    border-radius: 100%;
+		    background: #1F2634;
+		    position: absolute;
+		    left: 0px;
+		    top: 10px;
+		}
+	}
+}
