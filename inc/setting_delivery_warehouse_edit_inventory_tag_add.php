@@ -9,7 +9,7 @@
 
 		<form class="bg-white br-25 p-4 mb-3">
 			<div class="form-group row">
-				<label for="staticEmail" class="col-lg-3 col-form-label text-right pr-0">在庫タグ名 <span class="clr-red">*</span></label>
+				<label for="staticEmail" class="col-lg-3 col-form-label text-right pr-0">在庫タグ名 <span class="clr-red">＊</span></label>
 				<div class="col-lg-9">
 					<input type="text"  class="form-control" placeholder="南吉⽥-BOX-D">
 				</div>

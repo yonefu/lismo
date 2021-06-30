@@ -11,21 +11,21 @@
 			<div class="form-heading mb-3 f-18">ストアアカウント連携</div>
 			<div class="form-group row">
 				<label for="staticEmail" class="col-lg-3 col-form-label text-right pr-0">プラットフォーム
-					<span class="clr-red">*</span></label>
+					<span class="clr-red">＊</span></label>
 				<div class="col-lg-9">
 					<input type="text"  class="form-control" placeholder="amazon.co.jp">
 				</div>
 			</div>
 			<!--form-group row-->
 			<div class="form-group row">
-				<label for="staticEmail" class="col-lg-3 col-form-label text-right pr-0">ストア名<span class="clr-red">*</span></label>
+				<label for="staticEmail" class="col-lg-3 col-form-label text-right pr-0">ストア名<span class="clr-red">＊</span></label>
 				<div class="col-lg-9">
 					<input type="text"  class="form-control" placeholder="ABC">
 				</div>
 			</div>
 			<!--form-group row-->
 			<div class="form-group row">
-				<label for="staticEmail" class="col-lg-3 col-form-label text-right pr-0">サブドメイン<span class="clr-red">*</span></label>
+				<label for="staticEmail" class="col-lg-3 col-form-label text-right pr-0">サブドメイン<span class="clr-red">＊</span></label>
 				<div class="col-lg-9">
 					<input type="text"  class="form-control" placeholder="siamoa-jp">
 				</div>
@@ -50,7 +50,7 @@
 								</label>
 						    </div>
 						</div>
-						<a href="#" class="btn btn-outline-dark br-25 f-12"><span>今すぐ商品同期を実⾏する</span></a>
+						<a href="#" class="btn btn-outline-dark br-25 f-12 px-4"><span>今すぐ商品同期を実⾏する</span></a>
 					</div>
 				</div>
 			</div>
@@ -67,7 +67,7 @@
 								</label>
 						    </div>
 						</div>
-						<a href="#" class="btn btn-outline-dark br-25 f-12"><span>今すぐ商品同期を実⾏する</span></a>
+						<a href="#" class="btn btn-outline-dark br-25 f-12 px-4"><span>今すぐ商品同期を実⾏する</span></a>
 					</div>
 				</div>
 			</div>
@@ -84,7 +84,7 @@
 								</label>
 						    </div>
 						</div>
-						<a href="#" class="btn btn-outline-dark br-25 f-12"><span>今すぐ商品同期を実⾏する</span></a>
+						<a href="#" class="btn btn-outline-dark br-25 f-12 px-4"><span>今すぐ商品同期を実⾏する</span></a>
 					</div>
 				</div>
 			</div>
@@ -101,7 +101,7 @@
 								</label>
 						    </div>
 						</div>
-						<a href="#" class="btn btn-outline-dark br-25 f-12"><span>今すぐ商品同期を実⾏する</span></a>
+						<a href="#" class="btn btn-outline-dark br-25 f-12 px-4"><span>今すぐ商品同期を実⾏する</span></a>
 					</div>
 				</div>
 			</div>
@@ -186,7 +186,7 @@
 
 		<form class="bg-white br-25 p-4 mb-3">
 			<div class="form-heading mb-3 f-18">注⽂⾃動割当</div>
-			<div class="form-heading mb-1 f-18">トリガー</div>
+			<!-- <div class="form-heading mb-1 f-18">トリガー</div>
 			<p class="f-12">設定したストアの受注に対して下記アクションを実⾏します</p>
 			<div class="form-group row">
 				<label for="staticEmail" class="col-lg-3 col-form-label text-right pr-0">プラットフォーム</label>
@@ -196,9 +196,9 @@
 						<option value="1">amazon.co.jp</option>
 					</select>
 				</div>
-			</div>
+			</div> -->
 			<!--form-group row-->
-			<div class="form-group row">
+			<!-- <div class="form-group row">
 				<label for="staticEmail" class="col-lg-3 col-form-label text-right pr-0">ストアアカウント</label>
 				<div class="col-lg-9">
 					<select class="custom-select">
@@ -206,13 +206,13 @@
 						<option value="1">XYZ</option>
 					</select>
 				</div>
-			</div>
+			</div> -->
 			<!--form-group row-->
 
 			<div class="form-heading mb-1 f-18">アクション</div>
 			<p class="f-12">トリガーに設定したストアの受注に対して実⾏するアクション</p>
 			<div class="form-group row">
-				<label for="staticEmail" class="col-lg-3 col-form-label text-right pr-0">配送拠点 <span class="clr-red">*</span></label>
+				<label for="staticEmail" class="col-lg-3 col-form-label text-right pr-0">配送拠点 <span class="clr-red">＊</span></label>
 				<div class="col-lg-9">
 					<select class="custom-select">
 						<option selected>FBA</option>

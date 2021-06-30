@@ -100,10 +100,10 @@
 										<p>Final Fantasy Plush - Chocobo 30th Anniversary</p>
 									</td>
 									<td class="text-center">
-										<p class="fontEN">3</p>
+										<p class="fontEN f-15">1</p>
 									</td>
 									<td class="text-center">
-										<p class="fontEN f-15">2019/11/30 15:00</p>
+										<p class="fontEN">2019/11/30 15:00</p>
 									</td>
 									<td class="text-center">
 										<a class="btn btn-dark"><span>出品管理に戻す</span></a>

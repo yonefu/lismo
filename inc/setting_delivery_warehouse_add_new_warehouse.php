@@ -23,7 +23,7 @@
 			<!--ul nav-->
 			<div class="form-group row">
 				<label for="staticEmail" class="col-lg-2 col-form-label text-right pr-0">拠点名
-					<span class="clr-red">*</span></label>
+					<span class="clr-red">＊</span></label>
 				<div class="col-lg-10">
 					<input type="text"  class="form-control" placeholder="品川倉庫">
 				</div>
@@ -39,7 +39,7 @@
 			<div class="form-group row">
 				<div class="col-lg-6">
 						<div class="row">
-						<label for="staticEmail" class="col-lg-4 col-form-label text-right pr-0">国<span class="clr-red">*</span></label>
+						<label for="staticEmail" class="col-lg-4 col-form-label text-right pr-0">国<span class="clr-red">＊</span></label>
 						<div class="col-lg-8">
 							<select class="custom-select">
 								<option selected>⽇本語</option>
@@ -61,7 +61,7 @@
 			<div class="form-group row">
 				<div class="col-lg-6">
 						<div class="row">
-						<label for="staticEmail" class="col-lg-4 col-form-label text-right pr-0">都道府県<span class="clr-red">*</span></label>
+						<label for="staticEmail" class="col-lg-4 col-form-label text-right pr-0">都道府県<span class="clr-red">＊</span></label>
 						<div class="col-lg-8">
 							<select class="custom-select">
 								<option selected>東京都</option>
@@ -125,7 +125,7 @@
 
 					<div class="form-group row">
 						<div class="col-lg-4">
-							<label for="staticEmail" class="col-form-label text-right pr-0">請求先顧客コード <span class="clr-red">*</span></label>
+							<label for="staticEmail" class="col-form-label text-right pr-0">請求先顧客コード <span class="clr-red">＊</span></label>
 							<div class="">
 								<input type="text"  class="form-control" placeholder="85485702">
 							</div>
@@ -137,7 +137,7 @@
 							</div>
 						</div>
 						<div class="col-lg-4">
-							<label for="staticEmail" class="col-form-label text-right pr-0">運賃管理番号 <span class="clr-red">*</span></label>
+							<label for="staticEmail" class="col-form-label text-right pr-0">運賃管理番号 <span class="clr-red">＊</span></label>
 							<div class="">
 								<input type="text"  class="form-control" placeholder="01">
 							</div>
@@ -149,7 +149,7 @@
 
 					<div class="form-group row">
 						<div class="col-lg-5">
-							<label for="staticEmail" class="col-form-label text-right pr-0">稼働時間 <span class="clr-red">*</span></label>
+							<label for="staticEmail" class="col-form-label text-right pr-0">稼働時間 <span class="clr-red">＊</span></label>
 							<div class="row">
 								<div class="col-lg-5 pr-0">
 									<select class="custom-select">

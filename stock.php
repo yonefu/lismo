@@ -45,6 +45,24 @@
 							<div class="right-dropdown flex-wrap d-flex ml-auto">
 								<div class="mb-3">
 									<a class="nav-link dropdown-warehouse btn btn-sm dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										在庫数：全て
+									</a>
+									<div class="dropdown-menu dropdown-menu-right">
+										<a class="dropdown-item" href="#">横浜本社倉庫へ</a>
+										<a class="dropdown-item" href="#">AmazonFAB</a>
+									</div>
+								</div>
+								<div class="mb-3">
+									<a class="nav-link dropdown-warehouse btn btn-sm dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										保管期間：全て
+									</a>
+									<div class="dropdown-menu dropdown-menu-right">
+										<a class="dropdown-item" href="#">横浜本社倉庫へ</a>
+										<a class="dropdown-item" href="#">AmazonFAB</a>
+									</div>
+								</div>
+								<div class="mb-3">
+									<a class="nav-link dropdown-warehouse btn btn-sm dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										倉庫：全て
 									</a>
 									<div class="dropdown-menu dropdown-menu-right">
@@ -53,8 +71,17 @@
 									</div>
 								</div>
 								<div class="mb-3">
-									<a class="nav-link active btn dropdown-tags btn-sm dropdown-toggle bg-white br-25" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<a class="nav-link btn dropdown-tags btn-sm dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										タグ選択：あり
+									</a>
+									<div class="dropdown-menu dropdown-menu-right">
+										<a class="dropdown-item" href="#">*************</a>
+										<a class="dropdown-item" href="#">*************</a>
+									</div>
+								</div>
+								<div class="mb-3">
+									<a class="nav-link active btn dropdown-tags btn-sm dropdown-toggle bg-white br-25" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										商品クラス：全て
 									</a>
 									<div class="dropdown-menu dropdown-menu-right">
 										<a class="dropdown-item" href="#">*************</a>
@@ -81,7 +108,8 @@
 												<th class="column-5">単価</th>
 												<th class="column-6">在庫総作</th>
 												<th class="column-7">入庫待ち</th>
-												<th class="column-8">作成日・更新日</th>
+												<th class="column-8 text-right pr-4">商品クラス<i class="fa fa-caret-down"></i></th>
+												<th class="column-9">作成日・更新日</th>
 											</tr>
 										</thead>
 										<tbody>
@@ -99,21 +127,25 @@
 												</td>
 												<td class="text-center">
 													<p><span class="badge first-hand">直接</span></p>
-													<p class="font-weight-bold">プラック</p>
-													<p class="font-weight-bold">Mサイズ</p>
+													<p class="">プラック</p>
+													<p class="">Mサイズ</p>
 												</td>
 												<td class="text-center">
-													<p class="font-weight-bold f-18">18</p>
+													<p class=" f-18">18</p>
 													<p>すべての倉庫30</p>
 												</td>
 												<td class="text-center">
-													<p class="original-price font-weight-bold">¥32,860</p>
+													<p class="original-price ">¥32,860</p>
 												</td>
 												<td class="text-center">
-													<p class="original-price font-weight-bold">¥2,860</p>
+													<p class="original-price ">¥2,860</p>
 												</td>
 												<td class="text-center">
 													なし
+												</td>
+												<td class="text-right pr-4">
+													<p>A</p>
+													<p class="text-muted">直近30⽇ <i class="fa fa-caret-down"></i></p>
 												</td>
 												<td class="text-center">
 													<p>2021/01/25 15:00</p>
@@ -134,22 +166,26 @@
 												</td>
 												<td class="text-center">
 													<p><span class="badge second-hand">中古</span></p>
-													<p class="font-weight-bold">プラック</p>
-													<p class="font-weight-bold">Mサイズ</p>
+													<p class="">プラック</p>
+													<p class="">Mサイズ</p>
 												</td>
 												<td class="text-center">
-													<p class="font-weight-bold clr-red f-18">0</p>
+													<p class=" clr-red f-18">0</p>
 													<p>すべての倉庫30</p>
 												</td>
 												<td class="text-center">
-													<p class="original-price font-weight-bold">¥32,860</p>
+													<p class="original-price ">¥32,860</p>
 												</td>
 												<td class="text-center">
-													<p class="original-price font-weight-bold">¥2,860</p>
+													<p class="original-price ">¥2,860</p>
 												</td>
 												<td class="text-center">
 													<img class="icon-img" src="dist/img/icons/icon-yellow.png" alt="" />
 													<p>0/6</p>
+												</td>
+												<td class="text-right pr-4">
+													<p>B</p>
+													<p class="text-muted">直近30⽇ <i class="fa fa-caret-down"></i></p>
 												</td>
 												<td class="text-center">
 													<p>2021/01/25 15:00</p>
@@ -170,21 +206,25 @@
 												</td>
 												<td class="text-center">
 													<p><span class="badge first-hand">直接</span></p>
-													<p class="font-weight-bold">プラック</p>
-													<p class="font-weight-bold">Mサイズ</p>
+													<p class="">プラック</p>
+													<p class="">Mサイズ</p>
 												</td>
 												<td class="text-center">
-													<p class="font-weight-bold f-18">18</p>
+													<p class=" f-18">18</p>
 													<p>すべての倉庫30</p>
 												</td>
 												<td class="text-center">
-													<p class="original-price font-weight-bold">¥32,860</p>
+													<p class="original-price ">¥32,860</p>
 												</td>
 												<td class="text-center">
-													<p class="original-price font-weight-bold">¥2,860</p>
+													<p class="original-price ">¥2,860</p>
 												</td>
 												<td class="text-center">
 													なし
+												</td>
+												<td class="text-right pr-4">
+													<p>C</p>
+													<p class="text-muted">直近30⽇ <i class="fa fa-caret-down"></i></p>
 												</td>
 												<td class="text-center">
 													<p>2021/01/25 15:00</p>
@@ -205,21 +245,25 @@
 												</td>
 												<td class="text-center">
 													<p><span class="badge first-hand">直接</span></p>
-													<p class="font-weight-bold">プラック</p>
-													<p class="font-weight-bold">Mサイズ</p>
+													<p class="">プラック</p>
+													<p class="">Mサイズ</p>
 												</td>
 												<td class="text-center">
-													<p class="font-weight-bold f-18">18</p>
+													<p class=" f-18">18</p>
 													<p>すべての倉庫30</p>
 												</td>
 												<td class="text-center">
-													<p class="original-price font-weight-bold">¥32,860</p>
+													<p class="original-price ">¥32,860</p>
 												</td>
 												<td class="text-center">
-													<p class="original-price font-weight-bold">¥2,860</p>
+													<p class="original-price ">¥2,860</p>
 												</td>
 												<td class="text-center">
 													なし
+												</td>
+												<td class="text-right pr-4">
+													<p>A</p>
+													<p class="text-muted">直近30⽇ <i class="fa fa-caret-down"></i></p>
 												</td>
 												<td class="text-center">
 													<p>2021/01/25 15:00</p>
@@ -240,22 +284,26 @@
 												</td>
 												<td class="text-center">
 													<p><span class="badge second-hand">中古</span></p>
-													<p class="font-weight-bold">プラック</p>
-													<p class="font-weight-bold">Mサイズ</p>
+													<p class="">プラック</p>
+													<p class="">Mサイズ</p>
 												</td>
 												<td class="text-center">
-													<p class="font-weight-bold clr-red f-18">0</p>
+													<p class=" clr-red f-18">0</p>
 													<p>すべての倉庫30</p>
 												</td>
 												<td class="text-center">
-													<p class="original-price font-weight-bold">¥32,860</p>
+													<p class="original-price ">¥32,860</p>
 												</td>
 												<td class="text-center">
-													<p class="original-price font-weight-bold">¥2,860</p>
+													<p class="original-price ">¥2,860</p>
 												</td>
 												<td class="text-center">
 													<img class="icon-img" src="dist/img/icons/icon-yellow.png" alt="" />
 													<p>0/6</p>
+												</td>
+												<td class="text-right pr-4">
+													<p>B</p>
+													<p class="text-muted">直近30⽇ <i class="fa fa-caret-down"></i></p>
 												</td>
 												<td class="text-center">
 													<p>2021/01/25 15:00</p>
@@ -276,21 +324,25 @@
 												</td>
 												<td class="text-center">
 													<p><span class="badge first-hand">直接</span></p>
-													<p class="font-weight-bold">プラック</p>
-													<p class="font-weight-bold">Mサイズ</p>
+													<p class="">プラック</p>
+													<p class="">Mサイズ</p>
 												</td>
 												<td class="text-center">
-													<p class="font-weight-bold f-18">18</p>
+													<p class=" f-18">18</p>
 													<p>すべての倉庫30</p>
 												</td>
 												<td class="text-center">
-													<p class="original-price font-weight-bold">¥32,860</p>
+													<p class="original-price ">¥32,860</p>
 												</td>
 												<td class="text-center">
-													<p class="original-price font-weight-bold">¥2,860</p>
+													<p class="original-price ">¥2,860</p>
 												</td>
 												<td class="text-center">
 													なし
+												</td>
+												<td class="text-right pr-4">
+													<p>B</p>
+													<p class="text-muted">直近30⽇ <i class="fa fa-caret-down"></i></p>
 												</td>
 												<td class="text-center">
 													<p>2021/01/25 15:00</p>

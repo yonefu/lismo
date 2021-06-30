@@ -1202,24 +1202,33 @@
 			data: {
 				datasets: [{
 					data: [
-						75.6,
-						18.3,
-						3.7,
-						1.2,
+						5,
+						10,
+						15,
+						20,
+						10,
+						25,
+						15,
 					],
 					backgroundColor: [
-						window.chartColors.red,
-						window.chartColors.orange,
 						window.chartColors.yellow,
-						window.chartColors.silver,
+						window.chartColors.red,
+						window.chartColors.green,
+						window.chartColors.white,
+						window.chartColors.orange,
+						window.chartColors.blue,
+						window.chartColors.purple,
 					],
 					label: 'Dataset 1'
 				}],
 				labels: [
-					'Red',
-					'Orange',
-					'Yellow',
-					'silver',
+					'yellow',
+					'red',
+					'green',
+					'white',
+					'orange',
+					'blue',
+					'purple',
 				]
 			},
 			options: {
@@ -1243,21 +1252,33 @@
 			data: {
 				datasets: [{
 					data: [
-						24.7,
-						65.3,
+						5,
 						10,
+						15,
+						20,
+						10,
+						25,
+						15,
 					],
 					backgroundColor: [
 						window.chartColors.yellow,
 						window.chartColors.red,
+						window.chartColors.green,
 						window.chartColors.white,
+						window.chartColors.orange,
+						window.chartColors.blue,
+						window.chartColors.purple,
 					],
 					label: 'Dataset 1'
 				}],
 				labels: [
 					'yellow',
 					'red',
+					'green',
 					'white',
+					'orange',
+					'blue',
+					'purple',
 				]
 			},
 			options: {

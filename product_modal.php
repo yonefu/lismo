@@ -51,7 +51,7 @@
 
 <!-- Modal Product Details_Edit Modal_1-->
 <div class="modal fade" id="productDetailsEditModal1" tabindex="-1" role="dialog" aria-labelledby="productDetailsEditModal1Title" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+	<div class="modal-dialog modal-dialog-centered modal-xs" role="document">
 		<div class="modal-content bg-white">
 			<button type="button" class="close position-absolute p-2" data-dismiss="modal" aria-label="Close" style="z-index: 5">
 				<span aria-hidden="true"><img src="dist/img/icons/icon-modal-close.png" alt="" /></span>

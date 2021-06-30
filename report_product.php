@@ -84,7 +84,6 @@
 															<i class="mr-2 fontEN">1</i>
 															<img src="dist/img/icons/icon-diagonal-arrow.png" alt="" />
 														</span>
-														<span class="rank-percentage clr-blue f-15 fontEN">+6.8%</span>
 													</div>
 													<div class="img-col mx-auto">
 														<img src="dist/img/1.jpg" alt="" />
@@ -96,6 +95,7 @@
 													<div class="info-2 text-center f-12">
 														<p class="mb-0"><span class="badge first-hand py-1 px-3">直接</span></p>
 														<p class="mb-0">ブラック</p>
+														<p class="mb-0">Mサイズ</p>
 														<p class="mb-0">Mサイズ</p>
 													</div>
 												</div>
@@ -116,7 +116,7 @@
 																		<div class="info-status mb-1 f-12">売上</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">¥723,113</span>
+																		<span class="f-12 font-weight-bold">¥723,113</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-blue f-12">+3.2%</span>
@@ -128,7 +128,7 @@
 																		<div class="info-status mb-1 f-12">利益</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">¥323,536</span>
+																		<span class="f-12 font-weight-bold">¥323,536</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-blue f-12">+3.2%</span>
@@ -140,7 +140,7 @@
 																		<div class="info-status mb-1 f-12">販売個数</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">334個</span>
+																		<span class="f-12 font-weight-bold">334個</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-blue f-12">+3.2%</span>
@@ -152,7 +152,7 @@
 																		<div class="info-status mb-1 f-12">利益率</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">67.4%</span>
+																		<span class="f-12 font-weight-bold">67.4%</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-red f-12">-3.2%</span>
@@ -179,7 +179,6 @@
 															<i class="mr-2 fontEN">2</i>
 															<img src="dist/img/icons/icon-diagonal-arrow.png" alt="" />
 														</span>
-														<span class="rank-percentage clr-blue f-15 fontEN">+5.8%</span>
 													</div>
 													<div class="img-col mx-auto">
 														<img src="dist/img/2.jpg" alt="" />
@@ -211,7 +210,7 @@
 																		<div class="info-status mb-1 f-12">売上</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">¥723,113</span>
+																		<span class="f-12 font-weight-bold">¥723,113</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-blue f-12">+3.2%</span>
@@ -223,7 +222,7 @@
 																		<div class="info-status mb-1 f-12">利益</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">¥323,536</span>
+																		<span class="f-12 font-weight-bold">¥323,536</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-blue f-12">+3.2%</span>
@@ -235,7 +234,7 @@
 																		<div class="info-status mb-1 f-12">販売個数</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">334個</span>
+																		<span class="f-12 font-weight-bold">334個</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-blue f-12">+3.2%</span>
@@ -247,7 +246,7 @@
 																		<div class="info-status mb-1 f-12">利益率</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">67.4%</span>
+																		<span class="f-12 font-weight-bold">67.4%</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-red f-12">-3.2%</span>
@@ -274,7 +273,6 @@
 															<i class="mr-2 fontEN">3</i>
 															<img src="dist/img/icons/icon-diagonal-arrow.png" alt="" />
 														</span>
-														<span class="rank-percentage clr-blue f-15 fontEN">+4.8%</span>
 													</div>
 													<div class="img-col mx-auto">
 														<img src="dist/img/3.jpg" alt="" />
@@ -306,7 +304,7 @@
 																		<div class="info-status mb-1 f-12">売上</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">¥723,113</span>
+																		<span class="f-12 font-weight-bold">¥723,113</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-blue f-12">+3.2%</span>
@@ -318,7 +316,7 @@
 																		<div class="info-status mb-1 f-12">利益</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">¥323,536</span>
+																		<span class="f-12 font-weight-bold">¥323,536</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-blue f-12">+3.2%</span>
@@ -330,7 +328,7 @@
 																		<div class="info-status mb-1 f-12">販売個数</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">334個</span>
+																		<span class="f-12 font-weight-bold">334個</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-blue f-12">+3.2%</span>
@@ -342,7 +340,7 @@
 																		<div class="info-status mb-1 f-12">利益率</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">67.4%</span>
+																		<span class="f-12 font-weight-bold">67.4%</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-red f-12">-3.2%</span>
@@ -369,7 +367,6 @@
 															<i class="mr-2 fontEN">4</i>
 															<img src="dist/img/icons/icon-diagonal-arrow.png" alt="" />
 														</span>
-														<span class="rank-percentage clr-blue f-15 fontEN">+5.8%</span>
 													</div>
 													<div class="img-col mx-auto">
 														<img src="dist/img/4.jpg" alt="" />
@@ -401,7 +398,7 @@
 																		<div class="info-status mb-1 f-12">売上</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">¥723,113</span>
+																		<span class="f-12 font-weight-bold">¥723,113</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-blue f-12">+3.2%</span>
@@ -413,7 +410,7 @@
 																		<div class="info-status mb-1 f-12">利益</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">¥323,536</span>
+																		<span class="f-12 font-weight-bold">¥323,536</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-blue f-12">+3.2%</span>
@@ -425,7 +422,7 @@
 																		<div class="info-status mb-1 f-12">販売個数</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">334個</span>
+																		<span class="f-12 font-weight-bold">334個</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-blue f-12">+3.2%</span>
@@ -437,7 +434,7 @@
 																		<div class="info-status mb-1 f-12">利益率</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">67.4%</span>
+																		<span class="f-12 font-weight-bold">67.4%</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-red f-12">-3.2%</span>
@@ -464,7 +461,6 @@
 															<i class="mr-2 fontEN">5</i>
 															<img src="dist/img/icons/icon-diagonal-arrow.png" alt="" />
 														</span>
-														<span class="rank-percentage clr-blue f-15 fontEN">+3.8%</span>
 													</div>
 													<div class="img-col mx-auto">
 														<img src="dist/img/5.jpg" alt="" />
@@ -496,7 +492,7 @@
 																		<div class="info-status mb-1 f-12">売上</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">¥723,113</span>
+																		<span class="f-12 font-weight-bold">¥723,113</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-blue f-12">+3.2%</span>
@@ -508,7 +504,7 @@
 																		<div class="info-status mb-1 f-12">利益</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">¥323,536</span>
+																		<span class="f-12 font-weight-bold">¥323,536</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-blue f-12">+3.2%</span>
@@ -520,7 +516,7 @@
 																		<div class="info-status mb-1 f-12">販売個数</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">334個</span>
+																		<span class="f-12 font-weight-bold">334個</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-blue f-12">+3.2%</span>
@@ -532,7 +528,7 @@
 																		<div class="info-status mb-1 f-12">利益率</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">67.4%</span>
+																		<span class="f-12 font-weight-bold">67.4%</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-red f-12">-3.2%</span>
@@ -562,7 +558,6 @@
 															<i class="mr-2 fontEN">5</i>
 															<img src="dist/img/icons/icon-diagonal-arrow.png" alt="" />
 														</span>
-														<span class="rank-percentage clr-blue f-15 fontEN">+5.8%</span>
 													</div>
 													<div class="img-col mx-auto">
 														<img src="dist/img/4.jpg" alt="" />
@@ -594,7 +589,7 @@
 																		<div class="info-status mb-1 f-12">売上</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">¥723,113</span>
+																		<span class="f-12 font-weight-bold">¥723,113</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-blue f-12">+3.2%</span>
@@ -606,7 +601,7 @@
 																		<div class="info-status mb-1 f-12">利益</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">¥323,536</span>
+																		<span class="f-12 font-weight-bold">¥323,536</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-blue f-12">+3.2%</span>
@@ -618,7 +613,7 @@
 																		<div class="info-status mb-1 f-12">販売個数</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">334個</span>
+																		<span class="f-12 font-weight-bold">334個</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-blue f-12">+3.2%</span>
@@ -630,7 +625,7 @@
 																		<div class="info-status mb-1 f-12">利益率</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">67.4%</span>
+																		<span class="f-12 font-weight-bold">67.4%</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-red f-12">-3.2%</span>
@@ -656,7 +651,6 @@
 															<i class="mr-2 fontEN">4</i>
 															<img src="dist/img/icons/icon-diagonal-arrow.png" alt="" />
 														</span>
-														<span class="rank-percentage clr-blue f-15 fontEN">+3.8%</span>
 													</div>
 													<div class="img-col mx-auto">
 														<img src="dist/img/5.jpg" alt="" />
@@ -688,7 +682,7 @@
 																		<div class="info-status mb-1 f-12">売上</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">¥723,113</span>
+																		<span class="f-12 font-weight-bold">¥723,113</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-blue f-12">+3.2%</span>
@@ -700,7 +694,7 @@
 																		<div class="info-status mb-1 f-12">利益</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">¥323,536</span>
+																		<span class="f-12 font-weight-bold">¥323,536</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-blue f-12">+3.2%</span>
@@ -750,7 +744,6 @@
 															<i class="mr-2 fontEN">3</i>
 															<img src="dist/img/icons/icon-diagonal-arrow.png" alt="" />
 														</span>
-														<span class="rank-percentage clr-blue f-15 fontEN">+3.8%</span>
 													</div>
 													<div class="img-col mx-auto">
 														<img src="dist/img/5.jpg" alt="" />
@@ -782,7 +775,7 @@
 																		<div class="info-status mb-1 f-12">売上</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">¥723,113</span>
+																		<span class="f-12 font-weight-bold">¥723,113</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-blue f-12">+3.2%</span>
@@ -794,7 +787,7 @@
 																		<div class="info-status mb-1 f-12">利益</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">¥323,536</span>
+																		<span class="f-12 font-weight-bold">¥323,536</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-blue f-12">+3.2%</span>
@@ -844,7 +837,6 @@
 															<i class="mr-2 fontEN">2</i>
 															<img src="dist/img/icons/icon-diagonal-arrow.png" alt="" />
 														</span>
-														<span class="rank-percentage clr-blue f-15 fontEN">+3.8%</span>
 													</div>
 													<div class="img-col mx-auto">
 														<img src="dist/img/5.jpg" alt="" />
@@ -876,7 +868,7 @@
 																		<div class="info-status mb-1 f-12">売上</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">¥723,113</span>
+																		<span class="f-12 font-weight-bold">¥723,113</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-blue f-12">+3.2%</span>
@@ -888,7 +880,7 @@
 																		<div class="info-status mb-1 f-12">利益</div>
 																	</td>
 																	<td class="text-right">
-																		<span class="f-12">¥323,536</span>
+																		<span class="f-12 font-weight-bold">¥323,536</span>
 																	</td>
 																	<td class="text-right">
 																		<span class="clr-blue f-12">+3.2%</span>
@@ -985,13 +977,13 @@
 																	<p>Mサイズ</p>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">¥862,200</span>
+																	<span class="f-12 font-weight-bold">¥862,200</span>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">¥362,200</span>
+																	<span class="f-12 font-weight-bold">¥362,200</span>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">232個</span>
+																	<span class="f-12 font-weight-bold">232個</span>
 																</td>
 															</tr>
 															<!--tr-->
@@ -1009,13 +1001,13 @@
 																	<p>Mサイズ</p>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">¥462,200</span>
+																	<span class="f-12 font-weight-bold">¥462,200</span>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">¥262,200</span>
+																	<span class="f-12 font-weight-bold">¥262,200</span>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">182個</span>
+																	<span class="f-12 font-weight-bold">182個</span>
 																</td>
 															</tr>
 															<!--tr-->
@@ -1033,13 +1025,13 @@
 																	<p>Mサイズ</p>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">¥162,200</span>
+																	<span class="f-12 font-weight-bold">¥162,200</span>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">¥62,200</span>
+																	<span class="f-12 font-weight-bold">¥62,200</span>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">334個</span>
+																	<span class="f-12 font-weight-bold">334個</span>
 																</td>
 															</tr>
 															<!--tr-->
@@ -1057,13 +1049,13 @@
 																	<p>Mサイズ</p>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">¥862,200</span>
+																	<span class="f-12 font-weight-bold">¥862,200</span>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">¥562,200</span>
+																	<span class="f-12 font-weight-bold">¥562,200</span>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">74個</span>
+																	<span class="f-12 font-weight-bold">74個</span>
 																</td>
 															</tr>
 															<!--tr-->
@@ -1081,13 +1073,13 @@
 																	<p>Mサイズ</p>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">¥62,200</span>
+																	<span class="f-12 font-weight-bold">¥62,200</span>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">¥32,200</span>
+																	<span class="f-12 font-weight-bold">¥32,200</span>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">423個</span>
+																	<span class="f-12 font-weight-bold">423個</span>
 																</td>
 															</tr>
 															<!--tr-->
@@ -1139,13 +1131,13 @@
 																	<p>Mサイズ</p>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">¥862,200</span>
+																	<span class="f-12 font-weight-bold">¥862,200</span>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">¥362,200</span>
+																	<span class="f-12 font-weight-bold">¥362,200</span>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">232個</span>
+																	<span class="f-12 font-weight-bold">232個</span>
 																</td>
 															</tr>
 															<!--tr-->
@@ -1163,13 +1155,13 @@
 																	<p>Mサイズ</p>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">¥462,200</span>
+																	<span class="f-12 font-weight-bold">¥462,200</span>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">¥262,200</span>
+																	<span class="f-12 font-weight-bold">¥262,200</span>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">182個</span>
+																	<span class="f-12 font-weight-bold">182個</span>
 																</td>
 															</tr>
 															<!--tr-->
@@ -1187,13 +1179,13 @@
 																	<p>Mサイズ</p>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">¥162,200</span>
+																	<span class="f-12 font-weight-bold">¥162,200</span>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">¥62,200</span>
+																	<span class="f-12 font-weight-bold">¥62,200</span>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">334個</span>
+																	<span class="f-12 font-weight-bold">334個</span>
 																</td>
 															</tr>
 															<!--tr-->
@@ -1211,13 +1203,13 @@
 																	<p>Mサイズ</p>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">¥862,200</span>
+																	<span class="f-12 font-weight-bold">¥862,200</span>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">¥562,200</span>
+																	<span class="f-12 font-weight-bold">¥562,200</span>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">74個</span>
+																	<span class="f-12 font-weight-bold">74個</span>
 																</td>
 															</tr>
 															<!--tr-->
@@ -1235,13 +1227,13 @@
 																	<p>Mサイズ</p>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">¥62,200</span>
+																	<span class="f-12 font-weight-bold">¥62,200</span>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">¥32,200</span>
+																	<span class="f-12 font-weight-bold">¥32,200</span>
 																</td>
 																<td class="text-right">
-																	<span class="f-12">423個</span>
+																	<span class="f-12 font-weight-bold">423個</span>
 																</td>
 															</tr>
 															<!--tr-->
@@ -1309,6 +1301,7 @@
                 slidesToShow: 1
             }
         }]
+
     });
 
     $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
@@ -1359,27 +1352,33 @@
 			data: {
 				datasets: [{
 					data: [
-						25.3,
-						12.3,
-						5.3,
-						3.3,
-						1.3,
+						20.0,
+						5.0,
+						15.0,
+						10.0,
+						30.0,
+						5.0,
+						15.0,
 					],
 					backgroundColor: [
-						window.chartColors.red,
-						window.chartColors.orange,
 						window.chartColors.yellow,
+						window.chartColors.red,
 						window.chartColors.green,
-						window.chartColors.silver
+						window.chartColors.white,
+						window.chartColors.orange,
+						window.chartColors.blue,
+						window.chartColors.purple,
 					],
 					label: 'Dataset 1'
 				}],
 				labels: [
-					'Red',
-					'Orange',
-					'Yellow',
+					'yellow',
+					'red',
 					'green',
-					'silver',
+					'white',
+					'orange',
+					'blue',
+					'purple',
 				]
 			},
 			options: {

@@ -3,6 +3,7 @@
     <script src="dist/js/popper.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
     <script src="dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="dist/js/jquery.matchHeight.js"></script>
     <script src="dist/js/custom.js"></script>
 </body>
 

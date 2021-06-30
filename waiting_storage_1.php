@@ -53,24 +53,6 @@
 									</div>
 								</div>
 								<div class="mb-3">
-									<a class="nav-link dropdown-warehouse btn btn-sm dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										サプライヤー：全て
-									</a>
-									<div class="dropdown-menu dropdown-menu-right">
-										<a class="dropdown-item" href="#">横浜本社倉庫へ</a>
-										<a class="dropdown-item" href="#">AmazonFAB</a>
-									</div>
-								</div>
-								<div class="mb-3">
-									<a class="nav-link dropdown-warehouse btn btn-sm dropdown-toggle bg-white br-25 mr-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										⼊庫キャリア：全て
-									</a>
-									<div class="dropdown-menu dropdown-menu-right">
-										<a class="dropdown-item" href="#">横浜本社倉庫へ</a>
-										<a class="dropdown-item" href="#">AmazonFAB</a>
-									</div>
-								</div>
-								<div class="mb-3">
 									<a class="nav-link btn dropdown-tags btn-sm dropdown-toggle bg-white br-25" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										タグ選択：なし
 									</a>
@@ -91,11 +73,11 @@
 									<div class="table-title">
 										<div class="d-flex flex-wrap justify-content-between align-items-center py-2 px-4">
 											<div class="tt-lt-col mb-1">
-												<span>横浜本社倉庫への⼊庫待ち </span>
+												<span>品川倉庫への⼊庫待ち </span>
 											</div>
 											<div class="tt-rt-col row mb-1 px-3 align-items-center">
 												<div class="total ml-4">
-													<span class="t-label">⼊庫予定合計:</span><span class="t-price">¥206,582</span>
+													<span class="t-label">⼊庫予定合計:</span><span class="t-price">¥726,753</span>
 												</div>
 											</div>
 										</div>
@@ -222,7 +204,7 @@
 									<div class="table-title">
 										<div class="d-flex flex-wrap justify-content-between align-items-center py-2 px-4">
 											<div class="tt-lt-col mb-1">
-												<span>横浜本社倉庫への⼊庫待ち </span>
+												<span>横浜倉庫への⼊庫待ち </span>
 											</div>
 											<div class="tt-rt-col row mb-1 px-3 align-items-center">
 												<div class="total ml-4">

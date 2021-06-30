@@ -21,7 +21,7 @@
 					<section class="table-wrapper">
 						<ul class="nav flex-column">
 							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#settingAccountEdit">設定_アカウント_編集 – 1</a></li>
-							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#settingPaymentPlanChange">設定_お支払いプラン_プラン変更 (Design not completed)</a></li>
+							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#settingPaymentPlanChange">設定_お支払いプラン_プラン変更 </a></li>
 							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#settingSupplierEdit">設定_サプライヤー_編集</a></li>
 							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#settingSupplierAdd">設定_サプライヤー_追加</a></li>
 							<li class="nav-item py-1"><a class="btn btn-dark" href="javascript:void();" data-toggle="modal" data-target="#settingStoreAccountLinkageAmazonEdit">設定_ストアアカウント連携_amazon編集</a></li>
@@ -70,8 +70,8 @@
 
 <!-- Modal settingPaymentPlanChange-->
 <div class="modal fade" id="settingPaymentPlanChange" tabindex="-1" role="dialog" aria-labelledby="settingPaymentPlanChangeTitle" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered" role="document">
-		<div class="modal-content bg-white">
+	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
 			<button type="button" class="close position-absolute p-2" data-dismiss="modal" aria-label="Close" style="z-index: 6">
 				<span aria-hidden="true"><img src="dist/img/icons/icon-modal-close.png" alt="" /></span>
 			</button>

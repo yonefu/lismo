@@ -112,7 +112,7 @@
 														<th class="column-5">種類</th>
 														<th class="column-6">個数</th>
 														<th class="column-7">出荷状況</th>
-														<th class="column-8">配送情報</th>
+														<th class="column-8 text-left pl-4">配送情報</th>
 														<th class="column-9">アクション</th>
 													</tr>
 												</thead>
@@ -165,7 +165,7 @@
 															<p>保留中</p>
 															<p>先⽅と連絡がつかな</p>
 														</td>
-														<td class="text-center" rowspan="2">
+														<td class=" text-left pl-4" rowspan="2">
 															<p>ヤマト宅配便</p>
 															<p>60サイズ</p>
 															<p>02kg</p>

@@ -54,8 +54,7 @@
     padding: 0; }
 
 .table-wrapper .original-price {
-  font-size: 15px;
-  font-weight: 600; }
+  font-size: 15px; }
 
 th.delete-row {
   cursor: pointer; }
@@ -456,14 +455,25 @@ input.box-80 {
   bottom: -60px;
   right: 0px; }
 
+.no-item-found {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: calc(100vh - 250px); }
+
 .stock-table .column-1 {
   width: 120px; }
 
 .stock-table .column-2 {
-  width: 300px; }
+  width: 280px; }
 
 .stock-table .column-3 {
-  width: 80px; }
+  width: 100px; }
 
 .stock-table .column-4 {
   width: 120px; }
@@ -478,7 +488,10 @@ input.box-80 {
   width: 80px; }
 
 .stock-table .column-8 {
-  width: 150px; }
+  width: 100px; }
+
+.stock-table .column-9 {
+  width: 120px; }
 
 .storage-waiting-table .column-1 {
   width: 120px; }
@@ -528,6 +541,9 @@ input.box-80 {
   border-color: #ff0000 !important; }
   .csv-btn:hover {
     border-color: #ff0000 !important; }
+
+.order-page .top-nav li a {
+  min-width: 140px; }
 
 .status-box li a {
   margin-right: 8px !important;
@@ -851,7 +867,7 @@ table.variation-table td img {
 .right-button {
   position: absolute;
   top: 0;
-  right: 52px;
+  right: 15px;
   z-index: 9; }
   .right-button .btn {
     padding: 0.25rem 28px !important; }
@@ -1124,7 +1140,7 @@ body.overflow {
 
 .form-group label span.clr-red {
   display: inline-block;
-  vertical-align: middle; }
+  vertical-align: top; }
 
 table.setting-table .column-2 {
   width: 100px; }
@@ -1223,6 +1239,9 @@ table.hold-status-table .column-2 {
 table.hold-status-table .text-left {
   padding-left: 3em !important; }
 
+.setting-modal-page h3.page-title {
+  letter-spacing: -2px; }
+
 .setting-modal-page .status-box li a {
   border: 1px solid #e0e0e0;
   line-height: 38px !important; }
@@ -1286,7 +1305,7 @@ table.delivery-warehouse-edit-table .column-6 {
   width: 200px; }
 
 .delivery-carrier-table .column-4 {
-  width: 15px; }
+  width: 25px; }
 
 .delivery-carrier-table th, .delivery-carrier-table td {
   border: 0; }
@@ -1308,6 +1327,31 @@ table.delivery-warehouse-edit-table .column-6 {
 
 .settelment-method-table .column-6 {
   width: 100px; }
+
+.plan-label {
+  padding: 3px 10px;
+  border-radius: 6px; }
+
+.plan-table-1 .column-1 {
+  width: 250px; }
+
+.plan-table-1 .column-2 {
+  width: 100px; }
+
+.plan-table-1 .column-3 {
+  width: 100px; }
+
+.plan-table-1 .column-4 {
+  width: 100px; }
+
+.plan-table-2 select.custom-select {
+  min-height: inherit; }
+
+.plan-table-1 th, .plan-table-1 td, .plan-table-2 th, .plan-table-2 td {
+  height: 48px; }
+
+.plan-table-1 .blank-tr th, .plan-table-2 .blank-tr th {
+  height: 1px; }
 
 .report-page .status-box li a {
   font-size: 15px; }
@@ -1509,6 +1553,16 @@ select,
 textarea {
   font-family: "Noto Sans JP", "Lato", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif !important; }
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield; }
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 400; }
 
@@ -1664,6 +1718,9 @@ p, span {
 .bg-silver {
   background-color: #e0e0e0 !important; }
 
+.bg-gray {
+  background-color: #e0e0e0 !important; }
+
 .badge {
   font-weight: 400; }
 
@@ -1726,8 +1783,9 @@ p, span {
   color: #ffffff !important;
   border-radius: 10px;
   text-align: center;
-  padding: 3px 10px 5px 10px;
-  font-size: 10px; }
+  padding: 3px 20px 5px 20px;
+  font-size: 12px;
+  letter-spacing: 1px; }
   .btn-palm-green:hover {
     opacity: 0.8;
     color: #ffffff !important; }
@@ -1756,7 +1814,7 @@ p, span {
   position: relative;
   width: 100%;
   height: 100%;
-  min-height: 6em;
+  min-height: 8em;
   outline: none;
   visibility: hidden;
   cursor: pointer;
@@ -1766,7 +1824,7 @@ p, span {
     position: absolute;
     left: 0;
     width: 100%;
-    min-height: 6em;
+    min-height: 100%;
     line-height: 2em;
     padding-top: 1.5em;
     opacity: 1;
@@ -1826,7 +1884,6 @@ p, span {
     border-radius: 25px;
     min-width: 132px;
     text-align: center;
-    border: 0;
     background: #1f2634;
     border-color: #1f2634;
     color: #ffffff;
@@ -1835,7 +1892,6 @@ p, span {
       opacity: 0.9;
       outline-offset: 0;
       outline: 0;
-      border: 0;
       background: #1f2634;
       border-color: #1f2634; }
   .login-form .form-wrapper label[for="loginform-rememberme"] {
@@ -1856,6 +1912,18 @@ p, span {
           background: transparent !important;
           border: 1px solid #ced4da !important;
           color: #6c757d; }
+    .login-form .form-wrapper .social-login-container .custom-radio .custom-control-label::before {
+      border-radius: 6px !important; }
+    .login-form .form-wrapper .social-login-container .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E");
+      border-radius: 3px !important; }
+    .login-form .form-wrapper .social-login-container .custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+      background-color: #000000;
+      cursor: pointer; }
+    .login-form .form-wrapper .social-login-container .custom-control-label::before, .login-form .form-wrapper .social-login-container .custom-control-label::after {
+      width: 20px;
+      height: 20px;
+      top: 15px; }
   .login-form .form-wrapper .icon {
     display: inline-block;
     height: 24px;
@@ -2447,7 +2515,10 @@ div.radio.switcher label {
   background-color: black; }
 
 .dropdown-menu.dropdown-menu-right a.dropdown-item {
-  position: relative; }
+  position: relative;
+  padding: 0.25rem 1rem !important;
+  font-size: 13px !important;
+  margin-bottom: 0; }
   .dropdown-menu.dropdown-menu-right a.dropdown-item.active:before {
     content: "";
     position: absolute;
@@ -2461,8 +2532,7 @@ div.radio.switcher label {
 .dropdown-menu.dropdown-menu-right a.dropdown-item.active, .dropdown-menu.dropdown-menu-right a.dropdown-item:active {
   color: #1f2634;
   text-decoration: none;
-  background-color: #f8f9fa;
-  border: 0 !important; }
+  background-color: #f8f9fa; }
 
 /* ----- min-width ----- //*/
 /* Extra large devices (large desktops, 1200px and up)*/

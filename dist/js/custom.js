@@ -169,6 +169,17 @@ $(document).ready(function() {
         });
     });
 
+    //matchheight
+    $('.slick-slide .data-top').matchHeight();
+    $('.slick-slide .data-bottom').matchHeight();
+    $('.slick-slide .data-table-group').matchHeight();
+
+    jQuery('.sales-ranking-slider').slick(slickOptions).each(function() {
+        $('.slick-slide .data-top').matchHeight();
+        $('.slick-slide .data-bottom').matchHeight();
+        $('.slick-slide .data-table-group').matchHeight();
+    });
+
 });
 
 (function($, window) {

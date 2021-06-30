@@ -14,7 +14,7 @@
 							<div class="top-block">
 								<div class="d-flex flex-wrap justify-content-between align-items-center">
 									<div class="form-heading mb-2 f-28">保留ステータス</div>
-									<div><a href="#" class="btn btn-dark mb-2"><span>ステータスを追加する</span></a></div>
+									<div><a href="#" class="btn btn-dark mb-2 px-4"><span>ステータスを追加する</span></a></div>
 								</div>
 								<!--div-->
 							</div>

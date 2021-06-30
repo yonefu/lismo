@@ -26,25 +26,19 @@
 			<a href="login.php"><img src="dist/img/logo.svg" alt="lismoa" /></a>
 		</h1>
 		<form action="">
-			<h5>パスワードを再設定</h5>
-			<div class="form-group">
-				<label>メールアドレス</label>
-				<input type="email" class="form-control" placeholder="lismoademo@gmail.com" required="">
+			<h5>連携が完了しました</h5>
+			<div class="social-login-container text-center">
+				<div class="py-5">
+					<img src="dist/img/logo-shopify.png" alt="shopify">
+					<p>グランドストリートD2C店</p>
+				</div>
 			</div>
-			<div class="form-group d-flex justify-content-end align-items-center mb-0">
-				<button type="submit" class="btn btn-login">送信する</button>
+
+			<div class="form-group d-flex justify-content-center align-items-center mb-0">
+				<button type="submit" class="btn bg-white text-dark mr-2 w-50"><span>さらにストアを追加する</span></button>
+				<button type="submit" class="btn btn-login w-50"><span>リスモアを始める</span></button>
 			</div>
 		</form>
-	</div>
-	<div class="login-links">
-		<ul class="nav flex-column">
-			<li>
-				<a href="create_new_account.php">新規アカウントを作る</a>
-			</li>
-			<li>
-				<a href="login.php">ログインする</a>
-			</li>
-		</ul>
 	</div>
 </div>
 

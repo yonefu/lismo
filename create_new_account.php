@@ -24,7 +24,7 @@
 <div class="login-form">
 	<div class="form-wrapper">
 		<h1 class="logo">
-			<img src="dist/img/logo.svg" alt="lismoa" />
+			<a href="login.php"><img src="dist/img/logo.svg" alt="lismoa" /></a>
 		</h1>
 		<form action="">
 			<h5>新規アカウントを無料で作成</h5>

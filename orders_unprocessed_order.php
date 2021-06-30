@@ -115,7 +115,7 @@
 												<th class="column-5">種類</th>
 												<th class="column-6">個数</th>
 												<th class="column-7">出荷状況</th>
-												<th class="column-8">配送情報</th>
+												<th class="column-8 text-left pl-4">配送情報</th>
 												<th class="column-9">アクション</th>
 											</tr>
 										</thead>
@@ -127,7 +127,7 @@
 														<label class="custom-control-label" for="selectedId1"></label>
 														<div id="showDiv" class="show-msg-div">
 														    同梱にする<br/>出荷準備中にする<br/>保留にする<br/>
-														    <span class="clr-red">倉キャンセ庫ルにする</span>
+														    <span class="clr-red">キャンセルにする</span>
 														</div>
 													</div>
 												</td>
@@ -168,7 +168,7 @@
 													<img src="dist/img/icons/icon-secure.png" alt="Shopify" />
 													<p>在庫和保済み</p>
 												</td>
-												<td class="text-center" rowspan="2">
+												<td class="text-left pl-4" rowspan="2">
 													<p>ヤマト宅配便</p>
 													<p>60サイズ</p>
 													<p>02kg</p>
@@ -228,7 +228,7 @@
 														<label class="custom-control-label" for="selectedId2"></label>
 														<div id="showDiv" class="show-msg-div d-none">
 														    同梱にする<br/>出荷準備中にする<br/>保留にする<br/>
-														    <span class="clr-red">倉キャンセ庫ルにする</span>
+														    <span class="clr-red">キャンセルにする</span>
 														</div>
 													</div>
 												</td>
@@ -269,7 +269,7 @@
 													<img src="dist/img/icons/icon-secure.png" alt="Shopify" />
 													<p>在庫和保済み</p>
 												</td>
-												<td class="text-center" rowspan="2">
+												<td class="text-left pl-4" rowspan="2">
 													<p>ヤマト宅配便</p>
 													<p>60サイズ</p>
 													<p>02kg</p>
@@ -329,7 +329,7 @@
 														<label class="custom-control-label" for="selectedId3"></label>
 														<div id="showDiv" class="show-msg-div d-none">
 														    同梱にする<br/>出荷準備中にする<br/>保留にする<br/>
-														    <span class="clr-red">倉キャンセ庫ルにする</span>
+														    <span class="clr-red">キャンセルにする</span>
 														</div>
 													</div>
 												</td>
@@ -370,7 +370,7 @@
 													<img src="dist/img/icons/icon-out-of-stock.png" alt="Shopify" />
 													<p> 在庫なし</p>
 												</td>
-												<td class="text-center">
+												<td class="text-left pl-4">
 													<p>ヤマト宅配便</p>
 													<p>60サイズ</p>
 													<p>02kg</p>
@@ -402,7 +402,7 @@
 														<label class="custom-control-label" for="selectedId4"></label>
 														<div id="showDiv" class="show-msg-div d-none">
 														    同梱にする<br/>出荷準備中にする<br/>保留にする<br/>
-														    <span class="clr-red">倉キャンセ庫ルにする</span>
+														    <span class="clr-red">キャンセルにする</span>
 														</div>
 													</div>
 												</td>
@@ -443,7 +443,7 @@
 													<img src="dist/img/icons/icon-yellow.png" alt="Shopify">
 													<p>在庫和保済み</p>
 												</td>
-												<td class="text-center">
+												<td class="text-left pl-4">
 													<p>ヤマト宅配便</p>
 													<p>60サイズ</p>
 													<p>02kg</p>
@@ -475,7 +475,7 @@
 														<label class="custom-control-label" for="selectedId5"></label>
 														<div id="showDiv" class="show-msg-div d-none">
 														    同梱にする<br/>出荷準備中にする<br/>保留にする<br/>
-														    <span class="clr-red">倉キャンセ庫ルにする</span>
+														    <span class="clr-red">キャンセルにする</span>
 														</div>
 													</div>
 												</td>

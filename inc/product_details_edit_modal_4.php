@@ -28,10 +28,7 @@
 							</select>
 						</div>
 						<div class="col-6 pl-2">
-							<select class="custom-select form-control">
-								<option selected>⾦額</option>
-								<option value="1">⾦額</option>
-							</select>
+							<input type="number" class="form-control" placeholder="⾦額">
 						</div>
 					</div>
 				</div>
@@ -39,10 +36,7 @@
 			<div class="form-group row">
 				<label class="col-lg-3 col-form-label text-right pr-0 f-12">個数</label>
 				<div class="col-lg-9">
-					<select class="custom-select form-control">
-						<option selected>10</option>
-						<option value="1">20</option>
-					</select>
+					<input type="number" class="form-control" value="10">
 				</div>
 			</div>
 			<div class="form-group row">

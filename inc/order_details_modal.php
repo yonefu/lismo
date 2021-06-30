@@ -238,7 +238,7 @@
 									<span>2019/12/30 15:00</span>
 								</p>
 							</div>
-							<div class="col-lg-4 pl-3">
+							<div class="col-lg-5 pl-3">
 								<p>
 									<span>プラットフォーム:</span>
 									<span><img src="dist/img/icons/icon-shopify.png" alt="" /></span>

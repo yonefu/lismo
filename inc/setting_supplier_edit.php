@@ -10,14 +10,14 @@
 		<form class="bg-white br-25 p-4 mb-3">
 			<div class="form-heading mb-3 f-18">アカウント基本情報</div>
 			<div class="form-group row">
-				<label for="staticEmail" class="col-lg-3 col-form-label text-right pr-0">サプライヤー名<span class="clr-red">*</span></label>
+				<label for="staticEmail" class="col-lg-3 col-form-label text-right pr-0">サプライヤー名<span class="clr-red">＊</span></label>
 				<div class="col-lg-9">
 					<input type="text"  class="form-control" placeholder="amazon.co.jp">
 				</div>
 			</div>
 			<!--form-group row-->
 			<div class="form-group row">
-				<label for="inputPassword" class="col-lg-3 col-form-label text-right pr-0">通貨<span class="clr-red">*</span></label>
+				<label for="inputPassword" class="col-lg-3 col-form-label text-right pr-0">通貨<span class="clr-red">＊</span></label>
 				<div class="col-lg-9">
 					<select class="custom-select form-control">
 						<option selected>JPY</option>

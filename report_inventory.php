@@ -890,14 +890,22 @@
 			data: {
 				datasets: [{
 					data: [
-						71.0,
-						19.0,
+						20.0,
+						5.0,
+						15.0,
 						10.0,
+						30.0,
+						5.0,
+						15.0,
 					],
 					backgroundColor: [
-						window.chartColors.red,
-						window.chartColors.orange,
 						window.chartColors.yellow,
+						window.chartColors.red,
+						window.chartColors.green,
+						window.chartColors.white,
+						window.chartColors.orange,
+						window.chartColors.blue,
+						window.chartColors.purple,
 					],
 					label: 'Dataset 1'
 				}],
@@ -905,6 +913,10 @@
 					'AmazonFAB',
 					'横浜⾃社倉庫',
 					'海外倉庫',
+					'white',
+					'orange',
+					'blue',
+					'purple',
 				]
 			},
 			options: {

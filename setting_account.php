@@ -68,6 +68,7 @@
 											<label class="col-lg-3 col-form-label f-12 pr-0">権限</label>
 											<div class="col-lg-9">
 												<input type="text"  class="form-control" placeholder="メンバー  変更は管理者のみ可能">
+												<span></span>
 											</div>
 										</div>
 										<div class="form-group row justify-content-end mt-5">

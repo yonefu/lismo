@@ -30,6 +30,19 @@ textarea {
 	font-family: $fontJP;
 }
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 	font-weight: 400;
 }
@@ -239,6 +252,11 @@ p, span{
 	background-color: $silver !important;
 }
 
+
+.bg-gray {
+	background-color: #e0e0e0 !important;
+}
+
 .badge {
 	font-weight: 400;
 }
@@ -316,8 +334,9 @@ p, span{
 	color: $white !important;
 	border-radius: 10px;
 	text-align: center;
-	padding: 3px 10px 5px 10px;
-	font-size: 10px;
+	padding: 3px 20px 5px 20px;
+	font-size: 12px;
+    letter-spacing: 1px;
 
 	&:hover {
 		opacity: 0.8;
@@ -353,7 +372,7 @@ p, span{
 		position: relative;
 		width: 100%;
 		height: 100%;
-		min-height: 6em;
+		min-height: 8em;
 		outline: none;
 		visibility: hidden;
 		cursor: pointer;
@@ -363,7 +382,7 @@ p, span{
 			position: absolute;
 			left: 0;
 			width: 100%;
-			min-height: 6em;
+			min-height: 100%;
 			line-height: 2em;
 			padding-top: 1.5em;
 			opacity: 1;
@@ -438,7 +457,7 @@ p, span{
 			border-radius: 25px;
 			min-width: 132px;
 			text-align: center;
-			border: 0;
+			//border: 0;
 			background: $dark;
 			border-color: $dark;
 			color: $white;
@@ -450,7 +469,7 @@ p, span{
 				opacity: 0.9;
 				outline-offset: 0;
 				outline: 0;
-				border: 0;
+				//border: 0;
 				background: $dark;
 				border-color: $dark;
 			}
@@ -481,6 +500,22 @@ p, span{
 						}
 					}
 				}
+			}
+			.custom-radio .custom-control-label::before{
+				border-radius: 6px !important;
+			}
+			.custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E");
+				border-radius: 3px !important;
+			}
+			.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+			    background-color: #000000;
+			    cursor: pointer;
+			}
+			.custom-control-label::before, .custom-control-label::after {
+			    width: 20px;
+			    height: 20px;
+			    top: 15px;
 			}
 		}
 
@@ -1268,6 +1303,9 @@ div.radio.switcher {
 .dropdown-menu.dropdown-menu-right{
 	a.dropdown-item{
 		position: relative;
+		padding: 0.25rem 1rem !important;
+		font-size: 13px !important;
+		margin-bottom: 0;
 		&.active:before{
 			content: "";
 			position: absolute;
@@ -1283,6 +1321,6 @@ div.radio.switcher {
 		color: #1f2634;
 		text-decoration: none;
 		background-color: #f8f9fa;
-		border: 0 !important;
+		//border: 0 !important;
 	}
 }

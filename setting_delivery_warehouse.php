@@ -19,7 +19,7 @@
 											<span class="badge storage text-white py-1 px-2 mr-2 text-dark">PROプラン</span>
 											<span class="f-12">倉庫上限数：無制限∞</span>
 										</div>
-										<a href="#" class="btn btn-dark mb-2"><span>倉庫を追加する</span></a>
+										<a href="#" class="btn btn-dark mb-2 px-4"><span>倉庫を追加する</span></a>
 									</div>
 								</div>
 								<!--div-->

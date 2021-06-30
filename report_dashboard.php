@@ -499,6 +499,44 @@
 											<div class="text-right"><small class="text-muted f-12">詳細を⾒る</small><br/><span class="btn btn-sm btn-navy">B.在庫を管理</span></div>
 										</div>
 										<!--div-->
+										<div class="d-flex align-items-center flex-column justify-content-center">
+											<div class="progress w-75 mb-3">
+												<div class="progress-bar bg-pink" role="progressbar" style="width: 51%" aria-valuenow="51" aria-valuemin="0" aria-valuemax="100"></div>
+												<div class="progress-bar bg-semiOrange" role="progressbar" style="width: 21%" aria-valuenow="21" aria-valuemin="0" aria-valuemax="100"></div>
+												<div class="progress-bar bg-yellow" role="progressbar" style="width: 18%" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100"></div>
+												<div class="progress-bar bg-green" role="progressbar" style="width: 9%" aria-valuenow="9" aria-valuemin="0" aria-valuemax="100"></div>
+												<div class="progress-bar bg-dark" role="progressbar" style="width: 2%" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+											<!--progress-->
+											<div class="progressbar-data d-flex mx-auto justify-content-around w-75">
+												<div class="progress-data px-2 text-center">
+													<p class="mb-1 f-20 fontEN">51.0%</p>
+													<p class="mb-1 f-12">0〜90⽇</p>
+												</div>
+												<!--progress-data-->
+												<div class="progress-data px-2 text-center">
+													<p class="mb-1 f-20 fontEN">21.0%</p>
+													<p class="mb-1 f-12">91〜180⽇</p>
+												</div>
+												<!--progress-data-->
+												<div class="progress-data px-2 text-center">
+													<p class="mb-1 f-20 fontEN">18.0%</p>
+													<p class="mb-1 f-12">181〜270⽇</p>
+												</div>
+												<!--progress-data-->
+												<div class="progress-data px-2 text-center">
+													<p class="mb-1 f-20 fontEN">9.0%</p>
+													<p class="mb-1 f-12">271〜365⽇</p>
+												</div>
+												<!--progress-data-->
+												<div class="progress-data px-2 text-center">
+													<p class="mb-1 f-20 fontEN">2.2%</p>
+													<p class="mb-1 f-12">365⽇以上</p>
+												</div>
+												<!--progress-data-->
+											</div>
+											<!--progressbar-data-->
+										</div>
 										<div class="data-table-group">
 											<div class="table-responsive-lg">
 												<table class="table table-4-column">
@@ -639,7 +677,7 @@
 											<canvas id="doughnut002" width="500"></canvas>
 										</div>
 
-										<div class="data-table-group">
+										<div class="data-table-group mt-3">
 											<div class="table-responsive-lg">
 												<table class="table table-4-column">
 													<thead>
@@ -1149,14 +1187,23 @@
 			data: {
 				datasets: [{
 					data: [
-						71.0,
-						19.0,
+
+						20.0,
+						5.0,
+						15.0,
 						10.0,
+						30.0,
+						5.0,
+						15.0,
 					],
 					backgroundColor: [
-						window.chartColors.red,
-						window.chartColors.red,
 						window.chartColors.yellow,
+						window.chartColors.red,
+						window.chartColors.green,
+						window.chartColors.white,
+						window.chartColors.orange,
+						window.chartColors.blue,
+						window.chartColors.purple,
 					],
 					label: 'Dataset 1'
 				}],
@@ -1164,6 +1211,10 @@
 					'AmazonFAB',
 					'横浜⾃社倉庫',
 					'海外倉庫',
+					'white',
+					'orange',
+					'blue',
+					'purple',
 				]
 			},
 			options: {

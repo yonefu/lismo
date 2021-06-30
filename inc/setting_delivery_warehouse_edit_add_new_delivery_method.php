@@ -9,9 +9,8 @@
 
 		<form class="">
 			<div class="form-group row">
-				<label for="staticEmail" class="col-lg-2 col-form-label text-right pr-0">キャリア
-					<span class="clr-red">*</span></label>
-				<div class="col-lg-10">
+				<label for="staticEmail" class="col-lg-3 col-form-label text-right pr-0">キャリア</label>
+				<div class="col-lg-9">
 					<select class="custom-select">
 						<option selected>⽇本郵便</option>
 						<option value="1">⽇本郵便</option>
@@ -20,8 +19,8 @@
 			</div>
 			<!--form-group row-->
 			<div class="form-group row">
-				<label for="staticEmail" class="col-lg-2 col-form-label text-right pr-0">配送種別</label>
-				<div class="col-lg-10">
+				<label for="staticEmail" class="col-lg-3 col-form-label text-right pr-0">配送種別</label>
+				<div class="col-lg-9">
 					<select class="custom-select">
 						<option selected>ゆうパケット</option>
 						<option value="1">ゆうパケット</option>
@@ -30,8 +29,8 @@
 			</div>
 			<!--form-group row-->
 			<div class="form-group row">
-				<label for="staticEmail" class="col-lg-2 col-form-label text-right pr-0">配送エリア</label>
-				<div class="col-lg-10">
+				<label for="staticEmail" class="col-lg-3 col-form-label text-right pr-0">配送エリア</label>
+				<div class="col-lg-9">
 					<span class="pl-2">国内配送</span>
 				</div>
 			</div>

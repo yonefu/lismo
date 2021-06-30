@@ -23,7 +23,7 @@
 <div class="login-form">
 	<div class="form-wrapper">
 		<h1 class="logo">
-			<img src="dist/img/logo.svg" alt="lismoa" />
+			<a href="login.php"><img src="dist/img/logo.svg" alt="lismoa" /></a>
 		</h1>
 		<form action="">
 			<h5>lismoaにログイン</h5>

@@ -19,7 +19,7 @@
 											<span class="badge storage text-white py-1 px-2 mr-2 text-dark">PROプラン</span>
 											<span class="f-12">連携上限数：残り4件</span>
 										</div>
-										<a href="#" class="btn btn-dark mb-2"><span>ストアを追加する</span></a>
+										<a href="#" class="btn btn-dark mb-2 px-4"><span>ストアを追加する</span></a>
 									</div>
 								</div>
 								<!--div-->
@@ -35,7 +35,7 @@
 														<tr>
 															<th class="column-1">ﾌﾟﾗｯﾄﾌｫｰﾑ</th>
 															<th class="column-2">ストア名</th>
-															<th class="column-3">有効期限</th>
+															<th class="column-3 text-left pl-4">有効期限</th>
 															<th class="column-4">商品同期</th>
 															<th class="column-5">注⽂取込</th>
 															<th class="column-6">在庫同期</th>
@@ -52,7 +52,7 @@
 															<td class="text-center">
 																<span>ショップ名ABC</span>
 															</td>
-															<td class="text-center">
+															<td class="text-left pl-4">
 																<p class="mb-0">2019/11/30</p>
 																<p class="mb-0">15:00</p>
 															</td>
@@ -116,7 +116,7 @@
 															<td class="text-center">
 																<span>ショップ名EFG</span>
 															</td>
-															<td class="text-center">
+															<td class="text-left pl-4">
 																<p class="mb-0 clr-red">2019/11/30</p>
 																<p class="mb-0 clr-red">15:00</p>
 															</td>
