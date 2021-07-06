@@ -29,7 +29,7 @@
 														<tr>
 															<th class="column-1 text-left">サプライヤー名</th>
 															<th class="column-2 text-left">通貨</th>
-															<th class="column-3">アクション</th>
+															<th class="column-3 text-right">アクション</th>
 														</tr>
 													</thead>
 													<!--thead-->
@@ -41,7 +41,7 @@
 															<td class="text-left">
 																<span>JPY</span>
 															</td>
-															<td class="text-center">
+															<td class="text-right">
 																<a href="#" class="btn btn-outline-dark br-25"><span>編集する</span></a>
 															</td>
 														</tr>
@@ -53,7 +53,7 @@
 															<td class="text-left">
 																<span>CNY</span>
 															</td>
-															<td class="text-center">
+															<td class="text-right">
 																<a href="#" class="btn btn-outline-dark br-25"><span>編集する</span></a>
 															</td>
 														</tr>
@@ -65,7 +65,7 @@
 															<td class="text-left">
 																<span>CNY</span>
 															</td>
-															<td class="text-center">
+															<td class="text-right">
 																<a href="#" class="btn btn-outline-dark br-25"><span>編集する</span></a>
 															</td>
 														</tr>
@@ -77,7 +77,7 @@
 															<td class="text-left">
 																<span>JPY</span>
 															</td>
-															<td class="text-center">
+															<td class="text-right">
 																<a href="#" class="btn btn-outline-dark br-25"><span>編集する</span></a>
 															</td>
 														</tr>
@@ -89,7 +89,7 @@
 															<td class="text-left">
 																<span>JPY</span>
 															</td>
-															<td class="text-center">
+															<td class="text-right">
 																<a href="#" class="btn btn-outline-dark br-25"><span>編集する</span></a>
 															</td>
 														</tr>

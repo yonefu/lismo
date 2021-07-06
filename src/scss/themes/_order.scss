@@ -168,7 +168,7 @@ tr.no-data {
 		width: 100px;
 	}
 	.column-4{
-		width: 300px;
+		width: 275px;
 	}
 	.column-5{
 		width: 80px;
@@ -177,10 +177,10 @@ tr.no-data {
 		width: 80px;
 	}
 	.column-7{
-		width: 150px;
+		width: 130px;
 	}
 	.column-8{
-		width: 120px;
+		width: 200px;
 	}
 	.column-9{
 		width: 150px;
@@ -365,4 +365,14 @@ tr.purchase-subtotal td {
 		    top: 10px;
 		}
 	}
+}
+
+.dropdown-bg {
+    background: #f2f2f2;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    &:after{
+    	content: none;
+    }
 }

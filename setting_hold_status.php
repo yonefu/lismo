@@ -28,7 +28,7 @@
 													<thead>
 														<tr>
 															<th class="column-1 text-left">ステータス</th>
-															<th class="column-2">アクション</th>
+															<th class="column-2 text-right">アクション</th>
 														</tr>
 													</thead>
 													<!--thead-->
@@ -37,7 +37,7 @@
 															<td class="text-left">
 																<span>保留中</span>
 															</td>
-															<td class="text-center">
+															<td class="text-right">
 																<a href="#" class="btn btn-outline-dark br-25"><span>編集する</span></a>
 															</td>
 														</tr>
@@ -46,7 +46,7 @@
 															<td class="text-left">
 																<span>⽀払い待ち</span>
 															</td>
-															<td class="text-center">
+															<td class="text-right">
 																<a href="#" class="btn btn-outline-dark br-25"><span>編集する</span></a>
 															</td>
 														</tr>
@@ -55,7 +55,7 @@
 															<td class="text-left">
 																<span>住所確認中</span>
 															</td>
-															<td class="text-center">
+															<td class="text-right">
 																<a href="#" class="btn btn-outline-dark br-25"><span>編集する</span></a>
 															</td>
 														</tr>
@@ -64,7 +64,7 @@
 															<td class="text-left">
 																<span>購⼊者へ確認中</span>
 															</td>
-															<td class="text-center">
+															<td class="text-right">
 																<a href="#" class="btn btn-outline-dark br-25"><span>編集する</span></a>
 															</td>
 														</tr>
@@ -73,7 +73,7 @@
 															<td class="text-left">
 																<span>在庫到着待ち</span>
 															</td>
-															<td class="text-center">
+															<td class="text-right">
 																<a href="#" class="btn btn-outline-dark br-25"><span>編集する</span></a>
 															</td>
 														</tr>
@@ -82,7 +82,7 @@
 															<td class="text-left">
 																<span>同梱商品⼊荷待ち</span>
 															</td>
-															<td class="text-center">
+															<td class="text-right">
 																<a href="#" class="btn btn-outline-dark br-25"><span>編集する</span></a>
 															</td>
 														</tr>

@@ -653,7 +653,7 @@ tr.no-data th {
   width: 100px; }
 
 .order-table .column-4 {
-  width: 300px; }
+  width: 275px; }
 
 .order-table .column-5 {
   width: 80px; }
@@ -662,10 +662,10 @@ tr.no-data th {
   width: 80px; }
 
 .order-table .column-7 {
-  width: 150px; }
+  width: 130px; }
 
 .order-table .column-8 {
-  width: 120px; }
+  width: 200px; }
 
 .order-table .column-9 {
   width: 150px; }
@@ -814,6 +814,14 @@ tr.purchase-subtotal td {
       position: absolute;
       left: 0px;
       top: 10px; }
+
+.dropdown-bg {
+  background: #f2f2f2;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  padding: 15px; }
+  .dropdown-bg:after {
+    content: none; }
 
 span.text-right.mr-2 {
   min-width: 90px;
@@ -1250,6 +1258,9 @@ table.supplier-table .column-3 {
 table.supplier-table .text-left {
   padding-left: 3em !important; }
 
+table.supplier-table .text-right {
+  padding-right: 3em !important; }
+
 table.hold-status-table .column-1 {
   width: 80%; }
 
@@ -1258,6 +1269,9 @@ table.hold-status-table .column-2 {
 
 table.hold-status-table .text-left {
   padding-left: 3em !important; }
+
+table.hold-status-table .text-right {
+  padding-right: 3em !important; }
 
 .setting-modal-page h3.page-title {
   letter-spacing: -2px; }
