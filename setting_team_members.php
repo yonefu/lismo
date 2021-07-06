@@ -34,7 +34,7 @@
 													<thead>
 														<tr>
 															<th class="column-2">ユーザー名</th>
-															<th class="column-3">メールアドレス</th>
+															<th class="column-3 text-left pl-4">メールアドレス</th>
 															<th class="column-4">役割</th>
 															<th class="column-5">最終ログイン</th>
 															<th class="column-6">アカウント作成⽇</th>
@@ -48,7 +48,7 @@
 																<p>EIKING</p>
 																<p><span class="badge first-hand bg-yellow">オーナー</span></p>
 															</td>
-															<td class="text-center">
+															<td class="text-left pl-4">
 																<span>nfiami.langrey@gmail.com</span>
 															</td>
 															<td class="text-center">
@@ -69,7 +69,7 @@
 															<td class="text-center">
 																<p>ゆうま</p>
 															</td>
-															<td class="text-center">
+															<td class="text-left pl-4">
 																<span>afacatanabe@illustrious.co.jp</span>
 															</td>
 															<td class="text-center">
@@ -91,7 +91,7 @@
 																<p>MASATO</p>
 																<p><span class="badge first-hand bg-yellow">オーナー</span></p>
 															</td>
-															<td class="text-center">
+															<td class="text-left pl-4">
 																<span>aaanaccle@gmail.com</span>
 															</td>
 															<td class="text-center">
@@ -112,7 +112,7 @@
 															<td class="text-center">
 																<p>やまだ</p>
 															</td>
-															<td class="text-center">
+															<td class="text-left pl-4">
 																<span>iwatanabe@illustrious.co.jp</span>
 															</td>
 															<td class="text-center">
@@ -133,7 +133,7 @@
 															<td class="text-center">
 																<p>たなかたくや</p>
 															</td>
-															<td class="text-center">
+															<td class="text-left pl-4">
 																<span>iwaanaccle@gmail.com</span>
 															</td>
 															<td class="text-center">
