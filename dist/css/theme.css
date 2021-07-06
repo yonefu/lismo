@@ -1620,7 +1620,18 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield; }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
   font-weight: 400; }
 
 /* custom scrollbar  */
@@ -1676,8 +1687,56 @@ button {
 textarea {
   resize: none; }
 
-p, span {
+p,
+span {
   word-break: break-word; }
+
+.loading-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 1; }
+  .loading-wrap:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-filter: blur(5px);
+            filter: blur(5px);
+    display: block;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.5); }
+  .loading-wrap img {
+    position: relative;
+    z-index: 2;
+    -webkit-animation: sk-scaleout 2s infinite ease-in-out;
+    animation: sk-scaleout 2s infinite ease-in-out; }
+
+@-webkit-keyframes sk-scaleout {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0.1; }
+  100% {
+    opacity: 1; } }
+
+@keyframes sk-scaleout {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0.1; }
+  100% {
+    opacity: 1; } }
 
 .f-28 {
   font-size: 28px !important; }
@@ -1976,7 +2035,8 @@ p, span {
     .login-form .form-wrapper .social-login-container .custom-radio .custom-control-input:checked ~ .custom-control-label::before {
       background-color: #000000;
       cursor: pointer; }
-    .login-form .form-wrapper .social-login-container .custom-control-label::before, .login-form .form-wrapper .social-login-container .custom-control-label::after {
+    .login-form .form-wrapper .social-login-container .custom-control-label::before,
+    .login-form .form-wrapper .social-login-container .custom-control-label::after {
       width: 20px;
       height: 20px;
       top: 15px; }
@@ -1998,8 +2058,9 @@ p, span {
     width: 14px;
     height: 14px;
     vertical-align: middle;
-    margin-top: 5px; }
-  .login-form .form-wrapper .custom-control-label::before, .login-form .form-wrapper .custom-control-label::after {
+    margin-top: 7px; }
+  .login-form .form-wrapper .custom-control-label::before,
+  .login-form .form-wrapper .custom-control-label::after {
     width: 14px;
     height: 14px;
     top: 6px; }
@@ -2556,7 +2617,8 @@ div.radio.switcher label {
   display: inline-block;
   padding-left: 0; }
 
-.custom-control-label::before, .custom-control-label::after {
+.custom-control-label::before,
+.custom-control-label::after {
   width: 20px;
   height: 20px; }
 
@@ -2585,7 +2647,8 @@ div.radio.switcher label {
     border-radius: 100%;
     background: #1f2634; }
 
-.dropdown-menu.dropdown-menu-right a.dropdown-item.active, .dropdown-menu.dropdown-menu-right a.dropdown-item:active {
+.dropdown-menu.dropdown-menu-right a.dropdown-item.active,
+.dropdown-menu.dropdown-menu-right a.dropdown-item:active {
   color: #1f2634;
   text-decoration: none;
   background-color: #f8f9fa; }

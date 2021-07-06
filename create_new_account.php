@@ -50,7 +50,7 @@
 						<label class="custom-control-label" for="checkbox"></label>
 					</div> -->
 					<input type="checkbox" class="form-check-input ml-0" id="checkbox">
-					<label class="form-check-label pl-3" for="checkbox">利⽤規約・個⼈情報等保護⽅針に同意する</label>
+					<label class="form-check-label pl-3" for="checkbox"><a href="#" class="text-dark"><u>利⽤規約</u></a>・<a href="#" class="text-dark"><u>個⼈情報等保護⽅針</u></a>に同意する</label>
 				</div>
 				<button type="submit" class="btn btn-login">作成する</button>
 			</div>

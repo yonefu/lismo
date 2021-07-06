@@ -45,7 +45,7 @@
 			</div>
 
 			<div class="form-group d-flex justify-content-center align-items-center mb-0">
-				<button type="submit" class="btn bg-white text-dark mr-2 w-50"><span>追加しないでスキップ</span></button>
+				<button type="submit" class="btn bg-white text-dark mr-3 w-50"><span>追加しないでスキップ</span></button>
 				<button type="submit" class="btn btn-login w-50"><span>次へ進む</span></button>
 			</div>
 		</form>
