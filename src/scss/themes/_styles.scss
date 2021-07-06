@@ -143,8 +143,8 @@ span {
 	align-items: center;
 	height: 100%;
 	width: 100%;
-	position: relative;
-	z-index: 1;
+	position: absolute;
+    z-index: 100;
 
 	&:after {
 		content: "";
