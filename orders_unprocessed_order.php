@@ -79,7 +79,7 @@
 												<input type="checkbox" class="form-check-input custom-control-input ml-0" id="checkbox12">
 												<label class="custom-control-label" for="checkbox12"></label>
 											</div>
-											<a class="dropdown-item" href="#"><span class="">選択した倉庫を次回からデフォルトで出表荷⽰準する</span></a>
+											<a class="dropdown-item" href="#" style="padding-left: 5px !important;"><span class="">選択した倉庫を次回からデフォルトで出表荷⽰準する</span></a>
 										</div>
 									</div>
 								</li>
@@ -108,14 +108,14 @@
 														<label class="custom-control-label" for="checkall"></label>
 													</div>
 												</th>
-												<th class="column-1">倉庫</th>
-												<th class="column-2">出荷ID / 期限</th>
-												<th class="column-3">ショップ情報</th>
-												<th class="column-4 product-col">商品</th>
-												<th class="column-5">種類</th>
-												<th class="column-6">個数</th>
-												<th class="column-7">出荷状況</th>
-												<th class="column-8 text-left pl-4">配送情報</th>
+												<th class="column-1">倉庫 <i class="fa fa-caret-down ml-1"></i></th>
+												<th class="column-2">出荷ID / 期限 <i class="fa fa-caret-down ml-1"></i></th>
+												<th class="column-3">ショップ情報 <i class="fa fa-caret-down ml-1"></i></th>
+												<th class="column-4 product-col">商品 <i class="fa fa-caret-down ml-1"></i></th>
+												<th class="column-5">種類 <i class="fa fa-caret-down ml-1"></i></th>
+												<th class="column-6">個数 <i class="fa fa-caret-down ml-1"></i></th>
+												<th class="column-7">出荷状況 <i class="fa fa-caret-down ml-1"></i></th>
+												<th class="column-8 text-left pl-4">配送情報 <i class="fa fa-caret-down ml-1"></i></th>
 												<th class="column-9">アクション</th>
 											</tr>
 										</thead>
@@ -642,106 +642,6 @@
 															<a class="dropdown-item  clr-red" href="#">キャンセルにする</a>
 														</div>
 													</div>
-												</td>
-											</tr>
-										</tbody>
-										<!--tbody-->
-
-										<tbody>
-											<tr>
-												<td class="text-center">
-													<div class="position-relative custom-control custom-checkbox">
-														<input type="checkbox" class="form-check-input custom-control-input ml-0 selectedId" id="selectedId5">
-														<label class="custom-control-label" for="selectedId5"></label>
-														<div id="showDiv" class="show-msg-div d-none">
-														    同梱にする<br/>出荷準備中にする<br/>保留にする<br/>
-														    <span class="clr-red">キャンセルにする</span>
-														</div>
-													</div>
-												</td>
-												<td class="text-center">
-													<p>amazon</p>
-													<p>FBA</p>
-												</td>
-												<td class="text-center">
-													<p>三菱相太(北海道)</p>
-													<p>出荷ID : FO00361500</p>
-													<p><small class="text-muted">受生:2019711/30 15:00</small></p>
-													<p><small class="text-muted">期恨:2019/12707 15:00</small></p>
-												</td>
-												<td class="text-center">
-													<img src="dist/img/icons/icon-sm-amazon.png" alt="Shopify" />
-													<p>ショップ名ABC</p>
-													<p><small class="text-muted">114-181062</small></p>
-													<p><small class="text-muted">8-1813868</small></p>
-												</td>
-												<td class="d-flex align-items-center">
-													<p>
-														<img class="product-img" src="dist/img/4.jpg" alt="" />
-													</p>
-													<p>ビーダマン CB-10 チューン ナップギア トルネードマガジ
-														<small class="text-muted">JAN4582191967738</small>
-													</p>
-												</td>
-												<td class="text-center">
-													<div class="dropdown-toggle dropdown-bg" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-														<p>ヤマト宅配便</p>
-														<p>60サイズ</p>
-														<p>02kg</p>
-													</div>
-													<div class="shipping-dropdown-menu dropdown-menu dropdown-menu-right">
-														<div class="d-flex flex-wrap">
-															<div class="drop-scroll">
-																<ul class="nav flex-column">
-																	<li class="nav-item"><a href="" class="nav-link active">ゆうパケット</a></li>
-																	<li class="nav-item"><a href="" class="nav-link">ゆうパック</a></li>
-																	<li class="nav-item"><a href="" class="nav-link">定形外郵便</a></li>
-																	<li class="nav-item"><a href="" class="nav-link">ヤマト宅急便</a></li>
-																</ul>
-															</div>
-															<div class="drop-scroll">
-																<ul class="nav flex-column">
-																	<li class="nav-item"><a href="" class="nav-link active">ゆうパケット</a></li>
-																	<li class="nav-item"><a href="" class="nav-link">0.05kg</a></li>
-																	<li class="nav-item"><a href="" class="nav-link">0.1kg</a></li>
-																	<li class="nav-item"><a href="" class="nav-link">0.15kg</a></li>
-																	<li class="nav-item"><a href="" class="nav-link">0.2kg</a></li>
-																	<li class="nav-item"><a href="" class="nav-link">0.3kg</a></li>
-																	<li class="nav-item"><a href="" class="nav-link">0.4kg</a></li>
-																	<li class="nav-item"><a href="" class="nav-link">0.5kg</a></li>
-																	<li class="nav-item"><a href="" class="nav-link">0.6kg</a></li>
-																	<li class="nav-item"><a href="" class="nav-link">0.7kg</a></li>
-																	<li class="nav-item"><a href="" class="nav-link">0.8kg</a></li>
-																	<li class="nav-item"><a href="" class="nav-link">0.9kg</a></li>
-																</ul>
-															</div>
-															<div class="drop-scroll">
-																<ul class="nav flex-column">
-																	<li class="nav-item"><a href="" class="nav-link active">A4 x 1cm</a></li>
-																	<li class="nav-item"><a href="" class="nav-link">A4 x 2cm</a></li>
-																	<li class="nav-item"><a href="" class="nav-link">A4 x 3cm</a></li>
-																	<li class="nav-item"><a href="" class="nav-link">60サイズ</a></li>
-																	<li class="nav-item"><a href="" class="nav-link">70サイズ</a></li>
-																	<li class="nav-item"><a href="" class="nav-link">80サイズ</a></li>
-																	<li class="nav-item"><a href="" class="nav-link">90サイズ</a></li>
-																	<li class="nav-item"><a href="" class="nav-link">100サイズ</a></li>
-																	<li class="nav-item"><a href="" class="nav-link">110サイズ</a></li>
-																	<li class="nav-item"><a href="" class="nav-link">120サイズ</a></li>
-																	<li class="nav-item"><a href="" class="nav-link">130サイズ</a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-												</td>
-												<td class="text-center">
-													<p>2個</p>
-												</td>
-												<td class="text-center">
-													<img src="dist/img/icons/icon-secure.png" alt="Shopify">
-													<p>在庫和保済み</p>
-												</td>
-												<td class="text-center" colspan="2">
-													<p>Amazonが⾃動で出荷作業を⾏います</p>
 												</td>
 											</tr>
 										</tbody>

@@ -390,6 +390,9 @@ table.delivery-warehouse-edit-table{
     select.custom-select{
     	min-height: inherit;
     }
+    td.text-left{
+    	width: 150px;
+    }
 }
 
 .plan-table-1, .plan-table-2{
@@ -399,4 +402,18 @@ table.delivery-warehouse-edit-table{
 	.blank-tr th{
 		height: 1px;
 	}
+}
+
+.plan-unit{
+	display: flex;
+	align-self: center;
+	justify-content: flex-end;
+    input{
+		width: 100px;
+		padding: 2px 10px;
+		min-height: 20px !important;
+		height: 20px;
+		max-width: 100px;
+		text-align: right;
+    }
 }

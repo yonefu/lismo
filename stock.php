@@ -101,15 +101,15 @@
 									<table class="table stock-table">
 										<thead>
 											<tr>
-												<th class="column-1">店護</th>
-												<th class="column-2 product-col">製品</th>
-												<th class="column-3">バリエーション</th>
-												<th class="column-4">在庫総数</th>
-												<th class="column-5">単価</th>
-												<th class="column-6">在庫総作</th>
-												<th class="column-7">入庫待ち</th>
+												<th class="column-1">店護 <i class="fa fa-caret-down ml-1"></i></th>
+												<th class="column-2 product-col">製品 <i class="fa fa-caret-down ml-1"></i></th>
+												<th class="column-3">バリエーション <i class="fa fa-caret-down ml-1"></i></th>
+												<th class="column-4">在庫総数 <i class="fa fa-caret-down ml-1"></i></th>
+												<th class="column-5">単価 <i class="fa fa-caret-down ml-1"></i></th>
+												<th class="column-6">在庫総作 <i class="fa fa-caret-down ml-1"></i></th>
+												<th class="column-7">入庫待ち <i class="fa fa-caret-down ml-1"></i></th>
 												<th class="column-8 text-right pr-4">商品クラス<i class="fa fa-caret-down"></i></th>
-												<th class="column-9">作成日・更新日</th>
+												<th class="column-9">作成日・更新日 <i class="fa fa-caret-down ml-1"></i></th>
 											</tr>
 										</thead>
 										<tbody>

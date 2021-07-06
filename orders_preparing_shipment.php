@@ -99,14 +99,14 @@
 														<label class="custom-control-label" for="checkall"></label>
 													</div>
 												</th>
-												<th class="column-1">倉庫</th>
-												<th class="column-2">出荷ID / 期限</th>
-												<th class="column-3">ショップ情報</th>
-												<th class="column-4 product-col">商品</th>
-												<th class="column-5">種類</th>
-												<th class="column-6">個数</th>
-												<th class="column-7">出荷状況</th>
-												<th class="column-8 text-left pl-4">配送情報</th>
+												<th class="column-1">倉庫 <i class="fa fa-caret-down ml-1"></i></th>
+												<th class="column-2">出荷ID / 期限 <i class="fa fa-caret-down ml-1"></i></th>
+												<th class="column-3">ショップ情報 <i class="fa fa-caret-down ml-1"></i></th>
+												<th class="column-4 product-col">商品 <i class="fa fa-caret-down ml-1"></i></th>
+												<th class="column-5">種類 <i class="fa fa-caret-down ml-1"></i></th>
+												<th class="column-6">個数 <i class="fa fa-caret-down ml-1"></i></th>
+												<th class="column-7">出荷状況 <i class="fa fa-caret-down ml-1"></i></th>
+												<th class="column-8 text-left pl-4">配送情報 <i class="fa fa-caret-down ml-1"></i></th>
 												<th class="column-9">アクション</th>
 											</tr>
 										</thead>

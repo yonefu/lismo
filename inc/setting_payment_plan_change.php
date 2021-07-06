@@ -246,7 +246,8 @@
 													<span class="f-15">プランの種類</span>
 												</td>
 												<td class="text-right pr-4">
-													<p><span class="clr-green">240,000</span>円/年</p>
+													<p class="plan-unit"><input type="text" class="form-control clr-green br-0 bg-white" value="240,000">
+														円/年</p>
 													<p>(2ヶ⽉分お得)</p>
 												</td>
 											</tr>
