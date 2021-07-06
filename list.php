@@ -69,12 +69,12 @@
 														<label class="custom-control-label" for="checkall"></label>
 													</div>
 												</th>
-												<th class="column-1">出品場所</th>
-												<th class="column-2 product-col">製品</th>
+												<th class="column-1">出品場所 <i class="fa fa-caret-down ml-1"></i></th>
+												<th class="column-2 product-col">製品 <i class="fa fa-caret-down ml-1"></i></th>
 												<th class="column-3">ﾊﾞﾘｴｰｼｮﾝ</th>
-												<th class="column-4">出品状況</th>
-												<th class="column-5">在庫同期</th>
-												<th class="column-6 text-left">最終更新⽇</th>
+												<th class="column-4">出品状況 <i class="fa fa-caret-down ml-1"></i></th>
+												<th class="column-5">在庫同期 <i class="fa fa-caret-down ml-1"></i></th>
+												<th class="column-6 text-left pl-4">最終更新⽇ <i class="fa fa-caret-down ml-1"></i></th>
 												<th class="column-7">&nbsp;</th>
 											</tr>
 										</thead>
@@ -119,7 +119,7 @@
 												    </div>
 													<p>同期中</p>
 												</td>
-												<td>
+												<td class="text-left pl-4">
 													<p class="fontEN">2021/02/22</p>
 													<p class="fontEN">15:00</p>
 												</td>
@@ -168,7 +168,7 @@
 												    </div>
 													<p>同期中</p>
 												</td>
-												<td>
+												<td class="text-left pl-4">
 													<p class="fontEN">2021/02/22</p>
 													<p class="fontEN">15:00</p>
 												</td>
@@ -217,7 +217,7 @@
 												    </div>
 													<p>同期中</p>
 												</td>
-												<td>
+												<td class="text-left pl-4">
 													<p class="fontEN">2021/02/22</p>
 													<p class="fontEN">15:00</p>
 												</td>
@@ -266,7 +266,7 @@
 												    </div>
 													<p>同期中</p>
 												</td>
-												<td>
+												<td class="text-left pl-4">
 													<p class="fontEN">2021/02/22</p>
 													<p class="fontEN">15:00</p>
 												</td>
@@ -315,7 +315,7 @@
 												    </div>
 													<p>同期中</p>
 												</td>
-												<td>
+												<td class="text-left pl-4">
 													<p class="fontEN">2021/02/22</p>
 													<p class="fontEN">15:00</p>
 												</td>

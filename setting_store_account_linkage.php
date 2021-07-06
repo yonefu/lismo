@@ -34,7 +34,7 @@
 													<thead>
 														<tr>
 															<th class="column-1">ﾌﾟﾗｯﾄﾌｫｰﾑ</th>
-															<th class="column-2">ストア名</th>
+															<th class="column-2 text-left pl-4">ストア名</th>
 															<th class="column-3 text-left pl-4">有効期限</th>
 															<th class="column-4">商品同期</th>
 															<th class="column-5">注⽂取込</th>
@@ -49,7 +49,7 @@
 															<td class="text-center">
 																<img src="dist/img/icons/icon-shopify.png" alt="shopify" />
 															</td>
-															<td class="text-center">
+															<td class="text-left pl-4">
 																<span>ショップ名ABC</span>
 															</td>
 															<td class="text-left pl-4">
@@ -113,7 +113,7 @@
 															<td class="text-center">
 																<img src="dist/img/icons/icon-shopify.png" alt="shopify" />
 															</td>
-															<td class="text-center">
+															<td class="text-left pl-4">
 																<span>ショップ名EFG</span>
 															</td>
 															<td class="text-left pl-4">
@@ -177,7 +177,7 @@
 															<td class="text-center">
 																<img src="dist/img/icons/icon-shopify.png" alt="shopify" />
 															</td>
-															<td class="text-center">
+															<td class="text-left pl-4">
 																<span>ショップ名HJK</span>
 															</td>
 															<td class="text-center">
@@ -240,7 +240,7 @@
 															<td class="text-center">
 																<img src="dist/img/icons/icon-amazon.png" alt="shopify" />
 															</td>
-															<td class="text-center">
+															<td class="text-left pl-4">
 																<span>ショップ名ABC</span>
 															</td>
 															<td class="text-center">
@@ -303,7 +303,7 @@
 															<td class="text-center">
 																<img src="dist/img/icons/icon-amazon.png" alt="shopify" />
 															</td>
-															<td class="text-center">
+															<td class="text-left pl-4">
 																<span>ショップ名EFG</span>
 															</td>
 															<td class="text-center">

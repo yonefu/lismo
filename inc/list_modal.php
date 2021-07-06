@@ -54,7 +54,7 @@
 									</th>
 									<th class="column-1 product-col">製品</th>
 									<th class="column-2">ﾊﾞﾘｴｰｼｮﾝ</th>
-									<th class="column-3">出品をやめた⽇時</th>
+									<th class="column-3">出品をやめた⽇時 <i class="fa fa-caret-down ml-1"></i></th>
 									<th class="column-4">アクション</th>
 								</tr>
 							</thead>

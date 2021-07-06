@@ -169,8 +169,8 @@
 										</div>
 										<!--progressbar-data-->
 										<div class="progress w-75 mb-3" style="height: 12px;">
-											<div class="progress-bar bg-pink" role="progressbar" style="width: 79%" aria-valuenow="79" aria-valuemin="0" aria-valuemax="100"></div>
-											<div class="progress-bar bg-yellow" role="progressbar" style="width: 21%" aria-valuenow="21" aria-valuemin="0" aria-valuemax="100">	</div>
+											<div class="progress-bar bg-yellow" role="progressbar" style="width: 79%" aria-valuenow="79" aria-valuemin="0" aria-valuemax="100"></div>
+											<div class="progress-bar bg-green" role="progressbar" style="width: 21%" aria-valuenow="21" aria-valuemin="0" aria-valuemax="100">	</div>
 										</div>
 										<!--progress-->
 									</div>

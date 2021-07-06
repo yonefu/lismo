@@ -11,7 +11,7 @@
 					<div class="top-block">
 						<div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
 							<h3 class="page-title mb-1">
-								<span>仕⼊れる</span>
+								<span>仕⼊る</span>
 							</h3>
 
 							<div class="search-box">
@@ -29,12 +29,12 @@
 
 						<ul class="nav top-nav mb-1">
 							<li class="nav-item">
-								<a class="nav-link li-product-order" href="purchase_selected.php">今回発注する商品
+								<a class="nav-link li-product-order" href="purchase_selected.php">今回の仕⼊
 								<span class="selcted-counter">4</span>
 								</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link active li-order-history" href="purchase_order_history.php">発注履歴</a>
+								<a class="nav-link active li-order-history" href="purchase_order_history.php">仕⼊た履歴</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="purchase_modal.php">Purchase Modals</a>
@@ -106,14 +106,14 @@
 											<table class="table purchase-order-history-table">
 												<thead>
 													<tr>
-														<th class="column-1">倉庫 <i class="fa fa-caret-down ml-1"></i></th>
-														<th class="column-2 product-col">商品</th>
+														<th class="column-1">倉庫</th>
+														<th class="column-2 product-col">商品 <i class="fa fa-caret-down ml-1"></i></th>
 														<th class="column-3">ﾊﾞﾘｴｰｼｮﾝ</th>
 														<th class="column-4">サプライヤー</th>
 														<th class="column-5">入荷状況</th>
 														<th class="column-6">個数</th>
-														<th class="column-7">コメント <i class="fa fa-caret-down ml-1"></i></th>
-														<th class="column-8 text-right pr-4">発注額</th>
+														<th class="column-7">コメント</th>
+														<th class="column-8 text-right pr-4">仕⼊額</th>
 													</tr>
 												</thead>
 												<tbody>
@@ -196,14 +196,14 @@
 											<table class="table purchase-order-history-table">
 												<thead>
 													<tr>
-														<th class="column-1">倉庫 <i class="fa fa-caret-down ml-1"></i></th>
-														<th class="column-2 product-col">商品</th>
+														<th class="column-1">倉庫</th>
+														<th class="column-2 product-col">商品 <i class="fa fa-caret-down ml-1"></i></th>
 														<th class="column-3">ﾊﾞﾘｴｰｼｮﾝ</th>
 														<th class="column-4">サプライヤー</th>
 														<th class="column-5">入荷状況</th>
 														<th class="column-6">個数</th>
-														<th class="column-7">コメント <i class="fa fa-caret-down ml-1"></i></th>
-														<th class="column-8 text-right pr-4">発注額</th>
+														<th class="column-7">コメント </th>
+														<th class="column-8 text-right pr-4">仕⼊額</th>
 													</tr>
 												</thead>
 												<tbody>
@@ -273,14 +273,14 @@
 											<table class="table purchase-order-history-table">
 												<thead>
 													<tr>
-														<th class="column-1">倉庫 <i class="fa fa-caret-down ml-1"></i></th>
-														<th class="column-2 product-col">商品</th>
+														<th class="column-1">倉庫</th>
+														<th class="column-2 product-col">商品 <i class="fa fa-caret-down ml-1"></i></th>
 														<th class="column-3">ﾊﾞﾘｴｰｼｮﾝ</th>
 														<th class="column-4">サプライヤー</th>
 														<th class="column-5">入荷状況</th>
 														<th class="column-6">個数</th>
-														<th class="column-7">コメント <i class="fa fa-caret-down ml-1"></i></th>
-														<th class="column-8 text-right pr-4">発注額</th>
+														<th class="column-7">コメント </th>
+														<th class="column-8 text-right pr-4">仕⼊額</th>
 													</tr>
 												</thead>
 												<tbody>
@@ -375,14 +375,14 @@
 											<table class="table purchase-order-history-table">
 												<thead>
 													<tr>
-														<th class="column-1">倉庫 <i class="fa fa-caret-down ml-1"></i></th>
-														<th class="column-2 product-col">商品</th>
+														<th class="column-1">倉庫</th>
+														<th class="column-2 product-col">商品 <i class="fa fa-caret-down ml-1"></i></th>
 														<th class="column-3">ﾊﾞﾘｴｰｼｮﾝ</th>
 														<th class="column-4">サプライヤー</th>
 														<th class="column-5">入荷状況</th>
 														<th class="column-6">個数</th>
-														<th class="column-7">コメント <i class="fa fa-caret-down ml-1"></i></th>
-														<th class="column-8 text-right pr-4">発注額</th>
+														<th class="column-7">コメント </th>
+														<th class="column-8 text-right pr-4">仕⼊額</th>
 													</tr>
 												</thead>
 												<tbody>

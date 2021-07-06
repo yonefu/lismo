@@ -126,6 +126,17 @@
 		bottom: 0;
 		color: $dark;
 	}
+	&.w-75, &.progressbar-data{
+		width: 90% !important;
+	}
+}
+
+.progressbar-data{
+	.progress-data{
+		.fontEN{
+			font-weight: bold;
+		}
+	}
 }
 
 .report-product {

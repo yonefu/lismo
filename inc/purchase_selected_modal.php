@@ -65,9 +65,9 @@
 										</div>
 									</th>
 									<th class="column-1 product-col">製品 <i class="fa fa-caret-down ml-1"></i></th>
-									<th class="column-2">ﾊﾞﾘｴｰｼｮﾝ</th>
-									<th class="column-3">在庫数</th>
-									<th class="column-5">&nbsp;</th>
+									<th class="column-2">ﾊﾞﾘｴｰｼｮﾝ <i class="fa fa-caret-down ml-1"></i></th>
+									<th class="column-3">在庫数 <i class="fa fa-caret-down ml-1"></i></th>
+									<th class="column-5">⼊庫待ち <i class="fa fa-caret-down ml-1"></i></th>
 									<th class="column-4">&nbsp;</th>
 								</tr>
 							</thead>
@@ -100,9 +100,9 @@
 									<td class="text-center">
 										<p>なし</p>
 									</td>
-									<td class="text-center">
+									<td class="text-center float-right pr-4">
 										<a class="btn btn-golden add-to-purchase">仕入れるに追加する</a>
-										<div class="delete-row"><!-- <img src="dist/img/icons/icon-close-wh.png" alt="" /> --></div>
+										<div class="delete-row">&nbsp;</div>
 									</td>
 								</tr>
 
@@ -135,9 +135,9 @@
 										<img class="icon-img" src="dist/img/icons/icon-yellow.png" alt="" />
 										<p>0/6</p>
 									</td>
-									<td class="text-center">
+									<td class="text-center float-right pr-4">
 										<a class="btn btn-golden add-to-purchase">仕入れるに追加する</a>
-										<div class="delete-row"><!-- <img src="dist/img/icons/icon-close-wh.png" alt="" /> --></div>
+										<div class="delete-row">&nbsp;</div>
 									</td>
 								</tr>
 								<tr>
@@ -168,9 +168,9 @@
 									<td class="text-center">
 										<p>なし</p>
 									</td>
-									<td class="text-center">
+									<td class="text-center float-right pr-4">
 										<a class="btn btn-golden add-to-purchase">仕入れるに追加する</a>
-										<div class="delete-row"><!-- <img src="dist/img/icons/icon-close-wh.png" alt="" /> --></div>
+										<div class="delete-row">&nbsp;</div>
 									</td>
 								</tr>
 
@@ -203,7 +203,7 @@
 										<img class="icon-img" src="dist/img/icons/icon-yellow.png" alt="" />
 										<p>5/10</p>
 									</td>
-									<td class="text-center">
+									<td class="text-center float-right pr-4">
 										<a class="btn btn-gray add-to-purchase">Unpurchase</a>
 										<div class="delete-row"><img src="dist/img/icons/icon-close-wh.png" alt="" /></div>
 									</td>

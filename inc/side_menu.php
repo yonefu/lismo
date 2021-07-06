@@ -30,7 +30,7 @@
 				<a class="li-stock" href="stock.php">在庫</a>
 			</li>
 			<li>
-				<a class="li-purchase" href="purchase.php">仕入れ</a>
+				<a class="li-purchase" href="purchase.php">仕入</a>
 			</li>
 			<li>
 				<a class="li-order" href="orders_preparing_shipment.php">受注</a>

@@ -11,19 +11,19 @@
 					<div class="top-block">
 						<div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
 							<h3 class="page-title mb-1">
-								<span>仕入れる</span>
+								<span>仕入る</span>
 							</h3>
 						</div>
 						<!--d-flex flex-wrap justify-content-between align-items-center-->
 
 						<ul class="nav top-nav mb-3">
 							<li class="nav-item">
-								<a class="nav-link active li-product-order" href="purchase_selected.php">今回発注する商品
+								<a class="nav-link active li-product-order" href="purchase_selected.php">今回の仕⼊
 									<span class="selcted-counter">4</span>
 								</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link li-order-history" href="purchase_order_history.php">発注履歴</a>
+								<a class="nav-link li-order-history" href="purchase_order_history.php">仕⼊た履歴</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="purchase_modal.php">Purchase Modals</a>
