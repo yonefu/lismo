@@ -458,7 +458,7 @@
 									<!--div-->
 									<div class="data-bottom d-flex align-items-center flex-column justify-content-between">
 										<div class="chartWrapper">
-											<canvas id="lineStyleChart001" width="1000"></canvas>
+											<div id="chartContainer" style="height: 370px; width: 100%;"></div>
 										</div>
 									</div>
 									<!--div-->
@@ -955,6 +955,37 @@
 <script src="dist/js/Chart.min.js"></script>
 <script src="dist/js/Chart.bundle.min.js"></script>
 <script src="dist/js/utils.js"></script>
+
+<style type="text/css">
+	.canvasjs-chart-toolbar{
+		display: none;
+	}
+</style>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script>
+	var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	exportEnabled: true,
+	title:{
+		text: ""
+	},
+	data: [{
+		type: "pyramid",
+		indexLabelFontSize: 18,
+		valueRepresents: "area",
+		showInLegend: true,
+		legendText: "{indexLabel}",
+		toolTipContent: "<b>{indexLabel}:</b> {y}%",
+		dataPoints: [
+			{ y: 72, indexLabel: "72" },
+			{ y: 18, indexLabel: "18" },
+			{ y: 7, indexLabel: "7" },
+			{ y: 3,  indexLabel: "3" }
+		]
+	}]
+});
+chart.render();
+</script>
 
 <script>
 

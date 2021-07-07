@@ -184,7 +184,7 @@ $(document).ready(function() {
 $(window).on('load', function() {
     setTimeout(function() { // allowing 3 secs to fade out loader
         $('.loading-wrap').fadeOut('slow');
-    }, 5000);
+    }, 3000);
 
     $('.social-login-container input[type="radio"]').click(function() {
         if ($(this).is(':checked')) {
