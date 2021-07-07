@@ -2653,6 +2653,11 @@ div.radio.switcher label {
   text-decoration: none;
   background-color: #f8f9fa; }
 
+.btn-login.disabled {
+  background: #cccccc !important;
+  border-color: #ccc !important;
+  opacity: 1; }
+
 /* ----- min-width ----- //*/
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {

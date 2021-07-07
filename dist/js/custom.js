@@ -179,13 +179,18 @@ $(document).ready(function() {
         $('.slick-slide .data-bottom').matchHeight();
         $('.slick-slide .data-table-group').matchHeight();
     });
-
 });
 
 $(window).on('load', function() {
     setTimeout(function() { // allowing 3 secs to fade out loader
         $('.loading-wrap').fadeOut('slow');
     }, 5000);
+
+    $('.social-login-container input[type="radio"]').click(function() {
+        if ($(this).is(':checked')) {
+            $('.btn-login').addClass('disabled');
+        }
+    });
 });
 
 (function($, window) {

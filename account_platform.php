@@ -45,7 +45,7 @@
 			</div>
 
 			<div class="form-group d-flex justify-content-end align-items-center mb-0">
-				<button type="submit" class="btn btn-login"><span>次へ進む</span></button>
+				<button type="submit" class="btn btn-login w-50"><span>次へ進む</span></button>
 			</div>
 		</form>
 	</div>
