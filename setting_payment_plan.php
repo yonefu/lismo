@@ -88,7 +88,11 @@
 										<div class="form-group row">
 											<label class="col-lg-3 col-form-label f-12 pr-0">対応ブランド</label>
 											<div class="col-lg-9">
-												<img src="dist/img/icons/icon-payment.jpg" alt="" />
+												<img src="dist/img/icons/card-1.png" alt="VISA" />
+												<img src="dist/img/icons/card-2.png" alt="MASTER CARD" />
+												<img src="dist/img/icons/card-3.png" alt="JCB" />
+												<img src="dist/img/icons/card-4.png" alt="AMERICAN EXPRESS" />
+												<img src="dist/img/icons/card-5.png" alt="DINERS CLUB" />
 											</div>
 										</div>
 										<div class="form-group row">
