@@ -421,12 +421,10 @@
 															<td>
 																<div class="d-flex align-items-center">
 																	<div class="label-status mr-2">
-																		<span class="icon-circle bg-red"></span>
+																		<span class="icon-circle" style="background: #ffcd56;"></span>
 																	</div>
-																	<div class="info-status">
-																		<p class="mb-1 f-12">
-																			<span class="ml-2">AmazonFAB</span>
-																		</p>
+																	<div class="info-status ml-2">
+																		<p class="mb-1 f-12">AmazonFAB</p>
 																	</div>
 																</div>
 															</td>
@@ -434,10 +432,10 @@
 																<span class="f-12">¥3,142,340</span>
 															</td>
 															<td class="text-right">
-																<span class="f-12">71.0%</span>
+																<span class="f-12">38.3%</span>
 															</td>
 															<td class="text-right">
-																<span class="clr-blue f-12">+3.2%</span>
+																<span class="clr-blue f-12">+10%</span>
 															</td>
 														</tr>
 														<!--tr-->
@@ -445,24 +443,21 @@
 															<td>
 																<div class="d-flex align-items-center">
 																	<div class="label-status mr-2">
-																		<span class="icon-circle bg-orange"></span>
+																		<span class="icon-circle " style="background: #ff6384;"></span>
 																	</div>
-																	<div class="info-status">
-																		<p class="mb-1 f-12">
-																			<span class="ml-2">横浜⾃社倉庫</span>
-																		</p>
+																	<div class="info-status ml-2">
+																		<p class="mb-1 f-12">AmazonFAB</p>
 																	</div>
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥2,672,340</span>
-															</td>
-															</td>
-															<td class="text-right">
-																<span class="f-12">19.0%</span>
+																<span class="f-12">¥3,142,340</span>
 															</td>
 															<td class="text-right">
-																<span class="clr-blue f-12">+3.2%</span>
+																<span class="f-12">38.3%</span>
+															</td>
+															<td class="text-right">
+																<span class="clr-blue f-12">+10%</span>
 															</td>
 														</tr>
 														<!--tr-->
@@ -470,23 +465,175 @@
 															<td>
 																<div class="d-flex align-items-center">
 																	<div class="label-status mr-2">
-																		<span class="icon-circle bg-yellow"></span>
+																		<span class="icon-circle " style="background: #4bc0c0;"></span>
 																	</div>
-																	<div class="info-status">
-																		<p class="mb-1 f-12">
-																			<span class="ml-2">海外倉庫</span>
-																		</p>
+																	<div class="info-status ml-2">
+																		<p class="mb-1 f-12">AmazonFAB</p>
 																	</div>
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥2,340</span>
+																<span class="f-12">¥3,142,340</span>
 															</td>
 															<td class="text-right">
-																<span class="f-12">10.0%</span>
+																<span class="f-12">38.3%</span>
 															</td>
 															<td class="text-right">
-																<span class="clr-red f-12">-3.2%</span>
+																<span class="clr-blue f-12">+10%</span>
+															</td>
+														</tr>
+														<!--tr-->
+														<tr>
+															<td>
+																<div class="d-flex align-items-center">
+																	<div class="label-status mr-2">
+																		<span class="icon-circle " style="background: #e5e5e5;"></span>
+																	</div>
+																	<div class="info-status ml-2">
+																		<p class="mb-1 f-12">AmazonFAB</p>
+																	</div>
+																</div>
+															</td>
+															<td class="text-right">
+																<span class="f-12">¥3,142,340</span>
+															</td>
+															<td class="text-right">
+																<span class="f-12">38.3%</span>
+															</td>
+															<td class="text-right">
+																<span class="clr-blue f-12">+10%</span>
+															</td>
+														</tr>
+														<!--tr-->
+														<tr>
+															<td>
+																<div class="d-flex align-items-center">
+																	<div class="label-status mr-2">
+																		<span class="icon-circle " style="background: #ff9f40;"></span>
+																	</div>
+																	<div class="info-status ml-2">
+																		<p class="mb-1 f-12">AmazonFAB</p>
+																	</div>
+																</div>
+															</td>
+															<td class="text-right">
+																<span class="f-12">¥3,142,340</span>
+															</td>
+															<td class="text-right">
+																<span class="f-12">38.3%</span>
+															</td>
+															<td class="text-right">
+																<span class="clr-blue f-12">+10%</span>
+															</td>
+														</tr>
+														<!--tr-->
+														<tr>
+															<td>
+																<div class="d-flex align-items-center">
+																	<div class="label-status mr-2">
+																		<span class="icon-circle " style="background: #36a2eb;"></span>
+																	</div>
+																	<div class="info-status ml-2">
+																		<p class="mb-1 f-12">AmazonFAB</p>
+																	</div>
+																</div>
+															</td>
+															<td class="text-right">
+																<span class="f-12">¥3,142,340</span>
+															</td>
+															<td class="text-right">
+																<span class="f-12">38.3%</span>
+															</td>
+															<td class="text-right">
+																<span class="clr-blue f-12">+10%</span>
+															</td>
+														</tr>
+														<!--tr-->
+														<tr>
+															<td>
+																<div class="d-flex align-items-center">
+																	<div class="label-status mr-2">
+																		<span class="icon-circle " style="background: #9966ff;"></span>
+																	</div>
+																	<div class="info-status ml-2">
+																		<p class="mb-1 f-12">AmazonFAB</p>
+																	</div>
+																</div>
+															</td>
+															<td class="text-right">
+																<span class="f-12">¥3,142,340</span>
+															</td>
+															<td class="text-right">
+																<span class="f-12">38.3%</span>
+															</td>
+															<td class="text-right">
+																<span class="clr-blue f-12">+10%</span>
+															</td>
+														</tr>
+														<!--tr-->
+														<tr>
+															<td>
+																<div class="d-flex align-items-center">
+																	<div class="label-status mr-2">
+																		<span class="icon-circle " style="background: #00ff00;"></span>
+																	</div>
+																	<div class="info-status ml-2">
+																		<p class="mb-1 f-12">AmazonFAB</p>
+																	</div>
+																</div>
+															</td>
+															<td class="text-right">
+																<span class="f-12">¥3,142,340</span>
+															</td>
+															<td class="text-right">
+																<span class="f-12">38.3%</span>
+															</td>
+															<td class="text-right">
+																<span class="clr-blue f-12">+10%</span>
+															</td>
+														</tr>
+														<!--tr-->
+														<tr>
+															<td>
+																<div class="d-flex align-items-center">
+																	<div class="label-status mr-2">
+																		<span class="icon-circle " style="background: #800000;"></span>
+																	</div>
+																	<div class="info-status ml-2">
+																		<p class="mb-1 f-12">AmazonFAB</p>
+																	</div>
+																</div>
+															</td>
+															<td class="text-right">
+																<span class="f-12">¥3,142,340</span>
+															</td>
+															<td class="text-right">
+																<span class="f-12">38.3%</span>
+															</td>
+															<td class="text-right">
+																<span class="clr-blue f-12">+10%</span>
+															</td>
+														</tr>
+														<!--tr-->
+														<tr>
+															<td>
+																<div class="d-flex align-items-center">
+																	<div class="label-status mr-2">
+																		<span class="icon-circle " style="background: #ff00ff;"></span>
+																	</div>
+																	<div class="info-status ml-2">
+																		<p class="mb-1 f-12">AmazonFAB</p>
+																	</div>
+																</div>
+															</td>
+															<td class="text-right">
+																<span class="f-12">¥3,142,340</span>
+															</td>
+															<td class="text-right">
+																<span class="f-12">38.3%</span>
+															</td>
+															<td class="text-right">
+																<span class="clr-blue f-12">+10%</span>
 															</td>
 														</tr>
 														<!--tr-->
@@ -890,13 +1037,16 @@
 			data: {
 				datasets: [{
 					data: [
-						20.0,
-						5.0,
-						15.0,
 						10.0,
-						30.0,
-						5.0,
-						15.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
 					],
 					backgroundColor: [
 						window.chartColors.yellow,
@@ -906,17 +1056,23 @@
 						window.chartColors.orange,
 						window.chartColors.blue,
 						window.chartColors.purple,
+						"#00ff00",
+                  		"#800000",
+                  		"#ff00ff",
 					],
 					label: 'Dataset 1'
 				}],
 				labels: [
-					'AmazonFAB',
-					'横浜⾃社倉庫',
-					'海外倉庫',
+					'Yellow',
+					'Red',
+					'Green',
 					'white',
 					'orange',
 					'blue',
 					'purple',
+					"Lime",
+                  	"Maroon",
+                  	"Magenta",
 				]
 			},
 			options: {
