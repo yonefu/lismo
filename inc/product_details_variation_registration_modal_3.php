@@ -228,7 +228,7 @@
 									<th class="column-6">合計</th>
 									<th class="column-7">現在庫</th>
 									<th class="column-8">実⾏者</th>
-									<<!-- th class="column-9">アクション</th> -->
+									<!-- th class="column-9">アクション</th> -->
 								</tr>
 							</thead>
 							<tbody>

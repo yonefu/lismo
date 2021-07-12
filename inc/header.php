@@ -26,6 +26,6 @@
 </head>
 <body>
 
-	<div class="loading-wrap">
+<!-- 	<div class="loading-wrap">
 		<div class="loading"><img src="dist/img/loading.svg" alt="" /></div>
-	</div>
+	</div> -->

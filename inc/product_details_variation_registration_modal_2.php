@@ -53,8 +53,8 @@
 
 		<div class="table-wrapper product-table-wrapper">
 			<div class="card-body p-0 mb-0">
-				<div class="table-responsive-lg">
-					<table class="table variation-table bg-white br-25">
+				<div class="table-responsive-lg br-10">
+					<table class="table variation-table bg-white br-10">
 						<thead>
 							<tr>
 								<th class="column-1 br-0">&nbsp;</th>
@@ -75,8 +75,8 @@
 			</div>
 			<!--card-body-->
 			<div class="card-body p-0 mb-0">
-				<div class="table-responsive-lg">
-					<table class="table variation-table bg-white br-25">
+				<div class="table-responsive-lg br-10">
+					<table class="table variation-table bg-white br-10">
 						<thead>
 							<tr class="blank-tr">
 								<th class="column-1"></th>
@@ -126,7 +126,7 @@
 					</table>
 					<!--table-->
 				</div>
-				<div id="toggle-div1" class="toggle-div" style="display: none;">
+				<div id="toggle-div1" class="toggle-div br-10" style="display: none;">
 					<div class="bg-white p-3 br-10 mb-3">
 						<div class="product-information mb-5">
 							<div class="right-button">
@@ -459,8 +459,8 @@
 			<!--card-body-->
 
 			<div class="card-body p-0 mb-0">
-				<div class="table-responsive-lg">
-					<table class="table variation-table bg-white br-25">
+				<div class="table-responsive-lg br-10">
+					<table class="table variation-table bg-white br-10">
 						<thead>
 							<tr class="blank-tr">
 								<th class="column-1"></th>
@@ -510,7 +510,7 @@
 					</table>
 					<!--table-->
 				</div>
-				<div id="toggle-div2" class="toggle-div" style="display: none;">
+				<div id="toggle-div2" class="toggle-div br-10" style="display: none;">
 					<div class="bg-white p-3 br-10 mb-3">
 						<div class="product-information mb-5">
 							<div class="right-button">
@@ -789,8 +789,8 @@
 			<!--card-body-->
 
 			<div class="card-body p-0 mb-0">
-				<div class="table-responsive-lg">
-					<table class="table variation-table bg-white br-25">
+				<div class="table-responsive-lg br-10">
+					<table class="table variation-table bg-white br-10">
 						<thead>
 							<tr class="blank-tr">
 								<th class="column-1"></th>
@@ -840,7 +840,7 @@
 					</table>
 					<!--table-->
 				</div>
-				<div id="toggle-div3" class="toggle-div" style="display: none;">
+				<div id="toggle-div3" class="toggle-div br-10" style="display: none;">
 					<div class="bg-white p-3 br-10 mb-3">
 						<div class="product-information mb-5">
 							<div class="right-button">
@@ -1119,8 +1119,8 @@
 			<!--card-body-->
 
 			<div class="card-body p-0 mb-0">
-				<div class="table-responsive-lg">
-					<table class="table variation-table bg-white br-25">
+				<div class="table-responsive-lg br-10">
+					<table class="table variation-table bg-white br-10">
 						<thead>
 							<tr class="blank-tr">
 								<th class="column-1"></th>
@@ -1171,7 +1171,7 @@
 					</table>
 					<!--table-->
 				</div>
-				<div id="toggle-div4" class="toggle-div" style="display: none;">
+				<div id="toggle-div4" class="toggle-div br-10" style="display: none;">
 					<div class="bg-white p-3 br-10 mb-3">
 						<div class="product-information mb-5">
 							<div class="right-button">
@@ -1450,8 +1450,8 @@
 			<!--card-body-->
 
 			<div class="card-body p-0 mb-0">
-				<div class="table-responsive-lg">
-					<table class="table variation-table bg-white br-25">
+				<div class="table-responsive-lg br-10">
+					<table class="table variation-table bg-white br-10">
 						<thead>
 							<tr class="blank-tr">
 								<th class="column-1"></th>
@@ -1502,7 +1502,7 @@
 					</table>
 					<!--table-->
 				</div>
-				<div id="toggle-div5" class="toggle-div">
+				<div id="toggle-div5" class="toggle-div br-10">
 					<div class="bg-white p-3 br-10 mb-3">
 						<div class="product-information mb-5">
 							<div class="right-button">
