@@ -96,15 +96,15 @@
 						<table class="table purchase-selected-modal-2">
 							<thead>
 								<tr>
-									<th class="column-1">倉庫</th>
-									<th class="column-2 text-left pl-4">商品</th>
-									<th class="column-3">ﾊﾞﾘｴｰｼｮﾝ</th>
-									<th class="column-4">在庫総数</th>
-									<th class="column-5">単価</th>
-									<th class="column-6">在庫総額</th>
-									<th class="column-7">⼊庫待ち</th>
-									<th class="column-8 text-right">商品クラス</th>
-									<th class="column-9">作成⽇/更新⽇</th>
+									<th class="column-1">倉庫<i class="fa fa-caret-down ml-1"></i></th>
+									<th class="column-2 text-left pl-4">商品<i class="fa fa-caret-down ml-1"></i></th>
+									<th class="column-3">ﾊﾞﾘｴｰｼｮﾝ<i class="fa fa-caret-down ml-1"></i></th>
+									<th class="column-4">在庫総数<i class="fa fa-caret-down ml-1"></i></th>
+									<th class="column-5">単価<i class="fa fa-caret-down ml-1"></i></th>
+									<th class="column-6">在庫総額<i class="fa fa-caret-down ml-1"></i></th>
+									<th class="column-7">⼊庫待ち<i class="fa fa-caret-down ml-1"></i></th>
+									<th class="column-8 text-right">商品クラス<i class="fa fa-caret-down ml-1"></i></th>
+									<th class="column-9">作成⽇/更新⽇<i class="fa fa-caret-down ml-1"></i></th>
 								</tr>
 							</thead>
 							<tbody>
