@@ -167,7 +167,7 @@
 									</div>
 									<!--div-->
 									<div class="data-middle d-flex flex-column align-items-center justify-content-around mb-3">
-										<p class="f-20 mb-1"><span>¥51,219</span></p>
+										<p class="f-20 mb-1 font-weight-bold"><span>¥51,219</span></p>
 										<p class="clr-green f-12 mb-1"><span class="text-muted mr-2">XXXX⽐</span><span>+3.2%</span></p>
 									</div>
 									<!--div-->
@@ -269,7 +269,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥372,340</span>
+																<span class="f-12 font-weight-bold">¥372,340</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">78.0%</span>
@@ -293,7 +293,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥142,340</span>
+																<span class="f-12 font-weight-bold">¥142,340</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">19.0%</span>
@@ -317,7 +317,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥72,340</span>
+																<span class="f-12 font-weight-bold">¥72,340</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">6.0%</span>
@@ -341,7 +341,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥2,340</span>
+																<span class="f-12 font-weight-bold">¥2,340</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">4.0%</span>
@@ -365,7 +365,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥111</span>
+																<span class="f-12 font-weight-bold">¥111</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">0.4%</span>
@@ -429,7 +429,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥3,142,340</span>
+																<span class="f-12 font-weight-bold">¥3,142,340</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">38.3%</span>
@@ -451,7 +451,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥3,142,340</span>
+																<span class="f-12 font-weight-bold">¥3,142,340</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">38.3%</span>
@@ -473,7 +473,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥3,142,340</span>
+																<span class="f-12 font-weight-bold">¥3,142,340</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">38.3%</span>
@@ -495,7 +495,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥3,142,340</span>
+																<span class="f-12 font-weight-bold">¥3,142,340</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">38.3%</span>
@@ -517,7 +517,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥3,142,340</span>
+																<span class="f-12 font-weight-bold">¥3,142,340</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">38.3%</span>
@@ -539,7 +539,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥3,142,340</span>
+																<span class="f-12 font-weight-bold">¥3,142,340</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">38.3%</span>
@@ -561,7 +561,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥3,142,340</span>
+																<span class="f-12 font-weight-bold">¥3,142,340</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">38.3%</span>
@@ -583,7 +583,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥3,142,340</span>
+																<span class="f-12 font-weight-bold">¥3,142,340</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">38.3%</span>
@@ -605,7 +605,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥3,142,340</span>
+																<span class="f-12 font-weight-bold">¥3,142,340</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">38.3%</span>
@@ -627,7 +627,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥3,142,340</span>
+																<span class="f-12 font-weight-bold">¥3,142,340</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">38.3%</span>
@@ -689,7 +689,7 @@
 															</div>
 														</td>
 														<td class="text-right">
-															<span class="f-12">¥372,340</span>
+															<span class="f-12 font-weight-bold">¥372,340</span>
 														</td>
 														<td class="text-right">
 															<span class="f-12">71.0%</span>
@@ -712,7 +712,7 @@
 															</div>
 														</td>
 														<td class="text-right">
-															<span class="f-12">¥72,340</span>
+															<span class="f-12 font-weight-bold">¥72,340</span>
 														</td>
 														<td class="text-right">
 															<span class="f-12">19.0%</span>
@@ -735,7 +735,7 @@
 															</div>
 														</td>
 														<td class="text-right">
-															<span class="f-12">¥2,340</span>
+															<span class="f-12 font-weight-bold">¥2,340</span>
 														</td>
 														<td class="text-right">
 															<span class="f-12">10.0%</span>
@@ -815,9 +815,9 @@
 			labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
 			datasets: [{
 				label: 'Dataset 1',
-				backgroundColor: color(window.chartColors.red).alpha(0.5).rgbString(),
-				borderColor: window.chartColors.red,
-				borderWidth: 1,
+				backgroundColor: color("#4b5365").alpha(0.5).rgbString(),
+				borderColor: "#4b5365",
+				borderWidth: 0,
 				data: [
 					randomScalingFactor(),
 					randomScalingFactor(),
@@ -829,9 +829,9 @@
 				]
 			}, {
 				label: 'Dataset 2',
-				backgroundColor: color(window.chartColors.blue).alpha(0.5).rgbString(),
-				borderColor: window.chartColors.blue,
-				borderWidth: 1,
+				backgroundColor: color("e0e0e0").alpha(0.5).rgbString(),
+				borderColor: "e0e0e0",
+				borderWidth: 0,
 				data: [
 					randomScalingFactor(),
 					randomScalingFactor(),
@@ -855,8 +855,8 @@
 				labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
 				datasets: [{
 					label: 'My First dataset',
-					backgroundColor: window.chartColors.red,
-					borderColor: window.chartColors.red,
+					backgroundColor: "#4b5365",
+					borderColor: "#4b5365",
 					data: [
 						randomScalingFactor(),
 						randomScalingFactor(),
@@ -870,8 +870,8 @@
 				}, {
 					label: 'My Second dataset',
 					fill: false,
-					backgroundColor: window.chartColors.blue,
-					borderColor: window.chartColors.blue,
+					backgroundColor: "e0e0e0",
+					borderColor: "e0e0e0",
 					data: [
 						randomScalingFactor(),
 						randomScalingFactor(),
@@ -985,8 +985,8 @@
 				labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
 				datasets: [ {
 					label: '在庫総額',
-					backgroundColor: window.chartColors.orange,
-					borderColor: window.chartColors.orange,
+					backgroundColor: "#4b5365",
+					borderColor: "#4b5365",
 					data: [
 						3,  9, 6, 18, 12, 15, 21, 30, 24, 27
 					],

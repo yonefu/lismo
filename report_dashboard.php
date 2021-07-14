@@ -63,7 +63,7 @@
 									</div>
 									<!--div-->
 									<div class="data-middle d-flex flex-column align-items-center justify-content-around mb-3">
-										<p class="f-20 mb-1"><span>¥421,972</span></p>
+										<p class="f-20 mb-1 font-weight-bold"><span>¥421,972</span></p>
 										<p class="clr-green f-12 mb-1"><span>+3.2%</span></p>
 									</div>
 									<!--div-->
@@ -115,7 +115,7 @@
 									</div>
 									<!--div-->
 									<div class="data-middle d-flex flex-column align-items-center justify-content-around mb-3">
-										<p class="f-20 mb-1"><span>¥1,219</span></p>
+										<p class="f-20 mb-1 font-weight-bold"><span>¥1,219</span></p>
 										<p class="clr-red f-12 mb-1"><span>-15.2%</span></p>
 									</div>
 									<!--div-->
@@ -198,7 +198,7 @@
 									</div>
 									<!--div-->
 									<div class="data-middle d-flex flex-column align-items-center justify-content-around mb-3">
-										<p class="f-20 mb-1"><span>¥9,121,972</span></p>
+										<p class="f-20 mb-1 font-weight-bold"><span>¥9,121,972</span></p>
 										<p class="clr-green f-12 mb-1"><span>+3.2%</span></p>
 									</div>
 									<!--div-->
@@ -253,14 +253,14 @@
 										<div class="d-flex align-items-center mb-4">
 											<p class="mr-4 mb-0">12⽉予想</p>
 											<div class="text-center">
-												<p class="f-20 mb-1"><span>¥9,121,900</span></p>
+												<p class="f-20 mb-1 font-weight-bold"><span>¥9,121,900</span></p>
 												<p class="clr-red f-12 mb-1"><span>-12.2%</span></p>
 											</div>
 										</div>
 										<div class="d-flex align-items-center">
 											<p class="mr-4 mb-0">11⽉確定</p>
 											<div class="text-center">
-												<p class="f-20 mb-1"><span>¥29,121,972</span></p>
+												<p class="f-20 mb-1 font-weight-bold"><span>¥29,121,972</span></p>
 												<!-- <p class="clr-red f-12 mb-1"><span>-12.2%</span></p> -->
 											</div>
 										</div>
@@ -451,16 +451,16 @@
 									</div>
 									<!--div-->
 									<div class="row justify-content-around align-items-center">
-										<div class="col-lg-5 pl-5 pr-0">
+										<div class="col-lg-6 pl-5 pr-0">
 											<div class="data-middle d-flex flex-column align-items-start justify-content-around mb-3">
-												<p class="f-20 mb-1"><span>1000万円〜2000万円</span></p>
-												<p class="f-15 mb-3"><span>の価値があなたのショップにあります</span></p>
+												<p class="f-20 mb-1 font-weight-bold"><span>1000万円〜2000万円</span></p>
+												<p class="f-15 mb-3"><span style="letter-spacing: -1px;">の価値があなたのショップにあります</span></p>
 												<p class="f-12 mb-1"><span>ブランド運営で最も難しいカースト下層72%の 壁を突破して上位28%に属しています。⾼額な M&Aも視野に⼊っています。</span></p>
 											</div>
 											<!--div-->
 										</div>
 
-										<div class="col-lg-7">
+										<div class="col-lg-6">
 											<div class="data-bottom d-flex align-items-center flex-column justify-content-between">
 												<div class="chartWrapper">
 													<div id="chartContainer" style="height: 370px; width: 100%;"></div>
@@ -568,7 +568,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥372,340</span>
+																<span class="f-12 font-weight-bold">¥372,340</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">50.0%</span>
@@ -590,7 +590,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥142,340</span>
+																<span class="f-12 font-weight-bold">¥142,340</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">20.0%</span>
@@ -612,7 +612,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥72,340</span>
+																<span class="f-12 font-weight-bold">¥72,340</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">12.0%</span>
@@ -634,7 +634,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥2,340</span>
+																<span class="f-12 font-weight-bold">¥2,340</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">12.0%</span>
@@ -656,7 +656,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥111</span>
+																<span class="f-12 font-weight-bold">¥111</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">6.0%</span>
@@ -708,7 +708,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥3,142,340</span>
+																<span class="f-12 font-weight-bold">¥3,142,340</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">38.3%</span>
@@ -730,7 +730,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥2,672,340</span>
+																<span class="f-12 font-weight-bold">¥2,672,340</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">34.7%</span>
@@ -752,7 +752,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥2,340</span>
+																<span class="f-12 font-weight-bold">¥2,340</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">0.6%</span>
@@ -811,7 +811,7 @@
 															</div>
 														</td>
 														<td class="text-right">
-															<span class="f-12">¥372,340</span>
+															<span class="f-12 font-weight-bold">¥372,340</span>
 														</td>
 														<td class="text-right">
 															<span class="f-12">71.0%</span>
@@ -834,7 +834,7 @@
 															</div>
 														</td>
 														<td class="text-right">
-															<span class="f-12">¥72,340</span>
+															<span class="f-12 font-weight-bold">¥72,340</span>
 														</td>
 														<td class="text-right">
 															<span class="f-12">19.0%</span>
@@ -857,7 +857,7 @@
 															</div>
 														</td>
 														<td class="text-right">
-															<span class="f-12">¥2,340</span>
+															<span class="f-12 font-weight-bold">¥2,340</span>
 														</td>
 														<td class="text-right">
 															<span class="f-12">10.0%</span>

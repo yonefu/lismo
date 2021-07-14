@@ -74,7 +74,7 @@
 									</div>
 									<!--div-->
 									<div class="data-middle d-flex flex-column align-items-center justify-content-around mb-3">
-										<p class="f-20 mb-1"><span>¥121,972</span></p>
+										<p class="f-20 mb-1 font-weight-bold"><span>¥121,972</span></p>
 										<p class="clr-green f-12 mb-1"><span>+3.2%</span></p>
 									</div>
 									<!--div-->
@@ -100,7 +100,7 @@
 									</div>
 									<!--div-->
 									<div class="data-middle d-flex flex-column align-items-center justify-content-around mb-3">
-										<p class="f-20 mb-1"><span>¥121,972</span></p>
+										<p class="f-20 mb-1 font-weight-bold"><span>¥121,972</span></p>
 										<p class="clr-green f-12 mb-1"><span>+3.2%</span></p>
 									</div>
 									<!--div-->
@@ -198,7 +198,7 @@
 															</div>
 														</td>
 														<td class="text-right">
-															<span class="f-12">¥372,340</span>
+															<span class="f-12 font-weight-bold">¥372,340</span>
 														</td>
 														<td class="text-right">
 															<span class="f-12">71.0%</span>
@@ -223,7 +223,7 @@
 															</div>
 														</td>
 														<td class="text-right">
-															<span class="f-12">¥142,340</span>
+															<span class="f-12 font-weight-bold">¥142,340</span>
 														</td>
 														<td class="text-right">
 															<span class="f-12">19.0%</span>
@@ -248,7 +248,7 @@
 															</div>
 														</td>
 														<td class="text-right">
-															<span class="f-12">¥72,340</span>
+															<span class="f-12 font-weight-bold">¥72,340</span>
 														</td>
 														<td class="text-right">
 															<span class="f-12">6.0%</span>
@@ -273,7 +273,7 @@
 															</div>
 														</td>
 														<td class="text-right">
-															<span class="f-12">¥2,340</span>
+															<span class="f-12 font-weight-bold">¥2,340</span>
 														</td>
 														<td class="text-right">
 															<span class="f-12">4.0%</span>
@@ -336,7 +336,7 @@
 									</div>
 									<!--div-->
 									<div class="data-middle d-flex flex-column align-items-center justify-content-around mb-3">
-										<p class="f-20 mb-1"><span>¥1,219</span></p>
+										<p class="f-20 mb-1 font-weight-bold"><span>¥1,219</span></p>
 										<p class="clr-green f-12 mb-1"><span>+3.2%</span></p>
 									</div>
 									<!--div-->
@@ -655,7 +655,7 @@
 											<p class="clr-green f-12 mb-1"><span>+3.2%</span></p>
 										</div>
 										<div class="mb-3">
-											<p class="f-20 mb-1"><span>¥121,972</span></p>
+											<p class="f-20 mb-1 font-weight-bold"><span>¥121,972</span></p>
 											<p class="clr-green f-12 mb-1 text-center"><span>+3.2%</span></p>
 										</div>
 										<div class="mb-0">
@@ -727,7 +727,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥36,972</span>
+																<span class="f-12 font-weight-bold">¥36,972</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">24.7%</span>
@@ -751,7 +751,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥81,972</span>
+																<span class="f-12 font-weight-bold">¥81,972</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">65.3%</span>
@@ -775,7 +775,7 @@
 																</div>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥121,972</span>
+																<span class="f-12 font-weight-bold">¥121,972</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">10.0%</span>
@@ -826,7 +826,7 @@
 																<span class="f-12">仕⼊原価</span>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥1,972</span>
+																<span class="f-12 font-weight-bold">¥1,972</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">1.8%</span>
@@ -846,7 +846,7 @@
 																<span class="f-12">物質コスト</span>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥972</span>
+																<span class="f-12 font-weight-bold">¥972</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">4.6%</span>
@@ -866,7 +866,7 @@
 																<span class="f-12">販売⼿数料</span>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥21,972</span>
+																<span class="f-12 font-weight-bold">¥21,972</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">5.6%</span>
@@ -886,7 +886,7 @@
 																<span class="f-12">決済⼿数料</span>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥14,972</span>
+																<span class="f-12 font-weight-bold">¥14,972</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">3.6%</span>
@@ -906,7 +906,7 @@
 																<span class="f-12">倉庫作業⼿数料</span>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥0</span>
+																<span class="f-12 font-weight-bold">¥0</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">0.0%</span>
@@ -926,7 +926,7 @@
 																<span class="f-12">送料</span>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥1,972</span>
+																<span class="f-12 font-weight-bold">¥1,972</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">75.6%</span>
@@ -946,7 +946,7 @@
 																<span class="f-12">プロモーション費⽤</span>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥72</span>
+																<span class="f-12 font-weight-bold">¥72</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">75.6%</span>
@@ -966,7 +966,7 @@
 																<span class="f-12">広告費</span>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥121,972</span>
+																<span class="f-12 font-weight-bold">¥121,972</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">75.6%</span>
@@ -986,7 +986,7 @@
 																<span class="f-12">在庫保管費⽤</span>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥8,972</span>
+																<span class="f-12 font-weight-bold">¥8,972</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">75.6%</span>
@@ -1006,7 +1006,7 @@
 																<span class="f-12">その他経費</span>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥199,972</span>
+																<span class="f-12 font-weight-bold">¥199,972</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">75.6%</span>
@@ -1026,7 +1026,7 @@
 																<span class="f-12">利益</span>
 															</td>
 															<td class="text-right">
-																<span class="f-12">¥81,972</span>
+																<span class="f-12 font-weight-bold">¥81,972</span>
 															</td>
 															<td class="text-right">
 																<span class="f-12">65.3%</span>
