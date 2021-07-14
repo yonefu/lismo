@@ -502,7 +502,7 @@
 								<div class="col-lg-6 px-1 mb-2">
 									<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 										<div class="d-flex flex-wrap justify-content-between mb-3">
-											<div class="f-15">在庫の保管期間</div>
+											<div class="f-15 font-weight-bold">在庫の保管期間</div>
 											<div class="text-right"><small class="text-muted f-12">詳細を⾒る</small><br/><span class="btn btn-sm btn-navy">B.在庫を管理</span></div>
 										</div>
 										<!--div-->
@@ -676,7 +676,7 @@
 								<div class="col-lg-6 px-1 mb-2">
 									<div class="data-box bg-white br-25 p-3 d-flex flex-column justify-content-between h-100">
 										<div class="d-flex flex-wrap justify-content-between mb-3">
-											<div class="f-15">倉庫ごとの在庫割合</div>
+											<div class="f-15 font-weight-bold">倉庫ごとの在庫割合</div>
 											<div class="text-right"><small class="text-muted f-12">詳細を⾒る</small><br/><span class="btn btn-sm btn-navy">B.在庫を管理</span></div>
 										</div>
 										<!--div-->
@@ -780,7 +780,7 @@
 						<!-- <p class="report-date f-18 mb-2">現在の在庫状況</p> -->
 						<div class="product-analysis bg-white br-25 p-3">
 							<div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
-								<div class="f-15">在庫のABC分析</div>
+								<div class="f-15 font-weight-bold">在庫のABC分析</div>
 								<div><span class="btn btn-sm btn-navy mr-2">B.在庫を管理</span><small class="text-muted f-12">詳細を⾒る</small></div>
 							</div>
 							<!--div-->
