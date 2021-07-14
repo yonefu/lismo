@@ -451,7 +451,7 @@
 									</div>
 									<!--div-->
 									<div class="row justify-content-around align-items-center">
-										<div class="col-lg-5 pl-5">
+										<div class="col-lg-5 pl-5 pr-0">
 											<div class="data-middle d-flex flex-column align-items-start justify-content-around mb-3">
 												<p class="f-20 mb-1"><span>1000万円〜2000万円</span></p>
 												<p class="f-15 mb-3"><span>の価値があなたのショップにあります</span></p>
