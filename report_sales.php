@@ -1153,6 +1153,79 @@
 				}
 			}
 		};
+		var configLine1 = {
+			type: 'line',
+			data: {
+				labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+				datasets: [{
+					label: 'My First dataset',
+					backgroundColor: "#ffc400",
+					borderColor: "#ffc400",
+					data: [
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor()
+					],
+					fill: false,
+				}, {
+					label: 'My Second dataset',
+					fill: false,
+					backgroundColor: "#e0e0e0",
+					borderColor: "#e0e0e0",
+					data: [
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor(),
+						randomScalingFactor()
+					],
+				}]
+			},
+			options: {
+				responsive: true,
+				title: {
+					display: false,
+					text: 'Chart.js Line Chart'
+				},
+				tooltips: {
+					mode: 'index',
+					intersect: false,
+				},
+				hover: {
+					mode: 'nearest',
+					intersect: true
+				},
+				scales: {
+					xAxes: [{
+						display: true,
+						scaleLabel: {
+							display: true,
+							labelString: 'Month'
+						}
+					}],
+					yAxes: [{
+						display: true,
+						scaleLabel: {
+							display: true,
+							labelString: 'Value'
+						},
+						ticks: {
+							min: 0,
+							max: 100,
+
+							// forces step size to be 5 units
+							stepSize: 5
+						}
+					}]
+				}
+			}
+		};
 
 
 	// bar chart
@@ -1178,6 +1251,39 @@
 				label: 'Dataset 2',
 				backgroundColor: color('#fd6622').alpha(0.5).rgbString(),
 				borderColor: '#fd6622',
+				borderWidth: 1,
+				data: [
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor()
+				]
+			}]
+		};
+
+		var barChartData1 = {
+			labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+			datasets: [{
+				label: 'Dataset 1',
+				backgroundColor: color('#e0e0e0').alpha(0.5).rgbString(),
+				borderColor: '#e0e0e0',
+				borderWidth: 1,
+				data: [
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor()
+				]
+			}, {
+				label: 'Dataset 2',
+				backgroundColor: color('#ffc918').alpha(0.5).rgbString(),
+				borderColor: '#ffc918',
 				borderWidth: 1,
 				data: [
 					randomScalingFactor(),
@@ -1323,13 +1429,13 @@
 
 		// line chart 002
 			var lineChart002 = document.getElementById('lineChart002').getContext('2d');
-			window.myLine = new Chart(lineChart002, configLine);
+			window.myLine = new Chart(lineChart002, configLine1);
 
 		// bar chart 002
 			var barChart002 = document.getElementById('barChart002').getContext('2d');
 			window.myBar = new Chart(barChart002, {
 				type: 'bar',
-				data: barChartData,
+				data: barChartData1,
 				options: {
 					responsive: true,
 					legend: {
