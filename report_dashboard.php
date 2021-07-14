@@ -1011,8 +1011,8 @@ chart.render();
 				labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
 				datasets: [{
 					label: 'My First dataset',
-					backgroundColor: window.chartColors.red,
-					borderColor: window.chartColors.red,
+					backgroundColor: "#fc4953",
+					borderColor: "#fc4953",
 					data: [
 						randomScalingFactor(),
 						randomScalingFactor(),
@@ -1026,8 +1026,8 @@ chart.render();
 				}, {
 					label: 'My Second dataset',
 					fill: false,
-					backgroundColor: window.chartColors.blue,
-					borderColor: window.chartColors.blue,
+					backgroundColor: "#e0e0e0",
+					borderColor: "#e0e0e0",
 					data: [
 						randomScalingFactor(),
 						randomScalingFactor(),
@@ -1190,8 +1190,8 @@ chart.render();
 			labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
 			datasets: [{
 				label: 'Dataset 1',
-				backgroundColor: color(window.chartColors.red).alpha(0.5).rgbString(),
-				borderColor: window.chartColors.red,
+				backgroundColor: color('#fd6622').alpha(0.5).rgbString(),
+				borderColor: '#fd6622',
 				borderWidth: 1,
 				data: [
 					randomScalingFactor(),
@@ -1204,8 +1204,8 @@ chart.render();
 				]
 			}, {
 				label: 'Dataset 2',
-				backgroundColor: color(window.chartColors.blue).alpha(0.5).rgbString(),
-				borderColor: window.chartColors.blue,
+				backgroundColor: color('#e0e0e0').alpha(0.5).rgbString(),
+				borderColor: '#e0e0e0',
 				borderWidth: 1,
 				data: [
 					randomScalingFactor(),
