@@ -431,63 +431,58 @@ input.box-80{
     margin-bottom: 1em;
 }
 
-.purchase-page{
-	.dropdown-menu {
-		// width: 500px;
-		// max-width: 700px;
-		.archive{
-			padding-right: 25px;
-			border-right: 1px solid #ccc;
-			padding: 20px 18px;
-			ul{
+
+.archive{
+	padding-right: 25px;
+	border-right: 1px solid #ccc;
+	padding: 20px 18px;
+	ul{
+		padding: 0px;
+		padding-left: 15px;
+		list-style: none;
+		margin: 0px;
+		li{
+			padding: 5px 0;
+			position: relative;
+			a{
+				color: #1F2634;
 				padding: 0px;
-				padding-left: 15px;
-				list-style: none;
-				margin: 0px;
-				li{
-					padding: 5px 0;
-					position: relative;
-					a{
-						color: #1F2634;
-						padding: 0px;
-					}
-					&:hover{
-						&::before{
-							content: "";
-							width: 8px;
-							height: 8px;
-							border-radius: 50%;
-							background: #1F2634;
-							position: absolute;
-							left: -16px;
-							top: 16px;
-						}
-					}
-					&.active{
-						&::before{
-							content: "";
-							width: 8px;
-							height: 8px;
-							border-radius: 50%;
-							background: #1F2634;
-							position: absolute;
-							left: -16px;
-							top: 16px;
-						}
-					}
+			}
+			&:hover{
+				&::before{
+					content: "";
+					width: 8px;
+					height: 8px;
+					border-radius: 50%;
+					background: #1F2634;
+					position: absolute;
+					left: -16px;
+					top: 16px;
+				}
+			}
+			&.active{
+				&::before{
+					content: "";
+					width: 8px;
+					height: 8px;
+					border-radius: 50%;
+					background: #1F2634;
+					position: absolute;
+					left: -16px;
+					top: 16px;
 				}
 			}
 		}
-		.calendar{
-			width: 55%;
-			float: left;
-			padding: 10px;
-			.ui-datepicker-inline{
-				width: 100%!important;
-				table{
-					width: 100%;
-				}
-			}
+	}
+}
+.calendar{
+	width: 55%;
+	float: left;
+	padding: 10px;
+	.ui-datepicker-inline{
+		width: 100%!important;
+		table{
+			width: 100%;
 		}
 	}
 }

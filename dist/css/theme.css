@@ -358,22 +358,22 @@ input.box-80 {
   margin-right: 1.5em;
   margin-bottom: 1em; }
 
-.purchase-page .dropdown-menu .archive {
+.archive {
   padding-right: 25px;
   border-right: 1px solid #ccc;
   padding: 20px 18px; }
-  .purchase-page .dropdown-menu .archive ul {
+  .archive ul {
     padding: 0px;
     padding-left: 15px;
     list-style: none;
     margin: 0px; }
-    .purchase-page .dropdown-menu .archive ul li {
+    .archive ul li {
       padding: 5px 0;
       position: relative; }
-      .purchase-page .dropdown-menu .archive ul li a {
+      .archive ul li a {
         color: #1F2634;
         padding: 0px; }
-      .purchase-page .dropdown-menu .archive ul li:hover::before {
+      .archive ul li:hover::before {
         content: "";
         width: 8px;
         height: 8px;
@@ -382,7 +382,7 @@ input.box-80 {
         position: absolute;
         left: -16px;
         top: 16px; }
-      .purchase-page .dropdown-menu .archive ul li.active::before {
+      .archive ul li.active::before {
         content: "";
         width: 8px;
         height: 8px;
@@ -392,13 +392,13 @@ input.box-80 {
         left: -16px;
         top: 16px; }
 
-.purchase-page .dropdown-menu .calendar {
+.calendar {
   width: 55%;
   float: left;
   padding: 10px; }
-  .purchase-page .dropdown-menu .calendar .ui-datepicker-inline {
+  .calendar .ui-datepicker-inline {
     width: 100% !important; }
-    .purchase-page .dropdown-menu .calendar .ui-datepicker-inline table {
+    .calendar .ui-datepicker-inline table {
       width: 100%; }
 
 #purchaseSelectionModal7 .purchase-page .dropdown-menu.dropdown-menu-right .registerd-tags {
@@ -2660,6 +2660,90 @@ div.radio.switcher label {
   background: #cccccc !important;
   border-color: #ccc !important;
   opacity: 1; }
+
+.dateRangeField {
+  padding-right: 0; }
+
+.dateRangeWrapper {
+  display: block;
+  width: 95%;
+  float: left; }
+
+.dateRangeWrapper:after {
+  content: none; }
+
+input#txtDateRange {
+  width: 175px;
+  min-height: auto;
+  border: 0;
+  font-size: 14px; }
+
+div#ui-datepicker-div {
+  margin-top: 12px !important; }
+
+input#txtDateRange:focus-visible {
+  border: 0;
+  outline: 0; }
+
+.ui-datepicker-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.ui-datepicker-next {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3; }
+
+.ui-datepicker-title {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2; }
+
+div#ui-datepicker-div {
+  margin-top: 20px !important;
+  -webkit-box-shadow: 2px 3px 13px #eee;
+          box-shadow: 2px 3px 13px #eee;
+  border-radius: 25px;
+  padding: 20px 30px;
+  background: white; }
+
+table.ui-datepicker-calendar {
+  text-align: center;
+  font-size: 16px; }
+
+table.ui-datepicker-calendar td {
+  padding: 0 !important; }
+
+table.ui-datepicker-calendar tr {
+  border-bottom: 2px solid white; }
+
+table.ui-datepicker-calendar td a {
+  padding: 2px;
+  display: block;
+  color: #72767f; }
+
+td.ui-datepicker-current-day a {
+  background: #2196f3;
+  border-radius: 100%;
+  color: white !important;
+  display: block;
+  text-align: center; }
+
+td.ui-datepicker-range {
+  background: #b3e5fc; }
+
+td.ui-datepicker-range a {
+  color: #1f2634; }
+
+td.ui-datepicker-current-day {
+  border-radius: 25px 0 0 25px; }
 
 /* ----- min-width ----- //*/
 /* Extra large devices (large desktops, 1200px and up)*/

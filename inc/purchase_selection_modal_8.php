@@ -76,31 +76,9 @@
 </div>
 <!--inner-page-wrap-->
 
-<style type="text/css">
-	.dateRangeField { padding-right:0;}
-	.dateRangeWrapper { display: block; width: 95%; float: left;}
-	.dateRangeWrapper:after { content: none;}
-	input#txtDateRange { width: 175px; min-height: auto; border: 0; font-size: 14px;}
-	div#ui-datepicker-div { margin-top: 12px !important;}
-	input#txtDateRange:focus-visible { border: 0; outline: 0;}
-	.ui-datepicker-header{ display: flex; align-items: center; justify-content: space-between;}
-	.ui-datepicker-next{ order: 3;}
-	.ui-datepicker-title{ order: 2; }
-	div#ui-datepicker-div { margin-top: 20px !important; box-shadow: 2px 3px 13px #eee; border-radius: 25px; padding: 20px 30px; background: white;}
-	table.ui-datepicker-calendar { text-align: center; font-size: 16px;}
-	table.ui-datepicker-calendar td { padding: 0 !important;}
-	table.ui-datepicker-calendar tr { border-bottom: 2px solid white;}
-	table.ui-datepicker-calendar td a { padding: 2px; display: block; color: #72767f;}
-	td.ui-datepicker-current-day a{ background: #2196f3; border-radius: 100%; color: white !important; display: block; text-align: center;}
-	td.ui-datepicker-range{background: #b3e5fc;}
-	td.ui-datepicker-range a{color: #1f2634;	}
-	td.ui-datepicker-current-day{border-radius: 25px 0 0 25px;}
-	/*td.ui-datepicker-range:last-child{ border-radius: 0 25px 25px 0;}*/
 
-</style>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-
+<!-- [START] script for date range picker-->
+<script src="dist/js/jquery-ui.min.js"></script>
 <script type="text/javascript">
 	(function($) {
 	    function compareDates(startDate, endDate, format) {
@@ -239,3 +217,4 @@
 		// });
 	});
 </script>
+<!-- [END] script for date range picker-->
