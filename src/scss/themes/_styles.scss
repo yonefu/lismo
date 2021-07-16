@@ -508,10 +508,6 @@ span {
             font-size: 26px;
             font-weight: bold;
             text-align: center;
-
-            img {
-                height: 60px;
-            }
         }
 
         h5 {
@@ -652,6 +648,12 @@ span {
     height: 96vh;
 }
 
+.top-menu{
+    .logo img{
+        max-height: 85px;
+    }
+}
+
 /*--side menu--*/
 .side-menu {
     background: $white;
@@ -665,7 +667,7 @@ span {
     z-index: 10;
 
     .logo {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
     ul {

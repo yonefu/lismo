@@ -1995,8 +1995,6 @@ span {
     font-size: 26px;
     font-weight: bold;
     text-align: center; }
-    .login-form .form-wrapper h1 img {
-      height: 60px; }
   .login-form .form-wrapper h5 {
     margin-bottom: 30px;
     font-size: 18px; }
@@ -2090,6 +2088,9 @@ span {
   width: 100%;
   height: 96vh; }
 
+.top-menu .logo img {
+  max-height: 85px; }
+
 /*--side menu--*/
 .side-menu {
   background: #ffffff;
@@ -2102,7 +2103,7 @@ span {
   height: 96vh;
   z-index: 10; }
   .side-menu .logo {
-    margin-bottom: 50px; }
+    margin-bottom: 30px; }
   .side-menu ul li a {
     position: relative;
     display: block;
