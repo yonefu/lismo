@@ -1995,6 +1995,8 @@ span {
     font-size: 26px;
     font-weight: bold;
     text-align: center; }
+    .login-form .form-wrapper h1 img {
+      max-height: 140px; }
   .login-form .form-wrapper h5 {
     margin-bottom: 30px;
     font-size: 18px; }
