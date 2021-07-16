@@ -162,7 +162,7 @@
 	}
 
 	.column-2 {
-		width: 110px;
+		width: 120px;
 	}
 
 	.column-3 {
@@ -170,17 +170,17 @@
 	}
 
 	.column-4 {
-		width: 70px;
+		width: 80px;
 	}
 }
 
 .table-3-column{
 	.column-1 {
-		width: 200px;
+		width: 220px;
 	}
 
 	.column-2 {
-		width: 100px;
+		width: 70px;
 	}
 
 	.column-3 {
@@ -220,12 +220,17 @@
 }
 
 .table-report-ranking {
+	thead{
+		position: sticky;
+		top: -0.50px;
+		background: #ffffff;
+	}
 	.column-1 {
-		width: 30px;
+		width: 50px;
 	}
 
 	.column-2 {
-		width: 220px;
+		width: 200px;
 	}
 
 	.column-3 {
@@ -233,15 +238,15 @@
 	}
 
 	.column-4 {
-		width: 85px;
+		width: 100px;
 	}
 
 	.column-5 {
-		width: 85px;
+		width: 100px;
 	}
 
 	.column-6 {
-		width: 80px;
+		width: 85px;
 	}
 }
 
@@ -270,4 +275,8 @@
 		height: 525px;
 		overflow-y: auto;
 	}
+}
+
+.canvasjs-chart-credit, .canvasjs-chart-toolbar{
+	display: none !important;
 }

@@ -467,6 +467,9 @@ input.box-80 {
       justify-content: space-around;
   height: calc(100vh - 250px); }
 
+#ProductModalOption .modal-footer .btn-transparent {
+  min-height: 35px; }
+
 .stock-table .column-1 {
   width: 120px; }
 
@@ -1510,19 +1513,19 @@ table.delivery-warehouse-edit-table .column-6 {
   padding-left: 45px !important; }
 
 .table-4-column .column-2 {
-  width: 110px; }
+  width: 120px; }
 
 .table-4-column .column-3 {
   width: 80px; }
 
 .table-4-column .column-4 {
-  width: 70px; }
+  width: 80px; }
 
 .table-3-column .column-1 {
-  width: 200px; }
+  width: 220px; }
 
 .table-3-column .column-2 {
-  width: 100px; }
+  width: 70px; }
 
 .table-3-column .column-3 {
   width: 70px; }
@@ -1545,23 +1548,28 @@ table.delivery-warehouse-edit-table .column-6 {
   .breakdown-table .progress .progress-bar {
     border-radius: 0 0.25rem 0.25rem 0; }
 
+.table-report-ranking thead {
+  position: sticky;
+  top: -0.50px;
+  background: #ffffff; }
+
 .table-report-ranking .column-1 {
-  width: 30px; }
+  width: 50px; }
 
 .table-report-ranking .column-2 {
-  width: 220px; }
+  width: 200px; }
 
 .table-report-ranking .column-3 {
   width: 80px; }
 
 .table-report-ranking .column-4 {
-  width: 85px; }
+  width: 100px; }
 
 .table-report-ranking .column-5 {
-  width: 85px; }
+  width: 100px; }
 
 .table-report-ranking .column-6 {
-  width: 80px; }
+  width: 85px; }
 
 .see-detail-box .label-status .icon-circle {
   width: 14px;
@@ -1580,6 +1588,9 @@ table.delivery-warehouse-edit-table .column-6 {
 #salesQtyRanking .table-responsive-lg, #salesRanking .table-responsive-lg {
   height: 525px;
   overflow-y: auto; }
+
+.canvasjs-chart-credit, .canvasjs-chart-toolbar {
+  display: none !important; }
 
 body {
   font-family: "Noto Sans JP", "Lato", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif !important;

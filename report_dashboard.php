@@ -463,7 +463,8 @@
 										<div class="col-lg-6">
 											<div class="data-bottom d-flex align-items-center flex-column justify-content-between">
 												<div class="chartWrapper">
-													<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+													<div id="chartContainer" style="height: 200px; width: 100%;"></div>
+													<span class="text-center text-muted f-12" style="margin-left: 35px;">リスモア登録ブランドが分⺟</span>
 												</div>
 											</div>
 											<!--div-->
@@ -964,11 +965,6 @@
 <script src="dist/js/utils.js"></script>
 
 <!--[START] pyramid chart-->
-<style type="text/css">
-	.canvasjs-chart-toolbar{
-		display: none;
-	}
-</style>
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 
 <script>
@@ -982,7 +978,7 @@
 		type: "pyramid",
 		indexLabelFontSize: 18,
 		valueRepresents: "area",
-		showInLegend: true,
+		showInLegend: false,
 		legendText: "{indexLabel}",
 		background: "{indexbg}",
 		toolTipContent: "<b>{indexLabel}:</b> {y}%",
