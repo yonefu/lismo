@@ -463,8 +463,8 @@
 										<div class="col-lg-6">
 											<div class="data-bottom d-flex align-items-center flex-column justify-content-between">
 												<div class="chartWrapper">
-													<div id="chartContainer" style="height: 200px; width: 100%;"></div>
-													<span class="text-center text-muted f-12" style="margin-left: 35px;">リスモア登録ブランドが分⺟</span>
+													<div id="chartContainer" class="pyramid" style="height: 200px; width: 100%;"></div>
+													<span class="text-center text-muted f-12 p-label">リスモア登録ブランドが分⺟</span>
 												</div>
 											</div>
 											<!--div-->

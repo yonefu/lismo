@@ -619,6 +619,28 @@
 															<td>
 																<div class="d-flex align-items-center">
 																	<div class="label-status mr-2">
+																		<span class="icon-circle " style="background: #cddc39;"></span>
+																	</div>
+																	<div class="info-status ml-2">
+																		<p class="mb-1 f-12">AmazonFAB</p>
+																	</div>
+																</div>
+															</td>
+															<td class="text-right">
+																<span class="f-12 font-weight-bold">¥3,142,340</span>
+															</td>
+															<td class="text-right">
+																<span class="f-12">38.3%</span>
+															</td>
+															<td class="text-right">
+																<span class="clr-blue f-12">+10%</span>
+															</td>
+														</tr>
+														<!--tr-->
+														<tr>
+															<td>
+																<div class="d-flex align-items-center">
+																	<div class="label-status mr-2">
 																		<span class="icon-circle " style="background: #ff00ff;"></span>
 																	</div>
 																	<div class="info-status ml-2">
@@ -1046,7 +1068,8 @@
 						10.0,
 						10.0,
 						10.0,
-						10.0,
+						5.0,
+						5.0,
 					],
 					backgroundColor: [
 						window.chartColors.yellow,
@@ -1059,6 +1082,7 @@
 						"#00ff00",
                   		"#800000",
                   		"#ff00ff",
+                  		"#cddc39",
 					],
 					label: 'Dataset 1'
 				}],
@@ -1073,6 +1097,7 @@
 					"Lime",
                   	"Maroon",
                   	"Magenta",
+                  	"PepperMint",
 				]
 			},
 			options: {
