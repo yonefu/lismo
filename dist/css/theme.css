@@ -1750,6 +1750,18 @@ span {
     z-index: 2;
     -webkit-animation: sk-scaleout 2s infinite ease-in-out;
     animation: sk-scaleout 2s infinite ease-in-out; }
+  .loading-wrap .loading {
+    text-align: center; }
+  .loading-wrap .loading-box {
+    width: 100%;
+    max-width: 420px;
+    padding: 30px;
+    position: relative;
+    z-index: 9;
+    margin: 2em auto 0 auto;
+    -webkit-box-shadow: 0px 2px 14px #e8e8e8;
+            box-shadow: 0px 2px 14px #e8e8e8;
+    font-size: 20px; }
 
 @-webkit-keyframes sk-scaleout {
   0% {

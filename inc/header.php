@@ -27,5 +27,8 @@
 <body>
 
 	<div class="loading-wrap">
-		<div class="loading"><img src="dist/img/loading.svg" alt="" /></div>
+		<div class="loading"><img src="dist/img/loading.svg" alt="" />
+		<div class="bg-white br-25 loading-box">
+			連携したストアを解析しています… <br/>まもなくリスモア、スタートです！ <br/>解析完了はメールでお知せします。
+		</div></div>
 	</div>
