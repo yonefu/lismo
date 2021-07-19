@@ -32,13 +32,13 @@
 					<div class="custom-control custom-radio custom-control-inline mb-5">
 						<input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
 						<label class="custom-control-label ml-2" for="customRadioInline1">
-							<img src="dist/img/logo-shopify.png" alt="shopify">
+							<img src="dist/img/logo-shopify.svg" alt="shopify">
 						</label>
 					</div>
 					<div class="custom-control custom-radio custom-control-inline">
 						<input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
 						<label class="custom-control-label ml-2" for="customRadioInline2">
-							<img src="dist/img/logo-amazon.png" alt="amazon">
+							<img src="dist/img/logo-amazon.svg" alt="amazon">
 						</label>
 					</div>
 				</div>

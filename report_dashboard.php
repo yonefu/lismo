@@ -69,7 +69,7 @@
 									<!--div-->
 									<div class="data-bottom d-flex align-items-center flex-column justify-content-between">
 										<div class="emo">
-											<img class="img-fluid" src="dist/img/emo-lovely.png" alt="とても好調" /><span class="ml-1">とても好調</span>
+											<img class="img-fluid" src="dist/img/emo-lovely.svg" alt="とても好調" /><span class="ml-1">とても好調</span>
 										</div>
 									</div>
 									<!--div-->
@@ -95,7 +95,7 @@
 									<!--div-->
 									<div class="data-bottom d-flex align-items-center flex-column justify-content-between">
 										<div class="emo">
-											<img class="img-fluid" src="dist/img/emo-no-problem.png" alt="まあ問題なし" /><span class="ml-1">まあ問題なし</span>
+											<img class="img-fluid" src="dist/img/emo-no-problem.svg" alt="まあ問題なし" /><span class="ml-1">まあ問題なし</span>
 										</div>
 									</div>
 									<!--div-->
@@ -121,7 +121,7 @@
 									<!--div-->
 									<div class="data-bottom d-flex align-items-center flex-column justify-content-between">
 										<div class="emo graph">
-											<img class="img-fluid" src="dist/img/emo-sad.png" alt="ちょっとマズい" /><span class="ml-1">ちょっとマズい</span>
+											<img class="img-fluid" src="dist/img/emo-sad.svg" alt="ちょっとマズい" /><span class="ml-1">ちょっとマズい</span>
 										</div>
 									</div>
 									<!--div-->
