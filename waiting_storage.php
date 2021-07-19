@@ -164,7 +164,7 @@
 													</td>
 													<td class="text-center">
 														<a class="btn btn-dark">⼊庫済にする</a>
-														<div class="delete-row"><img src="dist/img/icons/icon-close-wh.png" alt=""></div>
+														<div class="delete-row" data-toggle="modal" data-target="#closeModalOption"><img src="dist/img/icons/icon-close-wh.png" alt=""></div>
 													</td>
 												</tr>
 												<tr>
@@ -321,6 +321,28 @@
 	<!--container-fluid-->
 </div>
 <!--outer-page-wrap-->
+
+<!-- Modal closeModalOption-->
+<div class="modal fade" id="closeModalOption" tabindex="-1" role="dialog" aria-labelledby="closeModalOptionTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-xs" role="document">
+		<div class="modal-content bg-white">
+			<button type="button" class="close position-absolute p-2" data-dismiss="modal" aria-label="Close" style="z-index: 5">
+				<span aria-hidden="true"><img src="dist/img/icons/icon-modal-close.png" alt="" /></span>
+			</button>
+			<div class="modal-body py-4 px-1">
+				<div class="text-center popup-message px-4 f-15 font-weight-bold">
+					入庫を中止にしますか?
+				</div>
+			</div>
+			<div class="modal-footer">
+				<div class="d-flex mx-auto">
+					<a href="#" class="btn btn-cancel mr-1"><span>キャンセル</span></a>
+					<a href="#" class="btn btn-dark btn-red br-0"><span>中止にする</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 <?php include('inc/footer.php'); ?>
 

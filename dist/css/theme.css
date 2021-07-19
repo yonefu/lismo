@@ -541,6 +541,9 @@ input.box-80 {
 .right-dropdown.flex-wrap.d-flex.ml-auto .dropdown-menu.dropdown-menu-right a.active, .right-dropdown.flex-wrap.d-flex.ml-auto .dropdown-menu.dropdown-menu-right a:hover {
   border-color: #ffffff !important; }
 
+.storage-waiting-table a.btn.btn-dark {
+  width: 80%; }
+
 .csv-btn {
   border-color: #ff0000 !important; }
   .csv-btn:hover {
