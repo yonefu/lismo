@@ -30,6 +30,27 @@ $(document).ready(function() {
     $('.step-list .step-list-box p').matchHeight();
     $('.sec-five-top .bg-white').matchHeight();
 
+    //.voice-of-lismore .slider
+    $('.voice-of-lismore .slider').on('init', function(event, slick) {
+        slideCount = slick.slideCount;
+        setSlideCount();
+        setCurrentSlideNumber(slick.currentSlide);
+    });
+
+    $('.voice-of-lismore .slider').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+        setCurrentSlideNumber(nextSlide);
+    });
+
+    function setSlideCount() {
+        var $el = $('.slide-count-wrap').find('.total');
+        $el.text(slideCount);
+    }
+
+    function setCurrentSlideNumber(currentSlide) {
+        var $el = $('.slide-count-wrap').find('.current');
+        $el.text(currentSlide + 1);
+    }
+
     $('.voice-of-lismore .slider').slick({
         dots: false,
         centerMode: false,
@@ -57,6 +78,28 @@ $(document).ready(function() {
             }
         }]
     });
+
+
+    //.faq .slider
+    $('.faq .slider').on('init', function(event, slick) {
+        slideCount = slick.slideCount;
+        setSlideCount1();
+        setCurrentSlideNumber1(slick.currentSlide);
+    });
+
+    $('.faq .slider').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+        setCurrentSlideNumber1(nextSlide);
+    });
+
+    function setSlideCount1() {
+        var $el = $('.slide-count-wrap1').find('.total1');
+        $el.text(slideCount);
+    }
+
+    function setCurrentSlideNumber1(currentSlide) {
+        var $el = $('.slide-count-wrap1').find('.current1');
+        $el.text(currentSlide + 1);
+    }
 
     $('.faq .slider').slick({
         dots: false,

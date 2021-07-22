@@ -546,6 +546,9 @@
 								</div>
 							</div>
 						</div>
+						<div class="slide-count-wrap f-30 font-weight-900">
+							<span class="current"></span>/<span class="total"></span>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -636,6 +639,10 @@
 									<p class="mb-0">ネット物販歴<span class="font-weight-900">10</span>年、物販を知り尽 くした現役プロ達が製作&運営。 現場を熟知しているからこその本 当に使えるツールがここにありま す。ネット物販歴<span class="font-weight-900">10</span>年。</p>
 								</div>
 							</div>
+						</div>
+
+						<div class="slide-count-wrap1 f-30 font-weight-900">
+							<span class="current1"></span>/<span class="total1"></span>
 						</div>
 					</div>
 				</div>
