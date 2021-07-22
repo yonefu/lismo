@@ -11,6 +11,15 @@
 			max-width: 65px;
 		}
 	}
+	.sales-ranking, .product-analysis{
+		.status-box{
+			border: 1px solid #E0E0E0;
+			border-radius: 30px;
+			a{
+				margin: 0px!important;
+			}
+		}
+	}
 }
 
 .sales-ranking-slider, .sales-ranking-slider1 {

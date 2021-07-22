@@ -47,7 +47,7 @@
 				<a class="li-setting" href="setting_account.php">設定</a>
 			</li>
 			<li class="social-icons">
-				<a class="" href="javascript:void(0);"><i class="fa fa-youtube"></i></a>
+				<a class="" href="javascript:void(0);"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
 				<a class="" href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
 				<a class="" href="javascript:void(0);"><i class="fa fa-question"></i></a>
 			</li>

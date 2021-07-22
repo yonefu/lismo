@@ -1421,6 +1421,12 @@ table.delivery-warehouse-edit-table .column-6 {
   max-height: 65px;
   max-width: 65px; }
 
+.report-page .sales-ranking .status-box, .report-page .product-analysis .status-box {
+  border: 1px solid #E0E0E0;
+  border-radius: 30px; }
+  .report-page .sales-ranking .status-box a, .report-page .product-analysis .status-box a {
+    margin: 0px !important; }
+
 .sales-ranking-slider .slick-slide, .sales-ranking-slider1 .slick-slide {
   margin-right: 8px; }
   .sales-ranking-slider .slick-slide:focus, .sales-ranking-slider1 .slick-slide:focus {
