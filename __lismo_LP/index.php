@@ -80,15 +80,15 @@
 				</div>
 				<div class="btm-info">
 					<div class="d-flex justify-content-end align-items-center">
-						<div class="v-box">
+						<div class="v-box font-weight-bold">
 							<p class="v-title">Value</p>
 							<p class="v-txt"><span>ブランド価値の</span> <span>把握が必須の時代</span></p>
 						</div>
-						<div class="v-box">
+						<div class="v-box font-weight-bold">
 							<p class="v-title">Calculation</p>
 							<p class="v-txt"><span>AIがリアルタイムで</span> <span>ブランド価値を算出</span></p>
 						</div>
-						<div class="v-box">
+						<div class="v-box font-weight-bold">
 							<p class="v-title">Management</p>
 							<p class="v-txt"><span>価値を上げ続ける</span> <span>管理ツールも提供</span></p>
 						</div>
@@ -119,7 +119,7 @@
 								</div>
 							</div>
 							<div class="col-md-6 col-lg-6 pl-4">
-								<div class="text">
+								<div class="text font-weight-bold">
 									<p class="">今、あたなが運営する<span class="font-weight-900">SHOP</span>はいくらの<br/> ブランド価値があるのか即答できますか？</p>
 									<p class="">もし、⾦額の単位すら⾒当もつかない場合、<br/> ビジネスの最も重要な情報が⽋落しています。</p>
 								</div>
@@ -135,8 +135,8 @@
 											<img class="img-fluid" src="dist/img/flag-en.svg" alt="English" />
 										</div>
 										<div class="percentage">
-											<p class="font-weight-bold mb-0"><span class="big-txt">80</span><span class="sm-txt">%</span></p>
-											<p class="f-28 font-weight-bold mb-0"><span class="font-weight-900">M&A</span>を選択</p>
+											<p class="mb-0"><span class="big-txt">80</span><span class="sm-txt">%</span></p>
+											<p class="f-28 mb-0"><span class="font-weight-900">M&A</span>を選択</p>
 										</div>
 									</div>
 									<p class="f-20 font-weight-bold text-center">アメリカでは8割の事業者が<br/> エグジットで<span class="font-weight-900">M&A</span>を選択しています</p>
@@ -147,8 +147,8 @@
 											<img class="img-fluid" src="dist/img/flag-jp.svg" alt="Japanese" />
 										</div>
 										<div class="percentage">
-											<p class="font-weight-bold mb-0"><span class="big-txt">20</span><span class="sm-txt">%</span></p>
-											<p class="f-28 font-weight-bold mb-0">&nbsp;</p>
+											<p class="mb-0"><span class="big-txt">20</span><span class="sm-txt">%</span></p>
+											<p class="f-28 mb-0">&nbsp;</p>
 										</div>
 									</div>
 									<p class="f-20 font-weight-bold text-center">⽇本ではたった2割の事業者しか<br/> <span class="font-weight-900">M&A</span>を戦略に⼊れていません</p>
@@ -437,13 +437,13 @@
 											<div class="graph-img">
 												<img class="img-fluid" src="dist/img/graph-1.png" alt="" />
 											</div>
-											<div class="graph-info f-20 font-weight-bold">XXXXのグラフA</div>
+											<div class="graph-info f-20 font-weight-bold"><span class="font-weight-700">XXXX</span>のグラフA</div>
 										</div>
 										<div class="col-lg-6">
 											<div class="graph-img">
 												<img class="img-fluid" src="dist/img/graph-2.png" alt="" />
 											</div>
-											<div class="graph-info f-20 font-weight-bold">XXXXのグラフB</div>
+											<div class="graph-info f-20 font-weight-bold"><span class="font-weight-700">XXXX</span>のグラフB</div>
 										</div>
 									</div>
 								</div>

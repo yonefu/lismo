@@ -55,20 +55,20 @@ $(document).ready(function() {
         dots: false,
         centerMode: false,
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         infinite: false,
         arrows: true,
         responsive: [{
             breakpoint: 991,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToScroll: 1
             }
         }, {
             breakpoint: 768,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToScroll: 1
             }
         }, {
             breakpoint: 576,
@@ -105,20 +105,20 @@ $(document).ready(function() {
         dots: false,
         centerMode: false,
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         infinite: false,
         arrows: true,
         responsive: [{
             breakpoint: 991,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToScroll: 1
             }
         }, {
             breakpoint: 768,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToScroll: 1
             }
         }, {
             breakpoint: 576,

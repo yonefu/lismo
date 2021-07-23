@@ -83,11 +83,20 @@ p,
 span {
   word-break: break-word; }
 
+.font-weight-bold {
+  font-weight: 500 !important; }
+
+.font-weight-700 {
+  font-weight: 700 !important; }
+
 .font-weight-500 {
   font-weight: 500 !important; }
 
 .font-weight-900 {
   font-weight: 900 !important; }
+
+span.font-weight-500, span.font-weight-700, span.font-weight-900 {
+  display: inline-block !important; }
 
 .f-15 {
   font-size: 15px !important; }
@@ -345,9 +354,6 @@ header {
 .section-eight {
   margin-bottom: 110px; }
 
-span.font-weight-900 {
-  display: inline-block !important; }
-
 .calc-btn {
   width: 100%;
   max-width: 310px;
@@ -402,13 +408,13 @@ span.font-weight-900 {
       margin-right: 0; }
     .btm-info .v-box .v-title {
       font-size: 20px;
-      font-weight: bold;
-      color: #ff6476; }
+      color: #ff6476;
+      margin-bottom: 5px; }
     .btm-info .v-box .v-txt {
-      font-size: 20px;
-      font-weight: bold; }
+      font-size: 20px; }
       .btm-info .v-box .v-txt span {
-        display: block; }
+        display: block;
+        line-height: 32px; }
 
 .happy-img {
   float: right;
@@ -465,7 +471,7 @@ span.font-weight-900 {
 
 .text {
   font-size: 25px;
-  font-weight: bold; }
+  font-weight: 500; }
 
 .sec-cont-box {
   background: #ffffff;
@@ -639,22 +645,25 @@ span.font-weight-900 {
   border-radius: 50px;
   margin-right: 40px; }
   .slider-box .slider-top {
-    margin-bottom: 55px;
+    margin-bottom: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
     .slider-box .slider-top .voice-icon {
       margin-right: 45px; }
       .slider-box .slider-top .voice-icon img {
         max-width: 75px;
         max-height: 100px; }
   .slider-box .v-title {
-    font-weight: bold;
+    font-weight: 500;
     font-size: 20px; }
     .slider-box .v-title span {
       display: block; }
   .slider-box .slider-info {
-    font-weight: bold;
+    font-weight: 500;
     font-size: 15px; }
 
 .slick-prev:before {

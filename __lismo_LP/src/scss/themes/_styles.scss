@@ -100,12 +100,24 @@ span {
 	word-break: break-word;
 }
 
+.font-weight-bold{
+	font-weight: 500 !important;
+}
+
+.font-weight-700{
+	font-weight: 700 !important;
+}
+
 .font-weight-500{
 	font-weight: 500 !important;
 }
 
 .font-weight-900{
 	font-weight: 900 !important;
+}
+
+span.font-weight-500, span.font-weight-700,  span.font-weight-900 {
+    display: inline-block !important;
 }
 
 .f-15{
@@ -428,10 +440,6 @@ header {
 	margin-bottom: 110px;
 }
 
-span.font-weight-900 {
-    display: inline-block !important;
-}
-
 .calc-btn{
 	width: 100%;
 	max-width: 310px;
@@ -478,14 +486,14 @@ span.font-weight-900 {
 		}
 		.v-title{
 			font-size: 20px;
-			font-weight: bold;
 			color: $pink;
+			margin-bottom: 5px;
 		}
 		.v-txt{
 			font-size: 20px;
-			font-weight: bold;
 			span{
 				display: block;
+				line-height: 32px;
 			}
 		}
 	}
@@ -552,7 +560,7 @@ span.font-weight-900 {
 }
 .text{
 	font-size: 25px;
-	font-weight: bold;
+	font-weight: 500;
 }
 
 .sec-cont-box{
@@ -740,8 +748,9 @@ span.font-weight-900 {
     border-radius: 50px;
     margin-right: 40px;
     .slider-top{
-    	margin-bottom: 55px;
+    	margin-bottom: 50px;
     	display: flex;
+    	align-items: center;
     	.voice-icon{
     		margin-right: 45px;
     		img {
@@ -751,7 +760,7 @@ span.font-weight-900 {
     	}
     }
     .v-title{
-    	font-weight: bold;
+    	font-weight: 500;
     	font-size: 20px;
     	span{
     		display: block;
@@ -759,7 +768,7 @@ span.font-weight-900 {
 
     }
     .slider-info{
-    	font-weight: bold;
+    	font-weight: 500;
     	font-size: 15px;
     }
 }
