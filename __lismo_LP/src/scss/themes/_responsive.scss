@@ -45,6 +45,7 @@
 		margin-top: -3px;
 	}
 	.section-top{
+	    padding-bottom: 130px;
 		&:after{
 			position: absolute;
 			background: url('../img/header-bg.svg') no-repeat;
@@ -59,6 +60,9 @@
 			max-height: 406px;
 			background-position: top;
 		}
+	}
+	.happy-img {
+	    margin-bottom: 60px;
 	}
 	.slide-count-wrap, .slide-count-wrap1 {
 	    right: 230px;
