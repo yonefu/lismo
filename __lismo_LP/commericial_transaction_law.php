@@ -171,5 +171,9 @@
 		<script src="dist/js/slick.min.js"></script>
 		<script src="dist/js/jquery.matchHeight.js"></script>
 		<script src="dist/js/custom.js"></script>
+
+		<!-- Start of shopdemy Zendesk Widget script -->
+		<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=483c712a-c9cc-47c3-9e9b-36e4ef73b972"> </script>
+		<!-- End of shopdemy Zendesk Widget script -->
 	</body>
 </html>
