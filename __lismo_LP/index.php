@@ -21,7 +21,13 @@
 		<link rel="stylesheet" href="dist/css/vendor.css">
 		<link rel="stylesheet" href="dist/css/theme.css">
 	</head>
+	<style type="text/css">
+		header .header-right a.signup-btn{
+			display: none;
+		}
+	</style>
 	<body>
+		<div class="header-top f-12 text-center"><span>ブラウザシミュレーション(実装しないエリア)</span></div>
 		<header>
 			<div class="header">
 				<div class="container">
@@ -31,6 +37,7 @@
 						</h1>
 						<div class="header-right">
 							<a class="registration-btn" href="#registration.php"><span>無料で新規登録</span></a>
+							<a class="signup-btn font-weight-bold" href="#signup.php"><span>新規登録</span></a>
 							<a class="login-btn font-weight-bold" href="#login.php"><span>ログイン</span></a>
 							<div class="menu-toggler">
 								<span class=""></span>
@@ -158,6 +165,9 @@
 						<p class="sec-txt text-center font-weight-bold f-25">
 							現状、⽇本はアメリカと⽐べて<br/> ブランド価値の理解が⼤きく⽋落しています。
 						</p>
+						<div class="img-box visible-sp">
+							<img class="img-fluid" src="dist/img/img-2.png" alt="" />
+						</div>
 					</div>
 					<div class="section-content-3">
 						<div class="row align-items-center">
@@ -168,7 +178,7 @@
 								</div>
 							</div>
 							<div class="col-md-6 col-lg-4">
-								<div class="img-box">
+								<div class="img-box visible-pc">
 									<img class="img-fluid" src="dist/img/img-2.png" alt="" />
 								</div>
 							</div>
@@ -193,11 +203,14 @@
 						</div>
 					</div>
 					<div class="screen-img">
-						<div class="text-center mx-auto"><img class="img-fluid" src="dist/img/screen-1.png" alt="" /></div>
+						<div class="text-center mx-auto">
+							<img class="img-fluid visible-pc" src="dist/img/screen-1.png" alt="" />
+							<img class="img-fluid visible-sp" src="dist/img/screen-1_sp.png" alt="" />
+						</div>
 					</div>
 					<div class="sec-list">
 						<div class="row justify-content-center">
-							<div class="col-md-6 col-lg-4">
+							<div class="col-6 col-lg-4">
 								<div class="sec-list-box">
 									<div class="s-icon"><img class="img-fluid" src="dist/img/icons/icon-1.png" alt="" /></div>
 									<div class="text-center f-20 font-weight-bold d-cell">
@@ -205,7 +218,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6 col-lg-4">
+							<div class="col-6 col-lg-4">
 								<div class="sec-list-box">
 									<div class="s-icon"><img class="img-fluid" src="dist/img/icons/icon-2.png" alt="" /></div>
 									<div class="text-center f-20 font-weight-bold d-cell">
@@ -213,7 +226,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6 col-lg-4">
+							<div class="col-6 col-lg-4">
 								<div class="sec-list-box">
 									<div class="s-icon"><img class="img-fluid" src="dist/img/icons/icon-3.png" alt="" /></div>
 									<div class="text-center f-20 font-weight-bold d-cell">
@@ -221,7 +234,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6 col-lg-4">
+							<div class="col-6 col-lg-4">
 								<div class="sec-list-box">
 									<div class="s-icon"><img class="img-fluid" src="dist/img/icons/icon-4.png" alt="" /></div>
 									<div class="text-center f-20 font-weight-bold d-cell">
@@ -229,7 +242,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6 col-lg-4">
+							<div class="col-6 col-lg-4">
 								<div class="sec-list-box">
 									<div class="s-icon"><img class="img-fluid" src="dist/img/icons/icon-5.png" alt="" /></div>
 									<div class="text-center f-20 font-weight-bold d-cell">
@@ -284,7 +297,7 @@
 										<div><img class="img-fluid" src="dist/img/amazon.svg" alt="" /></div>
 									</div>
 								</div>
-								<p class="text-center f-20 font-weight-bold"><span class="font-weight-900">AI</span>が過去データから価格を算定</p>
+								<p class="text-center f-20 font-weight-bold"><span class="font-weight-900">AI</span>が過去データから <br/>価格を算定</p>
 							</div>
 						</div>
 					</div>
@@ -323,7 +336,8 @@
 							</div>
 							<div class="col-lg-8 pl-5">
 								<div class="screen-img text-right mb-0">
-									<img class="img-fluid" src="dist/img/screen-1.png" alt="" />
+									<img class="img-fluid visible-pc" src="dist/img/screen-1.png" alt="" />
+									<img class="img-fluid visible-sp" src="dist/img/screen-1_sp.png" alt="" />
 								</div>
 							</div>
 						</div>
@@ -332,7 +346,8 @@
 						<div class="row align-items-center">
 							<div class="col-lg-8">
 								<div class="screen-img text-left mb-0">
-									<img class="img-fluid" src="dist/img/screen-1.png" alt="" />
+									<img class="img-fluid visible-pc" src="dist/img/screen-1.png" alt="" />
+									<img class="img-fluid visible-sp" src="dist/img/screen-1_sp.png" alt="" />
 								</div>
 							</div>
 							<div class="col-lg-4 px-0">
@@ -367,13 +382,15 @@
 							</div>
 							<div class="col-lg-8 pl-5">
 								<div class="screen-img text-right mb-0">
-									<img class="img-fluid" src="dist/img/screen-1.png" alt="" />
+									<img class="img-fluid visible-pc" src="dist/img/screen-1.png" alt="" />
+									<img class="img-fluid visible-sp" src="dist/img/screen-1_sp.png" alt="" />
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="sec-four-box">
 						<div class="row align-items-center">
+							<img class="img-fluid mb-4 visible-sp" src="dist/img/happy.png" alt="" />
 							<div class="col-lg-6">
 								<p class="mb-4 f-25 font-weight-bold">つまり、リスモアはブランド価値を <br/>継続して上げ続けるために、<br/>
 									バックヤード作業を徹底サポートします。
@@ -433,13 +450,13 @@
 							<div class="col-lg-7">
 								<div class="graph-box">
 									<div class="row">
-										<div class="col-lg-6">
+										<div class="col-6 col-lg-6">
 											<div class="graph-img">
 												<img class="img-fluid" src="dist/img/graph-1.png" alt="" />
 											</div>
 											<div class="graph-info f-20 font-weight-bold"><span class="font-weight-700">XXXX</span>のグラフA</div>
 										</div>
-										<div class="col-lg-6">
+										<div class="col-6 col-lg-6">
 											<div class="graph-img">
 												<img class="img-fluid" src="dist/img/graph-2.png" alt="" />
 											</div>
@@ -664,7 +681,7 @@
 								<span>最短<span class="font-weight-900">5</span>分。もちろん無料でスタート。</span>
 							</div>
 						</div>
-						<div class="sec-eight-box">
+						<div class="sec-eight-box visible-pc">
 							<div class="ftr-img-1">
 								<img class="img-fluid" src="dist/img/ftr-img-1.png" alt="" />
 							</div>
@@ -676,6 +693,16 @@
 								<img class="img-fluid" src="dist/img/ftr-img-2.png" alt="" />
 							</div>
 						</div>
+
+
+						<div class="ftr-btn visible-sp text-center">
+							<a href="#"><img class="img-fluid" src="dist/img/ftr-btn.png" alt="まずは無料で算出してみる" /></a>
+						</div>
+
+						<div class="ftr-voice-img visible-sp text-center">
+							<img class="img-fluid" src="dist/img/ftr-voice.png" alt="クレジットカード登録？ もちろん登録なしでスタート！" />
+						</div>
+
 						<div class="step-list">
 							<div class="row justify-content-center">
 								<div class="col-md-6 col-lg-4">

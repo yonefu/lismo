@@ -29,6 +29,9 @@
 		.footer {
 		    height: 410px;
 		}
+		header .header-right a.registration-btn{
+			display: none;
+		}
 		@media (min-width: 1440px) {
 			.footer .container{
 				padding-top: 250px;
@@ -49,6 +52,7 @@
 							<a href="index.php"><img src="dist/img/logo.svg" alt="LISMOA" /></a>
 						</h1>
 						<div class="header-right">
+							<a class="registration-btn" href="#registration.php"><span>無料で新規登録</span></a>
 							<a class="signup-btn font-weight-bold" href="#signup.php"><span>新規登録</span></a>
 							<a class="login-btn font-weight-bold" href="#login.php"><span>ログイン</span></a>
 							<div class="menu-toggler">
